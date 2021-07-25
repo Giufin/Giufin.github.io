@@ -1,0 +1,305 @@
+{
+  "name": "Medicine Melancholy",
+  "stats": {
+    "health": 4650,
+    "agility": 950,
+    "yang_atk": 990,
+    "yang_def": 870,
+    "yin_atk": 1180,
+    "yin_def": 1080
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Return of Happiness",
+      "target": "All",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 17,
+          "power": 9.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 10.06,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 9.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 9.75,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Poison Sign: Poison Breath",
+      "target": "All",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 15,
+          "power": 4.39,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 4.39,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 4.02,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 4.88,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 4.39,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 3.9,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Confusion: Into Delirium",
+      "target": "Solo",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 10,
+          "power": 9.87,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 12.07,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 9.87,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ],
+"skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "Toxic Touch",
+      "effect": []
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "Poison Mist",
+      "effect": []
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "Hallucinatory Poison",
+      "effect": []
+    }
+  ],
+  "graze": [
+    {
+      "Stat":
+        {
+          "stat": {
+            "Normal": "Agility"
+          },
+          "target": "Self",
+          "chance": 0.0,
+          "lvl": 1
+        }
+    }
+  ],
+  "power": []
+}

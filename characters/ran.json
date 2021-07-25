@@ -1,0 +1,365 @@
+{
+  "name": "Ran Yakumo",
+  "stats": {
+    "health": 5400,
+    "agility": 990,
+    "yang_atk": 1330,
+    "yang_def": 1180,
+    "yin_atk": 980,
+    "yin_def": 890
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Nasu and the Three Takadas' Killing Stone",
+      "target": "All",
+      "pre": [
+        {
+          "Stat":
+            {
+              "stat": {
+                "Normal": "YangAtk"
+              },
+              "target": "Self",
+              "chance": 0.6,
+              "lvl": 2
+            }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 16,
+          "power": 11.43,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 12.19,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Shikigami: Chen",
+      "target": "Solo",
+      "pre": [
+        {
+          "Stat":
+            {
+              "stat": {
+                "Combat": "Acc"
+              },
+              "target": "Team",
+              "chance": 0.2,
+              "lvl": 3
+            }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 12,
+          "power": 9.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 17.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Shikigami: Protection of Zenki and Goki",
+      "target": "Solo",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 8,
+          "power": 9.6,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 14.26,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 15.36,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 16.46,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 17.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "Shikigami Service",
+      "effect": [
+        {
+          "Stat":
+            {
+              "stat": {
+                "Normal": "YangAtk"
+              },
+              "target": "Self",
+              "chance": 0.0,
+              "lvl": 3
+            }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "Work of a Nine-Tailed Kitsune",
+      "effect": [
+        {
+          "Stat":
+            {
+              "stat": {
+                "Normal": "YangAtk"
+              },
+              "target": "Self",
+              "chance": 0.0,
+              "lvl": 3
+            }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "Youkai Power Focus",
+      "effect": [
+        {
+          "Stat":
+            {
+              "stat": {
+                "Combat": "CritAcc"
+              },
+              "target": "Self",
+              "chance": 0.6,
+              "lvl": 2
+            }
+        }
+      ]
+    }
+  ],
+  "graze": [
+    {
+      "Stat":
+        {
+          "stat": {
+            "Normal": "YangAtk"
+          },
+          "target": "Self",
+          "chance": 0.0,
+          "lvl": 1
+        }
+    }
+  ],
+  "power": []
+}

@@ -1,0 +1,1527 @@
+[
+	{
+		"Card name": "A Curious Festival",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Ofuda"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"agility": 81,
+			"yang_def": 99
+		}
+	},
+	{
+		"Card name": "After School as Usual",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "No-Element"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"agility": 70,
+			"yin_atk": 70
+		}
+	},
+	{
+		"Card name": "Behind the Firepower",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Laser"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 70,
+			"yin_atk": 70
+		}
+	},
+	{
+		"Card name": "Boo!",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 68,
+			"yin_atk": 72
+		}
+	},
+	{
+		"Card name": "Bunbunmaru Newspaper",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangDef"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Normal"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.1
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"agility": 68,
+			"yang_atk": 72
+		}
+	},
+	{
+		"Card name": "Can I eat you?",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Moon"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yin_atk": 70,
+			"yin_def": 70
+		}
+	},
+	{
+		"Card name": "Cuckoo Bird",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "No-Element"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.15
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 78,
+			"yin_def": 62
+		}
+	},
+	{
+		"Card name": "Dango Makers From the Moon",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Moon"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"agility": 60,
+			"yang_def": 80
+		}
+	},
+	{
+		"Card name": "Dead End",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Slash"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.15
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"agility": 78,
+			"yin_atk": 62
+		}
+	},
+	{
+		"Card name": "Diva of the Lake",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Water"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"health": 350,
+			"agility": 70
+		}
+	},
+	{
+		"Card name": "Doll Liberation Front",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Light"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 375,
+			"yin_atk": 75
+		}
+	},
+	{
+		"Card name": "Drunkard Territory",
+		"Effect": [],
+		"Rarity": 5,
+		"stats": {
+			"health": 475,
+			"yang_atk": 85
+		}
+	},
+	{
+		"Card name": "Eating Contest",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Body"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.45
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 600,
+			"yin_atk": 60
+		}
+	},
+	{
+		"Card name": "Eientei",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_atk": 41,
+			"yin_atk": 59
+		}
+	},
+	{
+		"Card name": "Emerging Power",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Star"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"health": 265,
+			"agility": 47
+		}
+	},
+	{
+		"Card name": "Endless Lecture",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Liquid"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.1
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 460,
+			"yin_def": 88
+		}
+	},
+	{
+		"Card name": "Fairies Under the Hot Sun",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"element": "Fire"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.1
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"health": 275,
+			"yin_def": 85
+		}
+	},
+	{
+		"Card name": "Flying Mysterious Shrine Maiden",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Sun"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.15
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 450,
+			"yang_atk": 90
+		}
+	},
+	{
+		"Card name": "Froggy Hat",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Liquid"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "Acc"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 70,
+			"yin_def": 70
+		}
+	},
+	{
+		"Card name": "Frolicking Fairies",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"agility": 55,
+			"yin_def": 55
+		}
+	},
+	{
+		"Card name": "GO WEST",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"agility": 58,
+			"yang_atk": 52
+		}
+	},
+	{
+		"Card name": "Garden of the Sun",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 205,
+			"yang_atk": 59
+		}
+	},
+	{
+		"Card name": "Hakurei Shrine",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 250,
+			"yang_def": 50
+		}
+	},
+	{
+		"Card name": "Half-Phantom",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"agility": 50,
+			"yin_atk": 50
+		}
+	},
+	{
+		"Card name": "Heaven",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 225,
+			"yang_def": 55
+		}
+	},
+	{
+		"Card name": "Hoshiguma Dish",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Body"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"health": 285,
+			"yin_def": 43
+		}
+	},
+	{
+		"Card name": "Human Village",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_atk": 52,
+			"yin_def": 48
+		}
+	},
+	{
+		"Card name": "I Can Cut Pretty Much Anything",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Slash"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Body"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yin_atk": 69,
+			"yin_def": 81
+		}
+	},
+	{
+		"Card name": "I'll Borrow This Till I'm Dead!",
+		"Effect": [],
+		"Rarity": 5,
+		"stats": {
+			"agility": 91,
+			"yin_def": 89
+		}
+	},
+	{
+		"Card name": "I'm the STRONGEST!",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "CritAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"agility": 70,
+			"yang_atk": 70
+		}
+	},
+	{
+		"Card name": "Icy Cool Home",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 250,
+			"yang_atk": 50
+		}
+	},
+	{
+		"Card name": "It's Spring!",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 72,
+			"yang_def": 68
+		}
+	},
+	{
+		"Card name": "Jealousy Monster",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Wood"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"health": 340,
+			"yin_atk": 72
+		}
+	},
+	{
+		"Card name": "Keystone",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Earth"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"yang_def": 49,
+			"yin_def": 51
+		}
+	},
+	{
+		"Card name": "Kirisame Magic Shop",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Star"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 79,
+			"yin_atk": 61
+		}
+	},
+	{
+		"Card name": "Kourindou Boutique",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Sun"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"health": 315,
+			"yang_atk": 77
+		}
+	},
+	{
+		"Card name": "Lively Temple Grounds",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Normal"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yang_atk": 98,
+			"yin_def": 82
+		}
+	},
+	{
+		"Card name": "Lover of Sweets",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"health": 375,
+			"yang_def": 65
+		}
+	},
+	{
+		"Card name": "Magic Prep",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "CritAcc"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 72,
+			"yin_atk": 68
+		}
+	},
+	{
+		"Card name": "Magician's Broom",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "Agility"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"agility": 59,
+			"yang_atk": 41
+		}
+	},
+	{
+		"Card name": "Members of the Yakumo Family",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"element": "Water"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.1
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"agility": 90,
+			"yang_def": 90
+		}
+	},
+	{
+		"Card name": "Midnight Tea",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"yang_atk": 64,
+			"yin_atk": 76
+		}
+	},
+	{
+		"Card name": "Mini Hakkero",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Fire"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"agility": 48,
+			"yang_atk": 52
+		}
+	},
+	{
+		"Card name": "Miracle Mallet",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "CritAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"agility": 50,
+			"yang_def": 50
+		}
+	},
+	{
+		"Card name": "Miraculous Ofuda",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Sun"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"agility": 50,
+			"yang_atk": 50
+		}
+	},
+	{
+		"Card name": "Misty Lake",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_def": 51,
+			"yin_def": 49
+		}
+	},
+	{
+		"Card name": "Mountains Painted Red",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 235,
+			"agility": 53
+		}
+	},
+	{
+		"Card name": "My Girl's the Cutest!",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yang_def": 90,
+			"yin_atk": 90
+		}
+	},
+	{
+		"Card name": "Nameless Hill",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_atk": 56,
+			"yin_atk": 44
+		}
+	},
+	{
+		"Card name": "Netherworld",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yin_atk": 50,
+			"yin_def": 50
+		}
+	},
+	{
+		"Card name": "Night Sparrow's Unagility Stand",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"yang_def": 62,
+			"yin_def": 78
+		}
+	},
+	{
+		"Card name": "Ordinary Magician",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Laser"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "CritAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 1
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"agility": 81,
+			"yin_atk": 99
+		}
+	},
+	{
+		"Card name": "Overwhelming Firepower",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"element": "Wood"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.15
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 450,
+			"yin_atk": 90
+		}
+	},
+	{
+		"Card name": "Peach-Picking Princess",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinDef"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "CritAcc"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 430,
+			"yin_atk": 94
+		}
+	},
+	{
+		"Card name": "Pointy Hat",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 250,
+			"agility": 50
+		}
+	},
+	{
+		"Card name": "Poltergeist Sisters' Concert",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "Acc"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yang_def": 90,
+			"yin_def": 90
+		}
+	},
+	{
+		"Card name": "Praying into the Ears of a Taoist",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Body"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.1
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_def": 64,
+			"yin_def": 76
+		}
+	},
+	{
+		"Card name": "Pure and Righteous Crow Tengu",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "No-Element"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "Agility"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 425,
+			"yang_def": 95
+		}
+	},
+	{
+		"Card name": "Rabbit of Good Fortune",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"health": 350,
+			"yang_def": 70
+		}
+	},
+	{
+		"Card name": "Reincarnated Head of Hieda",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"yin_atk": 50,
+			"yin_def": 90
+		}
+	},
+	{
+		"Card name": "Resolve the Scarlet Mist Incident",
+		"Effect": [],
+		"Rarity": 5,
+		"stats": {
+			"agility": 81,
+			"yin_def": 99
+		}
+	},
+	{
+		"Card name": "Rolling Down the Slope",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "Agility"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 1
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"agility": 72,
+			"yang_atk": 68
+		}
+	},
+	{
+		"Card name": "Sanzu River",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"agility": 48,
+			"yin_atk": 52
+		}
+	},
+	{
+		"Card name": "Scarlet Devil Mansion",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yin_atk": 54,
+			"yin_def": 46
+		}
+	},
+	{
+		"Card name": "Scarlet Devil Tower Princess",
+		"Effect": [],
+		"Rarity": 4,
+		"stats": {
+			"health": 300,
+			"yin_def": 50
+		}
+	},
+	{
+		"Card name": "Scarlet Win, White Win",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Heavy"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"health": 425,
+			"agility": 55
+		}
+	},
+	{
+		"Card name": "Sea of Tranquility (Far Side)",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_def": 56,
+			"yin_atk": 44
+		}
+	},
+	{
+		"Card name": "Sea of Tranquility (Near Side)",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_atk": 50,
+			"yin_def": 50
+		}
+	},
+	{
+		"Card name": "Security at the Mansion",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinDef"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"agility": 62,
+			"yin_atk": 78
+		}
+	},
+	{
+		"Card name": "Shanghai Doll",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 215,
+			"yin_def": 57
+		}
+	},
+	{
+		"Card name": "Shrine Maiden's Ribbon",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"health": 275,
+			"yang_def": 45
+		}
+	},
+	{
+		"Card name": "Somebody's Favorite Food",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"agility": 57,
+			"yin_atk": 43
+		}
+	},
+	{
+		"Card name": "Standing Behind You",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Moon"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "CritAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yang_atk": 95,
+			"yin_atk": 85
+		}
+	},
+	{
+		"Card name": "Suzunaan",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_def": 42,
+			"yin_atk": 58
+		}
+	},
+	{
+		"Card name": "Swarm of Servants",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"agility": 56,
+			"yin_atk": 44
+		}
+	},
+	{
+		"Card name": "The Rabbits' Reunion",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Missile"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"yang_def": 52,
+			"yin_def": 88
+		}
+	},
+	{
+		"Card name": "The Usual Offering Box",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinDef"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"element": "No-Element"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.1
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"health": 350,
+			"yin_atk": 70
+		}
+	},
+	{
+		"Card name": "The Witch of Scarlet Dreams",
+		"Effect": [],
+		"Rarity": 5,
+		"stats": {
+			"agility": 68,
+			"yang_atk": 82
+		}
+	},
+	{
+		"Card name": "Thunder Beat",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Energy"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"element": "Wood"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"agility": 125,
+			"yang_def": 55
+		}
+	},
+	{
+		"Card name": "Touhou LostWord",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Star"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"element": "Sun"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "Agility"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 450,
+			"agility": 90
+		}
+	},
+	{
+		"Card name": "Trademark",
+		"Effect": [],
+		"Rarity": 3,
+		"stats": {
+			"yang_atk": 54,
+			"yang_def": 46
+		}
+	},
+	{
+		"Card name": "Undercover Reporter",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Wood"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Body"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"agility": 108,
+			"yang_atk": 72
+		}
+	},
+	{
+		"Card name": "Unmoving Great Library",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Moon"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Laser"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yang_def": 90,
+			"yin_def": 90
+		}
+	},
+	{
+		"Card name": "Valued Tools of the Trade",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "Acc"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			}
+		],
+		"Rarity": 3,
+		"stats": {
+			"agility": 48,
+			"yang_def": 52
+		}
+	},
+	{
+		"Card name": "Voice of an Echo",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"element": "Earth"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.2
+				}
+			}
+		],
+		"Rarity": 4,
+		"stats": {
+			"health": 375,
+			"agility": 65
+		}
+	},
+	{
+		"Card name": "Where the Wind Priestess Is",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Energy"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.35
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Liquid"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.35
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"health": 675,
+			"agility": 45
+		}
+	}
+	]

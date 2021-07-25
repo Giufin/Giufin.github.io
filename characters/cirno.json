@@ -1,0 +1,260 @@
+{
+  "name": "Cirno",
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Ice Age - Snowball Earth",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 15,
+          "power": 10.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 4,
+          "power": 10.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 4,
+          "power": 9.43,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 3,
+          "power": 11.43,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 3,
+          "power": 10.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 3,
+          "power": 9.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Water"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Ice Sign: Icicle Fall",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 10,
+          "power": 6.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 3,
+          "power": 5.49,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 3,
+          "power": 5.03,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 6.86,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 6.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 5.49,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Freeze Sign: Perfect Freeze",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 6,
+          "power": 15.43,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 12.34,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 11.31,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 10.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 9.26,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 8.23,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "Water"
+        }
+      ]
+    }
+  ]
+}

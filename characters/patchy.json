@@ -1,0 +1,305 @@
+{
+  "name": "Patchouli Knowledge",
+  "stats": {
+    "health": 4200,
+    "agility": 1200,
+    "yang_atk": 850,
+    "yang_def": 1280,
+    "yin_atk": 1380,
+    "yin_def": 900
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "The Last Philosopher's Stone",
+      "target": "All",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 36.57,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 43.89,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 36.57,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 29.26,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Moon Sign: Silent Selene",
+      "target": "Solo",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 13,
+          "power": 8.44,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Sun Sign: Royal Flare",
+      "target": "Solo",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 9,
+          "power": 12.19,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 17.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Sun"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "Instant Magic [Stealth]",
+      "effect": []
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "Firebolt",
+      "effect": []
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "Instant Magic [Sniper]",
+      "effect": [
+        {
+          "Stat":
+            {
+              "stat": {
+                "Normal": "YinAtk"
+              },
+              "target": "Self",
+              "chance": 0.0,
+              "lvl": 2
+            }
+        }
+      ]
+    }
+  ],
+  "graze": [],
+  "power": []
+}

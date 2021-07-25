@@ -1,0 +1,260 @@
+{
+  "name": "Lily White",
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "The Bush Warbler's Call Is First Heard in the Morn",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 13,
+          "power": 14.07,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 18.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Wood"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Spring Sign: Surprise Spring",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 10,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "Wood"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Warmth Sign: Starry Gazy Pie",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 7,
+          "power": 10.45,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 7.31,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 5.85,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 4.39,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 5.85,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "Star"
+        }
+      ]
+    }
+  ]
+}

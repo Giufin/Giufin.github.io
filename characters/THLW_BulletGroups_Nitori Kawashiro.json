@@ -1,0 +1,260 @@
+{
+  "name": "Nitori Kawashiro",
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Super Scope 3D",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 18,
+          "power": 6.1,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 17.07,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 19.5,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 24.38,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Ephemeral Foam: Burst! Bubble Dragon",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 14,
+          "power": 4.7,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 6.58,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 7.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 7.9,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Liquid",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Battle Machine: Fly! Sanpei Fight",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 10,
+          "power": 6.58,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 13.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 15.36,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 17.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 19.75,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Sharp",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ]
+}

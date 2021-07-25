@@ -1,0 +1,260 @@
+{
+  "name": "Kasen Ibaraki",
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "When the Ice Melts, the Waves Wash the Old Moss's Beard",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 16,
+          "power": 10.5,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 3,
+          "power": 19.2,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 3,
+          "power": 20.8,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 2,
+          "power": 33.6,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 2,
+          "power": 36,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 2,
+          "power": 38.4,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Fire"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Dragon Sign: Dragon's Growl",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 8,
+          "power": 9.6,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 26.33,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 28.53,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 30.72,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 32.91,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 35.11,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Water"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Wrap Sign: Prosthetic Arm Proteus",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 6,
+          "power": 12.8,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 26.33,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 28.53,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 30.72,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 32.91,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 35.11,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Earth"
+        }
+      ]
+    }
+  ]
+}

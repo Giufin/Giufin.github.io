@@ -1,0 +1,312 @@
+{
+  "name": "Chen",
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Requiem of Tenyuuji",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 16,
+          "power": 11.25,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 3,
+          "power": 20.57,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.2,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 3,
+          "power": 22.29,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.2,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 36,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.2,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 38.57,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.2,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 41.14,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.2,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Hermit Sign: Fenghuang Egg",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 10,
+          "power": 10.8,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 18.51,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 20.06,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 21.6,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 23.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 24.69,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Oni Sign: Blue Oni, Red Oni",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 5,
+          "power": 21.6,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 18.51,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 20.06,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 21.6,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 23.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.5,
+          "crit": 0.12,
+          "amount": 2,
+          "power": 24.69,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "Shikigami Enhance: Agility",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 3
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "Shikigami Enhance: Evasion",
+      "effect": []
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "Under the Flowers",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "target": "Self",
+            "chance": 0.8,
+            "lvl": 1
+          }
+        }
+      ]
+    }
+  ],
+  "graze": [],
+  "power": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "Agility"
+        },
+        "target": "Self",
+        "chance": 0.0,
+        "lvl": 1
+      }
+    }
+  ]
+}

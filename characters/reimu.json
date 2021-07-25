@@ -1,0 +1,370 @@
+{
+  "name": "Reimu Hakurei",
+  "stats": {
+    "health": 6650,
+    "agility": 910,
+    "yang_atk": 930,
+    "yang_def": 1235,
+    "yin_atk": 855,
+    "yin_def": 1190
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Fantasy Nature",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 4
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 18,
+          "power": 7.62,
+          "addscaling": "YangDef",
+          "addscaling_multi": 0.8,
+          "bullettype": "Hard",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 7.74,
+          "addscaling": "YangDef",
+          "addscaling_multi": 1,
+          "bullettype": "Hard",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 7.74,
+          "addscaling": "YangDef",
+          "addscaling_multi": 1,
+          "bullettype": "Hard",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 7.31,
+          "addscaling": "YinDef",
+          "addscaling_multi": 1,
+          "bullettype": "Hard",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 7.31,
+          "addscaling": "YinDef",
+          "addscaling_multi": 1,
+          "bullettype": "Hard",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 7.31,
+          "addscaling": "YangDef",
+          "addscaling_multi": 1,
+          "bullettype": "Hard",
+          "element": "Sun"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Spirit Sign: Fantasy Seal",
+      "target": "Solo",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 2
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 12,
+          "power": 8.57,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 5.81,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 0.85,
+          "atktype": "Yin",
+          "acc": 1,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 6.45,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 5.16,
+          "addscaling": "YangDef",
+          "addscaling_multi": 0.5,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 3.66,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 3.66,
+          "addscaling": "YangDef",
+          "addscaling_multi": 0.7,
+          "bullettype": "Light",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Dream Sign: Sealing Circle",
+      "target": "Solo",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 6,
+          "power": 10.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 11.62,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.53,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 9.75,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.23,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 9.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "Prayer for Fulfillment",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "target": "Team",
+            "chance": 0.0,
+            "lvl": 2
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "Purification Rod",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinDef"
+            },
+            "target": "Team",
+            "chance": 0.0,
+            "lvl": 2
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "Hakurei Charm",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 3
+          }
+        }
+      ]
+    }
+  ],
+  "graze": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YinDef"
+        },
+        "target": "Team",
+        "chance": 0.0,
+        "lvl": 1
+      }
+    }
+  ],
+  "power": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YangDef"
+        },
+        "target": "Team",
+        "chance": 0.0,
+        "lvl": 1
+      }
+    }
+  ]
+}

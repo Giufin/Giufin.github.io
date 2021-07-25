@@ -1,0 +1,260 @@
+{
+  "name": "Reisen Udongein Inaba",
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Stare of the Hazy Phantom Moon (Lunatic Red Eyes)",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 14,
+          "power": 19.59,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 27.43,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 43.89,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 32.91,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Moon"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Illusion Bomb: Myopic Fireworks (Mind Starmine)",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 10,
+          "power": 10.97,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 7.31,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 5.85,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Missile",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 6.58,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 4.39,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Moon"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Empty Heart: Scars of an Empty Heart (Discarder)",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 76.8,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 26.33,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 28.53,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 15.36,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 16.46,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 17.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[package]
+authors = ["Giufin on the THLW server"]
+edition = "2018"
+name = "tlw_cal_rewrite_number_2"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+either = "1.6.1"
+ordered-float = {version = "2.5.1", features = ["serde"]}
+serde = {version = "1.0.126", features = ["derive"]}
+wasm-bindgen = {version = "0.2", features = ["serde-serialize"]}
+serde_with = "1.9.2"
+serde_json = "1.0.64"
+itertools = "0.10.1"
+
+[profile.release]
+lto = true
+opt-level = 3

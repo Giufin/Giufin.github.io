@@ -1,0 +1,388 @@
+{
+  "name": "Youmu Konpaku",
+  "stats": {
+    "health": 5050,
+    "agility": 1240,
+    "yang_atk": 1160,
+    "yang_def": 940,
+    "yin_atk": 1160,
+    "yin_def": 940
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Matsuyoi-Reflecting Satellite Slash",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "target": "All",
+            "chance": 0.2,
+            "lvl": -2
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinDef"
+            },
+            "target": "All",
+            "chance": 0.2,
+            "lvl": -2
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 15,
+          "power": 10.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 13.71,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 18.86,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 17.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 30.86,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 27.43,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Life-Cutting Sword: Slash of Nether Meditation",
+      "target": "Solo",
+      "pre": [],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 10,
+          "power": 9.26,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.23,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 11.31,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 10.29,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 9.26,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 8.23,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Human Oni: Slash of Eternal Future",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAtk"
+            },
+            "target": "All",
+            "chance": 0.8,
+            "lvl": 1
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 8,
+          "power": 7.71,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 8.23,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 7.54,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 6.86,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 6.17,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 5.49,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "Dual-Wielding Technique",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "target": "Self",
+            "chance": 0.8,
+            "lvl": 2
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "target": "Self",
+            "chance": 0.8,
+            "lvl": 2
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "Result of Training",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "target": "Self",
+            "chance": 0.5,
+            "lvl": 1
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "target": "Self",
+            "chance": 0.5,
+            "lvl": 1
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "Clear Mirror, Still Water",
+      "effect": []
+    }
+  ],
+  "graze": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YangAtk"
+        },
+        "chance": 0.0,
+        "lvl": 1
+      }
+    }
+  ],
+  "power": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YinAtk"
+        },
+        "target": "Self",
+        "chance": 0.0,
+        "lvl": 1
+      }
+    }
+  ]
+}

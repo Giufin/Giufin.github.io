@@ -1,0 +1,260 @@
+{
+  "name": "Flandre Scarlet",
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Closing Schwarzschild Radius",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.5,
+          "crit": 0.6,
+          "amount": 15,
+          "power": 12.6,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.25,
+          "crit": 0.1,
+          "amount": 3,
+          "power": 62.84,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.25,
+          "crit": 0.1,
+          "amount": 2,
+          "power": 102.11,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.25,
+          "crit": 0.1,
+          "amount": 2,
+          "power": 109.96,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.5,
+          "crit": 0.6,
+          "amount": 2,
+          "power": 40.5,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.5,
+          "crit": 0.6,
+          "amount": 2,
+          "power": 43.2,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Taboo: Kagome, Kagome",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.6,
+          "crit": 0.2,
+          "amount": 10,
+          "power": 8.4,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 2,
+          "power": 12.57,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 2,
+          "power": 13.61,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.6,
+          "crit": 0.2,
+          "amount": 2,
+          "power": 16.8,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 2,
+          "power": 15.71,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.6,
+          "crit": 0.2,
+          "amount": 2,
+          "power": 19.2,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Taboo: Laevateinn",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 6,
+          "power": 8.15,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 16.76,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 18.15,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 19.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 20.95,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.6,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 27.93,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Slash",
+          "element": "Fire"
+        }
+      ]
+    }
+  ]
+}
