@@ -679,7 +679,7 @@ fn sim(
 
     //debug_str(&format!("{:?}", char_stats));
 
-    let mut combat_effects_in_play: Vec<_> = char_combat_effects // mutable because in the future effects will be pushed from bulletlines
+    let combat_effects_in_play: Vec<_> = char_combat_effects // mutable because in the future effects will be pushed from bulletlines
         .into_iter()
         .cartesian_product(enemy_combat_effects.into_iter())
         .map(|(a, b)| {
@@ -738,14 +738,17 @@ fn sim(
     // that there will be no units with more bullets than yuuka in the game (25, 5, 5, 5, 5, 5), then we can first multiply out
     // half the data (390k from the first 4 groups, 78k from the following ones) we can fold each of these to about a thousand
 
-    let combined_stat_effects = char_stat_effects
+    let mut combined_stat_effects = char_stat_effects
         .into_iter()
-        .cartesian_product(enemy_stat_effects.into_iter());
+        .cartesian_product(enemy_stat_effects.into_iter())
+        .map(|x| (x, Vec::new()))
+        .collect();
 
-    let affected = groups.into_iter().map(|(group, scales_against)| {
-        let mut result = Vec::new();
-        for ((char_stat_effect, char_eff_chance), (enemy_stat_effect, enemy_eff_chance)) in
-            combined_stat_effects.clone()
+    groups.into_iter().for_each(|(group, scales_against)| {
+        for (
+            ((char_stat_effect, char_eff_chance), (enemy_stat_effect, enemy_eff_chance)),
+            mut damages,
+        ) in std::mem::replace(&mut combined_stat_effects, Vec::new())
         {
             let char_stats = char_stats.mul(&Stats::form_array(
                 std::array::IntoIter::new(char_stat_effect)
@@ -763,56 +766,74 @@ fn sim(
                     .unwrap(),
             ));
 
+            let mut data = Vec::new();
             for (damage, chance) in &group {
                 let divby = match scales_against {
                     Atktyp::Yang => &enemy_stats.yang_def,
                     Atktyp::Yin => &enemy_stats.yin_def,
                 };
-                result.push((
-                    damage.mul(&char_stats).sum() / divby,
-                    chance * char_eff_chance * enemy_eff_chance,
-                ));
+                data.push((damage.mul(&char_stats).sum() / divby, chance.clone()));
             }
+            damages.push(data);
 
-            // since stats are already cloned we can push to them freely?
-            // todo!("get their respective stats and multiply by damage");
+            //same as above, if there is a line efffect we push multiple, if not we push one
+            combined_stat_effects.push((
+                (
+                    (char_stat_effect, char_eff_chance),
+                    (enemy_stat_effect, enemy_eff_chance),
+                ),
+                damages,
+            ))
         }
 
-        result
+        debug_str(&format!("stat eff len {}", combined_stat_effects.len()));
     });
+    let mut unsorted = combined_stat_effects
+        .into_iter()
+        .map(|(((_, chance_a), (_, chance_b)), affected)| {
+            //here we can create affected ex and shadow affected with it; with f.in. only 2 groups. The following code should not depend on the ammount of groups
 
-    //here we can create affected ex and shadow affected with it; with f.in. only 2 groups. The following code should not depend on the ammount of groups
+            const MAX_SIM: usize = 1_000_000;
+            let total_len = affected.iter().fold(1, |a, b| a * b.len());
+            debug_str(&format!("total: {:?}", total_len));
+            for a in affected.clone() {
+                debug_str(&format!("part: {:?}", a.len()));
+            }
+            if total_len > MAX_SIM {
+                //todo!("more then 1mil data entries")
+            }
 
-    const MAX_SIM: usize = 1_000_000;
-    let total_len = affected.clone().fold(1, |a, b| a * b.len());
-    debug_str(&format!("total: {:?}", total_len));
-    for a in affected.clone() {
-        debug_str(&format!("part: {:?}", a.len()));
-    }
-    if total_len > MAX_SIM {
-        //todo!("more then 1mil data entries")
-    }
-
-    let mut unsorted = affected.fold(
-        vec![(zero, one)],
-        |prev: Vec<(NotNan<f64>, NotNan<f64>)>, next| {
-            prev.into_iter()
-                .cartesian_product(next.into_iter())
-                .map(|((x_dmg, x_chance), (y_dmg, y_chance))| (x_dmg + y_dmg, x_chance * y_chance))
+            affected
+                .into_iter()
+                .fold(
+                    vec![(zero, one)],
+                    |prev: Vec<(NotNan<f64>, NotNan<f64>)>, next| {
+                        prev.into_iter()
+                            .cartesian_product(next.into_iter())
+                            .map(|((x_dmg, x_chance), (y_dmg, y_chance))| {
+                                (x_dmg + y_dmg, x_chance * y_chance)
+                            })
+                            .collect()
+                    },
+                )
+                .into_iter()
+                .map(|x| (x.0, x.1 * chance_a * chance_b))
                 .collect()
-        },
-    );
+        })
+        .reduce(|mut a: Vec<_>, b| {
+            a.extend(b.into_iter());
+            a
+        })
+        .unwrap();
 
     unsorted.sort(); // not anymore :)
 
-    debug_str(&format!("unsorted: {:?}", unsorted));
+    //debug_str(&format!("unsorted: {:?}", unsorted));
 
     for i in 1..unsorted.len() {
         unsorted[i].1 = unsorted[i - 1].1 + unsorted[i].1;
     }
-
-    debug_str(&format!("chance: {:?}", unsorted));
-    return unsorted;
+    unsorted
 }
 
 /*
