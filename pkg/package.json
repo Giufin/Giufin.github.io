@@ -1,0 +1,15 @@
+{
+  "name": "tlw_cal_rewrite_number_2",
+  "collaborators": [
+    "Giufin on the THLW server"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "tlw_cal_rewrite_number_2_bg.wasm",
+    "tlw_cal_rewrite_number_2.js",
+    "tlw_cal_rewrite_number_2.d.ts"
+  ],
+  "module": "tlw_cal_rewrite_number_2.js",
+  "types": "tlw_cal_rewrite_number_2.d.ts",
+  "sideEffects": false
+}
