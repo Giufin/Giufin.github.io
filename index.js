@@ -4,12 +4,12 @@ import init, * as wasm from "./pkg/tlw_cal_rewrite_number_2.js";
 const colors = [
   "#006400",
   "#ff0000",
-  "#ffd700",
   "#c71585",
   "#00ff00",
   "#00ffff",
   "#0000ff",
   "#1e90ff",
+  "#ffd700",
 ];
 const camelToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
 const PascalToSnakeCase = str => str.split(/(?=[A-Z])/).join('_').toLowerCase();

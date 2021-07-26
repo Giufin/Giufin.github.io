@@ -624,7 +624,7 @@ fn apply_effects(
                 for (mut previous, prevchance) in temp {
                     for (level, chance) in chances.clone() {
                         let level = level.clamp(-10, 10);
-                        previous[x.get_index()] += level;
+                        previous[x.get_index()] = level;
 
                         output1.push((previous, chance * prevchance));
                     }
@@ -670,9 +670,14 @@ fn sim(
 ) -> Vec<(NotNan<f64>, NotNan<f64>)> {
     let char_stats = char.stats.clone();
     let enem_stats = enemy.stats.clone();
+    debug_str(&format!("{:?}", effects));
+
 
     let (char_stat_effects, char_combat_effects) = apply_effects(effects);
     let (enemy_stat_effects, enemy_combat_effects) = apply_effects(enemy_effects);
+
+    debug_str(&format!("{:?}", char_stat_effects));
+
 
     let one = NotNan::new(1.0).expect("definitely not a nan");
     let zero = NotNan::new(0.0).expect("definitely not a nan");
@@ -738,17 +743,18 @@ fn sim(
     // that there will be no units with more bullets than yuuka in the game (25, 5, 5, 5, 5, 5), then we can first multiply out
     // half the data (390k from the first 4 groups, 78k from the following ones) we can fold each of these to about a thousand
 
+
+
     let mut combined_stat_effects = char_stat_effects
         .into_iter()
         .cartesian_product(enemy_stat_effects.into_iter())
-        .map(|x| (x, Vec::new()))
+        .map(|(x, y)| (x.0, y.0, x.1 * y.1, Vec::new()))
         .collect();
 
+
     groups.into_iter().for_each(|(group, scales_against)| {
-        for (
-            ((char_stat_effect, char_eff_chance), (enemy_stat_effect, enemy_eff_chance)),
-            mut damages,
-        ) in std::mem::replace(&mut combined_stat_effects, Vec::new())
+        for (char_stat_effect, enemy_stat_effect, eff_chance, mut damages) in
+            std::mem::replace(&mut combined_stat_effects, Vec::new())
         {
             let char_stats = char_stats.mul(&Stats::form_array(
                 std::array::IntoIter::new(char_stat_effect)
@@ -777,20 +783,13 @@ fn sim(
             damages.push(data);
 
             //same as above, if there is a line efffect we push multiple, if not we push one
-            combined_stat_effects.push((
-                (
-                    (char_stat_effect, char_eff_chance),
-                    (enemy_stat_effect, enemy_eff_chance),
-                ),
-                damages,
-            ))
+            combined_stat_effects.push((char_stat_effect, enemy_stat_effect, eff_chance, damages))
         }
 
-        debug_str(&format!("stat eff len {}", combined_stat_effects.len()));
     });
     let mut unsorted = combined_stat_effects
         .into_iter()
-        .map(|(((_, chance_a), (_, chance_b)), affected)| {
+        .map(|(_, _, chance_b, affected)| {
             //here we can create affected ex and shadow affected with it; with f.in. only 2 groups. The following code should not depend on the ammount of groups
 
             const MAX_SIM: usize = 1_000_000;
@@ -817,7 +816,7 @@ fn sim(
                     },
                 )
                 .into_iter()
-                .map(|x| (x.0, x.1 * chance_a * chance_b))
+                .map(|x| (x.0, x.1 * chance_b))
                 .collect()
         })
         .reduce(|mut a: Vec<_>, b| {
