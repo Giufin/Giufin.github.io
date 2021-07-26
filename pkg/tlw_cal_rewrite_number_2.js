@@ -30,26 +30,8 @@ function addHeapObject(obj) {
     const idx = heap_next;
     heap_next = heap[idx];
 
-    if (typeof(heap_next) !== 'number') throw new Error('corrupt heap');
-
     heap[idx] = obj;
     return idx;
-}
-
-function logError(f, args) {
-    try {
-        return f.apply(this, args);
-    } catch (e) {
-        let error = (function () {
-            try {
-                return e instanceof Error ? `${e.message}\n\nStack:\n${e.stack}` : e.toString();
-            } catch(_) {
-                return "<failed to stringify thrown value>";
-            }
-        }());
-        console.error("wasm-bindgen: imported JS function that was not marked as `catch` threw an error:", error);
-        throw e;
-    }
 }
 
 function getObject(idx) { return heap[idx]; }
@@ -90,8 +72,6 @@ const encodeString = (typeof cachedTextEncoder.encodeInto === 'function'
 
 function passStringToWasm0(arg, malloc, realloc) {
 
-    if (typeof(arg) !== 'string') throw new Error('expected a string argument');
-
     if (realloc === undefined) {
         const buf = cachedTextEncoder.encode(arg);
         const ptr = malloc(buf.length);
@@ -120,16 +100,12 @@ function passStringToWasm0(arg, malloc, realloc) {
         ptr = realloc(ptr, len, len = offset + arg.length * 3);
         const view = getUint8Memory0().subarray(ptr + offset, ptr + len);
         const ret = encodeString(arg, view);
-        if (ret.read !== arg.length) throw new Error('failed to pass whole string');
+
         offset += ret.written;
     }
 
     WASM_VECTOR_LEN = offset;
     return ptr;
-}
-
-function _assertNum(n) {
-    if (typeof(n) !== 'number') throw new Error('expected a number argument');
 }
 /**
 * @param {string} data
@@ -145,8 +121,6 @@ export function sim_char(data, effects, debufs, power, slot) {
     var len1 = WASM_VECTOR_LEN;
     var ptr2 = passStringToWasm0(debufs, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
     var len2 = WASM_VECTOR_LEN;
-    _assertNum(power);
-    _assertNum(slot);
     wasm.sim_char(ptr0, len0, ptr1, len1, ptr2, len2, power, slot);
 }
 
@@ -191,14 +165,11 @@ async function init(input) {
         var ret = getStringFromWasm0(arg0, arg1);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbg_startdrawing_02b4f5cbb505e110 = function() { return logError(function (arg0) {
-        start_drawing(arg0 >>> 0);
-    }, arguments) };
-    imports.wbg.__wbg_debug_83a3f968bb71c6e3 = function() { return logError(function (arg0) {
+    imports.wbg.__wbg_debug_83a3f968bb71c6e3 = function(arg0) {
         debug(takeObject(arg0));
-    }, arguments) };
-    imports.wbg.__wbindgen_throw = function(arg0, arg1) {
-        throw new Error(getStringFromWasm0(arg0, arg1));
+    };
+    imports.wbg.__wbg_startdrawing_02b4f5cbb505e110 = function(arg0) {
+        start_drawing(arg0 >>> 0);
     };
     imports['./snippets/tlw_cal_rewrite_number_2-ac27fe8a758df760/md.js'] = __wbg_star0;
 
