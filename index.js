@@ -111,7 +111,10 @@ let character_names = [
   "patchy",
   "yuyuko",
   "ran",
-  "reimu"
+  "kerochan",
+  "reimu",
+  "yukari",
+  "remi"
 ];
 
 let characters = [];

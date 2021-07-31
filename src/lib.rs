@@ -6,6 +6,8 @@ use std::{cmp::min, collections::HashMap, convert::TryInto, usize};
 use ordered_float::NotNan;
 use wasm_bindgen::prelude::*;
 
+use std::panic;
+
 #[wasm_bindgen(module = "/md.js")]
 extern "C" {
     pub fn start_drawing(idx: usize);
@@ -79,7 +81,7 @@ pub fn greet() {
 
 #[wasm_bindgen]
 pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slot: usize) {
-    debug_str(&data);
+    panic::set_hook(Box::new(|x| debug_str(&format!("{}", x))));
 
     let effects: Vec<RawEffect> = match serde_json::from_str(&effects) {
         Ok(a) => a,
@@ -673,12 +675,10 @@ fn sim(
     let enem_stats = enemy.stats.clone();
     debug_str(&format!("{:?}", effects));
 
-
     let (char_stat_effects, char_combat_effects) = apply_effects(effects);
     let (enemy_stat_effects, enemy_combat_effects) = apply_effects(enemy_effects);
 
     debug_str(&format!("{:?}", char_stat_effects));
-
 
     let one = NotNan::new(1.0).expect("definitely not a nan");
     let zero = NotNan::new(0.0).expect("definitely not a nan");
@@ -744,14 +744,11 @@ fn sim(
     // that there will be no units with more bullets than yuuka in the game (25, 5, 5, 5, 5, 5), then we can first multiply out
     // half the data (390k from the first 4 groups, 78k from the following ones) we can fold each of these to about a thousand
 
-
-
     let mut combined_stat_effects = char_stat_effects
         .into_iter()
         .cartesian_product(enemy_stat_effects.into_iter())
         .map(|(x, y)| (x.0, y.0, x.1 * y.1, Vec::new()))
         .collect();
-
 
     groups.into_iter().for_each(|(group, scales_against)| {
         for (char_stat_effect, enemy_stat_effect, eff_chance, mut damages) in
@@ -786,34 +783,67 @@ fn sim(
             //same as above, if there is a line efffect we push multiple, if not we push one
             combined_stat_effects.push((char_stat_effect, enemy_stat_effect, eff_chance, damages))
         }
-
     });
     let mut unsorted = combined_stat_effects
         .into_iter()
         .map(|(_, _, chance_b, affected)| {
             //here we can create affected ex and shadow affected with it; with f.in. only 2 groups. The following code should not depend on the ammount of groups
 
-            const MAX_SIM: usize = 1_000_000;
             let total_len = affected.iter().fold(1, |a, b| a * b.len());
             debug_str(&format!("total: {:?}", total_len));
             for a in affected.clone() {
                 debug_str(&format!("part: {:?}", a.len()));
             }
-            if total_len > MAX_SIM {
-                //todo!("more then 1mil data entries")
-            }
+
+            debug_str(&format!("here"));
 
             affected
                 .into_iter()
                 .fold(
                     vec![(zero, one)],
                     |prev: Vec<(NotNan<f64>, NotNan<f64>)>, next| {
-                        prev.into_iter()
-                            .cartesian_product(next.into_iter())
-                            .map(|((x_dmg, x_chance), (y_dmg, y_chance))| {
-                                (x_dmg + y_dmg, x_chance * y_chance)
-                            })
-                            .collect()
+                        const MAX_LEN: usize = 1_000_000;
+                        let next_len = prev.len() * next.len();
+
+                        if next_len > MAX_LEN {
+                            debug_str(&format!("here1"));
+                            let mut chances = vec![NotNan::new(0.0).unwrap(); MAX_LEN];
+                            let max_prev = prev.iter().map(|x| x.0).max().unwrap();
+                            let max_next = next.iter().map(|x| x.0).max().unwrap();
+
+                            let max = max_prev + max_next;
+                            let mul_by = NotNan::new(MAX_LEN as f64).unwrap()
+                                / (max + NotNan::new(1.0).unwrap()); // the 5 there is just in case...
+                            debug_str(&format!("here2"));
+
+                            for ((next_dmg, next_chance), (prev_dmg, prev_chance)) in
+                                next.into_iter().cartesian_product(prev.into_iter())
+                            {
+                                let new_damage = next_dmg + prev_dmg;
+                                let new_chance = next_chance * prev_chance;
+
+                                let new_damage_index = (new_damage * mul_by).round() as usize;
+
+                                chances[new_damage_index] += new_chance;
+                            }
+                            //here will be the actuall putting in the array
+
+                            chances
+                                .into_iter()
+                                .enumerate()
+                                .filter(|(_, chance)| *chance != NotNan::new(0.0).unwrap())
+                                .map(|(damage, chance)| {
+                                    (NotNan::new(damage as f64).unwrap() / mul_by, chance)
+                                })
+                                .collect()
+                        } else {
+                            prev.into_iter()
+                                .cartesian_product(next.into_iter())
+                                .map(|((x_dmg, x_chance), (y_dmg, y_chance))| {
+                                    (x_dmg + y_dmg, x_chance * y_chance)
+                                })
+                                .collect()
+                        }
                     },
                 )
                 .into_iter()

@@ -1,0 +1,3700 @@
+[
+    {
+        "name": "Reimu Hakurei",
+        "ss": [
+            "Sure-Hit",
+            "Sure-Hit",
+            "Sure-Hit",
+            null,
+            null,
+            "Sure-Hit"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Sure-Hit",
+            "Sure-Hit",
+            "Hard 50%",
+            "Sure-Hit",
+            "Hard 70%"
+        ],
+        "sc2": [
+            null,
+            "Yin-DEF DOWN (40%) Yang-DEF DOWN (40%)",
+            "Yin-DEF DOWN (50%) Yang-DEF DOWN (50%)",
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            "Hard 80%",
+            "Hard 100%",
+            "Hard 100%",
+            "Hard 100%",
+            "Hard 100%",
+            "Hard 100%"
+        ]
+    },
+    {
+        "name": "Marisa Kirisame",
+        "ss": [
+            null,
+            null,
+            "Piercing",
+            "Piercing",
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Piercing",
+            "Piercing",
+            "Piercing",
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "Piercing",
+            null,
+            "Piercing",
+            null,
+            "Piercing"
+        ]
+    },
+    {
+        "name": "Sakuya Izayoi",
+        "ss": [
+            null,
+            null,
+            null,
+            "Delay (20%)",
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            "Absorb 5%",
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%"
+        ],
+        "sc2": [
+            null,
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%"
+        ],
+        "lw": [
+            null,
+            null,
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%"
+        ]
+    },
+    {
+        "name": "Patchouli Knowledge",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Yukari Yakumo",
+        "ss": [
+            "Sure-Hit Yang-DEF DOWN (40%)",
+            null,
+            null,
+            "Specular",
+            null,
+            null
+        ],
+        "fs": [
+            "Hard 40% Focus UP (50%)",
+            "Hard 40%",
+            null,
+            "Specular",
+            "Hard 40%",
+            null
+        ],
+        "sc1": [
+            "Specular Focus UP (50%)",
+            "Hard 80%",
+            null,
+            "Focus UP (50%)",
+            "Hard 80% Specular",
+            "Hard 90%"
+        ],
+        "sc2": [
+            "Yang-DEF DOWN (40%)",
+            "Hard 50%",
+            "Hard 50% Focus UP (50%)",
+            "Hard 70%",
+            null,
+            "Yang-DEF UP (50%)"
+        ],
+        "lw": [
+            "Yang-DEF DOWN (100%)",
+            "Hard 70%",
+            "Hard 80%",
+            "Hard 90%",
+            "Hard 90%",
+            "Hard 100%"
+        ]
+    },
+    {
+        "name": "Youmu Konpaku",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Lily White",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Reisen Udongein Inaba",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            "Delay (30%)",
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "Delay (60%)",
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Kasen Ibaraki",
+        "ss": [
+            "Stun (20%)",
+            "Sure-Hit",
+            "Sure-Hit",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit",
+            "Sure-Hit",
+            "Stun (40%)",
+            "Sure-Hit",
+            null,
+            null
+        ],
+        "sc1": [
+            "Explosive",
+            "Precise",
+            "Stun (35%)",
+            "Explosive Precise",
+            "Explosive Precise",
+            "Explosive Precise"
+        ],
+        "sc2": [
+            "Elastic",
+            "Precise",
+            "Stun (35%)",
+            "Elastic Precise",
+            "Elastic Precise",
+            "Elastic Precise"
+        ],
+        "lw": [
+            "Explosive Elastic",
+            "Stun (35%)",
+            "Explosive Precise",
+            "Elastic Precise",
+            "Explosive Precise Elastic",
+            "Elastic Stun (50%)"
+        ]
+    },
+    {
+        "name": "Cirno",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Daiyousei",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Alice Margatroid",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "Sure-Hit",
+            null,
+            "Sure-HIt",
+            null,
+            "Sure-Hit"
+        ]
+    },
+    {
+        "name": "Medicine Melancholy",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Sanae Kochiya",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Nitori Kawashiro",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Ran Yakumo",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            "Explosive",
+            "Elastic"
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Chen",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%",
+            "Slicing 20%"
+        ]
+    },
+    {
+        "name": "Hong Meiling",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            "Hard 20%",
+            "Hard 20%",
+            "Hard 20%",
+            "Hard 20%",
+            "Hard 20%"
+        ],
+        "lw": [
+            "Hard",
+            null,
+            null,
+            "Piercing Hard",
+            null,
+            "Piercing Hard"
+        ]
+    },
+    {
+        "name": "Flandre Scarlet",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Remilia Scarlet",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            "Absorb 30%",
+            "Absorb 30%"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Yuyuko Saigyouji",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            "Piercing",
+            null,
+            "Piercing",
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            "Piercing",
+            null,
+            "Piercing",
+            null
+        ],
+        "lw": [
+            "Rebound 15% Slicing 50%",
+            "Rebound 15% Hard 50%",
+            null,
+            "Rebound 15% Hard 50%",
+            "Rebound 15% Slicing 50%",
+            null
+        ]
+    },
+    {
+        "name": "Sunny Milk",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Luna Child",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Hard 20%"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            "Hard 20%",
+            "Hard 20%"
+        ],
+        "lw": [
+            null,
+            null,
+            "Hard 35%",
+            "Hard 35%",
+            "Hard 35%",
+            "Hard 35%"
+        ]
+    },
+    {
+        "name": "Star Sapphire",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Fujiwara no Mokou",
+        "ss": [
+            null,
+            null,
+            "Absorb 20%",
+            null,
+            "Absorb 20%",
+            null
+        ],
+        "fs": [
+            null,
+            "Explosive",
+            null,
+            "Explosive",
+            null,
+            null
+        ],
+        "sc1": [
+            "Rebound 50%",
+            "Hard 50%",
+            null,
+            "Hard 50%",
+            null,
+            "Hard 50%"
+        ],
+        "sc2": [
+            "Rebound 50% Hard 30%",
+            "Hard 30%",
+            "Hard 30%",
+            "Hard 30%",
+            "Hard 30%",
+            "Hard 30%"
+        ],
+        "lw": [
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Explosive"
+        ]
+    },
+    {
+        "name": "Seiran",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic"
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Impact (30%)"
+        ],
+        "lw": [
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Impact (60%)"
+        ]
+    },
+    {
+        "name": "Ringo",
+        "ss": [
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic"
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            "Hard (50%)",
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Explosive",
+            "Hard (50%)"
+        ]
+    },
+    {
+        "name": "Rei'sen",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            "CRI-ACC UP (100%)",
+            null,
+            "Sure-Hit CRI-ACC UP (100%) ",
+            null,
+            "Sure-Hit CRI-ACC UP (100%)"
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "CRI-ATK UP (100%)"
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Byakuren Hijiri",
+        "ss": [
+            "Absorb (15%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "FOCUS UP (100%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Slicing (30%)",
+            "Slicing (30%)",
+            "Slicing (30%)",
+            "Slicing (30%)",
+            "Slicing (30%)",
+            "Slicing (30%)"
+        ],
+        "sc2": [
+            null,
+            null,
+            "Absorb (25%)",
+            "Absorb (25%)",
+            null,
+            null
+        ],
+        "lw": [
+            "Slicing (50%)",
+            null,
+            "Absorb (25%) Slicing (50%)",
+            null,
+            "Absorb (25%) Slicing (50%)",
+            null
+        ]
+    },
+    {
+        "name": "Watatsuki no Toyohime",
+        "ss": [
+            null,
+            "Elastic",
+            null,
+            "Elastic",
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            "Explosive",
+            "Elastic"
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            "Elastic",
+            "Elastic",
+            "Elastic"
+        ],
+        "sc2": [
+            "Elastic",
+            null,
+            null,
+            "Explosive",
+            "Explosive",
+            "Explosive"
+        ],
+        "lw": [
+            "Elastic Hard (15%)",
+            "Explosive Hard (20%)",
+            "Elastic Hard (25%)",
+            "Explosive Hard (30%)",
+            "Elastic Hard (35%)",
+            "Explosive Hard (40%)"
+        ]
+    },
+    {
+        "name": "Watatsuki no Yorihime",
+        "ss": [
+            null,
+            "Slicing (15%)",
+            "Slicing (15%)",
+            null,
+            null,
+            "Slicing (20%)"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            "Slicing (15%)",
+            "Slicing (15%)",
+            "Slicing (20%)"
+        ],
+        "sc1": [
+            null,
+            "Slicing (20%)",
+            "Slicing (20%)",
+            null,
+            "Slicing (20%)",
+            "Slicing (30%)"
+        ],
+        "sc2": [
+            null,
+            null,
+            "Slicing (20%)",
+            null,
+            null,
+            "Slicing (50%)"
+        ],
+        "lw": [
+            "Slicing (25%)",
+            "Slicing (25%)",
+            "Slicing (30%)",
+            "Slicing (35%)",
+            "Slicing (35%)",
+            "Slicing (35%)"
+        ]
+    },
+    {
+        "name": "Kosuzu Motoori",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            "CRI-EVA UP (100%)",
+            null,
+            "CRI-EVA UP (100%)"
+        ],
+        "sc2": [
+            "Rebound (10%)",
+            null,
+            "Rebound 10% Yin-ATK UP (100%)",
+            null,
+            "Rebound 10% Yin-ATK UP (100%)",
+            null
+        ],
+        "lw": [
+            "Rebound (30%) Piercing",
+            "Piercing",
+            "Sure-hit",
+            "Sure-hit",
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Hieda no Akyuu",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            "Target ACC-DOWN (100%)",
+            null,
+            "Target ACC-DOWN (100%)",
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            "Explosive",
+            "Pierce",
+            "Elastic",
+            "Explosive"
+        ]
+    },
+    {
+        "name": "Kanako Yasaka",
+        "ss": [
+            "FOCUS-UP (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "FOCUS-UP (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            "YIN-DEF UP (%?) YANG DEF UP (?%)",
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            "CRI-DEF UP (?%)",
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            "YIN-DEF YANG DEF UP (2) (?%)",
+            null,
+            "YIN-DEF YANG DEF UP (2) (?%)"
+        ]
+    },
+    {
+        "name": "Suwako Moriya",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Minoriko Aki",
+        "ss": [
+            null,
+            "ENEMY YIN-ATK DOWN (?%)",
+            null,
+            "ENEMY YIN-ATK DOWN (?%)",
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            "ENEMY YIN-ATK DOWN (?%)",
+            null,
+            "ENEMY YIN-ATK DOWN (?%)",
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "FOCUS-DOWN (?%)",
+            "YIN-ATK UP (?%)",
+            "FOCUS-DOWN (?%)",
+            "YIN-ATK UP (?%)",
+            null
+        ],
+        "sc2": [
+            null,
+            "ACC-UP (?%)",
+            "EVA-UP (?%)",
+            "ACC-UP (?%)",
+            "EVA-UP (?%)",
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            "YIN-ATK UP (?%)",
+            "YIN-ATK UP (?%)",
+            "Hard",
+            " Hard Impact"
+        ]
+    },
+    {
+        "name": "Shizuha Aki",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "ENEMY ACC-DOWN (?%)",
+            "ENEMY ACC-DOWN (?%)",
+            "ENEMY EVA-DOWN (?%)",
+            null,
+            "ENEMY EVA-DOWN (?%)",
+            null
+        ],
+        "sc2": [
+            "ACC-UP (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            "ACC-UP (%?) FOCUS-DOWN (2) (?%)",
+            "Hard Elastic",
+            "Hard Elastic"
+        ]
+    },
+    {
+        "name": "Koishi Komeiji",
+        "ss": [
+            null,
+            "Piercing",
+            "Piercing",
+            null,
+            null,
+            "Piercing"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            "Precise",
+            "Precise",
+            "Absorb"
+        ],
+        "sc1": [
+            "Exploding",
+            "ENEMY EVA-DOWN (?%) YANG-ATK UP (?%)   ",
+            "ENEMY CRI-EVA DOWN (?%) YIN-ATK UP (?%)   ",
+            "Piercing",
+            "Piercing ENEMY CRI-EVA DOWN (?%)    ",
+            "ENEMY CRI-EVA DOWN (?%) CRI-ATK UP (?%)   "
+        ],
+        "sc2": [
+            "Elastic",
+            "Piercing",
+            "ENEMY YANG-DEF DOWN (?%)   ",
+            "ENEMY YIN-DEF DOWN (?%)   ",
+            "Elastic ENEMY CRI-DEF DOWN (?%)   ",
+            "Piercing ENEMY CRI-DEF DOWN (?%)   "
+        ],
+        "lw": [
+            "Precise Absorb",
+            "Elastic Exploding YIN-ATK UP (2) (?%)   ",
+            "Elastic Exploding YIN-ATK UP (2) (?%)   ",
+            "Piercing ACC-UP (?%)",
+            "Absrob ACC-UP (?%)   ",
+            "Absrob ACC-UP (?%) CRI-ACC UP (2) (?%)     "
+        ]
+    },
+    {
+        "name": "Benben Tsukumo",
+        "ss": [
+            null,
+            null,
+            "Adhesive",
+            null,
+            null,
+            "Slicing"
+        ],
+        "fs": [
+            null,
+            "ENEMY AGI-DOWN (?%) ",
+            "Slicing",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            "Slicing",
+            null,
+            "Slicing",
+            "Slicing"
+        ],
+        "sc2": [
+            null,
+            "Slicing",
+            "Slicing",
+            "ENEMY YIN-ATK DOWN (?%)",
+            "ENEMY YIN-DEF DOWN (?%)",
+            "Slicing ENEMY YIN-ATK DOWN (?%)"
+        ],
+        "lw": [
+            null,
+            "AGI-UP (?%)",
+            "AGI-UP (?%)",
+            "AGI-UP (?%)",
+            "Slicing",
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Yatsuhashi Tsukumo",
+        "ss": [
+            null,
+            "AGI-UP (?%)",
+            "AGI-UP (?%)",
+            null,
+            null,
+            "AGI-UP (?%)"
+        ],
+        "fs": [
+            null,
+            "AGI-UP (?%) Piercing",
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "ENEMY AGI-DOWN (?%)",
+            "Piericing",
+            "Piercing",
+            "YANG-DEF UP (?%) YIN-DEF UP (?%) ",
+            "YANG-DEF UP (?%) YIN-DEF UP (?%) "
+        ],
+        "sc2": [
+            null,
+            "Adhesive",
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Elastic Precise"
+        ],
+        "lw": [
+            null,
+            null,
+            "ALL ENEMY CRI-DEF DOWN (?%) ",
+            "ALL ENEMY CRI-DEF DOWN (?%) ",
+            "Slicing",
+            "Slicing ALL ENEMY CRI-DEF DOWN (?%) "
+        ]
+    },
+    {
+        "name": "Koakuma",
+        "ss": [
+            null,
+            "AGI-UP (?%)",
+            null,
+            "AGI-UP (?%)",
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Rebound",
+            "Slicing",
+            "Exploding",
+            "Slicing",
+            "Exploding",
+            "Impact Slicing"
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            "Exploding",
+            "Exploding",
+            null
+        ],
+        "lw": [
+            "Slicing",
+            "Slicing",
+            null,
+            "Slicing",
+            null,
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Nemuno Sakata",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Piercing Adhesive",
+            null,
+            null,
+            "Piericng",
+            "Piercing Adhesive"
+        ],
+        "sc2": [
+            null,
+            null,
+            "Hard YIN-DEF UP (?%)",
+            "Hard",
+            "Hard YANG-DEF UP (?%)",
+            "Hard YIN-DEF UP (?%)"
+        ],
+        "lw": [
+            null,
+            null,
+            "Hard",
+            null,
+            "Hard",
+            "Hard"
+        ]
+    },
+    {
+        "name": "Satori Komeiji",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            "Sure-Hit",
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Sure-Hit",
+            null,
+            null,
+            "Sure-Hit",
+            "Piercing"
+        ],
+        "sc2": [
+            "ENEMY AGI-DOWN (?%)",
+            "ENEMY YIN-ATK DOWN (?%)",
+            "ENEMY YIN-DEF DOWN (?%)",
+            "ENEMY YANG-ATK DOWN (?%)",
+            "ENEMY YANG-DEF DOWN (?%)",
+            "ENEMY AGI-DOWN (?%)"
+        ],
+        "lw": [
+            null,
+            "Rebound",
+            "Sure-HIt",
+            "Piercing",
+            "Rebound Piercing Sure-Hit",
+            "Rebound Piercing Sure-Hit"
+        ]
+    },
+    {
+        "name": "Tewi Inaba",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            "ENEMY ACC-DOWN (30%)",
+            "ENEMY EVA-DOWN (30%)"
+        ],
+        "fs": [
+            null,
+            null,
+            "YANG-ATK UP (20%)",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Sure-Hit",
+            "ENEMY CRI-ACC DOWN (25%)",
+            "ENEMY ACC-DOWN (30%)",
+            "Sure-Hit",
+            "ENEMY CRI-ACC DOWN (35%) ENEMY ACC-DOWN (35%)"
+        ],
+        "sc2": [
+            null,
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Slicing 35%",
+            "Slicing 35%"
+        ],
+        "lw": [
+            null,
+            "SELF YANG-ATK UP (100%) ENEMY YANG-DEF DOWN (80%)",
+            "ENEMY YIN-DEF DOWN (80%)",
+            "ENEMY YANG-DEF DOWN (90%) ENEMY YIN-DEF DOWN (90%)",
+            "ENEMY YANG-DEF DOWN (100%) ENEMY YIN-DEF DOWN (100%)",
+            "ENEMY YANG-DEF DOWN (100%) ENEMY YIN-DEF DOWN (100%) Impact (25%)"
+        ]
+    },
+    {
+        "name": "Momiji Inubashiri",
+        "ss": [
+            "FOCUS-UP (?%)",
+            null,
+            null,
+            null,
+            null,
+            "FOCUS-UP (?%)"
+        ],
+        "fs": [
+            "ENEMY YIN-ATK DOWN (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            "ENEMY EVA-DOWN (?%)",
+            null,
+            null,
+            "ENEMY EVA-DOWN (?%)"
+        ],
+        "sc2": [
+            null,
+            "YIN-DEF UP (?%)",
+            "YIN-DEF UP (?%)",
+            "Hard",
+            null,
+            "Hard YIN-DEF UP (?%)"
+        ],
+        "lw": [
+            "YIN-DEF UP (?%)",
+            null,
+            null,
+            "Hard",
+            "Hard",
+            "YIN-DEF UP (?%)"
+        ]
+    },
+    {
+        "name": "Hatate Himekaidou",
+        "ss": [
+            null,
+            "AGI-UP (?%)",
+            null,
+            "ENEMY AGI-DOWN (?%)",
+            null,
+            "ENEMY AGI-DOWN (?%)"
+        ],
+        "fs": [
+            null,
+            "ENEMY EVA-DOWN (?%)",
+            "ENEMY EVA-DOWN (?%)",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "AGI-UP (?%)",
+            null,
+            "Slicing",
+            "Slicing",
+            "Slicing"
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            "YIN-ATK UP (?%)",
+            null,
+            "YIN-ATK UP (?%)"
+        ],
+        "lw": [
+            null,
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Rumia",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Hina Kagiyama",
+        "ss": [
+            null,
+            "ENEMY AGI-DOWN (?%)",
+            null,
+            "ENEMY YANG-ATK DOWN (?%)",
+            null,
+            "ENEMY YIN-ATK DOWN (?%)"
+        ],
+        "fs": [
+            null,
+            "ENEMY CRI-EVA DOWN (?%)",
+            null,
+            null,
+            "ENEMY CRI-DEF DOWN (?%)",
+            null
+        ],
+        "sc1": [
+            null,
+            "ENEMY CRI-EVA DOWN (?%)",
+            "Adhesive",
+            null,
+            "ENEMY CRI-EVA DOWN (?%)",
+            null
+        ],
+        "sc2": [
+            "Rebound",
+            null,
+            null,
+            null,
+            null,
+            "Impact"
+        ],
+        "lw": [
+            "Absorb",
+            "ENEMY YANG-DEF DOWN (?%) ENEMY CRI-DEF DOWN (?%)",
+            "ENEMY YANG-DEF DOWN (?%) ENEMY CRI-EVA DOWN (2) (?%)",
+            "ENEMY YIN-ATK DOWN (?%) ENEMY CRI-DEF DOWN (?%)",
+            "ENEMY YIN-ATK DOWN (?%) ENEMY CRI-EVA DOWN (2) (?%)",
+            null
+        ]
+    },
+    {
+        "name": "Clownpiece",
+        "ss": [
+            null,
+            "Elastic",
+            "Elastic",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "ENEMY ACC-DOWN (?%)",
+            null,
+            null,
+            null,
+            "ENEMY ACC-DOWN (?%)",
+            null
+        ],
+        "sc1": [
+            null,
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic",
+            "Elastic"
+        ],
+        "sc2": [
+            null,
+            "YIN-ATK UP (?%) ",
+            "YIN-ATK UP (?%) ",
+            "CRI-ATK UP (?%) ",
+            "CRI-ATK UP (?%) ",
+            "CRI-ATK UP (?%) "
+        ],
+        "lw": [
+            null,
+            "Elastic YANG-ATK UP (?%) ",
+            "Elastic CRI-ATK UP (?%) ",
+            "Elastic CRI-ACC UP (?%) ",
+            "Elastic CRI-ATK UP (?%) ",
+            "CRI-ATK UP (?%) CRI-ACC UP (?%)   "
+        ]
+    },
+    {
+        "name": "Suika Ibuki",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            "Hard",
+            "Hard"
+        ],
+        "fs": [
+            "ENEMY EVA-DOWN (?%)",
+            null,
+            null,
+            null,
+            null,
+            "ENEMY EVA-DOWN (?%)"
+        ],
+        "sc1": [
+            null,
+            "Hard",
+            null,
+            null,
+            "Hard",
+            "Hard"
+        ],
+        "sc2": [
+            null,
+            "Absorb",
+            null,
+            "Absorb",
+            null,
+            "Absrob"
+        ],
+        "lw": [
+            "Hard",
+            "Hard",
+            "Hard",
+            "Hard",
+            "Hard",
+            "Hard"
+        ]
+    },
+    {
+        "name": "Aya Shameimaru",
+        "ss": [
+            "Slicing",
+            null,
+            null,
+            "Slicing",
+            null,
+            "Slicing"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Slicing",
+            "Slicing",
+            "Sure-Hit",
+            "Sure-Hit",
+            "Slicing",
+            "Slicing"
+        ],
+        "sc2": [
+            "Slicing",
+            "Slicing",
+            "AGI-UP (?%)",
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            "Slicing",
+            "Slicing",
+            "ENEMY AGI-DOWN (?%) ",
+            "ENEMY AGI-DOWN (?%) ",
+            "Slicing",
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Yoshika Miyako",
+        "ss": [
+            "Absorb",
+            null,
+            null,
+            null,
+            null,
+            "Absorb"
+        ],
+        "fs": [
+            null,
+            "Hard",
+            null,
+            null,
+            null,
+            "Hard"
+        ],
+        "sc1": [
+            null,
+            "Hard",
+            null,
+            null,
+            null,
+            "Hard"
+        ],
+        "sc2": [
+            "Absorb",
+            "YANG-DEF UP (?%)",
+            "YIN-DEF UP (?%)",
+            "YANG-DEF UP (?%)",
+            "YIN-DEF UP (?%)",
+            "Absorb"
+        ],
+        "lw": [
+            "Piercing Hard",
+            "Hard",
+            "Hard",
+            "Hard",
+            "Hard",
+            "Piercing Hard"
+        ]
+    },
+    {
+        "name": "Seiga Kaku",
+        "ss": [
+            "AGI UP (?%)",
+            null,
+            "AGI-UP (?%)",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            "Piercing",
+            "Piercing"
+        ],
+        "sc1": [
+            null,
+            null,
+            "Slicing",
+            "Slicing",
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            "Slicing",
+            "Piercing",
+            "Piercing",
+            "Piercing",
+            null
+        ],
+        "lw": [
+            "Slicing",
+            "AGI-UP (?%)",
+            "AGI-UP (?%)",
+            "Slicing",
+            "Slicing",
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Sagume Kishin",
+        "ss": [
+            "Adhesive",
+            null,
+            null,
+            null,
+            null,
+            "Specular"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            "Specular",
+            "Specular",
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            "Specular",
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            "Spcular",
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            "Sure-Hit",
+            null,
+            null,
+            null,
+            "Sure-Hit",
+            "Sure-Hit"
+        ]
+    },
+    {
+        "name": "Eirin Yakogoro",
+        "ss": [
+            "ENEMY CRI-EVA DOWN (?%) ",
+            "ENEMY CRI-EVA DOWN (?%) ",
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            "Piercing",
+            "Piercing",
+            null,
+            "Sure-Hit",
+            null,
+            "Sure-Hit"
+        ],
+        "lw": [
+            null,
+            "Piercing",
+            null,
+            "Piercing",
+            null,
+            "Impact"
+        ]
+    },
+    {
+        "name": "Kaguya Houraisan",
+        "ss": [
+            "Absorb",
+            null,
+            null,
+            "Absorb",
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            "Hard",
+            "Hard",
+            null,
+            "Hard",
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            "YANG-DEF UP (?%)",
+            null,
+            "YANG-DEF UP (?%)"
+        ],
+        "sc2": [
+            "Rebound Hard",
+            null,
+            "Hard",
+            null,
+            "Hard",
+            null
+        ],
+        "lw": [
+            "Hard",
+            "YANG-DEF UP (?%)",
+            "Hard",
+            "Absorb",
+            "Hard",
+            "Absorb"
+        ]
+    },
+    {
+        "name": "Shion Yorigami",
+        "ss": [
+            "ENEMY ACC-DOWN (?%) ",
+            null,
+            null,
+            "ENEMY ACC-DOWN (?%) ",
+            null,
+            null
+        ],
+        "fs": [
+            "ENEMY EVA-DOWN (?%) ",
+            null,
+            null,
+            "ENEMY EVA-DOWN (?%) ",
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "ENEMY YANG-DEF DOWN (?%) ",
+            null,
+            null,
+            null,
+            "ENEMY YANG-DEF DOWN (?%) "
+        ],
+        "sc2": [
+            null,
+            null,
+            "ENEMY YIN-ATK DOWN (?%) ",
+            null,
+            null,
+            "ENEMY YIN-ATK DOWN (?%) "
+        ],
+        "lw": [
+            null,
+            "ENEMY AGI-DOWN (?%)",
+            "ENEMY CRI-ACC DOWN (?%) ",
+            null,
+            "ENEMY YANG-ATK DOWN (?%) ENEMY YIN-ATK DOWN (?%) ",
+            "ENEMY ACC-DOWN (?%) ENEMY EVA-DOWN (?%) "
+        ]
+    },
+    {
+        "name": "Aunn Komano",
+        "ss": [
+            "Slicing",
+            "Slicing",
+            null,
+            null,
+            null,
+            "Slicing"
+        ],
+        "fs": [
+            "Hard",
+            "Hard",
+            null,
+            null,
+            null,
+            "Hard"
+        ],
+        "sc1": [
+            null,
+            "Slicing",
+            "Slicing",
+            null,
+            null,
+            "Slicing"
+        ],
+        "sc2": [
+            null,
+            "Hard",
+            "Hard",
+            null,
+            null,
+            "Hard"
+        ],
+        "lw": [
+            "Slicing Hard",
+            null,
+            null,
+            "Slicing Hard",
+            "Slicing Hard",
+            "Slicing Hard"
+        ]
+    },
+    {
+        "name": "Hata no Kokoro",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Adhesive"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Sure-HIt"
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            "Sure-Hit",
+            "Sure-Hit"
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "Sure-Hit",
+            null,
+            "Sure-HIt",
+            null,
+            "Sure-Hit"
+        ]
+    },
+    {
+        "name": "Yuugi Hoshiguma",
+        "ss": [
+            null,
+            "Exploding",
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Exploding"
+        ],
+        "sc1": [
+            null,
+            "Exploding",
+            null,
+            null,
+            "Exploding",
+            "Exploding"
+        ],
+        "sc2": [
+            null,
+            "Elastic",
+            null,
+            null,
+            "Elastic",
+            "Elastic"
+        ],
+        "lw": [
+            "Elastic Exploding",
+            "ENEMY YANG-DEF DOWN (?%)",
+            "ENEMY YIN-DEF DOWN (?%)",
+            null,
+            "Elastic Exploding",
+            "Elastic Exploding"
+        ]
+    },
+    {
+        "name": "Lunasa Prismriver",
+        "ss": [
+            null,
+            "Sure-Hit",
+            null,
+            "Sure-Hit",
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit",
+            "Sure-HIt",
+            "Sure-Hit",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Hard",
+            "Hard",
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            "Slicing",
+            "Slicing",
+            null,
+            null,
+            "Slicing"
+        ],
+        "lw": [
+            null,
+            "Hard",
+            "Slicing",
+            null,
+            null,
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Merlin Prismriver",
+        "ss": [
+            "Sure-Hit",
+            null,
+            null,
+            "Sure-Hit",
+            null,
+            "Sure-Hit"
+        ],
+        "fs": [
+            null,
+            "Sure-Hit",
+            "Sure-Hit",
+            null,
+            null,
+            "Sure-Hit"
+        ],
+        "sc1": [
+            "Hard",
+            null,
+            null,
+            null,
+            null,
+            "Hard"
+        ],
+        "sc2": [
+            "Slicing",
+            null,
+            null,
+            null,
+            null,
+            "Hard"
+        ],
+        "lw": [
+            "Hard",
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Hard",
+            "Hard"
+        ]
+    },
+    {
+        "name": "Lyrica Prismriver",
+        "ss": [
+            "Sure-Hit",
+            "Sure-Hit",
+            null,
+            null,
+            null,
+            "Sure-Hit"
+        ],
+        "fs": [
+            null,
+            null,
+            "Slicing",
+            null,
+            null,
+            "Hard"
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            "Slicing",
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            "Hard",
+            null,
+            null
+        ],
+        "lw": [
+            "Sure-Hit",
+            null,
+            "Slicing",
+            null,
+            "Hard",
+            null
+        ]
+    },
+    {
+        "name": "Mamizou Futatsuiwa",
+        "ss": [
+            "FOCUS-UP (?%)",
+            null,
+            "YIN-DEF UP (?%)",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "EVA-UP (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "FOCUS-UP (?%)",
+            "Hard",
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            "Hard",
+            null,
+            "Hard",
+            null,
+            "Hard",
+            null
+        ],
+        "lw": [
+            "Hard",
+            null,
+            null,
+            "Hard",
+            "Hard",
+            "Hard"
+        ]
+    },
+    {
+        "name": "Yuuka Kazami",
+        "ss": [
+            "Sure-Hit",
+            null,
+            null,
+            null,
+            null,
+            "Sure-Hit"
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "YANG-ATK UP (?%)",
+            "YANG-ATK UP (2) (?%)",
+            "ENEMY YANG-DEF DOWN (?%)",
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Komachi Onozuka",
+        "ss": [
+            null,
+            "ENEMY AGI-DOWN (%?)",
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit",
+            null,
+            "Slicing",
+            null,
+            null,
+            "Slicing"
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Slicing"
+        ],
+        "sc2": [
+            null,
+            "Slicing",
+            null,
+            "Slicing",
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "Slicing",
+            null,
+            "Slicing",
+            null,
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Doremy Sweet",
+        "ss": [
+            "Sure-Hit",
+            null,
+            null,
+            "Sure-Hit",
+            null,
+            null
+        ],
+        "fs": [
+            "Piercing",
+            "Piercing",
+            "Piercing",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Sure-Hit",
+            null,
+            null,
+            null,
+            "Sure-Hit"
+        ],
+        "sc2": [
+            "Absorb",
+            "Specular",
+            null,
+            null,
+            "ENEMY-AGI DOWN (%?)",
+            null
+        ],
+        "lw": [
+            "YIN-ATK UP (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Shou Toramaru",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit",
+            "Specular",
+            null,
+            "Specular",
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            "YIN-DEF UP (?%)",
+            null,
+            null,
+            "YIN-DEF UP (?%)"
+        ],
+        "sc2": [
+            null,
+            null,
+            "YANG-ATK UP (?%)",
+            null,
+            null,
+            "YANG ATK UP (?%)"
+        ],
+        "lw": [
+            null,
+            "Piercing",
+            null,
+            "Piercing",
+            null,
+            "Piercing"
+        ]
+    },
+    {
+        "name": "Minamitsu Murasa ",
+        "ss": [
+            "Sure-HIt",
+            "Slicing",
+            null,
+            null,
+            "Slicing",
+            null
+        ],
+        "fs": [
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            null
+        ],
+        "sc2": [
+            null,
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            null
+        ],
+        "lw": [
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Tenshi Hinanawi",
+        "ss": [
+            "Hard",
+            "Hard",
+            "Hard",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Hard",
+            "Hard",
+            "Hard",
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            "Hard",
+            "Hard",
+            "Hard",
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Kogasa Tatara",
+        "ss": [
+            null,
+            null,
+            "Slicing",
+            null,
+            "Slicing",
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            "Hard",
+            null,
+            "Hard",
+            null
+        ],
+        "sc1": [
+            "Slicing",
+            "Hard",
+            null,
+            "Slicing",
+            null,
+            "Hard"
+        ],
+        "sc2": [
+            "Hard",
+            null,
+            "Slicing",
+            null,
+            "Hard",
+            "Slicing"
+        ],
+        "lw": [
+            null,
+            "Slicing Hard",
+            "Slicing Hard",
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Joon Yorigami",
+        "ss": [
+            "Sure-Hit",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "EVA-DOWN (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Sure-Hit Piercing",
+            "Sure-Hit Piercing",
+            "Absord Hard",
+            "Sure-Hit Piercing",
+            "Absord Hard",
+            "Hard"
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            "Sure-Hit",
+            null
+        ]
+    },
+    {
+        "name": "Keine Kamishirasawa ",
+        "ss": [
+            "Sure-Hit",
+            "Yang-DEF UP (?%)",
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "FOCUS UP (?%)",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            "Hard",
+            "Hard",
+            null,
+            "Hard",
+            "Hard"
+        ],
+        "sc2": [
+            null,
+            "Hard",
+            "Hard",
+            null,
+            "Hard",
+            null
+        ],
+        "lw": [
+            "Hard",
+            "Hard",
+            null,
+            null,
+            null,
+            "Hard"
+        ]
+    },
+    {
+        "name": "Okina Matara",
+        "ss": [
+            "CRI-EVA DOWN (?%)",
+            "Specular",
+            "Elastic",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            "Specular",
+            "Elastic",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Elastic",
+            "Specular",
+            "CRI-EVA DOWN (?%)",
+            "Specular",
+            "Elastic",
+            "Elastic"
+        ],
+        "sc2": [
+            null,
+            "Specular",
+            "Exploding",
+            "Specular",
+            "Exploding",
+            "Exploding"
+        ],
+        "lw": [
+            null,
+            "Exploding",
+            "Exploding",
+            "Elastic",
+            "Elastic",
+            "Elastic"
+        ]
+    },
+    {
+        "name": "Toyosatomimi no Miko",
+        "ss": [
+            "ACC UP (?%)",
+            "Hard",
+            "ACC UP (?%)",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Slicing",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "ACC-UP (?%)",
+            "Piercing",
+            "Piercing",
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            "Sure-Hit",
+            "ACC UP (?%)",
+            "Hard",
+            "Hard",
+            null,
+            null
+        ],
+        "lw": [
+            "Slicing ACC-UP (?%)",
+            "Sure-Hit Piercing",
+            "Sure-Hit",
+            "Piercing",
+            "Slicing",
+            "Slicing Hard"
+        ]
+    },
+    {
+        "name": "Usami Sumireko",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "EVA-UP (?%)",
+            null,
+            "ENEMY EVA DOWN (?)%",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Piercing Slicing",
+            null,
+            "EVA UP (?%)",
+            "Slicing",
+            "Slicing",
+            null
+        ],
+        "sc2": [
+            "Rebound Slicing",
+            null,
+            "Absorb",
+            "Slicing",
+            "Slicing",
+            null
+        ],
+        "lw": [
+            "Slicing ENEMY EVA DOWN (?%)",
+            "EVA-UP (?%)",
+            null,
+            "ENEMY EVA DOWN (?%)",
+            null,
+            "Absorb Slcing"
+        ]
+    },
+    {
+        "name": "Letty Whiterock",
+        "ss": [
+            null,
+            "Hard",
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit",
+            null,
+            null,
+            "Hard",
+            null,
+            null
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Junko ",
+        "ss": [
+            "Sure-Hit",
+            "CRI-ATK UP (?%?)",
+            null,
+            "Exploding",
+            null,
+            null
+        ],
+        "fs": [
+            "Slicing ",
+            "ENEMY CRI-DEF DOWN(?%)",
+            "Precise",
+            "Precise",
+            null,
+            null
+        ],
+        "sc1": [
+            "CRI-ACC UP (?%)",
+            "Slicing",
+            null,
+            "Precise",
+            "Precise",
+            null
+        ],
+        "sc2": [
+            "ALL ENEMY YIN-ATK DOWN(?%)",
+            null,
+            "Exploding",
+            "ALL ENEMY YANG-ATK DOWN(?%)",
+            "Exploding",
+            null
+        ],
+        "lw": [
+            "AGI-UP (?%)",
+            "CRI-ATK UP (?%?)",
+            "CRI-ATK UP (?%?)",
+            "Precise Exploding",
+            "Precise Exploding",
+            "Hard"
+        ]
+    },
+    {
+        "name": "Hecatia Lapislazuli",
+        "ss": [
+            "CRI ATK UP (?%?)",
+            "CRI-ACC UP (?%?)",
+            "Specular",
+            "Precise",
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit",
+            null,
+            null,
+            null,
+            null,
+            "Sure-Hit"
+        ],
+        "sc1": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Precise Elastic"
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            "CRI-ATK UP (?%?)",
+            null,
+            null,
+            "Precise Elastic",
+            "Precise Elastic"
+        ]
+    },
+    {
+        "name": "Wakasagihime",
+        "ss": [
+            null,
+            null,
+            "Sure-Hit",
+            "Sure-Hit",
+            "Slicing",
+            null
+        ],
+        "fs": [
+            "Slicing",
+            null,
+            "Hard",
+            "Hard",
+            null,
+            null
+        ],
+        "sc1": [
+            "Slicing",
+            "Hard",
+            "Slicing",
+            "YANG-DEF UP (?%)",
+            null,
+            "Hard Slicing"
+        ],
+        "sc2": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "name": "Kagerou Imaizumi",
+        "ss": [
+            "EVA DOWN (?%)",
+            null,
+            "EVA DOWN (?%)",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "AGI UP (?%)",
+            "Slicing",
+            null,
+            null,
+            "Slicing",
+            null
+        ],
+        "sc1": [
+            "Slicing",
+            "Slicing",
+            null,
+            "Specular",
+            null,
+            "Slicing"
+        ],
+        "sc2": [
+            "Slicing",
+            "Slicing",
+            "Specular",
+            "Specular",
+            null,
+            "Slicing"
+        ],
+        "lw": [
+            "Slicing",
+            null,
+            null,
+            "Slicing",
+            null,
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Raiko Horikawa",
+        "ss": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Slicing",
+            "Specular",
+            null,
+            null,
+            "Slicing",
+            null
+        ],
+        "sc2": [
+            "Slicing",
+            null,
+            "Specular",
+            "Slicing",
+            null,
+            null
+        ],
+        "lw": [
+            "Slicing",
+            "Slicing",
+            null,
+            "Slicing",
+            null,
+            "Slicing"
+        ]
+    },
+    {
+        "name": "Shikieiki Yamaxanadu",
+        "ss": [
+            "EVA-UP (?%)",
+            "Sure-Hit",
+            "EVA-UP (?%)",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            null,
+            null,
+            null,
+            "Sure-Hit",
+            null,
+            null
+        ],
+        "sc1": [
+            "Sure-Hit",
+            "Piercing Hard",
+            "Piercing Hard",
+            null,
+            null,
+            null
+        ],
+        "sc2": [
+            null,
+            "Hard Enemy EVA DOWN (?)%",
+            null,
+            null,
+            "Hard",
+            null
+        ],
+        "lw": [
+            "Hard",
+            "Hard",
+            null,
+            "Hard",
+            "Hard",
+            null
+        ]
+    },
+    {
+        "name": "Sekibanki",
+        "ss": [
+            "ENEMY YANG-DEF DOWN (?%) ENEMY YIN-DEF DOWN (?%) ",
+            "Hard",
+            null,
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "Sure-Hit AGI-UP (?%)",
+            "AGI-UP (?%)",
+            "Sure-Hit",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Slicing",
+            null,
+            null,
+            "Slicing",
+            null,
+            "Slicing"
+        ],
+        "sc2": [
+            "Hard",
+            null,
+            null,
+            "Hard",
+            "Hard",
+            "Hard"
+        ],
+        "lw": [
+            "Hard Slicing",
+            "Hard Slicing",
+            null,
+            null,
+            "Slicing",
+            null
+        ]
+    },
+    {
+        "name": "Mononobe no Futo",
+        "ss": [
+            "Sure-Hit",
+            null,
+            "Sure-Hit",
+            null,
+            null,
+            null
+        ],
+        "fs": [
+            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI-DOWN (?%)",
+            null,
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Slicing",
+            "Slicing",
+            "Slicing",
+            null,
+            null,
+            "Slicing"
+        ],
+        "sc2": [
+            null,
+            "Slicing",
+            null,
+            "Slicing",
+            null,
+            null
+        ],
+        "lw": [
+            "Slicing",
+            "Slicing",
+            null,
+            "Slicing",
+            "Slicing",
+            null
+        ]
+    },
+    {
+        "name": "Soga no Tojiko",
+        "ss": [
+            "Piercing",
+            null,
+            null,
+            null,
+            "Piercing",
+            null
+        ],
+        "fs": [
+            "Sure-Hit CRI ATK UP (?%)",
+            null,
+            "CRI-ATK UP (?) %",
+            null,
+            null,
+            null
+        ],
+        "sc1": [
+            "Elastic",
+            null,
+            "Elastic",
+            null,
+            null,
+            "Elastic"
+        ],
+        "sc2": [
+            "Exploding ACC-UP (?)%",
+            "Exploding",
+            "Exploding Sure-HIt",
+            null,
+            null,
+            null
+        ],
+        "lw": [
+            "Exploding Elastic",
+            "Exploding ",
+            "ACC-UP (?)%",
+            "Exploding",
+            "Elastic",
+            "Exploding Elastic"
+        ]
+    }
+]

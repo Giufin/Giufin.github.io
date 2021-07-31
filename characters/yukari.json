@@ -1,0 +1,332 @@
+{
+  "name": "Yukari Yakumo",
+  "stats": {
+    "health": 7850,
+    "agility": 850,
+    "yang_atk": 930,
+    "yang_def": 1390,
+    "yin_atk": 840,
+    "yin_def": 1320
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Profound Bullet Barrier - Phantasm, Foam, and Shadow",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 2
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinDef"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 2
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 18,
+          "power": 5.71,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 12.91,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.7,
+          "bullettype": "Light",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 14.22,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.8,
+          "bullettype": "Light",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 16.25,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.9,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 18.29,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.9,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 20.32,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 1,
+          "bullettype": "Light",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Abandoned Line: Aimless Journey to the Abandoned Station",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 14,
+          "power": 4.41,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 11.62,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.8,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 12.8,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 14.63,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 16.46,
+          "addscaling": "Yin_def",
+          "addscaling_multi": 0.8,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 18.29,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.9,
+          "bullettype": "Heavy",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Shikigami: Ran Yakumo & Chen",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.05,
+          "amount": 8,
+          "power": 5.14,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 15.49,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.5,
+          "bullettype": "Body",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 17.07,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.5,
+          "bullettype": "Body",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 19.5,
+          "addscaling": "Yang_def",
+          "addscaling_multi": 0.7,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 21.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 24.38,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Sun"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "todo",
+      "effect": []
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "todo",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Solo"
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "todo",
+      "effect": []
+    }
+  ],
+  "graze": [],
+  "power": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YangDef"
+        },
+        "lvl": 1,
+        "chance": 0.0,
+        "target": "Team"
+      }
+    }
+  ]
+}
