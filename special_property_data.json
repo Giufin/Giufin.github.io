@@ -894,11 +894,11 @@
             null
         ],
         "lw": [
-            "Rebound 15% SLICING 50%",
-            "Rebound 15% HARD 50%",
+            "REBOUND 15% SLICING 50%",
+            "REBOUND 15% HARD 50%",
             null,
-            "Rebound 15% HARD 50%",
-            "Rebound 15% SLICING 50%",
+            "REBOUND 15% HARD 50%",
+            "REBOUND 15% SLICING 50%",
             null
         ]
     },
@@ -1050,7 +1050,7 @@
             null
         ],
         "sc1": [
-            "Rebound 50%",
+            "REBOUND 50%",
             "HARD 50%",
             null,
             "HARD 50%",
@@ -1058,7 +1058,7 @@
             "HARD 50%"
         ],
         "sc2": [
-            "Rebound 50% HARD 30%",
+            "REBOUND 50% HARD 30%",
             "HARD 30%",
             "HARD 30%",
             "HARD 30%",
@@ -1106,7 +1106,7 @@
             null,
             null,
             null,
-            "Impact (30%)"
+            "IMPACT (30%)"
         ],
         "lw": [
             "EXPLOSIVE",
@@ -1114,7 +1114,7 @@
             "EXPLOSIVE",
             "EXPLOSIVE",
             "EXPLOSIVE",
-            "Impact (60%)"
+            "IMPACT (60%)"
         ]
     },
     {
@@ -1359,15 +1359,15 @@
             "CRI-EVA UP (100%)"
         ],
         "sc2": [
-            "Rebound (10%)",
+            "REBOUND (10%)",
             null,
-            "Rebound 10% YIN-ATK UP (100%)",
+            "REBOUND 10% YIN-ATK UP (100%)",
             null,
-            "Rebound 10% YIN-ATK UP (100%)",
+            "REBOUND 10% YIN-ATK UP (100%)",
             null
         ],
         "lw": [
-            "Rebound (30%) PIERCING",
+            "REBOUND (30%) PIERCING",
             "PIERCING",
             "SURE-HIT",
             "SURE-HIT",
@@ -1544,7 +1544,7 @@
             "YIN-ATK UP (?%)",
             "YIN-ATK UP (?%)",
             "HARD",
-            " HARD Impact"
+            " HARD IMPACT"
         ]
     },
     {
@@ -1738,12 +1738,12 @@
             null
         ],
         "sc1": [
-            "Rebound",
+            "REBOUND",
             "SLICING",
             "Exploding",
             "SLICING",
             "Exploding",
-            "Impact SLICING"
+            "IMPACT SLICING"
         ],
         "sc2": [
             null,
@@ -1841,11 +1841,11 @@
         ],
         "lw": [
             null,
-            "Rebound",
+            "REBOUND",
             "SURE-HIT",
             "PIERCING",
-            "Rebound PIERCING SURE-HIT",
-            "Rebound PIERCING SURE-HIT"
+            "REBOUND PIERCING SURE-HIT",
+            "REBOUND PIERCING SURE-HIT"
         ]
     },
     {
@@ -1888,7 +1888,7 @@
             "ENEMY YIN-DEF DOWN (80%)",
             "ENEMY YANG-DEF DOWN (90%) ENEMY YIN-DEF DOWN (90%)",
             "ENEMY YANG-DEF DOWN (100%) ENEMY YIN-DEF DOWN (100%)",
-            "ENEMY YANG-DEF DOWN (100%) ENEMY YIN-DEF DOWN (100%) Impact (25%)"
+            "ENEMY YANG-DEF DOWN (100%) ENEMY YIN-DEF DOWN (100%) IMPACT (25%)"
         ]
     },
     {
@@ -2047,12 +2047,12 @@
             null
         ],
         "sc2": [
-            "Rebound",
+            "REBOUND",
             null,
             null,
             null,
             null,
-            "Impact"
+            "IMPACT"
         ],
         "lw": [
             "ABSORB",
@@ -2361,7 +2361,7 @@
             null,
             "PIERCING",
             null,
-            "Impact"
+            "IMPACT"
         ]
     },
     {
@@ -2391,7 +2391,7 @@
             "YANG-DEF UP (?%)"
         ],
         "sc2": [
-            "Rebound HARD",
+            "REBOUND HARD",
             null,
             "HARD",
             null,
@@ -3251,7 +3251,7 @@
             null
         ],
         "sc2": [
-            "Rebound SLICING",
+            "REBOUND SLICING",
             null,
             "ABSORB",
             "SLICING",
