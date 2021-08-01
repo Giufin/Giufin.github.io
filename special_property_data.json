@@ -1387,9 +1387,9 @@
         ],
         "fs": [
             null,
-            "Target ACC-DOWN (100%)",
+            "Target ACC DOWN (100%)",
             null,
-            "Target ACC-DOWN (100%)",
+            "Target ACC DOWN (100%)",
             null,
             null
         ],
@@ -1421,7 +1421,7 @@
     {
         "name": "Kanako Yasaka",
         "ss": [
-            "FOCUS-UP (?%)",
+            "FOCUS UP (?%)",
             null,
             null,
             null,
@@ -1429,7 +1429,7 @@
             null
         ],
         "fs": [
-            "FOCUS-UP (?%)",
+            "FOCUS UP (?%)",
             null,
             null,
             null,
@@ -1524,18 +1524,18 @@
         ],
         "sc1": [
             null,
-            "FOCUS-DOWN (?%)",
+            "FOCUS DOWN (?%)",
             "YIN-ATK UP (?%)",
-            "FOCUS-DOWN (?%)",
+            "FOCUS DOWN (?%)",
             "YIN-ATK UP (?%)",
             null
         ],
         "sc2": [
             null,
-            "ACC-UP (?%)",
-            "EVA-UP (?%)",
-            "ACC-UP (?%)",
-            "EVA-UP (?%)",
+            "ACC UP (?%)",
+            "EVA UP (?%)",
+            "ACC UP (?%)",
+            "EVA UP (?%)",
             null
         ],
         "lw": [
@@ -1566,15 +1566,15 @@
             null
         ],
         "sc1": [
-            "ENEMY ACC-DOWN (?%)",
-            "ENEMY ACC-DOWN (?%)",
-            "ENEMY EVA-DOWN (?%)",
+            "ENEMY ACC DOWN (?%)",
+            "ENEMY ACC DOWN (?%)",
+            "ENEMY EVA DOWN (?%)",
             null,
-            "ENEMY EVA-DOWN (?%)",
+            "ENEMY EVA DOWN (?%)",
             null
         ],
         "sc2": [
-            "ACC-UP (?%)",
+            "ACC UP (?%)",
             null,
             null,
             null,
@@ -1585,7 +1585,7 @@
             null,
             null,
             null,
-            "ACC-UP (?%) FOCUS-DOWN (2) (?%)",
+            "ACC UP (?%) FOCUS DOWN (2) (?%)",
             "HARD ELASTIC",
             "HARD ELASTIC"
         ]
@@ -1610,7 +1610,7 @@
         ],
         "sc1": [
             "EXPLODING",
-            "ENEMY EVA-DOWN (?%) YANG-ATK UP (?%)   ",
+            "ENEMY EVA DOWN (?%) YANG-ATK UP (?%)   ",
             "ENEMY CRI-EVA DOWN (?%) YIN-ATK UP (?%)   ",
             "PIERCING",
             "PIERCING ENEMY CRI-EVA DOWN (?%)    ",
@@ -1628,9 +1628,9 @@
             "PRECISE ABSORB",
             "ELASTIC EXPLODING YIN-ATK UP (2) (?%)   ",
             "ELASTIC EXPLODING YIN-ATK UP (2) (?%)   ",
-            "PIERCING ACC-UP (?%)",
-            "ABSORB ACC-UP (?%)   ",
-            "ABSORB ACC-UP (?%) CRI-ACC UP (2) (?%)     "
+            "PIERCING ACC UP (?%)",
+            "ABSORB ACC UP (?%)   ",
+            "ABSORB ACC UP (?%) CRI-ACC UP (2) (?%)     "
         ]
     },
     {
@@ -1645,7 +1645,7 @@
         ],
         "fs": [
             null,
-            "ENEMY AGI-DOWN (?%) ",
+            "ENEMY AGI DOWN (?%) ",
             "SLICING",
             null,
             null,
@@ -1669,9 +1669,9 @@
         ],
         "lw": [
             null,
-            "AGI-UP (?%)",
-            "AGI-UP (?%)",
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
+            "AGI UP (?%)",
+            "AGI UP (?%)",
             "SLICING",
             "SLICING"
         ]
@@ -1680,15 +1680,15 @@
         "name": "Yatsuhashi Tsukumo",
         "ss": [
             null,
-            "AGI-UP (?%)",
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
+            "AGI UP (?%)",
             null,
             null,
-            "AGI-UP (?%)"
+            "AGI UP (?%)"
         ],
         "fs": [
             null,
-            "AGI-UP (?%) PIERCING",
+            "AGI UP (?%) PIERCING",
             null,
             null,
             null,
@@ -1696,7 +1696,7 @@
         ],
         "sc1": [
             null,
-            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             "Piericing",
             "PIERCING",
             "YANG-DEF UP (?%) YIN-DEF UP (?%) ",
@@ -1723,9 +1723,9 @@
         "name": "Koakuma",
         "ss": [
             null,
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
             null,
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
             null,
             null
         ],
@@ -1832,12 +1832,12 @@
             "PIERCING"
         ],
         "sc2": [
-            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             "ENEMY YIN-ATK DOWN (?%)",
             "ENEMY YIN-DEF DOWN (?%)",
             "ENEMY YANG-ATK DOWN (?%)",
             "ENEMY YANG-DEF DOWN (?%)",
-            "ENEMY AGI-DOWN (?%)"
+            "ENEMY AGI DOWN (?%)"
         ],
         "lw": [
             null,
@@ -1855,8 +1855,8 @@
             null,
             null,
             null,
-            "ENEMY ACC-DOWN (30%)",
-            "ENEMY EVA-DOWN (30%)"
+            "ENEMY ACC DOWN (30%)",
+            "ENEMY EVA DOWN (30%)"
         ],
         "fs": [
             null,
@@ -1870,9 +1870,9 @@
             null,
             "SURE-HIT",
             "ENEMY CRI-ACC DOWN (25%)",
-            "ENEMY ACC-DOWN (30%)",
+            "ENEMY ACC DOWN (30%)",
             "SURE-HIT",
-            "ENEMY CRI-ACC DOWN (35%) ENEMY ACC-DOWN (35%)"
+            "ENEMY CRI-ACC DOWN (35%) ENEMY ACC DOWN (35%)"
         ],
         "sc2": [
             null,
@@ -1894,12 +1894,12 @@
     {
         "name": "Momiji Inubashiri",
         "ss": [
-            "FOCUS-UP (?%)",
+            "FOCUS UP (?%)",
             null,
             null,
             null,
             null,
-            "FOCUS-UP (?%)"
+            "FOCUS UP (?%)"
         ],
         "fs": [
             "ENEMY YIN-ATK DOWN (?%)",
@@ -1912,10 +1912,10 @@
         "sc1": [
             null,
             null,
-            "ENEMY EVA-DOWN (?%)",
+            "ENEMY EVA DOWN (?%)",
             null,
             null,
-            "ENEMY EVA-DOWN (?%)"
+            "ENEMY EVA DOWN (?%)"
         ],
         "sc2": [
             null,
@@ -1938,23 +1938,23 @@
         "name": "Hatate Himekaidou",
         "ss": [
             null,
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
             null,
-            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             null,
-            "ENEMY AGI-DOWN (?%)"
+            "ENEMY AGI DOWN (?%)"
         ],
         "fs": [
             null,
-            "ENEMY EVA-DOWN (?%)",
-            "ENEMY EVA-DOWN (?%)",
+            "ENEMY EVA DOWN (?%)",
+            "ENEMY EVA DOWN (?%)",
             null,
             null,
             null
         ],
         "sc1": [
             null,
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
             null,
             "SLICING",
             "SLICING",
@@ -2024,7 +2024,7 @@
         "name": "Hina Kagiyama",
         "ss": [
             null,
-            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             null,
             "ENEMY YANG-ATK DOWN (?%)",
             null,
@@ -2074,11 +2074,11 @@
             null
         ],
         "fs": [
-            "ENEMY ACC-DOWN (?%)",
+            "ENEMY ACC DOWN (?%)",
             null,
             null,
             null,
-            "ENEMY ACC-DOWN (?%)",
+            "ENEMY ACC DOWN (?%)",
             null
         ],
         "sc1": [
@@ -2117,12 +2117,12 @@
             "HARD"
         ],
         "fs": [
-            "ENEMY EVA-DOWN (?%)",
+            "ENEMY EVA DOWN (?%)",
             null,
             null,
             null,
             null,
-            "ENEMY EVA-DOWN (?%)"
+            "ENEMY EVA DOWN (?%)"
         ],
         "sc1": [
             null,
@@ -2178,7 +2178,7 @@
         "sc2": [
             "SLICING",
             "SLICING",
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
             null,
             null,
             null
@@ -2186,8 +2186,8 @@
         "lw": [
             "SLICING",
             "SLICING",
-            "ENEMY AGI-DOWN (?%) ",
-            "ENEMY AGI-DOWN (?%) ",
+            "ENEMY AGI DOWN (?%) ",
+            "ENEMY AGI DOWN (?%) ",
             "SLICING",
             "SLICING"
         ]
@@ -2240,7 +2240,7 @@
         "ss": [
             "AGI UP (?%)",
             null,
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
             null,
             null,
             null
@@ -2271,8 +2271,8 @@
         ],
         "lw": [
             "SLICING",
-            "AGI-UP (?%)",
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
+            "AGI UP (?%)",
             "SLICING",
             "SLICING",
             "SLICING"
@@ -2307,7 +2307,7 @@
         "sc2": [
             null,
             null,
-            "Spcular",
+            "SPECULAR",
             null,
             null,
             null
@@ -2410,18 +2410,18 @@
     {
         "name": "Shion Yorigami",
         "ss": [
-            "ENEMY ACC-DOWN (?%) ",
+            "ENEMY ACC DOWN (?%) ",
             null,
             null,
-            "ENEMY ACC-DOWN (?%) ",
+            "ENEMY ACC DOWN (?%) ",
             null,
             null
         ],
         "fs": [
-            "ENEMY EVA-DOWN (?%) ",
+            "ENEMY EVA DOWN (?%) ",
             null,
             null,
-            "ENEMY EVA-DOWN (?%) ",
+            "ENEMY EVA DOWN (?%) ",
             null,
             null
         ],
@@ -2443,11 +2443,11 @@
         ],
         "lw": [
             null,
-            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             "ENEMY CRI-ACC DOWN (?%) ",
             null,
             "ENEMY YANG-ATK DOWN (?%) ENEMY YIN-ATK DOWN (?%) ",
-            "ENEMY ACC-DOWN (?%) ENEMY EVA-DOWN (?%) "
+            "ENEMY ACC DOWN (?%) ENEMY EVA DOWN (?%) "
         ]
     },
     {
@@ -2711,7 +2711,7 @@
     {
         "name": "Mamizou Futatsuiwa",
         "ss": [
-            "FOCUS-UP (?%)",
+            "FOCUS UP (?%)",
             null,
             "YIN-DEF UP (?%)",
             null,
@@ -2719,7 +2719,7 @@
             null
         ],
         "fs": [
-            "EVA-UP (?%)",
+            "EVA UP (?%)",
             null,
             null,
             null,
@@ -2728,7 +2728,7 @@
         ],
         "sc1": [
             null,
-            "FOCUS-UP (?%)",
+            "FOCUS UP (?%)",
             "HARD",
             null,
             null,
@@ -2798,7 +2798,7 @@
         "name": "Komachi Onozuka",
         "ss": [
             null,
-            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             null,
             null,
             null,
@@ -3063,7 +3063,7 @@
             null
         ],
         "fs": [
-            "EVA-DOWN (?%)",
+            "EVA DOWN (?%)",
             null,
             null,
             null,
@@ -3200,7 +3200,7 @@
             null
         ],
         "sc1": [
-            "ACC-UP (?%)",
+            "ACC UP (?%)",
             "PIERCING",
             "PIERCING",
             null,
@@ -3216,7 +3216,7 @@
             null
         ],
         "lw": [
-            "SLICING ACC-UP (?%)",
+            "SLICING ACC UP (?%)",
             "SURE-HIT PIERCING",
             "SURE-HIT",
             "PIERCING",
@@ -3235,9 +3235,9 @@
             null
         ],
         "fs": [
-            "EVA-UP (?%)",
+            "EVA UP (?%)",
             null,
-            "ENEMY EVA DOWN (?)%",
+            "ENEMY EVA DOWN (?%)",
             null,
             null,
             null
@@ -3260,7 +3260,7 @@
         ],
         "lw": [
             "SLICING ENEMY EVA DOWN (?%)",
-            "EVA-UP (?%)",
+            "EVA UP (?%)",
             null,
             "ENEMY EVA DOWN (?%)",
             null,
@@ -3345,7 +3345,7 @@
             null
         ],
         "lw": [
-            "AGI-UP (?%)",
+            "AGI UP (?%)",
             "CRI-ATK UP (?%)",
             "CRI-ATK UP (?%)",
             "PRECISE EXPLODING",
@@ -3528,9 +3528,9 @@
     {
         "name": "Shikieiki Yamaxanadu",
         "ss": [
-            "EVA-UP (?%)",
+            "EVA UP (?%)",
             "SURE-HIT",
-            "EVA-UP (?%)",
+            "EVA UP (?%)",
             null,
             null,
             null
@@ -3553,7 +3553,7 @@
         ],
         "sc2": [
             null,
-            "HARD ENEMY EVA DOWN (?)%",
+            "HARD ENEMY EVA DOWN (?%)",
             null,
             null,
             "HARD",
@@ -3579,8 +3579,8 @@
             null
         ],
         "fs": [
-            "SURE-HIT AGI-UP (?%)",
-            "AGI-UP (?%)",
+            "SURE-HIT AGI UP (?%)",
+            "AGI UP (?%)",
             "SURE-HIT",
             null,
             null,
@@ -3622,8 +3622,8 @@
             null
         ],
         "fs": [
-            "ENEMY AGI-DOWN (?%)",
-            "ENEMY AGI-DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             null,
             null,
             null,
@@ -3667,7 +3667,7 @@
         "fs": [
             "SURE-HIT CRI ATK UP (?%)",
             null,
-            "CRI-ATK UP (?) %",
+            "CRI-ATK UP (?%)",
             null,
             null,
             null
@@ -3681,7 +3681,7 @@
             "ELASTIC"
         ],
         "sc2": [
-            "EXPLODING ACC-UP (?)%",
+            "EXPLODING ACC UP (?%)",
             "EXPLODING",
             "EXPLODING SURE-HIT",
             null,
@@ -3691,7 +3691,7 @@
         "lw": [
             "EXPLODING ELASTIC",
             "EXPLODING ",
-            "ACC-UP (?)%",
+            "ACC UP (?%)",
             "EXPLODING",
             "ELASTIC",
             "EXPLODING ELASTIC"
