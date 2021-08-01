@@ -91,7 +91,7 @@
       null,
       null,
       null,
-      "DELAY (20%)",
+      "ADHESIVE (20%)",
       null,
       null
     ],
@@ -329,14 +329,14 @@
     "sc2": [
       null,
       null,
-      "DELAY (30%)",
+      "ADHESIVE (30%)",
       null,
       null,
       null
     ],
     "lw": [
       null,
-      "DELAY (60%)",
+      "ADHESIVE (60%)",
       null,
       null,
       null,
@@ -346,7 +346,7 @@
   {
     "name": "Kasen Ibaraki",
     "ss": [
-      "STUN (20%)",
+      "IMPACT (20%)",
       "SURE-HIT",
       "SURE-HIT",
       null,
@@ -356,7 +356,7 @@
     "fs": [
       "SURE-HIT",
       "SURE-HIT",
-      "STUN (40%)",
+      "IMPACT (40%)",
       "SURE-HIT",
       null,
       null
@@ -364,7 +364,7 @@
     "sc1": [
       "EXPLOSIVE",
       "PRECISE",
-      "STUN (35%)",
+      "IMPACT (35%)",
       "EXPLOSIVE PRECISE",
       "EXPLOSIVE PRECISE",
       "EXPLOSIVE PRECISE"
@@ -372,18 +372,18 @@
     "sc2": [
       "ELASTIC",
       "PRECISE",
-      "STUN (35%)",
+      "IMPACT (35%)",
       "ELASTIC PRECISE",
       "ELASTIC PRECISE",
       "ELASTIC PRECISE"
     ],
     "lw": [
       "EXPLOSIVE ELASTIC",
-      "STUN (35%)",
+      "IMPACT (35%)",
       "EXPLOSIVE PRECISE",
       "ELASTIC PRECISE",
       "EXPLOSIVE PRECISE ELASTIC",
-      "ELASTIC STUN (50%)"
+      "ELASTIC IMPACT (50%)"
     ]
   },
   {
@@ -765,12 +765,12 @@
       "HARD 20%"
     ],
     "lw": [
-      "HARD",
+      "HARD ?%",
       null,
       null,
-      "PIERCING HARD",
+      "PIERCING HARD ?%",
       null,
-      "PIERCING HARD"
+      "PIERCING HARD ?%"
     ]
   },
   {
@@ -1152,12 +1152,12 @@
       null
     ],
     "lw": [
-      "HARD (50%)",
+      "HARD 50%",
       "EXPLOSIVE",
       "EXPLOSIVE",
       "EXPLOSIVE",
       "EXPLOSIVE",
-      "HARD (50%)"
+      "HARD 50%"
     ]
   },
   {
@@ -1206,7 +1206,7 @@
   {
     "name": "Byakuren Hijiri",
     "ss": [
-      "ABSORB (15%)",
+      "ABSORB 15%",
       null,
       null,
       null,
@@ -1222,27 +1222,27 @@
       null
     ],
     "sc1": [
-      "SLICING (30%)",
-      "SLICING (30%)",
-      "SLICING (30%)",
-      "SLICING (30%)",
-      "SLICING (30%)",
-      "SLICING (30%)"
+      "SLICING 30%",
+      "SLICING 30%",
+      "SLICING 30%",
+      "SLICING 30%",
+      "SLICING 30%",
+      "SLICING 30%"
     ],
     "sc2": [
       null,
       null,
-      "ABSORB (25%)",
-      "ABSORB (25%)",
+      "ABSORB 25%",
+      "ABSORB 25%",
       null,
       null
     ],
     "lw": [
-      "SLICING (50%)",
+      "SLICING 50%",
       null,
-      "ABSORB (25%) SLICING (50%)",
+      "ABSORB 25% SLICING 50%",
       null,
-      "ABSORB (25%) SLICING (50%)",
+      "ABSORB 25% SLICING 50%",
       null
     ]
   },
@@ -1281,55 +1281,55 @@
       "EXPLOSIVE"
     ],
     "lw": [
-      "ELASTIC HARD (15%)",
-      "EXPLOSIVE HARD (20%)",
-      "ELASTIC HARD (25%)",
-      "EXPLOSIVE HARD (30%)",
-      "ELASTIC HARD (35%)",
-      "EXPLOSIVE HARD (40%)"
+      "ELASTIC HARD 15%",
+      "EXPLOSIVE HARD 20%",
+      "ELASTIC HARD 25%",
+      "EXPLOSIVE HARD 30%",
+      "ELASTIC HARD 35%",
+      "EXPLOSIVE HARD 40%"
     ]
   },
   {
     "name": "Watatsuki no Yorihime",
     "ss": [
       null,
-      "SLICING (15%)",
-      "SLICING (15%)",
+      "SLICING 15%",
+      "SLICING 15%",
       null,
       null,
-      "SLICING (20%)"
+      "SLICING 20%"
     ],
     "fs": [
       null,
       null,
       null,
-      "SLICING (15%)",
-      "SLICING (15%)",
-      "SLICING (20%)"
+      "SLICING 15%",
+      "SLICING 15%",
+      "SLICING 20%"
     ],
     "sc1": [
       null,
-      "SLICING (20%)",
-      "SLICING (20%)",
+      "SLICING 20%",
+      "SLICING 20%",
       null,
-      "SLICING (20%)",
-      "SLICING (30%)"
+      "SLICING 20%",
+      "SLICING 30%"
     ],
     "sc2": [
       null,
       null,
-      "SLICING (20%)",
+      "SLICING 20%",
       null,
       null,
-      "SLICING (50%)"
+      "SLICING 50%"
     ],
     "lw": [
-      "SLICING (25%)",
-      "SLICING (25%)",
-      "SLICING (30%)",
-      "SLICING (35%)",
-      "SLICING (35%)",
-      "SLICING (35%)"
+      "SLICING 25%",
+      "SLICING 25%",
+      "SLICING 30%",
+      "SLICING 35%",
+      "SLICING 35%",
+      "SLICING 35%"
     ]
   },
   {
@@ -1359,7 +1359,7 @@
       "CRI-EVA UP (100%)"
     ],
     "sc2": [
-      "REBOUND (10%)",
+      "REBOUND 10%",
       null,
       "REBOUND 10% YIN-ATK UP (100%)",
       null,
@@ -1367,7 +1367,7 @@
       null
     ],
     "lw": [
-      "REBOUND (30%) PIERCING",
+      "REBOUND 30% PIERCING",
       "PIERCING",
       "SURE-HIT",
       "SURE-HIT",
@@ -1387,9 +1387,9 @@
     ],
     "fs": [
       null,
-      "Target ACC DOWN (100%)",
+      "ENEMY ACC DOWN (100%)",
       null,
-      "Target ACC DOWN (100%)",
+      "ENEMY ACC DOWN (100%)",
       null,
       null
     ],
@@ -1456,9 +1456,9 @@
       null,
       null,
       null,
-      "YIN-DEF YANG-DEF UP (2) (?%)",
+      "YIN-DEF UP (2) (?%) YANG-DEF UP (2) (?%)",
       null,
-      "YIN-DEF YANG-DEF UP (2) (?%)"
+      "YIN-DEF UP (2) (?%) YANG-DEF UP (2) (?%)"
     ]
   },
   {
@@ -1543,8 +1543,8 @@
       null,
       "YIN-ATK UP (?%)",
       "YIN-ATK UP (?%)",
-      "HARD",
-      "HARD IMPACT"
+      "HARD ?%",
+      "HARD ?% IMPACT (?%)"
     ]
   },
   {
@@ -1586,8 +1586,8 @@
       null,
       null,
       "ACC UP (?%) FOCUS DOWN (2) (?%)",
-      "HARD ELASTIC",
-      "HARD ELASTIC"
+      "HARD ?% ELASTIC",
+      "HARD ?% ELASTIC"
     ]
   },
   {
@@ -1606,7 +1606,7 @@
       null,
       "PRECISE",
       "PRECISE",
-      "ABSORB"
+      "ABSORB ?%"
     ],
     "sc1": [
       "EXPLOSIVE",
@@ -1625,12 +1625,12 @@
       "PIERCING ENEMY CRI-DEF DOWN (?%) "
     ],
     "lw": [
-      "PRECISE ABSORB",
+      "PRECISE ABSORB ?%",
       "ELASTIC EXPLOSIVE YIN-ATK UP (2) (?%)",
       "ELASTIC EXPLOSIVE YIN-ATK UP (2) (?%)",
       "PIERCING ACC UP (?%)",
-      "ABSORB ACC UP (?%)",
-      "ABSORB ACC UP (?%) CRI-ACC UP (2) (?%) "
+      "ABSORB ?% ACC UP (?%)",
+      "ABSORB ?% ACC UP (?%) CRI-ACC UP (2) (?%) "
     ]
   },
   {
@@ -1638,15 +1638,15 @@
     "ss": [
       null,
       null,
-      "ADHESIVE",
+      "ADHESIVE (?%)",
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "fs": [
       null,
       "ENEMY AGI DOWN (?%)",
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
       null
@@ -1654,26 +1654,26 @@
     "sc1": [
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%"
     ],
     "sc2": [
       null,
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       "ENEMY YIN-ATK DOWN (?%)",
       "ENEMY YIN-DEF DOWN (?%)",
-      "SLICING ENEMY YIN-ATK DOWN (?%)"
+      "SLICING ?% ENEMY YIN-ATK DOWN (?%)"
     ],
     "lw": [
       null,
       "AGI UP (?%)",
       "AGI UP (?%)",
       "AGI UP (?%)",
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%"
     ]
   },
   {
@@ -1704,10 +1704,10 @@
     ],
     "sc2": [
       null,
-      "ADHESIVE",
-      "SLICING",
-      "SLICING",
-      "SLICING",
+      "ADHESIVE (?%)",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
       "ELASTIC PRECISE"
     ],
     "lw": [
@@ -1715,8 +1715,8 @@
       null,
       "ENEMY CRI-DEF DOWN (?%)",
       "ENEMY CRI-DEF DOWN (?%)",
-      "SLICING",
-      "SLICING ENEMY CRI-DEF DOWN (?%) "
+      "SLICING ?%",
+      "SLICING ?% ENEMY CRI-DEF DOWN (?%) "
     ]
   },
   {
@@ -1738,12 +1738,12 @@
       null
     ],
     "sc1": [
-      "REBOUND",
-      "SLICING",
+      "REBOUND ?%",
+      "SLICING ?%",
       "EXPLOSIVE",
-      "SLICING",
+      "SLICING ?%",
       "EXPLOSIVE",
-      "IMPACT SLICING"
+      "IMPACT (?%) SLICING ?%"
     ],
     "sc2": [
       null,
@@ -1754,12 +1754,12 @@
       null
     ],
     "lw": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING"
+      "SLICING ?%"
     ]
   },
   {
@@ -1782,27 +1782,27 @@
     ],
     "sc1": [
       null,
-      "PIERCING ADHESIVE",
+      "PIERCING ADHESIVE (?%)",
       null,
       null,
       "PIERCING",
-      "PIERCING ADHESIVE"
+      "PIERCING ADHESIVE (?%)"
     ],
     "sc2": [
       null,
       null,
-      "HARD YIN-DEF UP (?%)",
-      "HARD",
-      "HARD YANG-DEF UP (?%)",
-      "HARD YIN-DEF UP (?%)"
+      "HARD ?% YIN-DEF UP (?%)",
+      "HARD ?%",
+      "HARD ?% YANG-DEF UP (?%)",
+      "HARD ?% YIN-DEF UP (?%)"
     ],
     "lw": [
       null,
       null,
-      "HARD",
+      "HARD ?%",
       null,
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "HARD ?%"
     ]
   },
   {
@@ -1841,11 +1841,11 @@
     ],
     "lw": [
       null,
-      "REBOUND",
+      "REBOUND ?%",
       "SURE-HIT",
       "PIERCING",
-      "REBOUND PIERCING SURE-HIT",
-      "REBOUND PIERCING SURE-HIT"
+      "REBOUND ?% PIERCING SURE-HIT",
+      "REBOUND ?% PIERCING SURE-HIT"
     ]
   },
   {
@@ -1921,16 +1921,16 @@
       null,
       "YIN-DEF UP (?%)",
       "YIN-DEF UP (?%)",
-      "HARD",
+      "HARD ?%",
       null,
-      "HARD YIN-DEF UP (?%)"
+      "HARD ?% YIN-DEF UP (?%)"
     ],
     "lw": [
       "YIN-DEF UP (?%)",
       null,
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       "YIN-DEF UP (?%)"
     ]
   },
@@ -1956,9 +1956,9 @@
       null,
       "AGI UP (?%)",
       null,
-      "SLICING",
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%"
     ],
     "sc2": [
       null,
@@ -1970,11 +1970,11 @@
     ],
     "lw": [
       null,
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%"
     ]
   },
   {
@@ -2041,21 +2041,21 @@
     "sc1": [
       null,
       "ENEMY CRI-EVA DOWN (?%)",
-      "ADHESIVE",
+      "ADHESIVE (?%)",
       null,
       "ENEMY CRI-EVA DOWN (?%)",
       null
     ],
     "sc2": [
-      "REBOUND",
+      "REBOUND ?%",
       null,
       null,
       null,
       null,
-      "IMPACT"
+      "IMPACT (?%)"
     ],
     "lw": [
-      "ABSORB",
+      "ABSORB ?%",
       "ENEMY YANG-DEF DOWN (?%) ENEMY CRI-DEF DOWN (?%)",
       "ENEMY YANG-DEF DOWN (?%) ENEMY CRI-EVA DOWN (2) (?%)",
       "ENEMY YIN-ATK DOWN (?%) ENEMY CRI-DEF DOWN (?%)",
@@ -2113,8 +2113,8 @@
       null,
       null,
       null,
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "HARD ?%"
     ],
     "fs": [
       "ENEMY EVA DOWN (?%)",
@@ -2126,38 +2126,38 @@
     ],
     "sc1": [
       null,
-      "HARD",
+      "HARD ?%",
       null,
       null,
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "HARD ?%"
     ],
     "sc2": [
       null,
-      "ABSORB",
+      "ABSORB ?%",
       null,
-      "ABSORB",
+      "ABSORB ?%",
       null,
-      "ABSORB"
+      "ABSORB ?%"
     ],
     "lw": [
-      "HARD",
-      "HARD",
-      "HARD",
-      "HARD",
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%"
     ]
   },
   {
     "name": "Aya Shameimaru",
     "ss": [
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "fs": [
       null,
@@ -2168,71 +2168,71 @@
       null
     ],
     "sc1": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       "SURE-HIT",
       "SURE-HIT",
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%"
     ],
     "sc2": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       "AGI UP (?%)",
       null,
       null,
       null
     ],
     "lw": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       "ENEMY AGI DOWN (?%)",
       "ENEMY AGI DOWN (?%)",
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%"
     ]
   },
   {
     "name": "Yoshika Miyako",
     "ss": [
-      "ABSORB",
+      "ABSORB ?%",
       null,
       null,
       null,
       null,
-      "ABSORB"
+      "ABSORB ?%"
     ],
     "fs": [
       null,
-      "HARD",
+      "HARD ?%",
       null,
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "sc1": [
       null,
-      "HARD",
+      "HARD ?%",
       null,
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "sc2": [
-      "ABSORB",
+      "ABSORB ?%",
       "YANG-DEF UP (?%)",
       "YIN-DEF UP (?%)",
       "YANG-DEF UP (?%)",
       "YIN-DEF UP (?%)",
-      "ABSORB"
+      "ABSORB ?%"
     ],
     "lw": [
-      "PIERCING HARD",
-      "HARD",
-      "HARD",
-      "HARD",
-      "HARD",
-      "PIERCING HARD"
+      "PIERCING HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
+      "PIERCING HARD ?%"
     ]
   },
   {
@@ -2256,32 +2256,32 @@
     "sc1": [
       null,
       null,
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
       null
     ],
     "sc2": [
       null,
-      "SLICING",
+      "SLICING ?%",
       "PIERCING",
       "PIERCING",
       "PIERCING",
       null
     ],
     "lw": [
-      "SLICING",
+      "SLICING ?%",
       "AGI UP (?%)",
       "AGI UP (?%)",
-      "SLICING",
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%"
     ]
   },
   {
     "name": "Sagume Kishin",
     "ss": [
-      "ADHESIVE",
+      "ADHESIVE (?%)",
       null,
       null,
       null,
@@ -2361,25 +2361,25 @@
       null,
       "PIERCING",
       null,
-      "IMPACT"
+      "IMPACT (?%)"
     ]
   },
   {
     "name": "Kaguya Houraisan",
     "ss": [
-      "ABSORB",
+      "ABSORB ?%",
       null,
       null,
-      "ABSORB",
+      "ABSORB ?%",
       null,
       null
     ],
     "fs": [
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null
     ],
     "sc1": [
@@ -2391,20 +2391,20 @@
       "YANG-DEF UP (?%)"
     ],
     "sc2": [
-      "REBOUND HARD",
+      "REBOUND ?% HARD ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null
     ],
     "lw": [
-      "HARD",
+      "HARD ?%",
       "YANG-DEF UP (?%)",
-      "HARD",
-      "ABSORB",
-      "HARD",
-      "ABSORB"
+      "HARD ?%",
+      "ABSORB ?%",
+      "HARD ?%",
+      "ABSORB ?%"
     ]
   },
   {
@@ -2453,44 +2453,44 @@
   {
     "name": "Aunn Komano",
     "ss": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "fs": [
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "sc1": [
       null,
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "sc2": [
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "lw": [
-      "SLICING HARD",
+      "SLICING ?% HARD ?%",
       null,
       null,
-      "SLICING HARD",
-      "SLICING HARD",
-      "SLICING HARD"
+      "SLICING ?% HARD ?%",
+      "SLICING ?% HARD ?%",
+      "SLICING ?% HARD ?%"
     ]
   },
   {
@@ -2501,7 +2501,7 @@
       null,
       null,
       null,
-      "ADHESIVE"
+      "ADHESIVE (?%)"
     ],
     "fs": [
       null,
@@ -2599,27 +2599,27 @@
     ],
     "sc1": [
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null,
       null
     ],
     "sc2": [
       null,
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "lw": [
       null,
-      "HARD",
-      "SLICING",
+      "HARD ?%",
+      "SLICING ?%",
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ]
   },
   {
@@ -2641,28 +2641,28 @@
       "SURE-HIT"
     ],
     "sc1": [
-      "HARD",
+      "HARD ?%",
       null,
       null,
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "sc2": [
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "lw": [
-      "HARD",
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "HARD ?%",
+      "HARD ?%"
     ]
   },
   {
@@ -2678,16 +2678,16 @@
     "fs": [
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "sc1": [
       null,
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
       null
     ],
@@ -2695,16 +2695,16 @@
       null,
       null,
       null,
-      "HARD",
+      "HARD ?%",
       null,
       null
     ],
     "lw": [
       "SURE-HIT",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null
     ]
   },
@@ -2729,26 +2729,26 @@
     "sc1": [
       null,
       "FOCUS UP (?%)",
-      "HARD",
+      "HARD ?%",
       null,
       null,
       null
     ],
     "sc2": [
-      "HARD",
+      "HARD ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null
     ],
     "lw": [
-      "HARD",
+      "HARD ?%",
       null,
       null,
-      "HARD",
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%"
     ]
   },
   {
@@ -2807,10 +2807,10 @@
     "fs": [
       "SURE-HIT",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "sc1": [
       null,
@@ -2818,23 +2818,23 @@
       null,
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "sc2": [
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
       null
     ],
     "lw": [
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING"
+      "SLICING ?%"
     ]
   },
   {
@@ -2864,11 +2864,11 @@
       "SURE-HIT"
     ],
     "sc2": [
-      "ABSORB",
+      "ABSORB ?%",
       "SPECULAR",
       null,
       null,
-      "ENEMY-AGI DOWN (?%)",
+      "ENEMY AGI DOWN (?%)",
       null
     ],
     "lw": [
@@ -2927,51 +2927,51 @@
     "name": "Minamitsu Murasa",
     "ss": [
       "SURE-HIT",
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null
     ],
     "fs": [
-      "SLICING",
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
       null,
       null
     ],
     "sc1": [
       null,
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
       null
     ],
     "sc2": [
       null,
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
       null
     ],
     "lw": [
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "SLICING",
-      "SLICING"
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%"
     ]
   },
   {
     "name": "Tenshi Hinanawi",
     "ss": [
-      "HARD",
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null,
       null
@@ -2985,9 +2985,9 @@
       null
     ],
     "sc1": [
-      "HARD",
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null,
       null
@@ -3001,9 +3001,9 @@
       null
     ],
     "lw": [
-      "HARD",
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null,
       null
@@ -3014,39 +3014,39 @@
     "ss": [
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null
     ],
     "fs": [
       null,
       null,
-      "HARD",
+      "HARD ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null
     ],
     "sc1": [
-      "SLICING",
-      "HARD",
+      "SLICING ?%",
+      "HARD ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "HARD"
+      "HARD ?%"
     ],
     "sc2": [
-      "HARD",
+      "HARD ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "HARD",
-      "SLICING"
+      "HARD ?%",
+      "SLICING ?%"
     ],
     "lw": [
       null,
-      "SLICING HARD",
-      "SLICING HARD",
+      "SLICING ?% HARD ?%",
+      "SLICING ?% HARD ?%",
       null,
       null,
       null
@@ -3073,10 +3073,10 @@
     "sc1": [
       "SURE-HIT PIERCING",
       "SURE-HIT PIERCING",
-      "ABSORB HARD",
+      "ABSORB ?% HARD ?%",
       "SURE-HIT PIERCING",
-      "ABSORB HARD",
-      "HARD"
+      "ABSORB ?% HARD ?%",
+      "HARD ?%"
     ],
     "sc2": [
       null,
@@ -3115,27 +3115,27 @@
     ],
     "sc1": [
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "HARD ?%"
     ],
     "sc2": [
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
-      "HARD",
+      "HARD ?%",
       null
     ],
     "lw": [
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null,
       null,
-      "HARD"
+      "HARD ?%"
     ]
   },
   {
@@ -3185,14 +3185,14 @@
     "name": "Toyosatomimi no Miko",
     "ss": [
       "ACC UP (?%)",
-      "HARD",
+      "HARD ?%",
       "ACC UP (?%)",
       null,
       null,
       null
     ],
     "fs": [
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
       null,
@@ -3210,18 +3210,18 @@
     "sc2": [
       "SURE-HIT",
       "ACC UP (?%)",
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null
     ],
     "lw": [
-      "SLICING ACC UP (?%)",
+      "SLICING ?% ACC UP (?%)",
       "SURE-HIT PIERCING",
       "SURE-HIT",
       "PIERCING",
-      "SLICING",
-      "SLICING HARD"
+      "SLICING ?%",
+      "SLICING ?% HARD ?%"
     ]
   },
   {
@@ -3243,35 +3243,35 @@
       null
     ],
     "sc1": [
-      "PIERCING SLICING",
+      "PIERCING SLICING ?%",
       null,
       "EVA UP (?%)",
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null
     ],
     "sc2": [
-      "REBOUND SLICING",
+      "REBOUND ?% SLICING ?%",
       null,
-      "ABSORB",
-      "SLICING",
-      "SLICING",
+      "ABSORB ?%",
+      "SLICING ?%",
+      "SLICING ?%",
       null
     ],
     "lw": [
-      "SLICING ENEMY EVA DOWN (?%)",
+      "SLICING ?% ENEMY EVA DOWN (?%)",
       "EVA UP (?%)",
       null,
       "ENEMY EVA DOWN (?%)",
       null,
-      "ABSORB SLICING"
+      "ABSORB ?% SLICING ?%"
     ]
   },
   {
     "name": "Letty Whiterock",
     "ss": [
       null,
-      "HARD",
+      "HARD ?%",
       null,
       null,
       null,
@@ -3281,7 +3281,7 @@
       "SURE-HIT",
       null,
       null,
-      "HARD",
+      "HARD ?%",
       null,
       null
     ],
@@ -3321,8 +3321,8 @@
       null
     ],
     "fs": [
-      "SLICING",
-      "ENEMY CRI-DEF DOWN(?%)",
+      "SLICING ?%",
+      "ENEMY CRI-DEF DOWN (?%)",
       "PRECISE",
       "PRECISE",
       null,
@@ -3330,17 +3330,17 @@
     ],
     "sc1": [
       "CRI-ACC UP (?%)",
-      "SLICING",
+      "SLICING ?%",
       null,
       "PRECISE",
       "PRECISE",
       null
     ],
     "sc2": [
-      "ENEMY YIN-ATK DOWN(?%)",
+      "ENEMY YIN-ATK DOWN (?%)",
       null,
       "EXPLOSIVE",
-      "ENEMY YANG-ATK DOWN(?%)",
+      "ENEMY YANG-ATK DOWN (?%)",
       "EXPLOSIVE",
       null
     ],
@@ -3350,7 +3350,7 @@
       "CRI-ATK UP (?%)",
       "PRECISE EXPLOSIVE",
       "PRECISE EXPLOSIVE",
-      "HARD"
+      "HARD ?%"
     ]
   },
   {
@@ -3403,24 +3403,24 @@
       null,
       "SURE-HIT",
       "SURE-HIT",
-      "SLICING",
+      "SLICING ?%",
       null
     ],
     "fs": [
-      "SLICING",
+      "SLICING ?%",
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
       null
     ],
     "sc1": [
-      "SLICING",
-      "HARD",
-      "SLICING",
+      "SLICING ?%",
+      "HARD ?%",
+      "SLICING ?%",
       "YANG-DEF UP (?%)",
       null,
-      "HARD SLICING"
+      "HARD ?% SLICING ?%"
     ],
     "sc2": [
       null,
@@ -3451,35 +3451,35 @@
     ],
     "fs": [
       "AGI UP (?%)",
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null
     ],
     "sc1": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
       "SPECULAR",
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "sc2": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       "SPECULAR",
       "SPECULAR",
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "lw": [
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING"
+      "SLICING ?%"
     ]
   },
   {
@@ -3501,28 +3501,28 @@
       null
     ],
     "sc1": [
-      "SLICING",
+      "SLICING ?%",
       "SPECULAR",
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null
     ],
     "sc2": [
-      "SLICING",
+      "SLICING ?%",
       null,
       "SPECULAR",
-      "SLICING",
+      "SLICING ?%",
       null,
       null
     ],
     "lw": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING"
+      "SLICING ?%"
     ]
   },
   {
@@ -3545,26 +3545,26 @@
     ],
     "sc1": [
       "SURE-HIT",
-      "PIERCING HARD",
-      "PIERCING HARD",
+      "PIERCING HARD ?%",
+      "PIERCING HARD ?%",
       null,
       null,
       null
     ],
     "sc2": [
       null,
-      "HARD ENEMY EVA DOWN (?%)",
+      "HARD ?% ENEMY EVA DOWN (?%)",
       null,
       null,
-      "HARD",
+      "HARD ?%",
       null
     ],
     "lw": [
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null,
-      "HARD",
-      "HARD",
+      "HARD ?%",
+      "HARD ?%",
       null
     ]
   },
@@ -3572,7 +3572,7 @@
     "name": "Sekibanki",
     "ss": [
       "ENEMY YANG-DEF DOWN (?%) ENEMY YIN-DEF DOWN (?%)",
-      "HARD",
+      "HARD ?%",
       null,
       null,
       null,
@@ -3587,27 +3587,27 @@
       null
     ],
     "sc1": [
-      "SLICING",
+      "SLICING ?%",
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "sc2": [
-      "HARD",
+      "HARD ?%",
       null,
       null,
-      "HARD",
-      "HARD",
-      "HARD"
+      "HARD ?%",
+      "HARD ?%",
+      "HARD ?%"
     ],
     "lw": [
-      "HARD SLICING",
-      "HARD SLICING",
+      "HARD ?% SLICING ?%",
+      "HARD ?% SLICING ?%",
       null,
       null,
-      "SLICING",
+      "SLICING ?%",
       null
     ]
   },
@@ -3630,27 +3630,27 @@
       null
     ],
     "sc1": [
-      "SLICING",
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
       null,
-      "SLICING"
+      "SLICING ?%"
     ],
     "sc2": [
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
-      "SLICING",
+      "SLICING ?%",
       null,
       null
     ],
     "lw": [
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null,
-      "SLICING",
-      "SLICING",
+      "SLICING ?%",
+      "SLICING ?%",
       null
     ]
   },

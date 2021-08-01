@@ -125,11 +125,41 @@ for (let k of character_names) {
 }
 
 let special_data = await fetch(`special_property_data.json`).then(response => response.text());
-let reg = new RegExp(String.raw`((ENEMY\s*)?((EVA)|(ACC)|(CRI[ -](ACC)|(ATK))|(HEA)|(AGI)|((YIN|YANG)-(ATK|DEF)))\s*(DOWN|UP)\s*(\(\d\))?\s*\((\d\d|\?)%\)|(SPECULAR)|(PIERCING)|(EXPLOSIVE)|(PRECISE)|(ELASTIC)|((HARD|SLICING)(\s+\d\d%)?))+`)
+let reg = new RegExp(String.raw`^((ENEMY\s*)?`
++ String.raw`((EVA)|(ACC)|(CRI-(ACC|ATK|EVA|DEF))`
++ String.raw`|(HEA)|(AGI)|((YIN|YANG)-(ATK|DEF))|(FOCUS)) (DOWN|UP)( \(\d\))? \((\d+|\?)%\)`
++ String.raw`|(SPECULAR|PIERCING|EXPLOSIVE|SURE-HIT|PRECISE|ELASTIC)`
++ String.raw`|((HARD|SLICING|ABSORB|REBOUND) (\d+|\?)%))`
++ String.raw`|((IMPACT|ADHESIVE) \((\d+|\?)%\))`
+)
 
-for(let m of special_data) {
-  let obj = JSON.parse(m);
-  console.log(reg.exec(obj.ss[0]))
+
+let obj = JSON.parse(special_data);
+
+for (let m of obj) {
+
+  let atks = [m.ss, m.fs, m.sc1, m.sc2, m.lw];
+  for (let attack of atks) {
+
+    for (let current_shot of attack) {
+      
+      if (current_shot == null) {
+        continue;
+      }
+      let aa = `${current_shot}`;
+      
+      while (aa != "") {
+        let res = reg.exec(aa);
+        
+        if (res == null) {
+          
+          console.log(aa, "  ", m);
+          break;
+        }
+        aa = aa.slice(res[0].length + 1);
+      }
+    }
+  }
 }
 
 
@@ -168,7 +198,7 @@ function update_chars() {
 
 function ondatacomplete(data, idx) {
 
-  data.attack = JSON.parse(JSON.stringify(data.attack )); //thank you javascript... very cool
+  data.attack = JSON.parse(JSON.stringify(data.attack)); //thank you javascript... very cool
 
   let effs = [];
   let dbf = [];
