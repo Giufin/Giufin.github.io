@@ -182,7 +182,7 @@
       null
     ],
     "fs": [
-      "HARD 40% Focus UP (50%)",
+      "HARD 40% FOCUS UP (50%)",
       "HARD 40%",
       null,
       "SPECULAR",
@@ -190,17 +190,17 @@
       null
     ],
     "sc1": [
-      "SPECULAR Focus UP (50%)",
+      "SPECULAR FOCUS UP (50%)",
       "HARD 80%",
       null,
-      "Focus UP (50%)",
+      "FOCUS UP (50%)",
       "HARD 80% SPECULAR",
       "HARD 90%"
     ],
     "sc2": [
       "YANG-DEF DOWN (40%)",
       "HARD 50%",
-      "HARD 50% Focus UP (50%)",
+      "HARD 50% FOCUS UP (50%)",
       "HARD 70%",
       null,
       "YANG-DEF UP (50%)"
@@ -1440,7 +1440,7 @@
       null,
       null,
       null,
-      "YIN-DEF UP (?%) YANG DEF UP (?%)",
+      "YIN-DEF UP (?%) YANG-DEF UP (?%)",
       null,
       null
     ],
@@ -1456,9 +1456,9 @@
       null,
       null,
       null,
-      "YIN-DEF YANG DEF UP (2) (?%)",
+      "YIN-DEF YANG-DEF UP (2) (?%)",
       null,
-      "YIN-DEF YANG DEF UP (2) (?%)"
+      "YIN-DEF YANG-DEF UP (2) (?%)"
     ]
   },
   {
@@ -1697,7 +1697,7 @@
     "sc1": [
       null,
       "ENEMY AGI DOWN (?%)",
-      "Piericing",
+      "PIERCING",
       "PIERCING",
       "YANG-DEF UP (?%) YIN-DEF UP (?%)",
       "YANG-DEF UP (?%) YIN-DEF UP (?%) "
@@ -2912,7 +2912,7 @@
       "YANG-ATK UP (?%)",
       null,
       null,
-      "YANG ATK UP (?%)"
+      "YANG-ATK UP (?%)"
     ],
     "lw": [
       null,
@@ -3356,7 +3356,7 @@
   {
     "name": "Hecatia Lapislazuli",
     "ss": [
-      "CRI ATK UP (?%)",
+      "CRI-ATK UP (?%)",
       "CRI-ACC UP (?%)",
       "SPECULAR",
       "PRECISE",
@@ -3665,7 +3665,7 @@
       null
     ],
     "fs": [
-      "SURE-HIT CRI ATK UP (?%)",
+      "SURE-HIT CRI-ATK UP (?%)",
       null,
       "CRI-ATK UP (?%)",
       null,
