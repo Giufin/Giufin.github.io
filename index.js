@@ -124,14 +124,23 @@ for (let k of character_names) {
   characters.push([JSON.parse(text), text]);
 }
 
+let special_data = await fetch(`special_property_data.json`).then(response => response.text());
+let reg = new RegExp(String.raw`((ENEMY\s*)?((EVA)|(ACC)|(CRI[ -](ACC)|(ATK))|(HEA)|(AGI)|((YIN|YANG)-(ATK|DEF)))\s*(DOWN|UP)\s*(\(\d\))?\s*\((\d\d|\?)%\)|(SPECULAR)|(PIERCING)|(EXPLOSIVE)|(PRECISE)|(ELASTIC)|((HARD|SLICING)(\s+\d\d%)?))+`)
+
+for(let m of special_data) {
+  let obj = JSON.parse(m);
+  console.log(reg.exec(obj.ss[0]))
+}
+
+
 let story_cards = JSON.parse(await fetch(`characters/storycard.json`).then(response => response.text()));
 
-let selections = []
+let selections = [];
 let selection_node = document.getElementById("char_0");
 let selection_list = document.getElementById("char_select");
 let selection_filter_text = "";
 
-let cards = []
+let cards = [];
 let card_node = document.getElementById("card_0");
 let card_list = document.getElementById("card_list");
 let card_add = document.getElementById("card_add");
