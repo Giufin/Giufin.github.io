@@ -1638,7 +1638,7 @@
         "ss": [
             null,
             null,
-            "Adhesive",
+            "ADHESIVE",
             null,
             null,
             "SLICING"
@@ -1704,7 +1704,7 @@
         ],
         "sc2": [
             null,
-            "Adhesive",
+            "ADHESIVE",
             "SLICING",
             "SLICING",
             "SLICING",
@@ -1713,10 +1713,10 @@
         "lw": [
             null,
             null,
-            "ALL ENEMY CRI-DEF DOWN (?%) ",
-            "ALL ENEMY CRI-DEF DOWN (?%) ",
+            "ENEMY CRI-DEF DOWN (?%) ",
+            "ENEMY CRI-DEF DOWN (?%) ",
             "SLICING",
-            "SLICING ALL ENEMY CRI-DEF DOWN (?%) "
+            "SLICING ENEMY CRI-DEF DOWN (?%) "
         ]
     },
     {
@@ -1782,11 +1782,11 @@
         ],
         "sc1": [
             null,
-            "PIERCING Adhesive",
+            "PIERCING ADHESIVE",
             null,
             null,
             "Piericng",
-            "PIERCING Adhesive"
+            "PIERCING ADHESIVE"
         ],
         "sc2": [
             null,
@@ -2041,7 +2041,7 @@
         "sc1": [
             null,
             "ENEMY CRI-EVA DOWN (?%)",
-            "Adhesive",
+            "ADHESIVE",
             null,
             "ENEMY CRI-EVA DOWN (?%)",
             null
@@ -2281,7 +2281,7 @@
     {
         "name": "Sagume Kishin",
         "ss": [
-            "Adhesive",
+            "ADHESIVE",
             null,
             null,
             null,
@@ -2501,7 +2501,7 @@
             null,
             null,
             null,
-            "Adhesive"
+            "ADHESIVE"
         ],
         "fs": [
             null,
@@ -3337,10 +3337,10 @@
             null
         ],
         "sc2": [
-            "ALL ENEMY YIN-ATK DOWN(?%)",
+            "ENEMY YIN-ATK DOWN(?%)",
             null,
             "Exploding",
-            "ALL ENEMY YANG-ATK DOWN(?%)",
+            "ENEMY YANG-ATK DOWN(?%)",
             "Exploding",
             null
         ],
