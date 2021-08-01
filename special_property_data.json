@@ -1174,7 +1174,7 @@
             null,
             "CRI-ACC UP (100%)",
             null,
-            "SURE-HIT CRI-ACC UP (100%) ",
+            "SURE-HIT CRI-ACC UP (100%)",
             null,
             "SURE-HIT CRI-ACC UP (100%)"
         ],
@@ -1413,7 +1413,7 @@
             null,
             null,
             "EXPLOSIVE",
-            "Pierce",
+            "PIERCING",
             "ELASTIC",
             "EXPLOSIVE"
         ]
@@ -1544,7 +1544,7 @@
             "YIN-ATK UP (?%)",
             "YIN-ATK UP (?%)",
             "HARD",
-            " HARD IMPACT"
+            "HARD IMPACT"
         ]
     },
     {
@@ -1610,26 +1610,26 @@
         ],
         "sc1": [
             "EXPLODING",
-            "ENEMY EVA DOWN (?%) YANG-ATK UP (?%)   ",
-            "ENEMY CRI-EVA DOWN (?%) YIN-ATK UP (?%)   ",
+            "ENEMY EVA DOWN (?%) YANG-ATK UP (?%)",
+            "ENEMY CRI-EVA DOWN (?%) YIN-ATK UP (?%)",
             "PIERCING",
-            "PIERCING ENEMY CRI-EVA DOWN (?%)    ",
+            "PIERCING ENEMY CRI-EVA DOWN (?%)",
             "ENEMY CRI-EVA DOWN (?%) CRI-ATK UP (?%)   "
         ],
         "sc2": [
             "ELASTIC",
             "PIERCING",
-            "ENEMY YANG-DEF DOWN (?%)   ",
-            "ENEMY YIN-DEF DOWN (?%)   ",
-            "ELASTIC ENEMY CRI-DEF DOWN (?%)   ",
+            "ENEMY YANG-DEF DOWN (?%)",
+            "ENEMY YIN-DEF DOWN (?%)",
+            "ELASTIC ENEMY CRI-DEF DOWN (?%)",
             "PIERCING ENEMY CRI-DEF DOWN (?%)   "
         ],
         "lw": [
             "PRECISE ABSORB",
-            "ELASTIC EXPLODING YIN-ATK UP (2) (?%)   ",
-            "ELASTIC EXPLODING YIN-ATK UP (2) (?%)   ",
+            "ELASTIC EXPLODING YIN-ATK UP (2) (?%)",
+            "ELASTIC EXPLODING YIN-ATK UP (2) (?%)",
             "PIERCING ACC UP (?%)",
-            "ABSORB ACC UP (?%)   ",
+            "ABSORB ACC UP (?%)",
             "ABSORB ACC UP (?%) CRI-ACC UP (2) (?%)     "
         ]
     },
@@ -1645,7 +1645,7 @@
         ],
         "fs": [
             null,
-            "ENEMY AGI DOWN (?%) ",
+            "ENEMY AGI DOWN (?%)",
             "SLICING",
             null,
             null,
@@ -1699,7 +1699,7 @@
             "ENEMY AGI DOWN (?%)",
             "Piericing",
             "PIERCING",
-            "YANG-DEF UP (?%) YIN-DEF UP (?%) ",
+            "YANG-DEF UP (?%) YIN-DEF UP (?%)",
             "YANG-DEF UP (?%) YIN-DEF UP (?%) "
         ],
         "sc2": [
@@ -1713,8 +1713,8 @@
         "lw": [
             null,
             null,
-            "ENEMY CRI-DEF DOWN (?%) ",
-            "ENEMY CRI-DEF DOWN (?%) ",
+            "ENEMY CRI-DEF DOWN (?%)",
+            "ENEMY CRI-DEF DOWN (?%)",
             "SLICING",
             "SLICING ENEMY CRI-DEF DOWN (?%) "
         ]
@@ -1785,7 +1785,7 @@
             "PIERCING ADHESIVE",
             null,
             null,
-            "Piericng",
+            "PIERCING",
             "PIERCING ADHESIVE"
         ],
         "sc2": [
@@ -2091,18 +2091,18 @@
         ],
         "sc2": [
             null,
-            "YIN-ATK UP (?%) ",
-            "YIN-ATK UP (?%) ",
-            "CRI-ATK UP (?%) ",
-            "CRI-ATK UP (?%) ",
+            "YIN-ATK UP (?%)",
+            "YIN-ATK UP (?%)",
+            "CRI-ATK UP (?%)",
+            "CRI-ATK UP (?%)",
             "CRI-ATK UP (?%) "
         ],
         "lw": [
             null,
-            "ELASTIC YANG-ATK UP (?%) ",
-            "ELASTIC CRI-ATK UP (?%) ",
-            "ELASTIC CRI-ACC UP (?%) ",
-            "ELASTIC CRI-ATK UP (?%) ",
+            "ELASTIC YANG-ATK UP (?%)",
+            "ELASTIC CRI-ATK UP (?%)",
+            "ELASTIC CRI-ACC UP (?%)",
+            "ELASTIC CRI-ATK UP (?%)",
             "CRI-ATK UP (?%) CRI-ACC UP (?%)   "
         ]
     },
@@ -2186,8 +2186,8 @@
         "lw": [
             "SLICING",
             "SLICING",
-            "ENEMY AGI DOWN (?%) ",
-            "ENEMY AGI DOWN (?%) ",
+            "ENEMY AGI DOWN (?%)",
+            "ENEMY AGI DOWN (?%)",
             "SLICING",
             "SLICING"
         ]
@@ -2324,8 +2324,8 @@
     {
         "name": "Eirin Yakogoro",
         "ss": [
-            "ENEMY CRI-EVA DOWN (?%) ",
-            "ENEMY CRI-EVA DOWN (?%) ",
+            "ENEMY CRI-EVA DOWN (?%)",
+            "ENEMY CRI-EVA DOWN (?%)",
             null,
             null,
             null,
@@ -2410,24 +2410,24 @@
     {
         "name": "Shion Yorigami",
         "ss": [
-            "ENEMY ACC DOWN (?%) ",
+            "ENEMY ACC DOWN (?%)",
             null,
             null,
-            "ENEMY ACC DOWN (?%) ",
+            "ENEMY ACC DOWN (?%)",
             null,
             null
         ],
         "fs": [
-            "ENEMY EVA DOWN (?%) ",
+            "ENEMY EVA DOWN (?%)",
             null,
             null,
-            "ENEMY EVA DOWN (?%) ",
+            "ENEMY EVA DOWN (?%)",
             null,
             null
         ],
         "sc1": [
             null,
-            "ENEMY YANG-DEF DOWN (?%) ",
+            "ENEMY YANG-DEF DOWN (?%)",
             null,
             null,
             null,
@@ -2436,7 +2436,7 @@
         "sc2": [
             null,
             null,
-            "ENEMY YIN-ATK DOWN (?%) ",
+            "ENEMY YIN-ATK DOWN (?%)",
             null,
             null,
             "ENEMY YIN-ATK DOWN (?%) "
@@ -2444,9 +2444,9 @@
         "lw": [
             null,
             "ENEMY AGI DOWN (?%)",
-            "ENEMY CRI-ACC DOWN (?%) ",
+            "ENEMY CRI-ACC DOWN (?%)",
             null,
-            "ENEMY YANG-ATK DOWN (?%) ENEMY YIN-ATK DOWN (?%) ",
+            "ENEMY YANG-ATK DOWN (?%) ENEMY YIN-ATK DOWN (?%)",
             "ENEMY ACC DOWN (?%) ENEMY EVA DOWN (?%) "
         ]
     },
@@ -2924,7 +2924,7 @@
         ]
     },
     {
-        "name": "Minamitsu Murasa ",
+        "name": "Minamitsu Murasa",
         "ss": [
             "SURE-HIT",
             "SLICING",
@@ -3096,7 +3096,7 @@
         ]
     },
     {
-        "name": "Keine Kamishirasawa ",
+        "name": "Keine Kamishirasawa",
         "ss": [
             "SURE-HIT",
             "YANG-DEF UP (?%)",
@@ -3311,7 +3311,7 @@
         ]
     },
     {
-        "name": "Junko ",
+        "name": "Junko",
         "ss": [
             "SURE-HIT",
             "CRI-ATK UP (?%)",
@@ -3321,7 +3321,7 @@
             null
         ],
         "fs": [
-            "SLICING ",
+            "SLICING",
             "ENEMY CRI-DEF DOWN(?%)",
             "PRECISE",
             "PRECISE",
@@ -3571,7 +3571,7 @@
     {
         "name": "Sekibanki",
         "ss": [
-            "ENEMY YANG-DEF DOWN (?%) ENEMY YIN-DEF DOWN (?%) ",
+            "ENEMY YANG-DEF DOWN (?%) ENEMY YIN-DEF DOWN (?%)",
             "HARD",
             null,
             null,
@@ -3690,7 +3690,7 @@
         ],
         "lw": [
             "EXPLODING ELASTIC",
-            "EXPLODING ",
+            "EXPLODING",
             "ACC UP (?%)",
             "EXPLODING",
             "ELASTIC",
