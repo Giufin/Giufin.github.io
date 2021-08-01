@@ -3314,7 +3314,7 @@
         "name": "Junko ",
         "ss": [
             "Sure-Hit",
-            "CRI-ATK UP (?%?)",
+            "CRI-ATK UP (?%)",
             null,
             "Exploding",
             null,
@@ -3346,8 +3346,8 @@
         ],
         "lw": [
             "AGI-UP (?%)",
-            "CRI-ATK UP (?%?)",
-            "CRI-ATK UP (?%?)",
+            "CRI-ATK UP (?%)",
+            "CRI-ATK UP (?%)",
             "Precise Exploding",
             "Precise Exploding",
             "Hard"
@@ -3356,8 +3356,8 @@
     {
         "name": "Hecatia Lapislazuli",
         "ss": [
-            "CRI ATK UP (?%?)",
-            "CRI-ACC UP (?%?)",
+            "CRI ATK UP (?%)",
+            "CRI-ACC UP (?%)",
             "Specular",
             "Precise",
             null,
@@ -3389,7 +3389,7 @@
         ],
         "lw": [
             null,
-            "CRI-ATK UP (?%?)",
+            "CRI-ATK UP (?%)",
             null,
             null,
             "Precise Elastic",
@@ -3683,7 +3683,7 @@
         "sc2": [
             "Exploding ACC-UP (?)%",
             "Exploding",
-            "Exploding Sure-HIt",
+            "Exploding Sure-Hit",
             null,
             null,
             null

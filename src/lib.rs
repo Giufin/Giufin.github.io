@@ -780,22 +780,18 @@ fn sim(
             }
             damages.push(data);
 
-            //same as above, if there is a line efffect we push multiple, if not we push one
+            //same as above, if there is a line efffect we push multiple, if not we push one 
             combined_stat_effects.push((char_stat_effect, enemy_stat_effect, eff_chance, damages))
         }
     });
     let mut unsorted = combined_stat_effects
         .into_iter()
         .map(|(_, _, chance_b, affected)| {
-            //here we can create affected ex and shadow affected with it; with f.in. only 2 groups. The following code should not depend on the ammount of groups
-
             let total_len = affected.iter().fold(1, |a, b| a * b.len());
             debug_str(&format!("total: {:?}", total_len));
             for a in affected.clone() {
                 debug_str(&format!("part: {:?}", a.len()));
             }
-
-            debug_str(&format!("here"));
 
             affected
                 .into_iter()
@@ -826,8 +822,6 @@ fn sim(
 
                                 chances[new_damage_index] += new_chance;
                             }
-                            //here will be the actuall putting in the array
-
                             chances
                                 .into_iter()
                                 .enumerate()
