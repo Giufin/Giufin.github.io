@@ -177,7 +177,7 @@
             "SURE-HIT YANG-DEF DOWN (40%)",
             null,
             null,
-            "Specular",
+            "SPECULAR",
             null,
             null
         ],
@@ -185,16 +185,16 @@
             "HARD 40% Focus UP (50%)",
             "HARD 40%",
             null,
-            "Specular",
+            "SPECULAR",
             "HARD 40%",
             null
         ],
         "sc1": [
-            "Specular Focus UP (50%)",
+            "SPECULAR Focus UP (50%)",
             "HARD 80%",
             null,
             "Focus UP (50%)",
-            "HARD 80% Specular",
+            "HARD 80% SPECULAR",
             "HARD 90%"
         ],
         "sc2": [
@@ -1440,7 +1440,7 @@
             null,
             null,
             null,
-            "YIN-DEF UP (%?) YANG DEF UP (?%)",
+            "YIN-DEF UP (?%) YANG DEF UP (?%)",
             null,
             null
         ],
@@ -1585,7 +1585,7 @@
             null,
             null,
             null,
-            "ACC-UP (%?) FOCUS-DOWN (2) (?%)",
+            "ACC-UP (?%) FOCUS-DOWN (2) (?%)",
             "HARD ELASTIC",
             "HARD ELASTIC"
         ]
@@ -1609,7 +1609,7 @@
             "ABSORB"
         ],
         "sc1": [
-            "Exploding",
+            "EXPLODING",
             "ENEMY EVA-DOWN (?%) YANG-ATK UP (?%)   ",
             "ENEMY CRI-EVA DOWN (?%) YIN-ATK UP (?%)   ",
             "PIERCING",
@@ -1626,11 +1626,11 @@
         ],
         "lw": [
             "PRECISE ABSORB",
-            "ELASTIC Exploding YIN-ATK UP (2) (?%)   ",
-            "ELASTIC Exploding YIN-ATK UP (2) (?%)   ",
+            "ELASTIC EXPLODING YIN-ATK UP (2) (?%)   ",
+            "ELASTIC EXPLODING YIN-ATK UP (2) (?%)   ",
             "PIERCING ACC-UP (?%)",
-            "Absrob ACC-UP (?%)   ",
-            "Absrob ACC-UP (?%) CRI-ACC UP (2) (?%)     "
+            "ABSORB ACC-UP (?%)   ",
+            "ABSORB ACC-UP (?%) CRI-ACC UP (2) (?%)     "
         ]
     },
     {
@@ -1740,17 +1740,17 @@
         "sc1": [
             "REBOUND",
             "SLICING",
-            "Exploding",
+            "EXPLODING",
             "SLICING",
-            "Exploding",
+            "EXPLODING",
             "IMPACT SLICING"
         ],
         "sc2": [
             null,
             null,
             null,
-            "Exploding",
-            "Exploding",
+            "EXPLODING",
+            "EXPLODING",
             null
         ],
         "lw": [
@@ -2138,7 +2138,7 @@
             null,
             "ABSORB",
             null,
-            "Absrob"
+            "ABSORB"
         ],
         "lw": [
             "HARD",
@@ -2286,21 +2286,21 @@
             null,
             null,
             null,
-            "Specular"
+            "SPECULAR"
         ],
         "fs": [
             null,
             null,
             null,
-            "Specular",
-            "Specular",
+            "SPECULAR",
+            "SPECULAR",
             null
         ],
         "sc1": [
             null,
             null,
             null,
-            "Specular",
+            "SPECULAR",
             null,
             null
         ],
@@ -2540,7 +2540,7 @@
         "name": "Yuugi Hoshiguma",
         "ss": [
             null,
-            "Exploding",
+            "EXPLODING",
             null,
             null,
             null,
@@ -2552,15 +2552,15 @@
             null,
             null,
             null,
-            "Exploding"
+            "EXPLODING"
         ],
         "sc1": [
             null,
-            "Exploding",
+            "EXPLODING",
             null,
             null,
-            "Exploding",
-            "Exploding"
+            "EXPLODING",
+            "EXPLODING"
         ],
         "sc2": [
             null,
@@ -2571,12 +2571,12 @@
             "ELASTIC"
         ],
         "lw": [
-            "ELASTIC Exploding",
+            "ELASTIC EXPLODING",
             "ENEMY YANG-DEF DOWN (?%)",
             "ENEMY YIN-DEF DOWN (?%)",
             null,
-            "ELASTIC Exploding",
-            "ELASTIC Exploding"
+            "ELASTIC EXPLODING",
+            "ELASTIC EXPLODING"
         ]
     },
     {
@@ -2798,7 +2798,7 @@
         "name": "Komachi Onozuka",
         "ss": [
             null,
-            "ENEMY AGI-DOWN (%?)",
+            "ENEMY AGI-DOWN (?%)",
             null,
             null,
             null,
@@ -2865,10 +2865,10 @@
         ],
         "sc2": [
             "ABSORB",
-            "Specular",
+            "SPECULAR",
             null,
             null,
-            "ENEMY-AGI DOWN (%?)",
+            "ENEMY-AGI DOWN (?%)",
             null
         ],
         "lw": [
@@ -2892,9 +2892,9 @@
         ],
         "fs": [
             "SURE-HIT",
-            "Specular",
+            "SPECULAR",
             null,
-            "Specular",
+            "SPECULAR",
             null,
             null
         ],
@@ -3142,7 +3142,7 @@
         "name": "Okina Matara",
         "ss": [
             "CRI-EVA DOWN (?%)",
-            "Specular",
+            "SPECULAR",
             "ELASTIC",
             null,
             null,
@@ -3150,7 +3150,7 @@
         ],
         "fs": [
             null,
-            "Specular",
+            "SPECULAR",
             "ELASTIC",
             null,
             null,
@@ -3158,24 +3158,24 @@
         ],
         "sc1": [
             "ELASTIC",
-            "Specular",
+            "SPECULAR",
             "CRI-EVA DOWN (?%)",
-            "Specular",
+            "SPECULAR",
             "ELASTIC",
             "ELASTIC"
         ],
         "sc2": [
             null,
-            "Specular",
-            "Exploding",
-            "Specular",
-            "Exploding",
-            "Exploding"
+            "SPECULAR",
+            "EXPLODING",
+            "SPECULAR",
+            "EXPLODING",
+            "EXPLODING"
         ],
         "lw": [
             null,
-            "Exploding",
-            "Exploding",
+            "EXPLODING",
+            "EXPLODING",
             "ELASTIC",
             "ELASTIC",
             "ELASTIC"
@@ -3264,7 +3264,7 @@
             null,
             "ENEMY EVA DOWN (?%)",
             null,
-            "ABSORB Slcing"
+            "ABSORB SLICING"
         ]
     },
     {
@@ -3316,7 +3316,7 @@
             "SURE-HIT",
             "CRI-ATK UP (?%)",
             null,
-            "Exploding",
+            "EXPLODING",
             null,
             null
         ],
@@ -3339,17 +3339,17 @@
         "sc2": [
             "ENEMY YIN-ATK DOWN(?%)",
             null,
-            "Exploding",
+            "EXPLODING",
             "ENEMY YANG-ATK DOWN(?%)",
-            "Exploding",
+            "EXPLODING",
             null
         ],
         "lw": [
             "AGI-UP (?%)",
             "CRI-ATK UP (?%)",
             "CRI-ATK UP (?%)",
-            "PRECISE Exploding",
-            "PRECISE Exploding",
+            "PRECISE EXPLODING",
+            "PRECISE EXPLODING",
             "HARD"
         ]
     },
@@ -3358,7 +3358,7 @@
         "ss": [
             "CRI ATK UP (?%)",
             "CRI-ACC UP (?%)",
-            "Specular",
+            "SPECULAR",
             "PRECISE",
             null,
             null
@@ -3461,15 +3461,15 @@
             "SLICING",
             "SLICING",
             null,
-            "Specular",
+            "SPECULAR",
             null,
             "SLICING"
         ],
         "sc2": [
             "SLICING",
             "SLICING",
-            "Specular",
-            "Specular",
+            "SPECULAR",
+            "SPECULAR",
             null,
             "SLICING"
         ],
@@ -3502,7 +3502,7 @@
         ],
         "sc1": [
             "SLICING",
-            "Specular",
+            "SPECULAR",
             null,
             null,
             "SLICING",
@@ -3511,7 +3511,7 @@
         "sc2": [
             "SLICING",
             null,
-            "Specular",
+            "SPECULAR",
             "SLICING",
             null,
             null
@@ -3553,7 +3553,7 @@
         ],
         "sc2": [
             null,
-            "HARD Enemy EVA DOWN (?)%",
+            "HARD ENEMY EVA DOWN (?)%",
             null,
             null,
             "HARD",
@@ -3681,20 +3681,20 @@
             "ELASTIC"
         ],
         "sc2": [
-            "Exploding ACC-UP (?)%",
-            "Exploding",
-            "Exploding SURE-HIT",
+            "EXPLODING ACC-UP (?)%",
+            "EXPLODING",
+            "EXPLODING SURE-HIT",
             null,
             null,
             null
         ],
         "lw": [
-            "Exploding ELASTIC",
-            "Exploding ",
+            "EXPLODING ELASTIC",
+            "EXPLODING ",
             "ACC-UP (?)%",
-            "Exploding",
+            "EXPLODING",
             "ELASTIC",
-            "Exploding ELASTIC"
+            "EXPLODING ELASTIC"
         ]
     }
 ]
