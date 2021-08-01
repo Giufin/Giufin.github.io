@@ -2,12 +2,12 @@
     {
         "name": "Reimu Hakurei",
         "ss": [
-            "Sure-Hit",
-            "Sure-Hit",
-            "Sure-Hit",
+            "SURE-HIT",
+            "SURE-HIT",
+            "SURE-HIT",
             null,
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "fs": [
             null,
@@ -19,27 +19,27 @@
         ],
         "sc1": [
             null,
-            "Sure-Hit",
-            "Sure-Hit",
-            "Hard 50%",
-            "Sure-Hit",
-            "Hard 70%"
+            "SURE-HIT",
+            "SURE-HIT",
+            "HARD 50%",
+            "SURE-HIT",
+            "HARD 70%"
         ],
         "sc2": [
             null,
-            "Yin-DEF DOWN (40%) Yang-DEF DOWN (40%)",
-            "Yin-DEF DOWN (50%) Yang-DEF DOWN (50%)",
+            "YIN-DEF DOWN (40%) YANG-DEF DOWN (40%)",
+            "YIN-DEF DOWN (50%) YANG-DEF DOWN (50%)",
             null,
             null,
             null
         ],
         "lw": [
-            "Hard 80%",
-            "Hard 100%",
-            "Hard 100%",
-            "Hard 100%",
-            "Hard 100%",
-            "Hard 100%"
+            "HARD 80%",
+            "HARD 100%",
+            "HARD 100%",
+            "HARD 100%",
+            "HARD 100%",
+            "HARD 100%"
         ]
     },
     {
@@ -47,8 +47,8 @@
         "ss": [
             null,
             null,
-            "Piercing",
-            "Piercing",
+            "PIERCING",
+            "PIERCING",
             null,
             null
         ],
@@ -62,9 +62,9 @@
         ],
         "sc1": [
             null,
-            "Piercing",
-            "Piercing",
-            "Piercing",
+            "PIERCING",
+            "PIERCING",
+            "PIERCING",
             null,
             null
         ],
@@ -78,11 +78,11 @@
         ],
         "lw": [
             null,
-            "Piercing",
+            "PIERCING",
             null,
-            "Piercing",
+            "PIERCING",
             null,
-            "Piercing"
+            "PIERCING"
         ]
     },
     {
@@ -91,7 +91,7 @@
             null,
             null,
             null,
-            "Delay (20%)",
+            "DELAY (20%)",
             null,
             null
         ],
@@ -99,33 +99,33 @@
             null,
             null,
             null,
-            "Absorb 5%",
+            "ABSORB 5%",
             null,
             null
         ],
         "sc1": [
             null,
             null,
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%"
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%"
         ],
         "sc2": [
             null,
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%"
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%"
         ],
         "lw": [
             null,
             null,
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%"
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%"
         ]
     },
     {
@@ -174,7 +174,7 @@
     {
         "name": "Yukari Yakumo",
         "ss": [
-            "Sure-Hit Yang-DEF DOWN (40%)",
+            "SURE-HIT YANG-DEF DOWN (40%)",
             null,
             null,
             "Specular",
@@ -182,36 +182,36 @@
             null
         ],
         "fs": [
-            "Hard 40% Focus UP (50%)",
-            "Hard 40%",
+            "HARD 40% Focus UP (50%)",
+            "HARD 40%",
             null,
             "Specular",
-            "Hard 40%",
+            "HARD 40%",
             null
         ],
         "sc1": [
             "Specular Focus UP (50%)",
-            "Hard 80%",
+            "HARD 80%",
             null,
             "Focus UP (50%)",
-            "Hard 80% Specular",
-            "Hard 90%"
+            "HARD 80% Specular",
+            "HARD 90%"
         ],
         "sc2": [
-            "Yang-DEF DOWN (40%)",
-            "Hard 50%",
-            "Hard 50% Focus UP (50%)",
-            "Hard 70%",
+            "YANG-DEF DOWN (40%)",
+            "HARD 50%",
+            "HARD 50% Focus UP (50%)",
+            "HARD 70%",
             null,
-            "Yang-DEF UP (50%)"
+            "YANG-DEF UP (50%)"
         ],
         "lw": [
-            "Yang-DEF DOWN (100%)",
-            "Hard 70%",
-            "Hard 80%",
-            "Hard 90%",
-            "Hard 90%",
-            "Hard 100%"
+            "YANG-DEF DOWN (100%)",
+            "HARD 70%",
+            "HARD 80%",
+            "HARD 90%",
+            "HARD 90%",
+            "HARD 100%"
         ]
     },
     {
@@ -329,14 +329,14 @@
         "sc2": [
             null,
             null,
-            "Delay (30%)",
+            "DELAY (30%)",
             null,
             null,
             null
         ],
         "lw": [
             null,
-            "Delay (60%)",
+            "DELAY (60%)",
             null,
             null,
             null,
@@ -346,44 +346,44 @@
     {
         "name": "Kasen Ibaraki",
         "ss": [
-            "Stun (20%)",
-            "Sure-Hit",
-            "Sure-Hit",
+            "STUN (20%)",
+            "SURE-HIT",
+            "SURE-HIT",
             null,
             null,
             null
         ],
         "fs": [
-            "Sure-Hit",
-            "Sure-Hit",
-            "Stun (40%)",
-            "Sure-Hit",
+            "SURE-HIT",
+            "SURE-HIT",
+            "STUN (40%)",
+            "SURE-HIT",
             null,
             null
         ],
         "sc1": [
-            "Explosive",
-            "Precise",
-            "Stun (35%)",
-            "Explosive Precise",
-            "Explosive Precise",
-            "Explosive Precise"
+            "EXPLOSIVE",
+            "PRECISE",
+            "STUN (35%)",
+            "EXPLOSIVE PRECISE",
+            "EXPLOSIVE PRECISE",
+            "EXPLOSIVE PRECISE"
         ],
         "sc2": [
-            "Elastic",
-            "Precise",
-            "Stun (35%)",
-            "Elastic Precise",
-            "Elastic Precise",
-            "Elastic Precise"
+            "ELASTIC",
+            "PRECISE",
+            "STUN (35%)",
+            "ELASTIC PRECISE",
+            "ELASTIC PRECISE",
+            "ELASTIC PRECISE"
         ],
         "lw": [
-            "Explosive Elastic",
-            "Stun (35%)",
-            "Explosive Precise",
-            "Elastic Precise",
-            "Explosive Precise Elastic",
-            "Elastic Stun (50%)"
+            "EXPLOSIVE ELASTIC",
+            "STUN (35%)",
+            "EXPLOSIVE PRECISE",
+            "ELASTIC PRECISE",
+            "EXPLOSIVE PRECISE ELASTIC",
+            "ELASTIC STUN (50%)"
         ]
     },
     {
@@ -508,11 +508,11 @@
         ],
         "lw": [
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Sure-HIt",
+            "SURE-HIT",
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ]
     },
     {
@@ -675,8 +675,8 @@
             null,
             null,
             null,
-            "Explosive",
-            "Elastic"
+            "EXPLOSIVE",
+            "ELASTIC"
         ],
         "lw": [
             null,
@@ -723,11 +723,11 @@
         ],
         "lw": [
             null,
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%",
-            "Slicing 20%"
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%",
+            "SLICING 20%"
         ]
     },
     {
@@ -758,19 +758,19 @@
         ],
         "sc2": [
             null,
-            "Hard 20%",
-            "Hard 20%",
-            "Hard 20%",
-            "Hard 20%",
-            "Hard 20%"
+            "HARD 20%",
+            "HARD 20%",
+            "HARD 20%",
+            "HARD 20%",
+            "HARD 20%"
         ],
         "lw": [
-            "Hard",
+            "HARD",
             null,
             null,
-            "Piercing Hard",
+            "PIERCING HARD",
             null,
-            "Piercing Hard"
+            "PIERCING HARD"
         ]
     },
     {
@@ -823,8 +823,8 @@
             null,
             null,
             null,
-            "Absorb 30%",
-            "Absorb 30%"
+            "ABSORB 30%",
+            "ABSORB 30%"
         ],
         "fs": [
             null,
@@ -872,9 +872,9 @@
         "fs": [
             null,
             null,
-            "Piercing",
+            "PIERCING",
             null,
-            "Piercing",
+            "PIERCING",
             null
         ],
         "sc1": [
@@ -888,17 +888,17 @@
         "sc2": [
             null,
             null,
-            "Piercing",
+            "PIERCING",
             null,
-            "Piercing",
+            "PIERCING",
             null
         ],
         "lw": [
-            "Rebound 15% Slicing 50%",
-            "Rebound 15% Hard 50%",
+            "Rebound 15% SLICING 50%",
+            "Rebound 15% HARD 50%",
             null,
-            "Rebound 15% Hard 50%",
-            "Rebound 15% Slicing 50%",
+            "Rebound 15% HARD 50%",
+            "Rebound 15% SLICING 50%",
             null
         ]
     },
@@ -953,7 +953,7 @@
             null,
             null,
             null,
-            "Hard 20%"
+            "HARD 20%"
         ],
         "fs": [
             null,
@@ -976,16 +976,16 @@
             null,
             null,
             null,
-            "Hard 20%",
-            "Hard 20%"
+            "HARD 20%",
+            "HARD 20%"
         ],
         "lw": [
             null,
             null,
-            "Hard 35%",
-            "Hard 35%",
-            "Hard 35%",
-            "Hard 35%"
+            "HARD 35%",
+            "HARD 35%",
+            "HARD 35%",
+            "HARD 35%"
         ]
     },
     {
@@ -1036,42 +1036,42 @@
         "ss": [
             null,
             null,
-            "Absorb 20%",
+            "ABSORB 20%",
             null,
-            "Absorb 20%",
+            "ABSORB 20%",
             null
         ],
         "fs": [
             null,
-            "Explosive",
+            "EXPLOSIVE",
             null,
-            "Explosive",
+            "EXPLOSIVE",
             null,
             null
         ],
         "sc1": [
             "Rebound 50%",
-            "Hard 50%",
+            "HARD 50%",
             null,
-            "Hard 50%",
+            "HARD 50%",
             null,
-            "Hard 50%"
+            "HARD 50%"
         ],
         "sc2": [
-            "Rebound 50% Hard 30%",
-            "Hard 30%",
-            "Hard 30%",
-            "Hard 30%",
-            "Hard 30%",
-            "Hard 30%"
+            "Rebound 50% HARD 30%",
+            "HARD 30%",
+            "HARD 30%",
+            "HARD 30%",
+            "HARD 30%",
+            "HARD 30%"
         ],
         "lw": [
-            "Explosive",
-            "Explosive",
-            "Explosive",
-            "Explosive",
-            "Explosive",
-            "Explosive"
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE"
         ]
     },
     {
@@ -1085,12 +1085,12 @@
             null
         ],
         "fs": [
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC"
         ],
         "sc1": [
             null,
@@ -1109,23 +1109,23 @@
             "Impact (30%)"
         ],
         "lw": [
-            "Explosive",
-            "Explosive",
-            "Explosive",
-            "Explosive",
-            "Explosive",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
             "Impact (60%)"
         ]
     },
     {
         "name": "Ringo",
         "ss": [
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC"
         ],
         "fs": [
             null,
@@ -1136,12 +1136,12 @@
             null
         ],
         "sc1": [
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC"
         ],
         "sc2": [
             null,
@@ -1152,12 +1152,12 @@
             null
         ],
         "lw": [
-            "Hard (50%)",
-            "Explosive",
-            "Explosive",
-            "Explosive",
-            "Explosive",
-            "Hard (50%)"
+            "HARD (50%)",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "HARD (50%)"
         ]
     },
     {
@@ -1174,9 +1174,9 @@
             null,
             "CRI-ACC UP (100%)",
             null,
-            "Sure-Hit CRI-ACC UP (100%) ",
+            "SURE-HIT CRI-ACC UP (100%) ",
             null,
-            "Sure-Hit CRI-ACC UP (100%)"
+            "SURE-HIT CRI-ACC UP (100%)"
         ],
         "sc1": [
             null,
@@ -1206,7 +1206,7 @@
     {
         "name": "Byakuren Hijiri",
         "ss": [
-            "Absorb (15%)",
+            "ABSORB (15%)",
             null,
             null,
             null,
@@ -1222,27 +1222,27 @@
             null
         ],
         "sc1": [
-            "Slicing (30%)",
-            "Slicing (30%)",
-            "Slicing (30%)",
-            "Slicing (30%)",
-            "Slicing (30%)",
-            "Slicing (30%)"
+            "SLICING (30%)",
+            "SLICING (30%)",
+            "SLICING (30%)",
+            "SLICING (30%)",
+            "SLICING (30%)",
+            "SLICING (30%)"
         ],
         "sc2": [
             null,
             null,
-            "Absorb (25%)",
-            "Absorb (25%)",
+            "ABSORB (25%)",
+            "ABSORB (25%)",
             null,
             null
         ],
         "lw": [
-            "Slicing (50%)",
+            "SLICING (50%)",
             null,
-            "Absorb (25%) Slicing (50%)",
+            "ABSORB (25%) SLICING (50%)",
             null,
-            "Absorb (25%) Slicing (50%)",
+            "ABSORB (25%) SLICING (50%)",
             null
         ]
     },
@@ -1250,9 +1250,9 @@
         "name": "Watatsuki no Toyohime",
         "ss": [
             null,
-            "Elastic",
+            "ELASTIC",
             null,
-            "Elastic",
+            "ELASTIC",
             null,
             null
         ],
@@ -1261,75 +1261,75 @@
             null,
             null,
             null,
-            "Explosive",
-            "Elastic"
+            "EXPLOSIVE",
+            "ELASTIC"
         ],
         "sc1": [
             null,
             null,
             null,
-            "Elastic",
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC"
         ],
         "sc2": [
-            "Elastic",
+            "ELASTIC",
             null,
             null,
-            "Explosive",
-            "Explosive",
-            "Explosive"
+            "EXPLOSIVE",
+            "EXPLOSIVE",
+            "EXPLOSIVE"
         ],
         "lw": [
-            "Elastic Hard (15%)",
-            "Explosive Hard (20%)",
-            "Elastic Hard (25%)",
-            "Explosive Hard (30%)",
-            "Elastic Hard (35%)",
-            "Explosive Hard (40%)"
+            "ELASTIC HARD (15%)",
+            "EXPLOSIVE HARD (20%)",
+            "ELASTIC HARD (25%)",
+            "EXPLOSIVE HARD (30%)",
+            "ELASTIC HARD (35%)",
+            "EXPLOSIVE HARD (40%)"
         ]
     },
     {
         "name": "Watatsuki no Yorihime",
         "ss": [
             null,
-            "Slicing (15%)",
-            "Slicing (15%)",
+            "SLICING (15%)",
+            "SLICING (15%)",
             null,
             null,
-            "Slicing (20%)"
+            "SLICING (20%)"
         ],
         "fs": [
             null,
             null,
             null,
-            "Slicing (15%)",
-            "Slicing (15%)",
-            "Slicing (20%)"
+            "SLICING (15%)",
+            "SLICING (15%)",
+            "SLICING (20%)"
         ],
         "sc1": [
             null,
-            "Slicing (20%)",
-            "Slicing (20%)",
+            "SLICING (20%)",
+            "SLICING (20%)",
             null,
-            "Slicing (20%)",
-            "Slicing (30%)"
+            "SLICING (20%)",
+            "SLICING (30%)"
         ],
         "sc2": [
             null,
             null,
-            "Slicing (20%)",
+            "SLICING (20%)",
             null,
             null,
-            "Slicing (50%)"
+            "SLICING (50%)"
         ],
         "lw": [
-            "Slicing (25%)",
-            "Slicing (25%)",
-            "Slicing (30%)",
-            "Slicing (35%)",
-            "Slicing (35%)",
-            "Slicing (35%)"
+            "SLICING (25%)",
+            "SLICING (25%)",
+            "SLICING (30%)",
+            "SLICING (35%)",
+            "SLICING (35%)",
+            "SLICING (35%)"
         ]
     },
     {
@@ -1361,16 +1361,16 @@
         "sc2": [
             "Rebound (10%)",
             null,
-            "Rebound 10% Yin-ATK UP (100%)",
+            "Rebound 10% YIN-ATK UP (100%)",
             null,
-            "Rebound 10% Yin-ATK UP (100%)",
+            "Rebound 10% YIN-ATK UP (100%)",
             null
         ],
         "lw": [
-            "Rebound (30%) Piercing",
-            "Piercing",
-            "Sure-hit",
-            "Sure-hit",
+            "Rebound (30%) PIERCING",
+            "PIERCING",
+            "SURE-HIT",
+            "SURE-HIT",
             null,
             null
         ]
@@ -1412,10 +1412,10 @@
         "lw": [
             null,
             null,
-            "Explosive",
+            "EXPLOSIVE",
             "Pierce",
-            "Elastic",
-            "Explosive"
+            "ELASTIC",
+            "EXPLOSIVE"
         ]
     },
     {
@@ -1543,8 +1543,8 @@
             null,
             "YIN-ATK UP (?%)",
             "YIN-ATK UP (?%)",
-            "Hard",
-            " Hard Impact"
+            "HARD",
+            " HARD Impact"
         ]
     },
     {
@@ -1586,49 +1586,49 @@
             null,
             null,
             "ACC-UP (%?) FOCUS-DOWN (2) (?%)",
-            "Hard Elastic",
-            "Hard Elastic"
+            "HARD ELASTIC",
+            "HARD ELASTIC"
         ]
     },
     {
         "name": "Koishi Komeiji",
         "ss": [
             null,
-            "Piercing",
-            "Piercing",
+            "PIERCING",
+            "PIERCING",
             null,
             null,
-            "Piercing"
+            "PIERCING"
         ],
         "fs": [
             null,
             null,
             null,
-            "Precise",
-            "Precise",
-            "Absorb"
+            "PRECISE",
+            "PRECISE",
+            "ABSORB"
         ],
         "sc1": [
             "Exploding",
             "ENEMY EVA-DOWN (?%) YANG-ATK UP (?%)   ",
             "ENEMY CRI-EVA DOWN (?%) YIN-ATK UP (?%)   ",
-            "Piercing",
-            "Piercing ENEMY CRI-EVA DOWN (?%)    ",
+            "PIERCING",
+            "PIERCING ENEMY CRI-EVA DOWN (?%)    ",
             "ENEMY CRI-EVA DOWN (?%) CRI-ATK UP (?%)   "
         ],
         "sc2": [
-            "Elastic",
-            "Piercing",
+            "ELASTIC",
+            "PIERCING",
             "ENEMY YANG-DEF DOWN (?%)   ",
             "ENEMY YIN-DEF DOWN (?%)   ",
-            "Elastic ENEMY CRI-DEF DOWN (?%)   ",
-            "Piercing ENEMY CRI-DEF DOWN (?%)   "
+            "ELASTIC ENEMY CRI-DEF DOWN (?%)   ",
+            "PIERCING ENEMY CRI-DEF DOWN (?%)   "
         ],
         "lw": [
-            "Precise Absorb",
-            "Elastic Exploding YIN-ATK UP (2) (?%)   ",
-            "Elastic Exploding YIN-ATK UP (2) (?%)   ",
-            "Piercing ACC-UP (?%)",
+            "PRECISE ABSORB",
+            "ELASTIC Exploding YIN-ATK UP (2) (?%)   ",
+            "ELASTIC Exploding YIN-ATK UP (2) (?%)   ",
+            "PIERCING ACC-UP (?%)",
             "Absrob ACC-UP (?%)   ",
             "Absrob ACC-UP (?%) CRI-ACC UP (2) (?%)     "
         ]
@@ -1641,12 +1641,12 @@
             "Adhesive",
             null,
             null,
-            "Slicing"
+            "SLICING"
         ],
         "fs": [
             null,
             "ENEMY AGI-DOWN (?%) ",
-            "Slicing",
+            "SLICING",
             null,
             null,
             null
@@ -1654,26 +1654,26 @@
         "sc1": [
             null,
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING"
         ],
         "sc2": [
             null,
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             "ENEMY YIN-ATK DOWN (?%)",
             "ENEMY YIN-DEF DOWN (?%)",
-            "Slicing ENEMY YIN-ATK DOWN (?%)"
+            "SLICING ENEMY YIN-ATK DOWN (?%)"
         ],
         "lw": [
             null,
             "AGI-UP (?%)",
             "AGI-UP (?%)",
             "AGI-UP (?%)",
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING"
         ]
     },
     {
@@ -1688,7 +1688,7 @@
         ],
         "fs": [
             null,
-            "AGI-UP (?%) Piercing",
+            "AGI-UP (?%) PIERCING",
             null,
             null,
             null,
@@ -1698,25 +1698,25 @@
             null,
             "ENEMY AGI-DOWN (?%)",
             "Piericing",
-            "Piercing",
+            "PIERCING",
             "YANG-DEF UP (?%) YIN-DEF UP (?%) ",
             "YANG-DEF UP (?%) YIN-DEF UP (?%) "
         ],
         "sc2": [
             null,
             "Adhesive",
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Elastic Precise"
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "ELASTIC PRECISE"
         ],
         "lw": [
             null,
             null,
             "ALL ENEMY CRI-DEF DOWN (?%) ",
             "ALL ENEMY CRI-DEF DOWN (?%) ",
-            "Slicing",
-            "Slicing ALL ENEMY CRI-DEF DOWN (?%) "
+            "SLICING",
+            "SLICING ALL ENEMY CRI-DEF DOWN (?%) "
         ]
     },
     {
@@ -1739,11 +1739,11 @@
         ],
         "sc1": [
             "Rebound",
-            "Slicing",
+            "SLICING",
             "Exploding",
-            "Slicing",
+            "SLICING",
             "Exploding",
-            "Impact Slicing"
+            "Impact SLICING"
         ],
         "sc2": [
             null,
@@ -1754,12 +1754,12 @@
             null
         ],
         "lw": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing"
+            "SLICING"
         ]
     },
     {
@@ -1782,27 +1782,27 @@
         ],
         "sc1": [
             null,
-            "Piercing Adhesive",
+            "PIERCING Adhesive",
             null,
             null,
             "Piericng",
-            "Piercing Adhesive"
+            "PIERCING Adhesive"
         ],
         "sc2": [
             null,
             null,
-            "Hard YIN-DEF UP (?%)",
-            "Hard",
-            "Hard YANG-DEF UP (?%)",
-            "Hard YIN-DEF UP (?%)"
+            "HARD YIN-DEF UP (?%)",
+            "HARD",
+            "HARD YANG-DEF UP (?%)",
+            "HARD YIN-DEF UP (?%)"
         ],
         "lw": [
             null,
             null,
-            "Hard",
+            "HARD",
             null,
-            "Hard",
-            "Hard"
+            "HARD",
+            "HARD"
         ]
     },
     {
@@ -1819,17 +1819,17 @@
             null,
             null,
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null
         ],
         "sc1": [
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
-            "Sure-Hit",
-            "Piercing"
+            "SURE-HIT",
+            "PIERCING"
         ],
         "sc2": [
             "ENEMY AGI-DOWN (?%)",
@@ -1842,10 +1842,10 @@
         "lw": [
             null,
             "Rebound",
-            "Sure-HIt",
-            "Piercing",
-            "Rebound Piercing Sure-Hit",
-            "Rebound Piercing Sure-Hit"
+            "SURE-HIT",
+            "PIERCING",
+            "Rebound PIERCING SURE-HIT",
+            "Rebound PIERCING SURE-HIT"
         ]
     },
     {
@@ -1868,23 +1868,23 @@
         ],
         "sc1": [
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             "ENEMY CRI-ACC DOWN (25%)",
             "ENEMY ACC-DOWN (30%)",
-            "Sure-Hit",
+            "SURE-HIT",
             "ENEMY CRI-ACC DOWN (35%) ENEMY ACC-DOWN (35%)"
         ],
         "sc2": [
             null,
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Slicing 35%",
-            "Slicing 35%"
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "SLICING 35%",
+            "SLICING 35%"
         ],
         "lw": [
             null,
-            "SELF YANG-ATK UP (100%) ENEMY YANG-DEF DOWN (80%)",
+            "YANG-ATK UP (100%) ENEMY YANG-DEF DOWN (80%)",
             "ENEMY YIN-DEF DOWN (80%)",
             "ENEMY YANG-DEF DOWN (90%) ENEMY YIN-DEF DOWN (90%)",
             "ENEMY YANG-DEF DOWN (100%) ENEMY YIN-DEF DOWN (100%)",
@@ -1921,16 +1921,16 @@
             null,
             "YIN-DEF UP (?%)",
             "YIN-DEF UP (?%)",
-            "Hard",
+            "HARD",
             null,
-            "Hard YIN-DEF UP (?%)"
+            "HARD YIN-DEF UP (?%)"
         ],
         "lw": [
             "YIN-DEF UP (?%)",
             null,
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             "YIN-DEF UP (?%)"
         ]
     },
@@ -1956,9 +1956,9 @@
             null,
             "AGI-UP (?%)",
             null,
-            "Slicing",
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING",
+            "SLICING"
         ],
         "sc2": [
             null,
@@ -1970,11 +1970,11 @@
         ],
         "lw": [
             null,
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "SLICING"
         ]
     },
     {
@@ -2055,7 +2055,7 @@
             "Impact"
         ],
         "lw": [
-            "Absorb",
+            "ABSORB",
             "ENEMY YANG-DEF DOWN (?%) ENEMY CRI-DEF DOWN (?%)",
             "ENEMY YANG-DEF DOWN (?%) ENEMY CRI-EVA DOWN (2) (?%)",
             "ENEMY YIN-ATK DOWN (?%) ENEMY CRI-DEF DOWN (?%)",
@@ -2067,8 +2067,8 @@
         "name": "Clownpiece",
         "ss": [
             null,
-            "Elastic",
-            "Elastic",
+            "ELASTIC",
+            "ELASTIC",
             null,
             null,
             null
@@ -2083,11 +2083,11 @@
         ],
         "sc1": [
             null,
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC"
         ],
         "sc2": [
             null,
@@ -2099,10 +2099,10 @@
         ],
         "lw": [
             null,
-            "Elastic YANG-ATK UP (?%) ",
-            "Elastic CRI-ATK UP (?%) ",
-            "Elastic CRI-ACC UP (?%) ",
-            "Elastic CRI-ATK UP (?%) ",
+            "ELASTIC YANG-ATK UP (?%) ",
+            "ELASTIC CRI-ATK UP (?%) ",
+            "ELASTIC CRI-ACC UP (?%) ",
+            "ELASTIC CRI-ATK UP (?%) ",
             "CRI-ATK UP (?%) CRI-ACC UP (?%)   "
         ]
     },
@@ -2113,8 +2113,8 @@
             null,
             null,
             null,
-            "Hard",
-            "Hard"
+            "HARD",
+            "HARD"
         ],
         "fs": [
             "ENEMY EVA-DOWN (?%)",
@@ -2126,38 +2126,38 @@
         ],
         "sc1": [
             null,
-            "Hard",
+            "HARD",
             null,
             null,
-            "Hard",
-            "Hard"
+            "HARD",
+            "HARD"
         ],
         "sc2": [
             null,
-            "Absorb",
+            "ABSORB",
             null,
-            "Absorb",
+            "ABSORB",
             null,
             "Absrob"
         ],
         "lw": [
-            "Hard",
-            "Hard",
-            "Hard",
-            "Hard",
-            "Hard",
-            "Hard"
+            "HARD",
+            "HARD",
+            "HARD",
+            "HARD",
+            "HARD",
+            "HARD"
         ]
     },
     {
         "name": "Aya Shameimaru",
         "ss": [
-            "Slicing",
+            "SLICING",
             null,
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing"
+            "SLICING"
         ],
         "fs": [
             null,
@@ -2168,71 +2168,71 @@
             null
         ],
         "sc1": [
-            "Slicing",
-            "Slicing",
-            "Sure-Hit",
-            "Sure-Hit",
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING",
+            "SURE-HIT",
+            "SURE-HIT",
+            "SLICING",
+            "SLICING"
         ],
         "sc2": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             "AGI-UP (?%)",
             null,
             null,
             null
         ],
         "lw": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             "ENEMY AGI-DOWN (?%) ",
             "ENEMY AGI-DOWN (?%) ",
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING"
         ]
     },
     {
         "name": "Yoshika Miyako",
         "ss": [
-            "Absorb",
+            "ABSORB",
             null,
             null,
             null,
             null,
-            "Absorb"
+            "ABSORB"
         ],
         "fs": [
             null,
-            "Hard",
+            "HARD",
             null,
             null,
             null,
-            "Hard"
+            "HARD"
         ],
         "sc1": [
             null,
-            "Hard",
+            "HARD",
             null,
             null,
             null,
-            "Hard"
+            "HARD"
         ],
         "sc2": [
-            "Absorb",
+            "ABSORB",
             "YANG-DEF UP (?%)",
             "YIN-DEF UP (?%)",
             "YANG-DEF UP (?%)",
             "YIN-DEF UP (?%)",
-            "Absorb"
+            "ABSORB"
         ],
         "lw": [
-            "Piercing Hard",
-            "Hard",
-            "Hard",
-            "Hard",
-            "Hard",
-            "Piercing Hard"
+            "PIERCING HARD",
+            "HARD",
+            "HARD",
+            "HARD",
+            "HARD",
+            "PIERCING HARD"
         ]
     },
     {
@@ -2250,32 +2250,32 @@
             null,
             null,
             null,
-            "Piercing",
-            "Piercing"
+            "PIERCING",
+            "PIERCING"
         ],
         "sc1": [
             null,
             null,
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
             null
         ],
         "sc2": [
             null,
-            "Slicing",
-            "Piercing",
-            "Piercing",
-            "Piercing",
+            "SLICING",
+            "PIERCING",
+            "PIERCING",
+            "PIERCING",
             null
         ],
         "lw": [
-            "Slicing",
+            "SLICING",
             "AGI-UP (?%)",
             "AGI-UP (?%)",
-            "Slicing",
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING",
+            "SLICING"
         ]
     },
     {
@@ -2313,12 +2313,12 @@
             null
         ],
         "lw": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null,
-            "Sure-Hit",
-            "Sure-Hit"
+            "SURE-HIT",
+            "SURE-HIT"
         ]
     },
     {
@@ -2348,18 +2348,18 @@
             null
         ],
         "sc2": [
-            "Piercing",
-            "Piercing",
+            "PIERCING",
+            "PIERCING",
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "lw": [
             null,
-            "Piercing",
+            "PIERCING",
             null,
-            "Piercing",
+            "PIERCING",
             null,
             "Impact"
         ]
@@ -2367,19 +2367,19 @@
     {
         "name": "Kaguya Houraisan",
         "ss": [
-            "Absorb",
+            "ABSORB",
             null,
             null,
-            "Absorb",
+            "ABSORB",
             null,
             null
         ],
         "fs": [
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
-            "Hard",
+            "HARD",
             null
         ],
         "sc1": [
@@ -2391,20 +2391,20 @@
             "YANG-DEF UP (?%)"
         ],
         "sc2": [
-            "Rebound Hard",
+            "Rebound HARD",
             null,
-            "Hard",
+            "HARD",
             null,
-            "Hard",
+            "HARD",
             null
         ],
         "lw": [
-            "Hard",
+            "HARD",
             "YANG-DEF UP (?%)",
-            "Hard",
-            "Absorb",
-            "Hard",
-            "Absorb"
+            "HARD",
+            "ABSORB",
+            "HARD",
+            "ABSORB"
         ]
     },
     {
@@ -2453,44 +2453,44 @@
     {
         "name": "Aunn Komano",
         "ss": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
             null,
             null,
-            "Slicing"
+            "SLICING"
         ],
         "fs": [
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
             null,
             null,
-            "Hard"
+            "HARD"
         ],
         "sc1": [
             null,
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
             null,
-            "Slicing"
+            "SLICING"
         ],
         "sc2": [
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
             null,
-            "Hard"
+            "HARD"
         ],
         "lw": [
-            "Slicing Hard",
+            "SLICING HARD",
             null,
             null,
-            "Slicing Hard",
-            "Slicing Hard",
-            "Slicing Hard"
+            "SLICING HARD",
+            "SLICING HARD",
+            "SLICING HARD"
         ]
     },
     {
@@ -2509,15 +2509,15 @@
             null,
             null,
             null,
-            "Sure-HIt"
+            "SURE-HIT"
         ],
         "sc1": [
             null,
             null,
             null,
             null,
-            "Sure-Hit",
-            "Sure-Hit"
+            "SURE-HIT",
+            "SURE-HIT"
         ],
         "sc2": [
             null,
@@ -2529,11 +2529,11 @@
         ],
         "lw": [
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Sure-HIt",
+            "SURE-HIT",
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ]
     },
     {
@@ -2564,130 +2564,130 @@
         ],
         "sc2": [
             null,
-            "Elastic",
+            "ELASTIC",
             null,
             null,
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC"
         ],
         "lw": [
-            "Elastic Exploding",
+            "ELASTIC Exploding",
             "ENEMY YANG-DEF DOWN (?%)",
             "ENEMY YIN-DEF DOWN (?%)",
             null,
-            "Elastic Exploding",
-            "Elastic Exploding"
+            "ELASTIC Exploding",
+            "ELASTIC Exploding"
         ]
     },
     {
         "name": "Lunasa Prismriver",
         "ss": [
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null
         ],
         "fs": [
-            "Sure-Hit",
-            "Sure-HIt",
-            "Sure-Hit",
+            "SURE-HIT",
+            "SURE-HIT",
+            "SURE-HIT",
             null,
             null,
             null
         ],
         "sc1": [
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
             null,
             null
         ],
         "sc2": [
             null,
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
             null,
-            "Slicing"
+            "SLICING"
         ],
         "lw": [
             null,
-            "Hard",
-            "Slicing",
+            "HARD",
+            "SLICING",
             null,
             null,
-            "Slicing"
+            "SLICING"
         ]
     },
     {
         "name": "Merlin Prismriver",
         "ss": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "fs": [
             null,
-            "Sure-Hit",
-            "Sure-Hit",
+            "SURE-HIT",
+            "SURE-HIT",
             null,
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "sc1": [
-            "Hard",
+            "HARD",
             null,
             null,
             null,
             null,
-            "Hard"
+            "HARD"
         ],
         "sc2": [
-            "Slicing",
+            "SLICING",
             null,
             null,
             null,
             null,
-            "Hard"
+            "HARD"
         ],
         "lw": [
-            "Hard",
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Hard",
-            "Hard"
+            "HARD",
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "HARD",
+            "HARD"
         ]
     },
     {
         "name": "Lyrica Prismriver",
         "ss": [
-            "Sure-Hit",
-            "Sure-Hit",
+            "SURE-HIT",
+            "SURE-HIT",
             null,
             null,
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "fs": [
             null,
             null,
-            "Slicing",
+            "SLICING",
             null,
             null,
-            "Hard"
+            "HARD"
         ],
         "sc1": [
             null,
             null,
             null,
-            "Slicing",
+            "SLICING",
             null,
             null
         ],
@@ -2695,16 +2695,16 @@
             null,
             null,
             null,
-            "Hard",
+            "HARD",
             null,
             null
         ],
         "lw": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Hard",
+            "HARD",
             null
         ]
     },
@@ -2729,37 +2729,37 @@
         "sc1": [
             null,
             "FOCUS-UP (?%)",
-            "Hard",
+            "HARD",
             null,
             null,
             null
         ],
         "sc2": [
-            "Hard",
+            "HARD",
             null,
-            "Hard",
+            "HARD",
             null,
-            "Hard",
+            "HARD",
             null
         ],
         "lw": [
-            "Hard",
+            "HARD",
             null,
             null,
-            "Hard",
-            "Hard",
-            "Hard"
+            "HARD",
+            "HARD",
+            "HARD"
         ]
     },
     {
         "name": "Yuuka Kazami",
         "ss": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null,
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "fs": [
             null,
@@ -2805,12 +2805,12 @@
             null
         ],
         "fs": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Slicing",
+            "SLICING",
             null,
             null,
-            "Slicing"
+            "SLICING"
         ],
         "sc1": [
             null,
@@ -2818,53 +2818,53 @@
             null,
             null,
             null,
-            "Slicing"
+            "SLICING"
         ],
         "sc2": [
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing",
+            "SLICING",
             null,
             null
         ],
         "lw": [
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing"
+            "SLICING"
         ]
     },
     {
         "name": "Doremy Sweet",
         "ss": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null
         ],
         "fs": [
-            "Piercing",
-            "Piercing",
-            "Piercing",
+            "PIERCING",
+            "PIERCING",
+            "PIERCING",
             null,
             null,
             null
         ],
         "sc1": [
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "sc2": [
-            "Absorb",
+            "ABSORB",
             "Specular",
             null,
             null,
@@ -2891,7 +2891,7 @@
             null
         ],
         "fs": [
-            "Sure-Hit",
+            "SURE-HIT",
             "Specular",
             null,
             "Specular",
@@ -2916,68 +2916,68 @@
         ],
         "lw": [
             null,
-            "Piercing",
+            "PIERCING",
             null,
-            "Piercing",
+            "PIERCING",
             null,
-            "Piercing"
+            "PIERCING"
         ]
     },
     {
         "name": "Minamitsu Murasa ",
         "ss": [
-            "Sure-HIt",
-            "Slicing",
+            "SURE-HIT",
+            "SLICING",
             null,
             null,
-            "Slicing",
+            "SLICING",
             null
         ],
         "fs": [
-            "Slicing",
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
+            "SLICING",
             null,
             null,
             null
         ],
         "sc1": [
             null,
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "SLICING",
             null
         ],
         "sc2": [
             null,
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "SLICING",
             null
         ],
         "lw": [
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Slicing",
-            "Slicing"
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "SLICING",
+            "SLICING"
         ]
     },
     {
         "name": "Tenshi Hinanawi",
         "ss": [
-            "Hard",
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
+            "HARD",
             null,
             null,
             null
         ],
         "fs": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null,
@@ -2985,9 +2985,9 @@
             null
         ],
         "sc1": [
-            "Hard",
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
+            "HARD",
             null,
             null,
             null
@@ -3001,9 +3001,9 @@
             null
         ],
         "lw": [
-            "Hard",
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
+            "HARD",
             null,
             null,
             null
@@ -3014,39 +3014,39 @@
         "ss": [
             null,
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing",
+            "SLICING",
             null
         ],
         "fs": [
             null,
             null,
-            "Hard",
+            "HARD",
             null,
-            "Hard",
+            "HARD",
             null
         ],
         "sc1": [
-            "Slicing",
-            "Hard",
+            "SLICING",
+            "HARD",
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Hard"
+            "HARD"
         ],
         "sc2": [
-            "Hard",
+            "HARD",
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Hard",
-            "Slicing"
+            "HARD",
+            "SLICING"
         ],
         "lw": [
             null,
-            "Slicing Hard",
-            "Slicing Hard",
+            "SLICING HARD",
+            "SLICING HARD",
             null,
             null,
             null
@@ -3055,7 +3055,7 @@
     {
         "name": "Joon Yorigami",
         "ss": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null,
@@ -3071,12 +3071,12 @@
             null
         ],
         "sc1": [
-            "Sure-Hit Piercing",
-            "Sure-Hit Piercing",
-            "Absord Hard",
-            "Sure-Hit Piercing",
-            "Absord Hard",
-            "Hard"
+            "SURE-HIT PIERCING",
+            "SURE-HIT PIERCING",
+            "Absord HARD",
+            "SURE-HIT PIERCING",
+            "Absord HARD",
+            "HARD"
         ],
         "sc2": [
             null,
@@ -3091,15 +3091,15 @@
             null,
             null,
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null
         ]
     },
     {
         "name": "Keine Kamishirasawa ",
         "ss": [
-            "Sure-Hit",
-            "Yang-DEF UP (?%)",
+            "SURE-HIT",
+            "YANG-DEF UP (?%)",
             null,
             null,
             null,
@@ -3115,27 +3115,27 @@
         ],
         "sc1": [
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
-            "Hard",
-            "Hard"
+            "HARD",
+            "HARD"
         ],
         "sc2": [
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
-            "Hard",
+            "HARD",
             null
         ],
         "lw": [
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
             null,
             null,
-            "Hard"
+            "HARD"
         ]
     },
     {
@@ -3143,7 +3143,7 @@
         "ss": [
             "CRI-EVA DOWN (?%)",
             "Specular",
-            "Elastic",
+            "ELASTIC",
             null,
             null,
             null
@@ -3151,18 +3151,18 @@
         "fs": [
             null,
             "Specular",
-            "Elastic",
+            "ELASTIC",
             null,
             null,
             null
         ],
         "sc1": [
-            "Elastic",
+            "ELASTIC",
             "Specular",
             "CRI-EVA DOWN (?%)",
             "Specular",
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC"
         ],
         "sc2": [
             null,
@@ -3176,23 +3176,23 @@
             null,
             "Exploding",
             "Exploding",
-            "Elastic",
-            "Elastic",
-            "Elastic"
+            "ELASTIC",
+            "ELASTIC",
+            "ELASTIC"
         ]
     },
     {
         "name": "Toyosatomimi no Miko",
         "ss": [
             "ACC UP (?%)",
-            "Hard",
+            "HARD",
             "ACC UP (?%)",
             null,
             null,
             null
         ],
         "fs": [
-            "Slicing",
+            "SLICING",
             null,
             null,
             null,
@@ -3201,27 +3201,27 @@
         ],
         "sc1": [
             "ACC-UP (?%)",
-            "Piercing",
-            "Piercing",
+            "PIERCING",
+            "PIERCING",
             null,
             null,
             null
         ],
         "sc2": [
-            "Sure-Hit",
+            "SURE-HIT",
             "ACC UP (?%)",
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
             null
         ],
         "lw": [
-            "Slicing ACC-UP (?%)",
-            "Sure-Hit Piercing",
-            "Sure-Hit",
-            "Piercing",
-            "Slicing",
-            "Slicing Hard"
+            "SLICING ACC-UP (?%)",
+            "SURE-HIT PIERCING",
+            "SURE-HIT",
+            "PIERCING",
+            "SLICING",
+            "SLICING HARD"
         ]
     },
     {
@@ -3243,45 +3243,45 @@
             null
         ],
         "sc1": [
-            "Piercing Slicing",
+            "PIERCING SLICING",
             null,
             "EVA UP (?%)",
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null
         ],
         "sc2": [
-            "Rebound Slicing",
+            "Rebound SLICING",
             null,
-            "Absorb",
-            "Slicing",
-            "Slicing",
+            "ABSORB",
+            "SLICING",
+            "SLICING",
             null
         ],
         "lw": [
-            "Slicing ENEMY EVA DOWN (?%)",
+            "SLICING ENEMY EVA DOWN (?%)",
             "EVA-UP (?%)",
             null,
             "ENEMY EVA DOWN (?%)",
             null,
-            "Absorb Slcing"
+            "ABSORB Slcing"
         ]
     },
     {
         "name": "Letty Whiterock",
         "ss": [
             null,
-            "Hard",
+            "HARD",
             null,
             null,
             null,
             null
         ],
         "fs": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
-            "Hard",
+            "HARD",
             null,
             null
         ],
@@ -3313,7 +3313,7 @@
     {
         "name": "Junko ",
         "ss": [
-            "Sure-Hit",
+            "SURE-HIT",
             "CRI-ATK UP (?%)",
             null,
             "Exploding",
@@ -3321,19 +3321,19 @@
             null
         ],
         "fs": [
-            "Slicing ",
+            "SLICING ",
             "ENEMY CRI-DEF DOWN(?%)",
-            "Precise",
-            "Precise",
+            "PRECISE",
+            "PRECISE",
             null,
             null
         ],
         "sc1": [
             "CRI-ACC UP (?%)",
-            "Slicing",
+            "SLICING",
             null,
-            "Precise",
-            "Precise",
+            "PRECISE",
+            "PRECISE",
             null
         ],
         "sc2": [
@@ -3348,9 +3348,9 @@
             "AGI-UP (?%)",
             "CRI-ATK UP (?%)",
             "CRI-ATK UP (?%)",
-            "Precise Exploding",
-            "Precise Exploding",
-            "Hard"
+            "PRECISE Exploding",
+            "PRECISE Exploding",
+            "HARD"
         ]
     },
     {
@@ -3359,17 +3359,17 @@
             "CRI ATK UP (?%)",
             "CRI-ACC UP (?%)",
             "Specular",
-            "Precise",
+            "PRECISE",
             null,
             null
         ],
         "fs": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null,
             null,
-            "Sure-Hit"
+            "SURE-HIT"
         ],
         "sc1": [
             null,
@@ -3377,7 +3377,7 @@
             null,
             null,
             null,
-            "Precise Elastic"
+            "PRECISE ELASTIC"
         ],
         "sc2": [
             null,
@@ -3392,8 +3392,8 @@
             "CRI-ATK UP (?%)",
             null,
             null,
-            "Precise Elastic",
-            "Precise Elastic"
+            "PRECISE ELASTIC",
+            "PRECISE ELASTIC"
         ]
     },
     {
@@ -3401,26 +3401,26 @@
         "ss": [
             null,
             null,
-            "Sure-Hit",
-            "Sure-Hit",
-            "Slicing",
+            "SURE-HIT",
+            "SURE-HIT",
+            "SLICING",
             null
         ],
         "fs": [
-            "Slicing",
+            "SLICING",
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
             null
         ],
         "sc1": [
-            "Slicing",
-            "Hard",
-            "Slicing",
+            "SLICING",
+            "HARD",
+            "SLICING",
             "YANG-DEF UP (?%)",
             null,
-            "Hard Slicing"
+            "HARD SLICING"
         ],
         "sc2": [
             null,
@@ -3451,35 +3451,35 @@
         ],
         "fs": [
             "AGI UP (?%)",
-            "Slicing",
+            "SLICING",
             null,
             null,
-            "Slicing",
+            "SLICING",
             null
         ],
         "sc1": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
             "Specular",
             null,
-            "Slicing"
+            "SLICING"
         ],
         "sc2": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             "Specular",
             "Specular",
             null,
-            "Slicing"
+            "SLICING"
         ],
         "lw": [
-            "Slicing",
+            "SLICING",
             null,
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing"
+            "SLICING"
         ]
     },
     {
@@ -3501,35 +3501,35 @@
             null
         ],
         "sc1": [
-            "Slicing",
+            "SLICING",
             "Specular",
             null,
             null,
-            "Slicing",
+            "SLICING",
             null
         ],
         "sc2": [
-            "Slicing",
+            "SLICING",
             null,
             "Specular",
-            "Slicing",
+            "SLICING",
             null,
             null
         ],
         "lw": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing"
+            "SLICING"
         ]
     },
     {
         "name": "Shikieiki Yamaxanadu",
         "ss": [
             "EVA-UP (?%)",
-            "Sure-Hit",
+            "SURE-HIT",
             "EVA-UP (?%)",
             null,
             null,
@@ -3539,32 +3539,32 @@
             null,
             null,
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null
         ],
         "sc1": [
-            "Sure-Hit",
-            "Piercing Hard",
-            "Piercing Hard",
+            "SURE-HIT",
+            "PIERCING HARD",
+            "PIERCING HARD",
             null,
             null,
             null
         ],
         "sc2": [
             null,
-            "Hard Enemy EVA DOWN (?)%",
+            "HARD Enemy EVA DOWN (?)%",
             null,
             null,
-            "Hard",
+            "HARD",
             null
         ],
         "lw": [
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null,
-            "Hard",
-            "Hard",
+            "HARD",
+            "HARD",
             null
         ]
     },
@@ -3572,51 +3572,51 @@
         "name": "Sekibanki",
         "ss": [
             "ENEMY YANG-DEF DOWN (?%) ENEMY YIN-DEF DOWN (?%) ",
-            "Hard",
+            "HARD",
             null,
             null,
             null,
             null
         ],
         "fs": [
-            "Sure-Hit AGI-UP (?%)",
+            "SURE-HIT AGI-UP (?%)",
             "AGI-UP (?%)",
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null
         ],
         "sc1": [
-            "Slicing",
+            "SLICING",
             null,
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing"
+            "SLICING"
         ],
         "sc2": [
-            "Hard",
+            "HARD",
             null,
             null,
-            "Hard",
-            "Hard",
-            "Hard"
+            "HARD",
+            "HARD",
+            "HARD"
         ],
         "lw": [
-            "Hard Slicing",
-            "Hard Slicing",
+            "HARD SLICING",
+            "HARD SLICING",
             null,
             null,
-            "Slicing",
+            "SLICING",
             null
         ]
     },
     {
         "name": "Mononobe no Futo",
         "ss": [
-            "Sure-Hit",
+            "SURE-HIT",
             null,
-            "Sure-Hit",
+            "SURE-HIT",
             null,
             null,
             null
@@ -3630,42 +3630,42 @@
             null
         ],
         "sc1": [
-            "Slicing",
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
+            "SLICING",
             null,
             null,
-            "Slicing"
+            "SLICING"
         ],
         "sc2": [
             null,
-            "Slicing",
+            "SLICING",
             null,
-            "Slicing",
+            "SLICING",
             null,
             null
         ],
         "lw": [
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null,
-            "Slicing",
-            "Slicing",
+            "SLICING",
+            "SLICING",
             null
         ]
     },
     {
         "name": "Soga no Tojiko",
         "ss": [
-            "Piercing",
+            "PIERCING",
             null,
             null,
             null,
-            "Piercing",
+            "PIERCING",
             null
         ],
         "fs": [
-            "Sure-Hit CRI ATK UP (?%)",
+            "SURE-HIT CRI ATK UP (?%)",
             null,
             "CRI-ATK UP (?) %",
             null,
@@ -3673,28 +3673,28 @@
             null
         ],
         "sc1": [
-            "Elastic",
+            "ELASTIC",
             null,
-            "Elastic",
+            "ELASTIC",
             null,
             null,
-            "Elastic"
+            "ELASTIC"
         ],
         "sc2": [
             "Exploding ACC-UP (?)%",
             "Exploding",
-            "Exploding Sure-Hit",
+            "Exploding SURE-HIT",
             null,
             null,
             null
         ],
         "lw": [
-            "Exploding Elastic",
+            "Exploding ELASTIC",
             "Exploding ",
             "ACC-UP (?)%",
             "Exploding",
-            "Elastic",
-            "Exploding Elastic"
+            "ELASTIC",
+            "Exploding ELASTIC"
         ]
     }
 ]
