@@ -33,16 +33,6 @@
             "chance": 0.0,
             "lvl": 2
           }
-        },
-        {
-          "Stat": {
-            "stat": {
-              "Normal": "YangDef"
-            },
-            "target": "All",
-            "chance": 0.0,
-            "lvl": -1
-          }
         }
       ],
       "post": [],

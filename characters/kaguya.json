@@ -327,16 +327,7 @@
       "skilltype": "skill1",
       "skillname": "TODO",
       "effect": [
-        {
-          "Stat": {
-            "stat": {
-              "Combat": "Acc"
-            },
-            "lvl": 3,
-            "chance": 0.0,
-            "target": "Self"
-          }
-        }
+
       ]
     },
     {
