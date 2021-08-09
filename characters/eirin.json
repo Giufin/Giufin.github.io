@@ -1,0 +1,377 @@
+{
+  "name": "Eirin Yagokoro",
+  "stats": {
+    "health": 8400,
+    "agility": 850,
+    "yang_atk": 1500,
+    "yang_def": 850,
+    "yin_atk": 1220,
+    "yin_def": 800
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Heaven Spider's Butterfly-Catching Web",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "lvl": 5,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "lvl": 5,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 15,
+          "power": 6.16,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 18.48,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 21.56,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 24.64,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 27.72,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
+          "bullettype": "Laser",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 30.8,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
+          "bullettype": "Laser",
+          "element": "Moon"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "TODO",
+      "target": "Solo",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinDef"
+            },
+            "lvl": 4,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 15,
+          "power": 5.12,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 6.58,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 7.13,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 7.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.23,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Revival: Seimei Yuugi -Life Game-",
+      "target": "Solo",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinDef"
+            },
+            "lvl": -2,
+            "chance": 0.0,
+            "target": "All"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "lvl": -2,
+            "chance": 0.0,
+            "target": "All"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 7,
+          "power": 7.92,
+          "bullettype": "Light",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 11.09,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 12.94,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 14.79,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 16.63,
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 2,
+          "power": 18.48,
+          "bullettype": "Light",
+          "element": "Moon"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "TODO",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "TODO",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "TODO",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ]
+    }
+  ],
+  "graze": [],
+  "power": []
+}

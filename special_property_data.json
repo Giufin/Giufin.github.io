@@ -2322,7 +2322,7 @@
     ]
   },
   {
-    "name": "Eirin Yakogoro",
+    "name": "Eirin Yagokoro",
     "ss": [
       "ENEMY CRI-EVA DOWN (?%)",
       "ENEMY CRI-EVA DOWN (?%)",
@@ -3695,6 +3695,49 @@
       "EXPLOSIVE",
       "ELASTIC",
       "EXPLOSIVE ELASTIC"
+    ]
+  },
+  {
+    "name": "Marisa Kirisame (Witch of Scarlet Dreams)",
+    "ss": [
+      null,
+      null,
+      null,
+      null,
+      "SURE-HIT",
+      "SURE-HIT"
+    ],
+    "fs": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sc1": [
+      "PIERCING",
+      "CRI-ACC UP (30%)",
+      "CRI-ACC UP (40%)",
+      "CRI-ACC UP (50%)",
+      null,
+      null
+    ],
+    "sc2": [
+      "EXPLOSIVE",
+      "CRI-ATK UP (30%)",
+      "CRI-ATK UP (40%)",
+      "CRI-ATK UP (50%)",
+      null,
+      null
+    ],
+    "lw": [
+      null,
+      "EXPLOSIVE ENEMY YIN-DEF DOWN (50%)",
+      "EXPLOSIVE ENEMY YIN-DEF DOWN (50%)",
+      "EXPLOSIVE ENEMY CRI-DEF DOWN (50%)",
+      "EXPLOSIVE ENEMY CRI-EVA DOWN (50%)",
+      "EXPLOSIVE ENEMY CRI-EVA DOWN (50%) ENEMY CRI-DEF DOWN (50%)"
     ]
   }
 ]

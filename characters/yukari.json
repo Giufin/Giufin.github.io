@@ -33,6 +33,16 @@
             "chance": 0.0,
             "lvl": 2
           }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "target": "All",
+            "chance": 0.0,
+            "lvl": -1
+          }
         }
       ],
       "post": [],
@@ -58,7 +68,7 @@
           "crit": 0.05,
           "amount": 3,
           "power": 12.91,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.7,
           "bullettype": "Light",
           "element": "Earth"
@@ -71,7 +81,7 @@
           "crit": 0.05,
           "amount": 3,
           "power": 14.22,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.8,
           "bullettype": "Light",
           "element": "Earth"
@@ -84,7 +94,7 @@
           "crit": 0.05,
           "amount": 3,
           "power": 16.25,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.9,
           "bullettype": "Light",
           "element": "No-Element"
@@ -97,7 +107,7 @@
           "crit": 0.05,
           "amount": 3,
           "power": 18.29,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.9,
           "bullettype": "Light",
           "element": "No-Element"
@@ -110,7 +120,7 @@
           "crit": 0.05,
           "amount": 3,
           "power": 20.32,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 1,
           "bullettype": "Light",
           "element": "No-Element"
@@ -305,7 +315,7 @@
             },
             "lvl": 3,
             "chance": 0.0,
-            "target": "Solo"
+            "target": "Self"
           }
         }
       ]

@@ -81,6 +81,23 @@ pub fn greet() {
 
 #[wasm_bindgen]
 pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slot: usize) {
+    let zro = NotNan::new(0.0).unwrap();
+    debug_str(
+        &serde_json::to_string(&BulletGroup {
+            acc: zro,
+            amount: 0,
+            crit: zro,
+            scales_off: Stats::zeroed(),
+            typ: Atktyp::Yang,
+            effects: vec![Effect {
+                chance: zro,
+                lvl: 1,
+                stat: BothStat::Normal(Stat::Health),
+            }],
+        })
+        .unwrap(),
+    );
+
     panic::set_hook(Box::new(|x| debug_str(&format!("{}", x))));
 
     let effects: Vec<RawEffect> = match serde_json::from_str(&effects) {
@@ -427,6 +444,8 @@ struct BulletGroup {
     amount: usize,
 
     scales_off: Stats,
+
+    effects: Vec<Effect>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
@@ -780,7 +799,7 @@ fn sim(
             }
             damages.push(data);
 
-            //same as above, if there is a line efffect we push multiple, if not we push one 
+            //same as above, if there is a line efffect we push multiple, if not we push one
             combined_stat_effects.push((char_stat_effect, enemy_stat_effect, eff_chance, damages))
         }
     });

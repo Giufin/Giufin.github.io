@@ -1,5 +1,65 @@
 [
 	{
+		"Card name": "whatever the 2 yang atkdef card is",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangDef"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"agility": 81,
+			"yang_def": 99
+		}
+	},
+	{
+		"Card name": "Darkmyon :)",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "Acc"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Slash"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.50
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"agility": 81,
+			"yang_def": 99
+		}
+	},
+	{
 		"Card name": "A Curious Festival",
 		"Effect": [
 			{
