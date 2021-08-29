@@ -1,19 +1,37 @@
 {
-  "name": "Remilia Scarlet",
+  "name": "Kaguya Houraisan",
+  "stats": {
+    "health": 5400,
+    "agility": 990,
+    "yang_atk": 1480,
+    "yang_def": 1010,
+    "yin_atk": 1390,
+    "yin_def": 950
+  },
   "spellcards": [
     {
       "cardtype": "LW",
-      "cardname": "Scarlet Destiny",
+      "cardname": "Hourai's Sea of Trees",
       "target": "All",
       "pre": [
         {
           "Stat": {
             "stat": {
-              "Normal": "YinDef"
+              "Normal": "YangAtk"
             },
-            "lvl": -3,
-            "chance": 0.8,
-            "target": "All"
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
           }
         }
       ],
@@ -22,15 +40,15 @@
         {
           "bulletgroup": 1,
           "boostlvl": 0,
-          "atktype": "Yin",
+          "atktype": "Yang",
           "acc": 0.75,
           "crit": 0.05,
-          "amount": 18,
-          "power": 6.1,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Normal",
-          "element": "Fire"
+          "amount": 16,
+          "power": 6.86,
+          "addscaling": "YangDef",
+          "addscaling_multi": 0.80,
+          "bullettype": "Energy",
+          "element": "Wood"
         },
         {
           "bulletgroup": 2,
@@ -40,23 +58,23 @@
           "crit": 0.05,
           "amount": 3,
           "power": 14.63,
-          "addscaling": "none",
-          "addscaling_multi": 0,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
           "bullettype": "Energy",
           "element": "No-Element"
         },
         {
           "bulletgroup": 3,
           "boostlvl": 2,
-          "atktype": "Yin",
+          "atktype": "Yang",
           "acc": 0.75,
           "crit": 0.05,
           "amount": 3,
           "power": 17.07,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Normal",
-          "element": "No-Element"
+          "addscaling": "YangDef",
+          "addscaling_multi": 0.80,
+          "bullettype": "Energy",
+          "element": "Wood"
         },
         {
           "bulletgroup": 4,
@@ -66,23 +84,23 @@
           "crit": 0.05,
           "amount": 3,
           "power": 19.5,
-          "addscaling": "none",
-          "addscaling_multi": 0,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
           "bullettype": "Energy",
-          "element": "Fire"
+          "element": "No-Element"
         },
         {
           "bulletgroup": 5,
           "boostlvl": 3,
-          "atktype": "Yin",
+          "atktype": "Yang",
           "acc": 0.75,
           "crit": 0.05,
           "amount": 3,
           "power": 21.94,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Normal",
-          "element": "No-Element"
+          "addscaling": "YangDef",
+          "addscaling_multi": 0.85,
+          "bullettype": "Energy",
+          "element": "Wood"
         },
         {
           "bulletgroup": 6,
@@ -92,36 +110,36 @@
           "crit": 0.05,
           "amount": 3,
           "power": 24.38,
-          "addscaling": "none",
-          "addscaling_multi": 0,
+          "addscaling": "None",
+          "addscaling_multi": 0.0,
           "bullettype": "Energy",
-          "element": "Fire"
+          "element": "No-Element"
         }
       ]
     },
     {
       "cardtype": "SC1",
-      "cardname": "Scarlet Sign: Red the Nightless Castle",
-      "target": "All",
+      "cardname": "TODO",
+      "target": "Solo",
       "pre": [
         {
           "Stat": {
             "stat": {
               "Normal": "YinDef"
             },
-            "lvl": -2,
-            "chance": 0.2,
-            "target": "All"
+            "lvl": 4,
+            "chance": 0.0,
+            "target": "Self"
           }
         },
         {
           "Stat": {
             "stat": {
-              "Normal": "YinAtk"
+              "Normal": "YangDef"
             },
-            "lvl": -2,
-            "chance": 0.2,
-            "target": "All"
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
           }
         }
       ],
@@ -133,11 +151,11 @@
           "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
-          "amount": 14,
-          "power": 3.13,
+          "amount": 15,
+          "power": 5.12,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
+          "bullettype": "Body",
           "element": "No-Element"
         },
         {
@@ -147,49 +165,49 @@
           "acc": 0.75,
           "crit": 0.05,
           "amount": 4,
-          "power": 4.39,
+          "power": 6.58,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
+          "bullettype": "Body",
           "element": "No-Element"
         },
         {
           "bulletgroup": 3,
           "boostlvl": 2,
-          "atktype": "Yang",
-          "acc": 0.75,
-          "crit": 0.05,
-          "amount": 4,
-          "power": 5.12,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Laser",
-          "element": "No-Element"
-        },
-        {
-          "bulletgroup": 4,
-          "boostlvl": 3,
           "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
           "amount": 4,
-          "power": 5.85,
+          "power": 7.13,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 7.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
           "element": "No-Element"
         },
         {
           "bulletgroup": 5,
           "boostlvl": 3,
-          "atktype": "Yang",
+          "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
-          "amount": 5,
-          "power": 5.27,
+          "amount": 4,
+          "power": 8.23,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
+          "bullettype": "Body",
           "element": "No-Element"
         },
         {
@@ -198,38 +216,38 @@
           "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
-          "amount": 5,
-          "power": 5.85,
+          "amount": 4,
+          "power": 8.78,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
+          "bullettype": "Body",
           "element": "No-Element"
         }
       ]
     },
     {
       "cardtype": "SC2",
-      "cardname": "Divine Spear: Spear the Gungnir",
+      "cardname": "Revival: Seimei Yuugi -Life Game-",
       "target": "Solo",
       "pre": [
         {
           "Stat": {
             "stat": {
-              "Combat": "Acc"
+              "Normal": "YinDef"
             },
-            "lvl": 2,
+            "lvl": -2,
             "chance": 0.0,
-            "target": "Self"
+            "target": "All"
           }
         },
         {
           "Stat": {
             "stat": {
-              "Normal": "YinAtk"
+              "Normal": "YangDef"
             },
-            "lvl": 2,
+            "lvl": -2,
             "chance": 0.0,
-            "target": "Self"
+            "target": "All"
           }
         }
       ],
@@ -238,153 +256,88 @@
         {
           "bulletgroup": 1,
           "boostlvl": 0,
-          "atktype": "Yin",
-          "acc": 0.75,
-          "crit": 0.05,
-          "amount": 2,
-          "power": 32.91,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Sharp",
-          "element": "Fire"
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
+          "amount": 7,
+          "power": 7.92,
+          "bullettype": "Light",
+          "element": "Moon"
         },
         {
           "bulletgroup": 2,
           "boostlvl": 1,
-          "atktype": "Yang",
-          "acc": 0.75,
-          "crit": 0.05,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
           "amount": 2,
-          "power": 13.17,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Sharp",
-          "element": "Fire"
+          "power": 11.09,
+          "bullettype": "Light",
+          "element": "No-Element"
         },
         {
           "bulletgroup": 3,
           "boostlvl": 2,
-          "atktype": "Yin",
-          "acc": 0.75,
-          "crit": 0.05,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
           "amount": 2,
-          "power": 15.36,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Sharp",
+          "power": 12.94,
+          "bullettype": "Light",
           "element": "No-Element"
         },
         {
           "bulletgroup": 4,
           "boostlvl": 3,
-          "atktype": "Yang",
-          "acc": 0.75,
-          "crit": 0.05,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
           "amount": 2,
-          "power": 17.55,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Sharp",
+          "power": 14.79,
+          "bullettype": "Light",
           "element": "No-Element"
         },
         {
           "bulletgroup": 5,
           "boostlvl": 3,
-          "atktype": "Yin",
-          "acc": 0.75,
-          "crit": 0.05,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.10,
           "amount": 2,
-          "power": 19.75,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Sharp",
+          "power": 16.63,
+          "bullettype": "Light",
           "element": "No-Element"
         },
         {
           "bulletgroup": 6,
           "boostlvl": 3,
-          "atktype": "Yang",
-          "acc": 0.75,
-          "crit": 0.05,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.10,
           "amount": 2,
-          "power": 21.94,
-          "addscaling": "none",
-          "addscaling_multi": 0,
-          "bullettype": "Sharp",
-          "element": "Fire"
+          "power": 18.48,
+          "bullettype": "Light",
+          "element": "Moon"
         }
       ]
     }
   ],
-  "stats": {
-    "health": 5000,
-    "agility": 1220,
-    "yang_atk": 1000,
-    "yang_def": 880,
-    "yin_atk": 1300,
-    "yin_def": 1050
-},
   "skills": [
     {
       "skilltype": "skill1",
-      "skillname": "Magic Enhancement",
+      "skillname": "TODO",
       "effect": [
-        {
-          "Stat": {
-            "stat": {
-              "Normal": "YinAtk"
-            },
-            "lvl": 2,
-            "chance": 0.0,
-            "target": "Self"
-          }
-        },
-        {
-          "Stat": {
-            "stat": {
-              "Normal": "YinDef"
-            },
-            "lvl": 2,
-            "chance": 0.0,
-            "target": "Self"
-          }
-        }
+
       ]
     },
     {
       "skilltype": "skill2",
-      "skillname": "Gaze of the Devil",
+      "skillname": "TODO",
       "effect": [
         {
           "Stat": {
             "stat": {
-              "Combat": "Acc"
-            },
-            "lvl": 2,
-            "chance": 0.0,
-            "target": "Solo"
-          }
-        },
-        {
-          "Stat": {
-            "stat": {
-              "Normal": "YinDef"
-            },
-            "lvl": -2,
-            "chance": 0.0,
-            "target": "Solo"
-          }
-        }
-      ]
-    },
-    {
-      "skilltype": "skill3",
-      "skillname": "Fate Manipulation",
-      "effect": [
-        {
-          "Stat": {
-            "stat": {
-              "Combat": "Acc"
+              "Normal": "YangDef"
             },
             "lvl": 3,
             "chance": 0.0,
@@ -392,8 +345,45 @@
           }
         }
       ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "TODO",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ]
     }
   ],
-  "power": [],
-  "graze": []
+  "graze": [],
+  "power": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YinAtk"
+        },
+        "lvl": 1,
+        "chance": 0.0,
+        "target": "Team"
+      }
+    }
+  ]
 }

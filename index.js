@@ -52,6 +52,7 @@ const convert_json_bulletgroup_to_internal = (bulletgroup) => {
     "crit": bulletgroup.crit,
     "scales_off": scaling,
     "amount": bulletgroup.amount,
+    "effects": bulletgroup.effects,
   }
 }
 
@@ -111,24 +112,130 @@ let character_names = [
   "patchy",
   "yuyuko",
   "ran",
-  "reimu"
+  "kerochan",
+  "reimu",
+  "yukari",
+  "remi",
+  "suika",
+  "chen",
+  "kaguya",
+  "eirin"
 ];
 
 let characters = [];
 
 for (let k of character_names) {
   let text = await fetch(`characters/${k}.json`).then(response => response.text());
-  characters.push([JSON.parse(text), text]);
+  characters.push(JSON.parse(text));
 }
+
+let special_data = await fetch(`special_property_data.json`).then(response => response.text());
+let reg = new RegExp(``
+  + String.raw`((ENEMY )?(EVA|ACC|CRI-(ACC|ATK|EVA|DEF)|FOCUS|HEA|AGI|(YIN|YANG)-(ATK|DEF))) (DOWN|UP) (\(\d\) )?\((\d+|\?)%\)`
+  + String.raw`|(SPECULAR|SURE-HIT|PIERCING|EXPLOSIVE|PRECISE|ELASTIC)`
+  + String.raw`|((HARD|SLICING|ABSORB|REBOUND) (\d+|\?)%)`
+  + String.raw`|(IMPACT|ADHESIVE) \((\d+|\?)%\)`
+)
+
+
+let obj = JSON.parse(special_data);
+
+for (let m of obj) {
+
+  //break; //YEET THIS LINE
+
+  let atks = [m.ss, m.fs, m.sc1, m.sc2, m.lw];
+
+  let mapped = atks.map(attack => {
+
+    return attack.map(current_shot => {
+
+      if (current_shot == null) {
+        return [];
+      }
+
+      let bulleteffects = []
+
+      while (current_shot != "") {
+        let res = reg.exec(current_shot);
+
+        if (res == null) {
+          console.log(current_shot, "  ", m);
+          break;
+        }
+
+        if (res[1] != null) {
+          //status or combat effect
+
+          // one issue rn is that there is a possibility of an effect with 2 levels on a chance, currently buffs have no representation of this 
+          if (res[8] != null && !(res[9] == "?" || res[9] == "100")) {
+            alert("todo")
+          }
+
+          bulleteffects.push(
+            { //here let's convert res[3] in the future
+              "stat": {
+                "Normal": res[3]
+              },
+              "lvl": (res[8] ?? "1") - 1,
+              "chance": (res[9] == "?" ? (/*alert("unknown chance aaaaaaaa") ?? */50) : res[9]) / 100
+            },
+
+
+          )
+        }
+
+        if (res[10] != null) {
+          // SPECULAR|SURE-HIT|PIERCING|EXPLOSIVE|PRECISE|ELASTIC
+          // ignore for now
+        }
+
+        if (res[11] != null) {
+          // HARD|SLICING|ABSORB|REBOUND
+          // ignore for now
+        }
+
+        if (res[14] != null) {
+          // IMPACT|ADHESIVE
+          // ignore for now
+        }
+
+
+        current_shot = current_shot.slice(res[0].length + 1);
+
+      }
+
+      return bulleteffects;
+    }
+    )
+  }); //this could be moved into the if below, but to make sure the regex is not broken on any character let's keep this like this for now
+
+  let character = characters.find(x => x.name == m.name);
+
+  if (character != null) {
+    let spellcards = character["spellcards"];
+    for (let i = 0; i < 6; i++) {
+
+      spellcards[0]["Bulletgroups"][i]["effects"] = []//mapped[4][i];
+      spellcards[1]["Bulletgroups"][i]["effects"] = []//mapped[2][i];
+      spellcards[2]["Bulletgroups"][i]["effects"] = []//mapped[3][i];
+    }
+
+
+  }
+
+
+}
+
 
 let story_cards = JSON.parse(await fetch(`characters/storycard.json`).then(response => response.text()));
 
-let selections = []
+let selections = [];
 let selection_node = document.getElementById("char_0");
 let selection_list = document.getElementById("char_select");
 let selection_filter_text = "";
 
-let cards = []
+let cards = [];
 let card_node = document.getElementById("card_0");
 let card_list = document.getElementById("card_list");
 let card_add = document.getElementById("card_add");
@@ -153,10 +260,10 @@ function update_chars() {
 
 }
 
-
+var saltmines = false;
 function ondatacomplete(data, idx) {
 
-  data.attack = JSON.parse(JSON.stringify(data.attack )); //thank you javascript... very cool
+  data.attack = JSON.parse(JSON.stringify(data.attack)); //thank you javascript... very cool
 
   let effs = [];
   let dbf = [];
@@ -218,6 +325,23 @@ function ondatacomplete(data, idx) {
     } else {
       effs.push(a)
     }
+  }
+
+  if (saltmines) {
+
+    effs.push(
+      {
+        "Stat": {
+          "stat": {
+            "Normal": "YinAtk"
+          },
+          "target": "Self",
+          "chance": 0.0,
+          "lvl": -7
+        }
+      },
+
+    )
   }
 
   console.log(effs);
@@ -335,7 +459,7 @@ function push_card(idx) {
 
 
     let charmapped = characters.map(function (el) {
-      return new Selection(el[1], el[0].name, el[0]);
+      return new Selection(JSON.stringify(el), el.name, el);
     });
 
     selection(charmapped,
@@ -428,7 +552,7 @@ import_button.onclick = function () {
   let text = import_text.value;
   import_text.value = "";
 
-  characters.push([JSON.parse(text), text]);
+  characters.push(JSON.parse(text));
 }
 
 let close_button = document.querySelector("#close_button");

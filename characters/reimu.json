@@ -37,7 +37,7 @@
           "power": 7.62,
           "addscaling": "YangDef",
           "addscaling_multi": 0.8,
-          "bullettype": "Hard",
+          "bullettype": "Ofuda",
           "element": "Sun"
         },
         {
@@ -50,7 +50,7 @@
           "power": 7.74,
           "addscaling": "YangDef",
           "addscaling_multi": 1,
-          "bullettype": "Hard",
+          "bullettype": "Ofuda",
           "element": "No-Element"
         },
         {
@@ -63,7 +63,7 @@
           "power": 7.74,
           "addscaling": "YangDef",
           "addscaling_multi": 1,
-          "bullettype": "Hard",
+          "bullettype": "Ofuda",
           "element": "No-Element"
         },
         {
@@ -76,7 +76,7 @@
           "power": 7.31,
           "addscaling": "YinDef",
           "addscaling_multi": 1,
-          "bullettype": "Hard",
+          "bullettype": "Energy",
           "element": "Sun"
         },
         {
@@ -89,7 +89,7 @@
           "power": 7.31,
           "addscaling": "YinDef",
           "addscaling_multi": 1,
-          "bullettype": "Hard",
+          "bullettype": "Energy",
           "element": "No-Element"
         },
         {
@@ -102,7 +102,7 @@
           "power": 7.31,
           "addscaling": "YangDef",
           "addscaling_multi": 1,
-          "bullettype": "Hard",
+          "bullettype": "Energy",
           "element": "Sun"
         }
       ]
@@ -153,9 +153,9 @@
         },
         {
           "bulletgroup": 3,
-          "boostlvl": 0.85,
+          "boostlvl": 1,
           "atktype": "Yin",
-          "acc": 1,
+          "acc": 0.85,
           "crit": 0.05,
           "amount": 3,
           "power": 6.45,

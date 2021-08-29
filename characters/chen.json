@@ -5,6 +5,8 @@
       "cardtype": "LW",
       "cardname": "Requiem of Tenyuuji",
       "target": "All",
+      "pre": [],
+      "post": [],
       "Bulletgroups": [
         {
           "bulletgroup": 1,
@@ -90,6 +92,8 @@
       "cardtype": "SC1",
       "cardname": "Hermit Sign: Fenghuang Egg",
       "target": "Solo",
+      "pre": [],
+      "post": [],
       "Bulletgroups": [
         {
           "bulletgroup": 1,
@@ -175,6 +179,8 @@
       "cardtype": "SC2",
       "cardname": "Oni Sign: Blue Oni, Red Oni",
       "target": "Solo",
+      "pre": [],
+      "post": [],
       "Bulletgroups": [
         {
           "bulletgroup": 1,
@@ -265,11 +271,11 @@
         {
           "Stat": {
             "stat": {
-              "Normal": "YangAtk"
+              "Normal": "Agility"
             },
             "target": "Self",
-            "chance": 0.0,
-            "lvl": 3
+            "chance": 0.8,
+            "lvl": 1
           }
         }
       ]
@@ -281,7 +287,7 @@
     },
     {
       "skilltype": "skill3",
-      "skillname": "Under the Flowers",
+      "skillname": "Shikigami Enhance: Accuracy",
       "effect": [
         {
           "Stat": {
