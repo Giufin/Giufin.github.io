@@ -442,10 +442,10 @@ function push_card(idx) {
 
     skillnode.onclick = function (ev) {
       if (!on) {
-        skillnode.style.backgroundColor = "black";
+        skillnode.style.backgroundColor = "white";
         data.skills[i - 1] = true;
       } else {
-        skillnode.style.backgroundColor = "white";
+        skillnode.style.backgroundColor = "black";
         data.skills[i - 1] = false;
       }
       on = !on;

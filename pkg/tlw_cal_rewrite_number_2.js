@@ -47,11 +47,6 @@ function takeObject(idx) {
     dropObject(idx);
     return ret;
 }
-/**
-*/
-export function greet() {
-    wasm.greet();
-}
 
 let WASM_VECTOR_LEN = 0;
 

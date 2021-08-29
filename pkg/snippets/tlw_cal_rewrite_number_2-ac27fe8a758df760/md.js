@@ -3,14 +3,14 @@ const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
 
 const colors = [
-  "#006400",
-  "#ff0000",
-  "#c71585",
-  "#00ff00",
-  "#00ffff",
-  "#0000ff",
-  "#1e90ff",
+  "#8b4513",
+  "#191970",
+  "#3cb371",
   "#ffd700",
+  "#00ff00",
+  "#00bfff",
+  "#0000ff",
+  "#ff1493",
 ];
 
 
