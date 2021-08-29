@@ -1,0 +1,359 @@
+{
+  "name": "Watatsuki no Toyohime",
+  "stats": {
+    "health": 6500,
+    "agility": 850,
+    "yang_atk": 1000,
+    "yang_def": 950,
+    "yin_atk": 1500,
+    "yin_def": 1300
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Toyotamaphimeia machikanensis",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "target": "Self",
+            "chance": 0.2,
+            "lvl": 2
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "target": "Self",
+            "chance": 0.2,
+            "lvl": 2
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 15,
+          "power": 10.97,
+          "addscaling": "Yin_def",
+          "addscaling_multi": 0.15,
+          "bullettype": "Light",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 14.63,
+          "addscaling": "Yin_def",
+          "addscaling_multi": 0.2,
+          "bullettype": "Light",
+          "element": "No-element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 13.41,
+          "addscaling": "Yin_def",
+          "addscaling_multi": 0.25,
+          "bullettype": "Light",
+          "element": "No-element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 18.29,
+          "addscaling": "Yin_def",
+          "addscaling_multi": 0.3,
+          "bullettype": "Light",
+          "element": "Moon"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 32.91,
+          "addscaling": "Yin_def",
+          "addscaling_multi": 0.35,
+          "bullettype": "Light",
+          "element": "No-element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 1,
+          "power": 29.26,
+          "addscaling": "Yin_def",
+          "addscaling_multi": 0.4,
+          "bullettype": "Light",
+          "element": "Wood"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Toyo SC1",
+      "target": null,
+      "Bulletgroups": [
+        {
+          "bulletgroup": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": "",
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Toyo SC2",
+      "target": null,
+      "Bulletgroups": [
+        {
+          "bulletgroup": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": null,
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        },
+        {
+          "bulletgroup": "",
+          "boostlvl": null,
+          "atktype": null,
+          "acc": null,
+          "crit": null,
+          "amount": null,
+          "power": null,
+          "addscaling": null,
+          "addscaling_multi": null,
+          "bullettype": null,
+          "element": null
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "todo",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 3
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "todo",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "target": "Self",
+            "chance": 0.6,
+            "lvl": 2
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "todo",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "target": "Self",
+            "chance": 0.8,
+            "lvl": 2
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "target": "Self",
+            "chance": 0.8,
+            "lvl": 2
+          }
+        }
+      ]
+    }
+  ],
+  "graze": [],
+  "power": []
+}

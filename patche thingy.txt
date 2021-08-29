@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> hue </title>
+    <style>
+        #alert_table, .alert_tr, .alert_td{
+            border: 2px solid blue;
+            background-color: lightblue;
+            border-collapse: collapse;
+            width = 100px;
+        }
+
+        .alert_tr, .alert_td{
+            padding: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        #alertBox{
+            /* Position fixed */
+            position:fixed;
+            /* Center it! */
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -100px;
+        }
+    </style>
+</head>
+
+<body>
+
+<p>Content</p>
+
+<div id="alertBoxContainer">
+    <div id="alertBox">
+        <table id="alert_table">
+            <tr id="alert_tr">
+                <td class="alert_td">  <p id="alert_content"></p>  </td>
+                <td class="alert_td">  <button id='alert_ok'  onclick="jAlertagree()"></button>  </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<p>Content</p>
+
+
+<script>
+function jAlertagree(){
+    var parent = document.getElementById('alertBoxContainer');
+    var child = document.getElementById('alertBox');
+    parent.removeChild(child);
+    document.body.style.backgroundColor="white";
+    document.body.style.cursor="default";
+}
+</script>
+
+<script>
+function customAlert(text, customokay){
+    document.getElementById('alert_content').innerHTML = text;
+    document.getElementById('alert_ok').innerHTML = customokay;
+    document.body.style.backgroundColor = "gray";
+    document.body.style.cursor="wait";
+}
+
+customAlert("A very wack Giufin alert!", "<b>Okay!</b>");
+</script>
+
+</body>
+</html>
