@@ -1,10 +1,21 @@
 use itertools::Itertools;
 use serde::{Deserialize, Serialize};
-use std::{collections::HashMap, convert::TryInto, hash::Hash, marker::PhantomData, usize};
+use std::{
+    collections::HashMap, convert::TryInto, fmt::Debug, hash::Hash, marker::PhantomData, usize,
+};
 
-use ordered_float::{Float, NotNan, ParseNotNanError};
+use ordered_float::{Float, NotNan};
 
 use crate::{AllEffect, BarrierAnomaly, CombatStat, RawStatEffect, Stat, Stats};
+
+fn mult_from_lvl(mult: NotNan<f64>, level: i64) -> NotNan<f64> {
+    let one = NotNan::new(1.0).expect("definitely not a nan");
+    if level < 0 {
+        one / (one + NotNan::new((-level) as f64).unwrap() * mult)
+    } else {
+        one * (one + NotNan::new(level as f64).unwrap() * mult)
+    }
+}
 
 pub trait MultiEffect<T>
 where
@@ -49,7 +60,7 @@ where
             data: default_data,
             effects: (0..T::Colle::SIZE)
                 .into_iter()
-                .map(|idx| 0)
+                .map(|_| 0)
                 .collect::<Vec<_>>()
                 .try_into()
                 .expect(
@@ -131,7 +142,7 @@ impl MultiEffectIdx for BarrierAnomaly {
 pub struct AnomallyMultiEffect {}
 
 impl MultiEffect<BarrierAnomaly> for AnomallyMultiEffect {
-    const SIZE: usize = 0;
+    const SIZE: usize = 3;
 
     fn data(idx: usize) -> BarrierAnomaly {
         match idx {
@@ -167,7 +178,7 @@ impl MultiEffectIdx for CombatStat {
 pub struct CombatMultiEffect {}
 
 impl MultiEffect<CombatStat> for CombatMultiEffect {
-    const SIZE: usize = 0;
+    const SIZE: usize = 3;
 
     fn data(idx: usize) -> CombatStat {
         match idx {
@@ -204,17 +215,19 @@ impl CharacterEffectState {
             .map(|a| {
                 Stats::from_stat(
                     &StatMultiEffect::data(a),
-                    NotNan::new(1.0).unwrap()
-                        + NotNan::new(0.3).unwrap() * NotNan::new(stats_data[a] as f64).unwrap(),
+                    mult_from_lvl(NotNan::new(0.3).unwrap(), stats_data[a]),
                 )
             })
             .reduce(|l, r| l.add(&r))
             .unwrap();
 
-        let yang_mul = NotNan::new(0.85).unwrap()
-            * NotNan::new(anomallies_data[0 /* poison */] as f64).unwrap();
-        let yin_mul =
-            NotNan::new(0.85).unwrap() * NotNan::new(anomallies_data[1 /* burn */] as f64).unwrap();
+        let yang_mul = NotNan::new(0.85)
+            .unwrap()
+            .powi(anomallies_data[0 /* poison */] as i32);
+
+        let yin_mul = NotNan::new(0.85)
+            .unwrap()
+            .powi(anomallies_data[1 /* burn */] as i32);
 
         res.yang_atk *= yang_mul;
         res.yang_def *= yang_mul;
@@ -257,6 +270,11 @@ impl DefaultMultiEffectState {
     }
 
     pub fn get_stats(&self) -> (Stats, Stats, [NotNan<f64>; 3]) {
+        let one = NotNan::new(1.0).unwrap();
+        let point_two = NotNan::new(0.2).unwrap();
+        let point_three = NotNan::new(0.3).unwrap();
+        let point_eighty_five = NotNan::new(0.85).unwrap();
+
         let char_stats = self.char.get_stats();
         let enemy_stats = self.enemy.get_stats();
 
@@ -266,29 +284,24 @@ impl DefaultMultiEffectState {
             .effects
             .iter()
             .zip(self.enemy.combat.effects.iter())
-            .map(|(char, enem)| NotNan::new((char + enem) as f64).unwrap())
+            .map(|(char, enem)| (char + enem))
             .collect::<Vec<_>>();
 
-        let one = NotNan::new(1.0).unwrap();
-        let point_two = NotNan::new(0.2).unwrap();
-        let point_three = NotNan::new(0.3).unwrap();
-        let point_eighty_five = NotNan::new(0.85).unwrap();
-
-        let acc = (one + point_two * combat[0])
+        let acc = mult_from_lvl(point_two, combat[0])
             * point_eighty_five.powi(self.enemy.barriers.effects[1] as i32);
 
-        let criacc = one + point_two * combat[1];
-        let criatk = one + point_three * combat[2];
+        let criacc = mult_from_lvl(point_two, combat[1]);
+        let criatk = one + mult_from_lvl(point_three, combat[1]);
 
         (char_stats, enemy_stats, [acc, criacc, criatk])
     }
 }
-
-pub struct DefaultEffectMultiWorld<T: Hash + Eq + Clone> {
+#[derive(Debug)]
+pub struct DefaultEffectMultiWorld<T: Hash + Eq + Clone + Debug> {
     pub states: HashMap<(DefaultMultiEffectState, T), NotNan<f64>>,
 }
 
-impl<T: Hash + Eq + Clone> DefaultEffectMultiWorld<T> {
+impl<T: Hash + Eq + Clone + Debug> DefaultEffectMultiWorld<T> {
     pub fn new(default: T) -> Self {
         let mut states = HashMap::new();
         states.insert(
@@ -296,6 +309,11 @@ impl<T: Hash + Eq + Clone> DefaultEffectMultiWorld<T> {
             NotNan::new(1.0).unwrap(),
         );
         DefaultEffectMultiWorld { states }
+    }
+
+    fn filter_zeros(&mut self) {
+        self.states
+            .retain(|_, chance| chance > &mut NotNan::new(0.0).unwrap())
     }
 
     pub fn apply_char_effects(&mut self, eff: RawStatEffect) {
@@ -320,6 +338,8 @@ impl<T: Hash + Eq + Clone> DefaultEffectMultiWorld<T> {
         {
             *self.states.entry(data).or_insert(zero) += chance;
         }
+
+        self.filter_zeros()
     }
 
     pub fn apply_enemy_effects(&mut self, eff: RawStatEffect) {
@@ -344,5 +364,7 @@ impl<T: Hash + Eq + Clone> DefaultEffectMultiWorld<T> {
         {
             *self.states.entry(data).or_insert(zero) += chance;
         }
+
+        self.filter_zeros()
     }
 }

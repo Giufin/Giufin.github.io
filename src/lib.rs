@@ -2,14 +2,14 @@ mod effects;
 
 use itertools::Itertools;
 use serde::{Deserialize, Serialize};
-use std::{cmp::min, collections::HashMap, convert::TryInto, usize};
+use std::{cmp::min, usize};
 
 use ordered_float::NotNan;
 use wasm_bindgen::prelude::*;
 
 use std::panic;
 
-use crate::effects::{DefaultEffectMultiWorld, DefaultMultiEffectState, EffectState};
+use crate::effects::DefaultEffectMultiWorld;
 
 #[wasm_bindgen(module = "/md.js")]
 extern "C" {
@@ -79,7 +79,7 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
         Ok(a) => a,
         Err(a) => {
             debug_str(&a.to_string());
-            panic!();
+            panic!("{}", data);
         }
     };
     let default_stats = Stats::new(
@@ -104,9 +104,8 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
     unsafe {
         start_drawing(slot);
 
-        let max_y = NotNan::new_unchecked(7_000.0);
         for (y, x) in res {
-            move_to(*x, *min(NotNan::new_unchecked(1.0), y / max_y));
+            move_to(*x, *y);
         }
 
         end_drawing();
@@ -170,14 +169,14 @@ fn to_stat(a: Atktyp) -> Stat {
 }
 #[derive(Serialize, Deserialize, Debug, Hash, PartialEq, Eq, Clone, Copy)]
 
-enum BarrierAnomaly {
+pub enum BarrierAnomaly {
     Poison,
     Burn,
     Paralize,
 }
 
 #[derive(Serialize, Deserialize, Debug, Hash, PartialEq, Eq, Clone, Copy)]
-enum Stat {
+pub enum Stat {
     Health,
     Agility,
     YangAtk,
@@ -186,14 +185,14 @@ enum Stat {
     YinDef,
 }
 #[derive(Serialize, Deserialize, Debug, Hash, PartialEq, Eq, Clone, Copy)]
-enum CombatStat {
+pub enum CombatStat {
     Acc,
     CritAcc,
     CritAtk,
 }
 
 #[derive(Debug, Clone, Hash, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
-struct Stats {
+pub struct Stats {
     health: NotNan<f64>,
     agility: NotNan<f64>,
     yang_atk: NotNan<f64>,
@@ -348,20 +347,20 @@ impl Modifiers {
     }
 }
 #[derive(Serialize, Deserialize, Debug, Clone, Hash, PartialEq, Eq)]
-struct RawStatEffect {
+pub struct RawStatEffect {
     stat: AllEffect,
     lvl: i64,
     chance: NotNan<f64>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, Hash, PartialEq, Eq)]
-enum RawEffect {
+pub enum RawEffect {
     Stat(RawStatEffect),
     PercentIncrease(String, NotNan<f64>),
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, Hash, PartialEq, Eq)]
-enum AllEffect {
+pub enum AllEffect {
     Normal(Stat),
     Combat(CombatStat),
     Barrier(BarrierAnomaly),
@@ -495,8 +494,6 @@ fn sim(
     let char_stats = char.stats.clone();
     let enem_stats = enemy.stats.clone();
 
-    debug_str(&format!("{:?}", effects));
-
     type EffectsType = DefaultEffectMultiWorld<Vec<(NotNan<f64>, NotNan<f64>)>>;
     let mut effect_world = EffectsType::new(vec![(zero, one)]);
 
@@ -512,7 +509,6 @@ fn sim(
         .iter()
         .map(|x| x.iter())
         .flatten();
-    //debug_str(&format!("{:?}", char_stats));
 
     for line in lines {
         for eff_self in line.effects_self.iter().cloned() {
@@ -528,6 +524,7 @@ fn sim(
             .drain()
             .map(|((state, damages), chance)| {
                 let (char_stat_mul, enem_stat_mul, combat_stats) = state.get_stats();
+
                 let char_stats = char_stats.mul(&char_stat_mul);
                 let enem_stats = enem_stats.mul(&enem_stat_mul);
 
@@ -535,20 +532,25 @@ fn sim(
                     Atktyp::Yang => enem_stats.yang_def,
                     Atktyp::Yin => enem_stats.yin_def,
                 };
+
+
+
                 let next_hits = bulletlines_to_percentiles(
                     line.clone(),
                     combat_stats[0],
                     combat_stats[1],
                     combat_stats[2],
                 );
+
+                debug_str(&format!("next_hits: {:?}", next_hits));
                 let damages_result = damages
                     .into_iter()
                     .map(|(damage, chance)| {
                         let char_stats = &char_stats;
                         next_hits.clone().into_iter().map(move |(stats, chance2)| {
                             (
-                                stats.mul(char_stats).sum() / &divby + damage.clone(), //damage
-                                chance * chance2,                                      //chance
+                                (stats.mul(char_stats).sum() / divby) + damage.clone(), //damage
+                                chance * chance2,                                       //chance
                             )
                         })
                     })
@@ -560,7 +562,7 @@ fn sim(
             .collect();
     }
 
-    effect_world
+    let mut unsorted = effect_world
         .states
         .into_iter()
         .map(|((_, damages), eff_chance)| {
@@ -569,5 +571,17 @@ fn sim(
                 .map(move |(damage, chance)| (damage, chance * eff_chance))
         })
         .flatten()
-        .collect()
+        .collect_vec();
+
+    unsorted.sort();
+
+    for i in 1..unsorted.len() {
+        unsorted[i].1 = unsorted[i - 1].1 + unsorted[i].1;
+    }
+
+    debug_str(&format!("unsorted: {:?}", unsorted));
+
+    unsorted.retain(|(_, chance)| chance > &NotNan::new(0.0).unwrap());
+
+    unsorted
 }

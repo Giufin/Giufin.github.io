@@ -52,7 +52,9 @@ const convert_json_bulletgroup_to_internal = (bulletgroup) => {
     "crit": bulletgroup.crit,
     "scales_off": scaling,
     "amount": bulletgroup.amount,
-    "effects": bulletgroup.effects,
+    "effects_self": bulletgroup.effects_self,
+    "effects_enem": bulletgroup.effects_enem ?? [],
+
   }
 }
 
@@ -70,7 +72,6 @@ const convert_json_bulletgroups_to_internal = (bulletgroups) => {
 const runWasm = async (attack, char, effects, dbf, power, idx) => {
 
   await init("./pkg/tlw_cal_rewrite_number_2_bg.wasm");
-  wasm.greet();
 
   console.log(effects);
 
@@ -216,9 +217,9 @@ for (let m of obj) {
     let spellcards = character["spellcards"];
     for (let i = 0; i < 6; i++) {
 
-      spellcards[0]["Bulletgroups"][i]["effects"] = []//mapped[4][i];
-      spellcards[1]["Bulletgroups"][i]["effects"] = []//mapped[2][i];
-      spellcards[2]["Bulletgroups"][i]["effects"] = []//mapped[3][i];
+      spellcards[0]["Bulletgroups"][i]["effects_self"] = []//mapped[4][i];
+      spellcards[1]["Bulletgroups"][i]["effects_self"] = []//mapped[2][i];
+      spellcards[2]["Bulletgroups"][i]["effects_self"] = []//mapped[3][i];
     }
 
 
