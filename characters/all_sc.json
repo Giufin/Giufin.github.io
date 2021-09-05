@@ -1,0 +1,2601 @@
+[{
+	"JP Name": "オカルトサークル (Occult Circle)",
+	"GLB Name": "N/A",
+	"Type": "Story farmable",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang DEF": 76,
+		"Yin DEF": 74
+	},
+	"Effects": [
+		"Missile bullets DMG +20% (35%) (1T)",
+		"Laser bullets DMG +20% (35%) (1T)",
+		"Self Evasion +1 (2) levels (3T)"
+	]
+},
+{
+	"JP Name": "死霊のモツ鍋 (The Spirit's Motsunabe)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 80,
+		"Yang ATK": 70
+	},
+	"Effects": [
+		"Self Agility +1 (2) levels (3T)",
+		"Water Element DMG +15% (20%) (1T)",
+		"DMG from Spiritual Being -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "理不尽な一 (An Unfair-)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 400,
+		"Yang ATK": 100
+	},
+	"Effects": [
+		"Self Yang ATK +2 (3) levels (2T)",
+		"Sharp bullets DMG +15% (20%) (1T)",
+		"Wood Element DMG +10% (15%) (1T)"
+	]
+},
+{
+	"JP Name": "祀られる風の人間 (Deified Human of the Wind)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 550,
+		"Yang DEF": 70
+	},
+	"Effects": [
+		"HEAL-only: Allies Yin DEF +1 (2) levels (3T)",
+		"HEAL-only: Allies Yang DEF +1 (2) levels (3T)",
+		"All Allies gain 1 (1) Barrier"
+	]
+},
+{
+	"JP Name": "華扇の仙界 (Kasen's Senkai)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 80,
+		"Yang DEF": 100
+	},
+	"Effects": [
+		"Self Yang ATK +2 (3) levels (3T)",
+		"Body bullets DMG +15% (25%) (1T)",
+		"DMG from Hermit -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "天空の秘神 (The Secret God of the Sky)",
+	"GLB Name": "N/A",
+	"Type": "Story farmable",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang DEF": 75,
+		"Yin DEF": 75
+	},
+	"Effects": [
+		"Heavy bullets DMG +25% (50%) (1T)",
+		"Self CRI ATK +1 (2) levels (1T)"
+	]
+},
+{
+	"JP Name": "小さな楽団員 (Little Band)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 80,
+		"Yang DEF": 70
+	},
+	"Effects": [
+		"Normal bullets DMG +10% (25%) (1T)",
+		"DMG from Vampire -15% (25%) (2T)",
+		"DMG from Fire bullets -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "白か黒か (White or Black)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 90,
+		"Yin ATK": 90
+	},
+	"Effects": [
+		"ATK-only: Self Yin ATK +1 (2) levels (3T)",
+		"ATK-only: Self Yang ATK +1 (2) levels (3T)"
+	]
+},
+{
+	"JP Name": "草の根妖怪ネットワーク (Grassroots Youkai Network)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 500,
+		"Yin DEF": 80
+	},
+	"Effects": [
+		"SUPP-only: Allies Yang DEF +2 (3) levels (2T)",
+		"SPD-only: Allies Agility +2 (3) levels (2T)",
+		"DMG from Water bullets -15% (20%) (2T)"
+	]
+},
+
+{
+	"JP Name": "秘湯の宿にて (At the Secret Spring's Inn)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 480,
+		"Yin ATK": 84
+	},
+	"Effects": [
+		"Body bullets DMG +15% (25%) (1T)",
+		"Metal Element DMG +15% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "黒幕との遭遇？ (Encounter with the Mastermind ?)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 98,
+		"Yin DEF": 82
+	},
+	"Effects": [
+		"Target Accuracy -2 (3) levels (2T)",
+		"Self Accuracy +1 (2) levels (2T)",
+		"DMG from Being of Darkness -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "アニバーサリー妖怪の山 (Anniversary Youkai Mountain)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 55,
+		"Yin DEF": 125
+	},
+	"Effects": [
+		"Gain 1.50 (2.00) Spirit Power",
+		"Body bullets DMG +15% (25%) (1T)",
+		"DMG from Kappa -25% (30%) (2T)"
+	]
+},
+{
+	"JP Name": "ブラッディ・オーダー (Bloody Order)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 83,
+		"Yin DEF": 67
+	},
+	"Effects": [
+		"Fire Element DMG +20% (40%) (1T)",
+		"Self CRI ATK +1 (2) levels (3T)"
+	]
+},
+{
+	"JP Name": "死霊の研究 (Research of Decease's Soul)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 600,
+		"Yin DEF": 60
+	},
+	"Effects": [
+		"Restores All Allies HP by 25% (35%) (1T)",
+		"Self Focus +2 (3) levels (3T)",
+		"DMG from Earth bullets -20% (35%) (2T)"
+	]
+},
+{
+	"JP Name": "イート・アンド・ウォーク (Eat and Walk)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 400,
+		"Agility": 100
+	},
+	"Effects": [
+		"SPD-only: Self Agility +2 (3) levels (3T)",
+		"SPD-only: All Enemies Agility -2 levels (3T)",
+		"DMG from Sharp bullets -20% (30%) (2T)"
+	]
+},
+{
+	"JP Name": "玉屋鍵屋の大弾幕 (Tamaya Locksmith's Large Barrage)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 410,
+		"Yang ATK": 98
+	},
+	"Effects": [
+		"Target Yin ATK -2 (3) levels (2T)",
+		"Target CRI ATK -2 (3) levels (2T)",
+		"DMG from Psychic User -25% (30%) (2T)"
+	]
+},
+{
+	"JP Name": "アニバーサリー紅魔館 (Anniversary Scarlet Devil Mansion)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 115,
+		"Yang DEF": 65
+	},
+	"Effects": [
+		"Target Yin DEF -2 (3) levels (2T)",
+		"Target Yang ATK -2 (3) levels (2T)",
+		"Laser bullets DMG +15% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "アニバーサリー博麗神社 (Anniversary Hakurei Shrine)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 100,
+		"Yang DEF": 80
+	},
+	"Effects": [
+		"Spirit Power gain rate +50% (100%) (1T)",
+		"Gain 1 (1) Barrier"
+	]
+},
+{
+	"JP Name": "アニバーサリー守矢神社 (Anniversary Moriya Shrine)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 118,
+		"Yin ATK": 62
+	},
+	"Effects": [
+		"Target CRI DEF -2 (3) levels (2T)",
+		"All Allies DMG from Star bullets -15% (30%) (2T)",
+		"All Allies gain 1 (1) Barrier"
+	]
+},
+{
+	"JP Name": "生徒会三役揃い踏み (Stepping into the 3 roles of the Student Council)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 500,
+		"Agility": 50
+	},
+	"Effects": [
+		"Body bullets DMG +15% (30%) (1T)",
+		"Laser bullets DMG +15% (30%) (1T)",
+		"Heavy bullets DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "蓬莱の人の形 (The shape of the Hourai)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 90,
+		"Yin DEF": 90
+	},
+	"Effects": [
+		"TEC-only: Self Yang DEF +2 (3) levels (3T)",
+		"TEC-only: Self CRI Accuracy +2 (3) levels (3T)",
+		"DMG from Hourai People -15% (2T)"
+	]
+},
+{
+	"JP Name": "スイート・ドリーム (Sweet Dream)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 60,
+		"Yin DEF": 120
+	},
+	"Effects": [
+		"Target Evasion -2 (3) levels (2T)",
+		"Target CRI Evasion -2 (3) levels (2T)",
+		"DMG from Indoor-Type -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "復活の願い (Wish for Resurrection)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 500,
+		"Yang DEF": 50
+	},
+	"Effects": [
+		"Restores HP by 35% (50%) (1T)",
+		"DMG from Fairy -15% (25%) (3T)"
+	]
+},
+{
+	"JP Name": "要石落とし (Keystone Dropping)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 100,
+		"Yin DEF": 80
+	},
+	"Effects": [
+		"Earth Element DMG +15% (30%) (1T)",
+		"Heavy bullets DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "第18回 博麗神社例大祭 (18th Hakurei Grand Festival/Reitaisai)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 90,
+		"Yin ATK": 90
+	},
+	"Effects": [
+		"DMG from Demonic Beast -25% (30%) (2T)",
+		"Normal bullets DMG +15% (20%) (1T)",
+		"Self CRI Accuracy +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "彼女の世界 (Her World)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 92,
+		"Yang DEF": 88
+	},
+	"Effects": [
+		"Self CRI Evasion +2 (3) levels (2T)",
+		"Slash bullets DMG +10% (15%) (1T)",
+		"DMG from Metal bullets -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "賢者の安らぎ (Peace of the Sage)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 125,
+		"Yin ATK": 55
+	},
+	"Effects": [
+		"DEF-only: Self Yang DEF +2 (3) levels (3T)",
+		"DEF-only: Target Yang DEF -2 (3) levels (3T)",
+		"DMG from Shikigami -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "フォトジェニック・ガールズ (Photogenic Girls)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 85,
+		"Yang DEF": 65
+	},
+	"Effects": [
+		"All Enemies CRI Evasion -1 (2) levels (2T)",
+		"Gain 0.75 (1.25) Spirit Power"
+	]
+},
+{
+	"JP Name": "メイド流抜刀術 (Maid Style Battoujutsu)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 68,
+		"Yin ATK": 82
+	},
+	"Effects": [
+		"Metal Element DMG +15% (30%) (1T)",
+		"DMG from Ghost -25% (35%) (3T)"
+	]
+},
+{
+	"JP Name": "独り舞台 (Solo Performance)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 99,
+		"Yang DEF": 81
+	},
+	"Effects": [
+		"HEAL-only: Self Yin ATK +2 (3) levels (3T)",
+		"HEAL-only: Self Evasion +2 (3) levels (3T)",
+		"DMG from Underground -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "賢人会合 (Meeting of the Sages)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 120,
+		"Yin ATK": 60
+	},
+	"Effects": [
+		"Laser bullets DMG +20% (40%) (1T)",
+		"DMG from Sun bullets -20% (20%) (3T)",
+		"DMG from Rabbit -20% (20%) (3T)"
+	]
+},
+{
+	"JP Name": "初詣組・その参 (Hatsumodegumi Third Group)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 75,
+		"Yin ATK": 75
+	},
+	"Effects": [
+		"Self Yin ATK +1 (3) levels (1T)",
+		"DMG from Moon bullets -20% (40%) (1T)"
+	]
+},
+{
+	"JP Name": "初詣組・その弐 (Hatsumodegumi Second Group)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 375,
+		"Yang DEF": 75
+	},
+	"Effects": [
+		"Self Accuracy +1 (3) levels (1T)",
+		"DMG from Shrine Maiden -20% (40%) (2T)"
+	]
+},
+{
+	"JP Name": "初詣組・その壱 (Hatsumodegumi First Group)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 75,
+		"Yin DEF": 75
+	},
+	"Effects": [
+		"Self Yang ATK +1 (3) levels (1T)",
+		"DMG from Youkai -20% (40%) (1T)"
+	]
+},
+{
+	"JP Name": "学問の守護聖人 (The Academic Patronus)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin DEF": 75,
+		"Yang DEF": 75
+	},
+	"Effects": [
+		"Laser bullets DMG +15% (25%) (1T)",
+		"Moon Element DMG +15% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "幽玄の剣聖 (The Calm and Mysterious Sword Saint)",
+	"GLB Name": "Mysterious Sword Master",
+	"Type": "Story farmable",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 75,
+		"Yin ATK": 75
+	},
+	"Effects": [
+		"Slash bullets DMG +25% (50%) (1T)",
+		"Self Accuracy +1 (2) levels (1T)"
+	]
+},
+{
+	"JP Name": "一場春夢の花舞台 (A Spring's Dream at the Flower Stage)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 110,
+		"Yin DEF": 70
+	},
+	"Effects": [
+		"Sharp bullets DMG +20% (40%) (1T)",
+		"DMG from Ghost -20% (20%) (3T)",
+		"DMG from Heavy bullets -20% (20%) (3T)"
+	]
+},
+{
+	"JP Name": "不死の死闘 (Deathmatch between the Undying)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 550,
+		"Yang ATK": 70
+	},
+	"Effects": [
+		"Restores HP by 15% (30%) (1T)",
+		"Laser bullets DMG +15% (25%) (1T)",
+		"Heavy bullets DMG +15% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "西洋錬金術の結晶 (Western Alchemy's Crystal)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 90,
+		"Yang ATK": 90
+	},
+	"Effects": [
+		"Earth Element DMG +20% (35%) (1T)",
+		"Metal Element DMG +20% (35%) (1T)",
+		"DMG from Familiar -25% (25%) (3T)"
+	]
+},
+{
+	"JP Name": "博麗茶会 (Hakurei Tea Party)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 325,
+		"Yin ATK": 85
+	},
+	"Effects": [
+		"Spirit Power gain rate +50% (75%) (1T)",
+		"DMG from Master -25% (35%) (1T)"
+	]
+},
+{
+	"JP Name": "オール巨人大進撃 (All Giant's Big Advance)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 600,
+		"Yang DEF": 60
+	},
+	"Effects": [
+		"Self Focus +2 (3) levels (3T)",
+		"Gain 1 (1) Barrier",
+		"DMG from Body bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "ダンサー・イン・ザ・パドル (Dancer in the Paddle)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 80,
+		"Yang DEF": 100
+	},
+	"Effects": [
+		"Gain 1.25 (1.75) Spirit Power",
+		"DMG from Fluid bullets -15% (20%) (2T)",
+		"DMG from Missile bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "血の絆 (Blood Bond)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 55,
+		"Yin ATK": 125
+	},
+	"Effects": [
+		"Fire Element DMG +30% (50%) (1T)",
+		"DMG from the Sages of Gensokyo -20% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "ふたりはスポイラー (Double Spoiler)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 120,
+		"Yin DEF": 60
+	},
+	"Effects": [
+		"Self Accuracy +1 (2) levels (3T)",
+		"Self Evasion +1 (2) levels (3T)"
+	]
+},
+{
+	"JP Name": "迫撃！トリプルフェアリー (Close ATK! Triple Fairy!)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin DEF": 80,
+		"Yang DEF": 70
+	},
+	"Effects": [
+		"Self Yang DEF +1 (2) levels (2T)",
+		"Self Yin DEF +1 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "月面戦争 (Lunar War)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin DEF": 60,
+		"Yang DEF": 120
+	},
+	"Effects": [
+		"Self Accuracy +2 (3) levels (2T)",
+		"Self Focus -2 (2) levels (2T)",
+		"DMG from Lunar Capital -25% (30%) (3T)"
+	]
+},
+{
+	"JP Name": "私のお気に入り (My Favorites)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 94,
+		"Yang DEF": 86
+	},
+	"Effects": [
+		"Water Element DMG +20% (40%) (1T)",
+		"DMG from Fire bullets -20% (20%) (2T)",
+		"DMG from Deity -20% (20%) (3T)"
+	]
+},
+{
+	"JP Name": "第七回 博麗神社秋季例大祭 (7th Hakurei Shrine Autumn Reitaisai)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 90,
+		"Yin ATK": 90
+	},
+	"Effects": [
+		"DMG from Incident Solvers -25% (30%) (2T)",
+		"Heavy bullets DMG +15% (20%) (1T)",
+		"DMG from Ofuda bullets -10% (10%) (1T)"
+	]
+},
+{
+	"JP Name": "動かない大図書館 (The Unmoving Great Library)",
+	"GLB Name": "Unmoving Great Library",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang DEF": 90,
+		"Yin DEF": 90
+	},
+	"Effects": [
+		"Moon Element DMG +15% (30%) (1T)",
+		"Laser bullets DMG +15% (25%) (1T)",
+		"DMG from Devil -25% (25%) (3T)"
+	]
+},
+{
+	"JP Name": "サミット・オブ・ウィッチーズ (Summit of Witches)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 84,
+		"Yin DEF": 66
+	},
+	"Effects": [
+		"Traitless Element DMG +10% (20%) (1T)",
+		"Star Element DMG +10% (20%) (1T)",
+		"DMG from Laser bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "奇妙な縁日 (A Strange Festival)",
+	"GLB Name": "A Curious Festival",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 81,
+		"Yang DEF": 99
+	},
+	"Effects": [
+		"Self Yin ATK +2 (3) levels (2T)",
+		"Ofuda bullets DMG +15% (25%) (1T)",
+		"DMG from Metal bullets -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "博麗神社秋祭り2020 (Hakurei Shrine Autumn Festival 2020)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang DEF": 98,
+		"Yin ATK": 82
+	},
+	"Effects": [
+		"DMG from Hakurei Shrine -25% (30%) (2T)",
+		"Normal bullets DMG +15% (20%) (1T)",
+		"Sharp bullets DMG +10% (10%) (1T)"
+	]
+},
+{
+	"JP Name": "サンダー・ビート (Thunder Beat)",
+	"GLB Name": "Thunder Beat",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 125,
+		"Yang DEF": 55
+	},
+	"Effects": [
+		"Energy bullets DMG +15% (30%) (1T)",
+		"Wood Element DMG +15% (25%) (1T)",
+		"DMG from Tsukumogami -25% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "食いつき無双 (Biting Warrior)",
+	"GLB Name": "Eating Contest",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 600,
+		"Yin ATK": 60
+	},
+	"Effects": [
+		"Restores HP by 20% (40%) (1T)",
+		"Body bullets DMG +35% (45%) (1T)"
+	]
+},
+{
+	"JP Name": "天空のバックダンサー (Backup Dancers in the Sky)",
+	"GLB Name": "Heavenly Backup Dancers",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 300,
+		"Agility": 90
+	},
+	"Effects": [
+		"Fire Element DMG +10% (20%) (1T)",
+		"Metal Element DMG +10% (20%) (1T)",
+		"DMG from Servant -20% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "風祝の居るところ (Where the Wind Priestess Resides)",
+	"GLB Name": "Where the Wind Priestess Is",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 675,
+		"Agility": 45
+	},
+	"Effects": [
+		"Energy bullets DMG +20% (35%) (1T)",
+		"Fluid bullets DMG +20% (35%) (1T)"
+	]
+},
+{
+	"JP Name": "紅霧の魔女 (Witch of the Scarlet Mist)",
+	"GLB Name": "The Witch of Scarlet Dreams",
+	"Type": "Story farmable",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 68,
+		"Yang ATK": 82
+	},
+	"Effects": [
+		"Gain 1.50 (2.00) Spirit Power",
+		"DMG from Magician -25% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "「博麗霊夢」とらのあなVer (Hakurei Reimu - Comic Toranoana Ver.)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 450,
+		"Yang DEF": 90
+	},
+	"Effects": [
+		"DMG from Water Creature -25% (30%) (2T)",
+		"Self Focus +1 (2) levels (2T)",
+		"Ofuda bullets DMG +15% (15%) (1T)"
+	]
+},
+{
+	"JP Name": "「サマーライブ」アキバホビーVer (Summer Concert - AKIBA-HOBBY Ver.)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 92,
+		"Yin ATK": 88
+	},
+	"Effects": [
+		"DMG from Poltergeist -25% (30%) (2T)",
+		"Energy bullets DMG +15% (20%) (1T)",
+		"Self Yang DEF +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "「ナズーリン」メロンブックスVer (Nazrin - Melonbooks Ver.)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang DEF": 88,
+		"Yin DEF": 92
+	},
+	"Effects": [
+		"DMG from Freeze -25% (30%) (2T)",
+		"Missile bullets DMG +15% (20%) (1T)",
+		"Self CRI Accuracy +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "「幻想郷」東方やおよろず商店Ver (Gensokyo, Touhou Yaoyorozu Store Ver)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 530,
+		"Yin DEF": 74
+	},
+	"Effects": [
+		"DMG from Forest of Magic Resident -25% (30%) (2T)",
+		"Earth Element DMG +15% (20%) (1T)",
+		"Self CRI DEF +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "「お茶会～妖々夢」アニメイトカフェVer (Tea Party~PCB. Animate Cafe Ver)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 95,
+		"Yin ATK": 85
+	},
+	"Effects": [
+		"DMG from Hakugyokurou -25% (30%) (2T)",
+		"Self Yin DEF +1 (2) levels (2T)",
+		"DMG from Body bullets -10% (10%) (2T)"
+	]
+},
+{
+	"JP Name": "おつかい日和 (Errands on a Fine Day)",
+	"GLB Name": "A Perfect Day for Errands",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang DEF": 75,
+		"Yin DEF": 75
+	},
+	"Effects": [
+		"DMG from Wood bullets -25% (40%) (3T)",
+		"Self CRI Evasion +2 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "潜入記者 (Undercover Reporter)",
+	"GLB Name": "Undercover Reporter",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 108,
+		"Yang ATK": 72
+	},
+	"Effects": [
+		"Wood Element DMG +15% (30%) (1T)",
+		"Body bullets DMG +15% (25%) (1T)",
+		"DMG from Human Village Resident -25% (30%) (3T)"
+	]
+},
+{
+	"JP Name": "第17回博麗神社例大祭(霧雨魔理沙) (17th Hakurei Grand Festival/Reitaisai- Kirisame Marisa)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 540,
+		"Yin DEF": 72
+	},
+	"Effects": [
+		"DMG from Gensokyo -25% (30%) (2T)",
+		"Sharp bullets DMG +15% (20%) (1T)",
+		"Self Agility +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "人形解放戦線 (Doll Liberation Front)",
+	"GLB Name": "Doll Liberation Front",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 375,
+		"Yin ATK": 75
+	},
+	"Effects": [
+		"Laser bullets DMG +10% (25%) (1T)",
+		"DMG from Water bullets -15% (20%) (2T)",
+		"DMG from Doll -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "桃狩り姫 (Peach Hunting Princess)",
+	"GLB Name": "Peach-Picking Princess",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 430,
+		"Yin ATK": 94
+	},
+	"Effects": [
+		"Self Yin DEF +2 (2) levels (2T)",
+		"Self CRI Accuracy +2 (2) levels (2T)",
+		"DMG from Lunarian -25% (30%) (3T)"
+	]
+},
+{
+	"JP Name": "紅霧異変を解決せよ (Let's Solve The Scarlet Mist Incident)",
+	"GLB Name": "Resolving the Scarlet Mist Incident",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 81,
+		"Yin DEF": 99
+	},
+	"Effects": [
+		"Self Evasion +2 (3) levels (2T)",
+		"DMG from Star bullets -20% (20%) (2T)",
+		"Spirit Power gain rate +15% (20%) (1T)"
+	]
+},
+{
+	"JP Name": "東方ロストワード (Touhou LostWord)",
+	"GLB Name": "Touhou LostWord",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 450,
+		"Agility": 90
+	},
+	"Effects": [
+		"Star Element DMG +15% (30%) (1T)",
+		"Sun Element DMG +15% (25%) (1T)",
+		"Self Agility +2 (2) levels (3T)"
+	]
+},
+{
+	"JP Name": "空を飛ぶ不思議な巫女 (Flying Mysterious Shrine Maiden)",
+	"GLB Name": "Flying Mysterious Shrine Maiden",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 450,
+		"Yang ATK": 90
+	},
+	"Effects": [
+		"Self Evasion +2 (3) levels (2T)",
+		"Sun Element DMG +15% (15%) (1T)",
+		"DMG from Moon bullets -20% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "普通の魔法使い (Ordinary Magician)",
+	"GLB Name": "Ordinary Magician",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 81,
+		"Yin ATK": 99
+	},
+	"Effects": [
+		"Self Yang ATK +2 (3) levels (2T)",
+		"Laser bullets DMG +15% (25%) (1T)",
+		"Self CRI ATK +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "賑やかな境内 (Lively Grounds)",
+	"GLB Name": "Lively Temple Grounds",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 98,
+		"Yin DEF": 82
+	},
+	"Effects": [
+		"Normal bullets DMG +15% (30%) (1T)",
+		"Spirit Power gain rate +25% (25%) (1T)",
+		"DMG from Normal bullets -25% (30%) (3T)"
+	]
+},
+{
+	"JP Name": "騒霊姉妹の演奏会 (Poltergeist Sisters' Concert)",
+	"GLB Name": "Poltergeist Sisters' Concert",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang DEF": 90,
+		"Yin DEF": 90
+	},
+	"Effects": [
+		"Self Accuracy +2 (3) levels (2T)",
+		"Self CRI DEF +2 (2) levels (2T)",
+		"DMG from Energy bullets -25% (30%) (3T)"
+	]
+},
+{
+	"JP Name": "酒豪のテリトリー (Drunkards' Territory)",
+	"GLB Name": "Drunkard Territory",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 475,
+		"Yang ATK": 85
+	},
+	"Effects": [
+		"DMG from Wood bullets -25% (40%) (2T)",
+		"Self Focus +2 (3) levels (3T)",
+		"DMG from Oni -25% (25%) (3T)"
+	]
+},
+{
+	"JP Name": "死ぬまで借りるぜ！ (Borrowing This Till I Die)",
+	"GLB Name": "I'll Borrow This Till I'm Dead!",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 91,
+		"Yin DEF": 89
+	},
+	"Effects": [
+		"DMG from Water bullets -25% (40%) (2T)",
+		"DMG from Earth bullets -25% (30%) (2T)",
+		"DMG from Laser bullets -25% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "清く正しい鴉天狗 (Pure and Honest Crow Tengu)",
+	"GLB Name": "Pure and Righteous Crow Tengu",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 425,
+		"Yang DEF": 95
+	},
+	"Effects": [
+		"DMG from Wood bullets -25% (40%) (2T)",
+		"Traitless Element DMG +15% (25%) (1T)",
+		"Self Agility +2 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "八雲家の人々 (The Yakumo Family)",
+	"GLB Name": "Members of the Yakumo Family",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 90,
+		"Yang DEF": 90
+	},
+	"Effects": [
+		"Self Yang ATK +2 (3) levels (2T)",
+		"Water Element DMG +10% (10%) (1T)",
+		"DMG from Sun bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "エンドレス・メッセージ (Endless Message)",
+	"GLB Name": "Endless Lecture",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 460,
+		"Yin DEF": 88
+	},
+	"Effects": [
+		"Self CRI Evasion +2 (3) levels (2T)",
+		"Fluid bullets DMG +10% (10%) (1T)",
+		"DMG from Sun bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "圧倒的な火力 (Overwhelming Firepower)",
+	"GLB Name": "Overwhelming Firepower",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"HP": 450,
+		"Yin ATK": 90
+	},
+	"Effects": [
+		"Self Yin ATK +2 (3) levels (2T)",
+		"Wood Element DMG +10% (15%) (1T)",
+		"DMG from Moon bullets -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "うちの子が一番かわいい！ (Mine is the Cutest!)",
+	"GLB Name": "My Girl's the Cutest!",
+	"Type": "Story farmable",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 90,
+		"Yang DEF": 90
+	},
+	"Effects": [
+		"Restores HP by 20% (35%) (1T)",
+		"Self Yang ATK +2 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "第17回博麗神社例大祭 (17th Hakurei Grand Festival/Reitaisai)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Agility": 85,
+		"Yang ATK": 95
+	},
+	"Effects": [
+		"DMG from Human -25% (30%) (2T)",
+		"Heavy bullets DMG +15% (20%) (1T)",
+		"Self Yang DEF +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "斬れないものはあんまりない (There's Almost Nothing I Can't Cut)",
+	"GLB Name": "I Can Cut Pretty Much Anything",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yin ATK": 69,
+		"Yin DEF": 81
+	},
+	"Effects": [
+		"Slash bullets DMG +10% (20%) (1T)",
+		"Body bullets DMG +10% (20%) (1T)",
+		"DMG from Slash bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "うしろの正面 (The Facade Behind)",
+	"GLB Name": "Standing Behind You",
+	"Type": "Gacha",
+	"Rarity": "★★★★★",
+	"Stats": {
+		"Yang ATK": 95,
+		"Yin ATK": 85
+	},
+	"Effects": [
+		"Moon Element DMG +15% (30%) (1T)",
+		"Self CRI ATK +2 (2) levels (2T)",
+		"DMG from Little Sister -25% (30%) (3T)"
+	]
+},
+{
+	"JP Name": "衛星トリフネ (Satellite TORIFUNE)",
+	"GLB Name": "N/A",
+	"Type": "Story farmable",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 300,
+		"Yang ATK": 50
+	},
+	"Effects": [
+		"Star Element DMG +x% (25%) (1T)",
+		"TEC-only: Allies Yang ATK +1 (1) levels (3T)"
+	]
+},
+{
+	"JP Name": "マッド・サナエ・デッド！ (Mad Sanae Dead)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yin ATK": 50,
+		"Yin DEF": 60
+	},
+	"Effects": [
+		"Restores All Allies HP by 10% (20%)",
+		"DMG from Moon bullets -10% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "名医の助手たち (The Renowned Doctor's Assistants)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 80,
+		"Yin ATK": 60
+	},
+	"Effects": [
+		"DBF-only: All Enemies Yang DEF -1 (2) levels (2T)",
+		"Traitless Element DMG +15% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "バーニングトリニティ (Burning Trinity)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 50,
+		"Yin ATK": 90
+	},
+	"Effects": [
+		"Sun Element DMG +x% (25%) (1T)",
+		"Fire Element DMG +x% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "お嬢様とわたし (The lady and I)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yin ATK": 85,
+		"Yang ATK": 55
+	},
+	"Effects": [
+		"Target Yin DEF -1 (2) levels (3T)",
+		"DMG from Vampire -15% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "あったかごはん (A Warm Meal)",
+	"GLB Name": "N/A",
+	"Type": "Story farmable",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 300,
+		"Yin DEF": 50
+	},
+	"Effects": [
+		"SUPP-only: Allies Accuracy +1 (2) levels (2T)",
+		"HEAL-only: Allies Evasion +1 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "秘密の嗜み (A Secret Hobby)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 56,
+		"Yin ATK": 54
+	},
+	"Effects": [
+		"Self Accuracy +1 (2) levels (3T)",
+		"DMG from Deity -15% (30%) (3T)"
+	]
+},
+{
+	"JP Name": "妖怪の山ライブ☆フェス (Youkai Mountain Live☆Festival)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 80,
+		"Yang ATK": 60
+	},
+	"Effects": [
+		"SPD-only: Allies Agility +1 (2) levels (2T)",
+		"DMG from Tengu -15% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "香霖堂の主 (Owner of Kourindou)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yin ATK": 84,
+		"Yin DEF": 56
+	},
+	"Effects": [
+		"Normal bullets DMG +10% (20%) (1T)",
+		"DMG from x -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "ドギー・オーダー (Doggy Order)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 260,
+		"Yang ATK": 58
+	},
+	"Effects": [
+		"Wood Element DMG +15% (30%) (1T)",
+		"Target Accuracy -1 (1) levels (3T)"
+	]
+},
+{
+	"JP Name": "新茶入荷 (New Tea is in Stock)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 82,
+		"Yin DEF": 58
+	},
+	"Effects": [
+		"Ofuda bullets DMG +20% (30%) (1T)",
+		"DMG from Gensokyo -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "激突ダイヤモンドダスト (Clash of the Diamond Dust)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 325,
+		"Yin ATK": 75
+	},
+	"Effects": [
+		"Water Element DMG +20% (30%)",
+		"DMG from Cold -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "三人寄らば (Three Persons Together)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 80,
+		"Yin DEF": 80
+	},
+	"Effects": [
+		"DEF-only: Self Evasion +2 (3) levels (3T)",
+		"All Allies DMG from Youkai -20% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "バーニング・ラブレター？ (Burning love letter ?)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 300,
+		"Yin DEF": 50
+	},
+	"Effects": [
+		"Self Focus +2 (3) levels (1T)",
+		"Ofuda bullets DMG +10% (20%) (1T)"
+	]
+},
+{
+	"JP Name": "夜間寺子屋 (School at Night)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 60,
+		"Yin DEF": 80
+	},
+	"Effects": [
+		"Spirit Power gain rate +25% (50%) (1T)",
+		"Gain 0.75 (1.25) Spirit Power"
+	]
+},
+
+{
+	"JP Name": "新発明・厄クリーナー！ (New Invention・Apotropaic Cleaner!)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 290,
+		"Yin ATK": 82
+	},
+	"Effects": [
+		"Missile bullets DMG +20% (30%) (1T)",
+		"DMG from Misfortune -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "剣の修業？ (Sword Training ?)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 45,
+		"Yang ATK": 65
+	},
+	"Effects": [
+		"Self CRI ATK +1 (2) levels (2T)",
+		"DMG from Slash bullets -10% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "アリス救難信号 (Alice's Distress Signal)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 450,
+		"Yin DEF": 50
+	},
+	"Effects": [
+		"Target Evasion -1 (2) levels (3T)",
+		"DMG from Misfortune -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "タイガー&ドラゴン (Tiger & Dragon)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yin ATK": 92,
+		"Yang DEF": 88
+	},
+	"Effects": [
+		"Body bullets DMG +10% (25%) (1T)",
+		"Energy bullets DMG +15% (15%) (1T)"
+	]
+},
+{
+	"JP Name": "動物霊のしわざ！？ (The work of animal spirits!?)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 55,
+		"Yang ATK": 85
+	},
+	"Effects": [
+		"Laser bullets DMG +10% (20%) (1T)",
+		"DMG from Cat -15% (20%) (3T)"
+	]
+},
+{
+	"JP Name": "おひとついかがですかー (How about one ?)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 70,
+		"Yin DEF": 40
+	},
+	"Effects": [
+		"Target Yang ATK -1 (2) levels (2T)",
+		"Body bullets DMG +10% (20%) (1T)"
+	]
+},
+{
+	"JP Name": "試し撃ち (Shooting Practice)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 325,
+		"Agility": 75
+	},
+	"Effects": [
+		"Self Yang ATK +1 (2) levels (2T)",
+		"Water Element DMG +10% (15%)"
+	]
+},
+{
+	"JP Name": "魔令嬢 (Lady Devil)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 55,
+		"Yin ATK": 55
+	},
+	"Effects": [
+		"Traitless Element DMG +10% (15%) (1T)",
+		"Laser bullets DMG +10% (15%) (1T)"
+	]
+},
+{
+	"JP Name": "紅魔館の華麗なふたり (Scarlet Devil Mansion's Brilliant Duo)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 250,
+		"Yin ATK": 90
+	},
+	"Effects": [
+		"Traitless Element DMG +15% (25%) (1T)",
+		"Metal Element DMG +15% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "暖かくして待ってます (Please Wait Warmly)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 250,
+		"Yang DEF": 90
+	},
+	"Effects": [
+		"Self Yang ATK +1 (2) levels (2T)",
+		"Self Yang DEF +1 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "純白の聖夜 (Pure White Christmas Night)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 300,
+		"Yin ATK": 50
+	},
+	"Effects": [
+		"Self CRI Accuracy +1 (2) levels (2T)",
+		"Energy bullets DMG +10% (15%) (1T)"
+	]
+},
+{
+	"JP Name": "命在りし日の少女 (A Day when She was Alive)",
+	"GLB Name": "A Time When the Girl Lived",
+	"Type": "Story farmable",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 300,
+		"Agility": 50
+	},
+	"Effects": [
+		"Wood Element DMG +20% (35%) (1T)",
+		"Spirit Power gain rate +25% (50%) (1T)"
+	]
+},
+{
+	"JP Name": "戦闘姫 (Sword Princess)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 80,
+		"Yin ATK": 60
+	},
+	"Effects": [
+		"Slash bullets DMG +20% (30%) (1T)",
+		"DMG from God's Spirit -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "待ちなさ～い！ (Waittttt!)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 55,
+		"Yang DEF": 85
+	},
+	"Effects": [
+		"Self Agility +1 (2) levels (3T)",
+		"DMG from Missile bullets -15% (3T)"
+	]
+},
+{
+	"JP Name": "七五三de授業参観！？ (Visit the class at Shichigosan!?)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 66,
+		"Yin ATK": 44
+	},
+	"Effects": [
+		"Self Accuracy +1 (2) levels (3T)"
+	]
+},
+{
+	"JP Name": "地上って楽しい！ (The surface is fun!)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 50,
+		"Yin DEF": 90
+	},
+	"Effects": [
+		"Self CRI ATK +1 (2) levels (1T)",
+		"Self CRI Accuracy +1 (2) levels (1T)"
+	]
+},
+{
+	"JP Name": "居候のリリパット (Lilliput of the Living)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 70,
+		"Yin DEF": 70
+	},
+	"Effects": [
+		"DMG from Human -35% (50%) (3T)"
+	]
+},
+{
+	"JP Name": "鉄壁 (Iron Wall)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 71,
+		"Yin DEF": 69
+	},
+	"Effects": [
+		"Self CRI DEF +1 (2) levels (2T)",
+		"DMG from Sun bullets -20% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "吸血鬼の伝統的礼装 (Vampire Traditional Dress)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 65,
+		"Yang ATK": 45
+	},
+	"Effects": [
+		"Sharp bullets DMG +10% (20%) (1T)",
+		"DMG from Older Sister -10% (10%) (2T)"
+	]
+},
+{
+	"JP Name": "ドッグレース (Dog Race)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 70,
+		"Yin ATK": 70
+	},
+	"Effects": [
+		"DMG from Laser bullets -25% (35%) (2T)",
+		"DMG from Missile bullets -25% (35%) (2T)"
+	]
+},
+{
+	"JP Name": "ブティック・コーリンドー (Boutique Kourindou)",
+	"GLB Name": "Kourindou Boutique",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 315,
+		"Yang ATK": 77
+	},
+	"Effects": [
+		"Sun Element DMG +10% (20%) (1T)",
+		"DMG from Normal bullets -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "火力が命 (Firepower is Life)",
+	"GLB Name": "N/A",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 150,
+		"Agility": 80
+	},
+	"Effects": [
+		"Metal Element DMG +10% (20%) (1T)",
+		"DMG from Heavy bullets -10% (10%) (2T)"
+	]
+},
+{
+	"JP Name": "紅勝て白勝て (Red Wins, White Wins)",
+	"GLB Name": "Scarlet Win, White Win",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 425,
+		"Agility": 55
+	},
+	"Effects": [
+		"Heavy bullets DMG +10% (20%) (1T)",
+		"DMG from Scarlet Devil Mansion -15% (20%) (3T)"
+	]
+},
+{
+	"JP Name": "転生の稗田家当主 (Reincarnated Hieda Clan Head)",
+	"GLB Name": "Reincarnated Head of Hieda",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yin ATK": 50,
+		"Yin DEF": 90
+	},
+	"Effects": [
+		"Self CRI Evasion +2 (3) levels (3T)",
+		"DMG from Maiden of Are -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "月から来た団子職人 (Dango Artisan From the Moon)",
+	"GLB Name": "Dango Makers From the Moon",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 60,
+		"Yang DEF": 80
+	},
+	"Effects": [
+		"Moon Element DMG +20% (30%) (1T)",
+		"DMG from Eagle Ravi -15% (15%) (2T)"
+	]
+},
+{
+	"JP Name": "昼寝も仕事のうち (Napping's Part of the Job for Me)",
+	"GLB Name": "Napping Is Part of the Job",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 41,
+		"Yin DEF": 69
+	},
+	"Effects": [
+		"Self CRI DEF +1 (2) levels (2T)",
+		"DMG from Demonic Beast -10% (10%) (2T)"
+	]
+},
+{
+	"JP Name": "溶けない炎天下の氷精 (The Scorching Day and the Unmelting Ice Fairy)",
+	"GLB Name": "Fairies Under the Hot Sun",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 275,
+		"Yin DEF": 85
+	},
+	"Effects": [
+		"Self Yang ATK +1 (2) levels (2T)",
+		"Sun Element DMG +10% (20%) (1T)"
+	]
+},
+{
+	"JP Name": "紅魔塔の幼姫 (Young Princess of the Scarlet Devil Tower)",
+	"GLB Name": "Scarlet Devil Tower Princess",
+	"Type": "Story farmable",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 350,
+		"Yin DEF": 60
+	},
+	"Effects": [
+		"Self Focus -2 (3) levels (3T)"
+	]
+},
+{
+	"JP Name": "聖獣の学び舎 (School of the Divine Beast)",
+	"GLB Name": "Mythical Beast's School",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 160,
+		"Yang DEF": 78
+	},
+	"Effects": [
+		"Self Yin ATK +1 (2) levels (2T)",
+		"DMG from Sun bullets -10% (10%) (2T)"
+	]
+},
+{
+	"JP Name": "うらめしや～ (Boo!)",
+	"GLB Name": "Boo!",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 68,
+		"Yin ATK": 72
+	},
+	"Effects": [
+		"Self Yin ATK +1 (2) levels (2T)",
+		"DMG from Water bullets -20% (25%) (2T)"
+	]
+},
+
+{
+	"JP Name": "GO WEST (Go in the opposite direction of East)",
+	"GLB Name": "GO WEST",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 68,
+		"Yang ATK": 62
+	},
+	"Effects": [
+		"Self Evasion +1 (2) levels (2T)",
+		"DMG from Energy bullets -10% (10%) (3T)"
+	]
+},
+{
+	"JP Name": "再会の兎たち (Rabbits' Reunion)",
+	"GLB Name": "The Rabbits' Reunion",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 52,
+		"Yin DEF": 88
+	},
+	"Effects": [
+		"Missile bullets DMG +10% (20%) (1T)",
+		"DMG from Moon Rabbit -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "紅魔館のセキュリティ (Scarlet Devil Mansion Security)",
+	"GLB Name": "Security at the Mansion",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 62,
+		"Yin ATK": 78
+	},
+	"Effects": [
+		"Self Yin DEF +1 (2) levels (2T)",
+		"DMG from Body bullets -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "魔法の下準備 (Magic Preparation)",
+	"GLB Name": "Magic Prep",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 72,
+		"Yin ATK": 68
+	},
+	"Effects": [
+		"Self CRI Accuracy +1 (2) levels (2T)",
+		"DMG from Laser bullets -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "閑古鳥 (Unprosperous)",
+	"GLB Name": "Cuckoo Bird",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 78,
+		"Yin DEF": 62
+	},
+	"Effects": [
+		"DMG from Wood bullets -20% (35%) (2T)",
+		"Traitless Element DMG +10% (15%) (1T)"
+	]
+},
+{
+	"JP Name": "深夜の紅茶 (Late Night Black Tea)",
+	"GLB Name": "Midnight Tea",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 64,
+		"Yin ATK": 76
+	},
+	"Effects": [
+		"Gain 1 (1.50) Spirit Power",
+		"DMG from Maid -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "甘いもの好き (Love of Sweets)",
+	"GLB Name": "Lover of Sweets",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 365,
+		"Yang DEF": 65
+	},
+	"Effects": [
+		"Restores HP by 10% (20%) (1T)",
+		"DMG from Hermit -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "夜雀のウナギ屋さん (Night Sparrow's Eel Shop)",
+	"GLB Name": "Night Sparrow's Unagi Stand",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 62,
+		"Yin DEF": 78
+	},
+	"Effects": [
+		"DMG from Earth bullets -20% (35%) (2T)",
+		"DMG from Moon bullets -20% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "文々。新聞 (Bunbunmaru News)",
+	"GLB Name": "Bunbunmaru Newspaper",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 68,
+		"Yang ATK": 72
+	},
+	"Effects": [
+		"Self Yang DEF +1 (2) levels (2T)",
+		"Normal bullets DMG +10% (10%) (1T)"
+	]
+},
+{
+	"JP Name": "火力の裏側 (Behind the Firepower)",
+	"GLB Name": "N/A",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 70,
+		"Yin ATK": 70
+	},
+	"Effects": [
+		"Laser bullets DMG +10% (20%) (1T)",
+		"DMG from Fire bullets -20% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "幸運の兎 (Lucky Rabbit)",
+	"GLB Name": "Rabbit of Good Fortune",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 350,
+		"Yang DEF": 70
+	},
+	"Effects": [
+		"Spirit Power gain rate +25% (40%) (1T)",
+		"Gain 1 (1) Barrier"
+	]
+},
+{
+	"JP Name": "ケロケロハット (KeroKero Hat)",
+	"GLB Name": "Froggy Hat",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 70,
+		"Yin DEF": 70
+	},
+	"Effects": [
+		"Fluid bullets DMG +10% (20%) (1T)",
+		"Self Accuracy +1 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "道士の耳に念仏 (Buddhist Prayer for the Taoist)",
+	"GLB Name": "Praying into the Ears of a Taoist",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang DEF": 64,
+		"Yin DEF": 76
+	},
+	"Effects": [
+		"Self Evasion +1 (2) levels (2T)",
+		"Body bullets DMG +10% (10%) (1T)"
+	]
+},
+{
+	"JP Name": "湖面上のディーヴァ (Diva of the Lake)",
+	"GLB Name": "Diva of the Lake",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 350,
+		"Agility": 70
+	},
+	"Effects": [
+		"Water Element DMG +10% (20%) (1T)",
+		"Self Focus +1 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "坂道ころりん (Rolling on a Hill)",
+	"GLB Name": "Rolling Down the Slope",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 72,
+		"Yang ATK": 68
+	},
+	"Effects": [
+		"Self Evasion +1 (2) levels (2T)",
+		"Self Agility +1 (1) levels (2T)"
+	]
+},
+{
+	"JP Name": "食べてもいーい？ (Can I Eat It?)",
+	"GLB Name": "Can I Eat You?",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yin ATK": 70,
+		"Yin DEF": 70
+	},
+	"Effects": [
+		"Moon Element DMG +10% (20%) (1T)",
+		"DMG from Star bullets -20% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "あたいったら最強ね (Aye'm the Strongest!)",
+	"GLB Name": "I'm the STRONGEST!",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 70,
+		"Yang ATK": 70
+	},
+	"Effects": [
+		"Self CRI ATK +1 (2) levels (2T)",
+		"Spirit Power gain rate +25% (25%) (1T)"
+	]
+},
+{
+	"JP Name": "いつもの賽銭箱 (The Usual Donation Box)",
+	"GLB Name": "The Usual Offering Box",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 350,
+		"Yin ATK": 70
+	},
+	"Effects": [
+		"Self Yin DEF +1 (2) levels (2T)",
+		"Traitless Element DMG +10% (10%) (1T)"
+	]
+},
+{
+	"JP Name": "ジェラシーモンスター (Jealousy Monster)",
+	"GLB Name": "Jealousy Monster",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 340,
+		"Yin ATK": 72
+	},
+	"Effects": [
+		"Wood Element DMG +10% (20%) (1T)",
+		"DMG from Wood bullets -20% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "霧雨魔法店 (Kirisame Magic Shop)",
+	"GLB Name": "Kirisame Magic Shop",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 79,
+		"Yin ATK": 61
+	},
+	"Effects": [
+		"Star Element DMG +10% (20%) (1T)",
+		"Self CRI DEF +1 (2) levels (2T)"
+	]
+},
+{
+	"JP Name": "春ですよ～！ (It's Spring~!)",
+	"GLB Name": "It's Spring!",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Yang ATK": 72,
+		"Yang DEF": 68
+	},
+	"Effects": [
+		"Gain 1 (1.50) Spirit Power",
+		"DMG from Spring attacks -15% (15%) (3T)"
+	]
+},
+{
+	"JP Name": "ボイス・オブ・エコー (Voice of Echo)",
+	"GLB Name": "Voice of an Echo",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"HP": 375,
+		"Agility": 65
+	},
+	"Effects": [
+		"Earth Element DMG +10% (20%) (1T)",
+		"DMG from Star bullets -20% (25%) (2T)"
+	]
+},
+{
+	"JP Name": "いつもの放課後 (The Usual After School)",
+	"GLB Name": "After School as Usual",
+	"Type": "Story farmable",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 70,
+		"Yin ATK": 70
+	},
+	"Effects": [
+		"Traitless Element DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "通行止め (You Shall Not Pass)",
+	"GLB Name": "Dead End",
+	"Type": "Gacha",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 78,
+		"Yin ATK": 62
+	},
+	"Effects": [
+		"DMG from Metal bullets -20% (35%) (2T)",
+		"Slash bullets DMG +10% (15%) (1T)"
+	]
+},
+{
+	"JP Name": "妖精たちの遊び (Fairies' Games)",
+	"GLB Name": "Frolicking Fairies",
+	"Type": "Time-Limited",
+	"Rarity": "★★★★",
+	"Stats": {
+		"Agility": 55,
+		"Yin DEF": 55
+	},
+	"Effects": [
+		"Self CRI Evasion +1 (2) levels (2T)",
+		"DMG from Fairy -10% (10%) (2T)"
+	]
+},
+{
+	"JP Name": "ミニ八卦炉 (Mini Hakkero)",
+	"GLB Name": "Mini Hakkero",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 48,
+		"Yang ATK": 52
+	},
+	"Effects": [
+		"Fire Element DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "博麗神社 (Hakurei Shrine)",
+	"GLB Name": "Hakurei Shrine",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 250,
+		"Yang DEF": 50
+	},
+	"Effects": [
+		"DMG from Youkai -20% (20%) (3T)",
+		"DMG from Shrine Maiden -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "霧の湖 (Misty Lake)",
+	"GLB Name": "Misty Lake",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yang DEF": 51,
+		"Yin DEF": 49
+	},
+	"Effects": [
+		"DMG from Water bullets -25% (40%) (2T)"
+	]
+},
+{
+	"JP Name": "太陽の畑 (Sunflower Field)",
+	"GLB Name": "Garden of the Sun",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 205,
+		"Yang ATK": 59
+	},
+	"Effects": [
+		"DMG from Flower attacks -20% (20%) (3T)",
+		"DMG from Sun Related -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "紅魔館 (Scarlet Devil Mansion)",
+	"GLB Name": "Scarlet Devil Mansion",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yin ATK": 54,
+		"Yin DEF": 46
+	},
+	"Effects": [
+		"DMG from Moon bullets -25% (40%) (2T)"
+	]
+},
+{
+	"JP Name": "とんがり帽子 (Pointy Hat)",
+	"GLB Name": "Pointy Hat",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 250,
+		"Agility": 50
+	},
+	"Effects": [
+		"DMG from Laser bullets -20% (20%) (3T)",
+		"DMG from Magician -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "人間の里 (Human Village)",
+	"GLB Name": "Human Village",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yang ATK": 52,
+		"Yin DEF": 48
+	},
+	"Effects": [
+		"DMG from Human -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "三途の河 (Sanzu River)",
+	"GLB Name": "Sanzu River",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 48,
+		"Yin ATK": 52
+	},
+	"Effects": [
+		"DMG from Soul -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "上海人形 (Shanghai Doll)",
+	"GLB Name": "Shanghai Doll",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 215,
+		"Yin DEF": 57
+	},
+	"Effects": [
+		"DMG from Metal bullets -15% (15%) (3T)",
+		"DMG from Energy bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "大切な商売道具 (An Important Busincess Tool)",
+	"GLB Name": "Valued Tools of the Trade",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 48,
+		"Yang DEF": 52
+	},
+	"Effects": [
+		"Self Accuracy +2 (3) levels (2T)"
+	]
+},
+{
+	"JP Name": "半霊 (Half Phantom)",
+	"GLB Name": "Half-Phantom",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 50,
+		"Yin ATK": 50
+	},
+	"Effects": [
+		"DMG from Slash bullets -20% (20%) (3T)",
+		"DMG from Half-Human, Half-Phantom -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "紅に染まる山 (Mountain Dyed in Red)",
+	"GLB Name": "Mountains Painted Red",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 235,
+		"Agility": 53
+	},
+	"Effects": [
+		"DMG from Wood bullets -25% (40%) (2T)"
+	]
+},
+{
+	"JP Name": "トレードマーク (Trademark)",
+	"GLB Name": "Trademark",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yang ATK": 54,
+		"Yang DEF": 46
+	},
+	"Effects": [
+		"DMG from Wind Priestess -20% (20%) (3T)",
+		"DMG from the Arahitogami -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "星熊盃 (Hoshiguma Dish)",
+	"GLB Name": "Hoshiguma Dish",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 285,
+		"Yin DEF": 43
+	},
+	"Effects": [
+		"Body bullets DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "永遠亭 (Eientei)",
+	"GLB Name": "Eientei",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yang ATK": 41,
+		"Yin ATK": 59
+	},
+	"Effects": [
+		"DMG from Pharmacist -20% (20%) (3T)",
+		"DMG from Hourai People -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "誰かさんの大好物 (Someone's Favorite)",
+	"GLB Name": "Somebody's Favorite Food",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 57,
+		"Yin ATK": 43
+	},
+	"Effects": [
+		"DMG from Fox -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "使役する眷属 (Familiars)",
+	"GLB Name": "Swarm of Servants",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 56,
+		"Yin ATK": 44
+	},
+	"Effects": [
+		"DMG from Vampire -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "無名の丘 (Nameless Hill)",
+	"GLB Name": "Nameless Hill",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yang ATK": 56,
+		"Yin ATK": 44
+	},
+	"Effects": [
+		"DMG from Poison attacks -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "天界 (Heaven)",
+	"GLB Name": "Heaven",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 225,
+		"Yang DEF": 55
+	},
+	"Effects": [
+		"DMG from Messenger of the Moon -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "魔法使いの箒 (Magician's Broom)",
+	"GLB Name": "Magician's Broom",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 59,
+		"Yang ATK": 41
+	},
+	"Effects": [
+		"Self Agility +2 (3) levels (2T)"
+	]
+},
+{
+	"JP Name": "巫女のリボン (Miko's Ribbon)",
+	"GLB Name": "Shrine Maiden's Ribbon",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 275,
+		"Yang DEF": 45
+	},
+	"Effects": [
+		"DMG from Normal bullets -25% (40%) (2T)"
+	]
+},
+{
+	"JP Name": "要石 (Keystone)",
+	"GLB Name": "Keystone",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yang DEF": 49,
+		"Yin DEF": 51
+	},
+	"Effects": [
+		"Earth Element DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "打ち出の小槌 (Miracle Mallet)",
+	"GLB Name": "Miracle Mallet",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 50,
+		"Yang DEF": 50
+	},
+	"Effects": [
+		"Self CRI ATK +2 (3) levels (2T)"
+	]
+},
+{
+	"JP Name": "霊験あらたかなる御札 (Effective Talisman)",
+	"GLB Name": "Miraculous Ofuda",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Agility": 50,
+		"Yang ATK": 50
+	},
+	"Effects": [
+		"Sun Element DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "クールなマイホーム (My Cool Home)",
+	"GLB Name": "Icy Cool Home",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 250,
+		"Yang ATK": 50
+	},
+	"Effects": [
+		"DMG from Freeze -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "鈴奈庵 (Suzunaan)",
+	"GLB Name": "Suzunaan",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yin ATK": 58,
+		"Yang DEF": 42
+	},
+	"Effects": [
+		"DMG from Book Lover -25% (40%) (3T)"
+	]
+},
+{
+	"JP Name": "静かの海（表） (Sea of Tranquility-Near Side)",
+	"GLB Name": "Sea of Tranquility (Near Side)",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yang ATK": 50,
+		"Yin DEF": 50
+	},
+	"Effects": [
+		"DMG from Earth bullets -15% (15%) (2T)",
+		"DMG from Heavy bullets -15% (20%) (2T)"
+	]
+},
+{
+	"JP Name": "静かの海（裏） (Sea of Tranquility-Far Side)",
+	"GLB Name": "Sea of Tranquility (Far Side)",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yin ATK": 44,
+		"Yang DEF": 56
+	},
+	"Effects": [
+		"Spirit Power gain rate +15% (15%) (1T)",
+		"DMG from Fluid bullets -15% (20%) (3T)"
+	]
+},
+{
+	"JP Name": "新興勢力 (Emergent Force)",
+	"GLB Name": "Emerging Power",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"HP": 265,
+		"Agility": 47
+	},
+	"Effects": [
+		"Star Element DMG +15% (30%) (1T)"
+	]
+},
+{
+	"JP Name": "冥所 (Netherworld)",
+	"GLB Name": "Netherworld",
+	"Type": "Gacha",
+	"Rarity": "★★★",
+	"Stats": {
+		"Yin ATK": 50,
+		"Yin DEF": 50
+	},
+	"Effects": [
+		"DMG from Star bullets -15% (15%) (2T)",
+		"DMG from Moon Related -15% (20%) (2T)"
+	]
+}]

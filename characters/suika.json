@@ -1,5 +1,13 @@
 {
   "name": "Suika Ibuki",
+  "stats": {
+    "health": 6600,
+    "agility": 780,
+    "yang_atk": 1400,
+    "yang_def": 910,
+    "yin_atk": 1520,
+    "yin_def": 970
+  },
   "spellcards": [
     {
       "cardtype": "LW",
@@ -316,14 +324,7 @@
       ]
     }
   ],
-  "stats": {
-    "health": 6600,
-    "agility": 780,
-    "yang_atk": 1400,
-    "yang_def": 910,
-    "yin_atk": 1520,
-    "yin_def": 970
-  },
+
   "skills": [
     {
       "skilltype": "skill1",

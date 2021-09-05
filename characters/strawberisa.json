@@ -1,0 +1,373 @@
+{
+  "name": "Marisa Kirisame (WOSD)",
+  "stats": {
+    "health": 5000,
+    "agility": 1220,
+    "yang_atk": 1000,
+    "yang_def": 880,
+    "yin_atk": 1300,
+    "yin_def": 1050
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Garnet Star",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAtk"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.1,
+          "amount": 11,
+          "power": 10.2,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.15,
+          "amount": 3,
+          "power": 14.31,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.2,
+          "amount": 3,
+          "power": 16,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.25,
+          "amount": 3,
+          "power": 17.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Sun"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.35,
+          "amount": 4,
+          "power": 13.71,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.5,
+          "amount": 4,
+          "power": 13.71,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "Sun"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "TODO also wrong Red Side: Alter Spark",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.1,
+          "amount": 10,
+          "power": 5.24,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.15,
+          "amount": 3,
+          "power": 5.72,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.2,
+          "amount": 3,
+          "power": 5.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.25,
+          "amount": 4,
+          "power": 4.61,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 1,
+          "crit": 0.01,
+          "amount": 4,
+          "power": 4.28,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 1,
+          "crit": 0,
+          "amount": 4,
+          "power": 4.61,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Heavy",
+          "element": "Earth"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "TODO also wrong Superglant: Antares",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.1,
+          "amount": 15,
+          "power": 3.49,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.15,
+          "amount": 3,
+          "power": 5.72,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.2,
+          "amount": 3,
+          "power": 5.94,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.25,
+          "amount": 2,
+          "power": 9.22,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 1,
+          "crit": 0.01,
+          "amount": 2,
+          "power": 8.55,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 1,
+          "crit": 0,
+          "amount": 2,
+          "power": 9.22,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Fire"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "BD -03 353",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "HD 29139",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "All"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "All"
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "LTT14184",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAtk"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ]
+    }
+  ],
+  "graze": [],
+  "power": []
+}

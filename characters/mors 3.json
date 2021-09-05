@@ -1,0 +1,242 @@
+{
+  "name": "Marisa 3",
+  "stats": {
+    "health": 5000,
+    "agility": 1350,
+    "yang_atk": 1700,
+    "yang_def": 900,
+    "yin_atk": 1600,
+    "yin_def": 800
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "EnchanterLW",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "lvl": 6,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.35,
+          "amount": 16,
+          "power": 7.11,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.3,
+          "amount": 5,
+          "power": 7.09,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.25,
+          "amount": 5,
+          "power": 7.37,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 5,
+          "power": 7.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 5,
+          "power": 7.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.2,
+          "amount": 5,
+          "power": 7.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Laser",
+          "element": "Star"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "EnchanterSC1",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1
+        },
+        {
+          "bulletgroup": 2
+        },
+        {
+          "bulletgroup": 3
+        },
+        {
+          "bulletgroup": 4
+        },
+        {
+          "bulletgroup": 5
+        },
+        {
+          "bulletgroup": 6
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "EnchanterSC2",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1
+        },
+        {
+          "bulletgroup": 2
+        },
+        {
+          "bulletgroup": 3
+        },
+        {
+          "bulletgroup": 4
+        },
+        {
+          "bulletgroup": 5
+        },
+        {
+          "bulletgroup": 6
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "a",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Team"
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "b",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAtk"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Team"
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "c",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Team"
+          }
+        }
+      ]
+    }
+  ],
+  "power": [
+   
+  ],
+  "graze": [{
+    "Stat": {
+      "stat": {
+        "Combat": "CritAtk"
+      },
+      "lvl": 1,
+      "chance": 0.0,
+      "target": "Team"
+    }
+  }
+]
+}

@@ -27,8 +27,8 @@
     ],
     "sc2": [
       null,
-      "YIN-DEF DOWN (40%) YANG-DEF DOWN (40%)",
-      "YIN-DEF DOWN (50%) YANG-DEF DOWN (50%)",
+      "ENEMY YIN-DEF DOWN (40%) ENEMY YANG-DEF DOWN (40%)",
+      "ENEMY YIN-DEF DOWN (50%) ENEMY YANG-DEF DOWN (50%)",
       null,
       null,
       null
@@ -174,7 +174,7 @@
   {
     "name": "Yukari Yakumo",
     "ss": [
-      "SURE-HIT YANG-DEF DOWN (40%)",
+      "SURE-HIT ENEMY YANG-DEF DOWN (100%)",
       null,
       null,
       "SPECULAR",
@@ -198,7 +198,7 @@
       "HARD 90%"
     ],
     "sc2": [
-      "YANG-DEF DOWN (40%)",
+      "ENEMY YANG-DEF DOWN (40%)",
       "HARD 50%",
       "HARD 50% FOCUS UP (50%)",
       "HARD 70%",
@@ -206,7 +206,7 @@
       "YANG-DEF UP (50%)"
     ],
     "lw": [
-      "YANG-DEF DOWN (100%)",
+      "ENEMY YANG-DEF DOWN (100%)",
       "HARD 70%",
       "HARD 80%",
       "HARD 90%",
@@ -2400,7 +2400,7 @@
     ],
     "lw": [
       "HARD ?%",
-      "YANG-DEF UP (?%)",
+      "YANG-DEF UP (100%)",
       "HARD ?%",
       "ABSORB ?%",
       "HARD ?%",
@@ -3698,7 +3698,7 @@
     ]
   },
   {
-    "name": "Marisa Kirisame (Witch of Scarlet Dreams)",
+    "name": "Marisa Kirisame (WOSD)",
     "ss": [
       null,
       null,
@@ -3738,6 +3738,49 @@
       "EXPLOSIVE ENEMY CRI-DEF DOWN (50%)",
       "EXPLOSIVE ENEMY CRI-EVA DOWN (50%)",
       "EXPLOSIVE ENEMY CRI-EVA DOWN (50%) ENEMY CRI-DEF DOWN (50%)"
+    ]
+  },
+  {
+    "name": "Marisa 3",
+    "ss": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "fs": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sc1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sc2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "lw": [
+      "CRI-ACC UP (2) (100%)",
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   }
 ]

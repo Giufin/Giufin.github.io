@@ -47,13 +47,13 @@ const convert_json_bulletgroup_to_internal = (bulletgroup) => {
 
 
   return {
-    "typ": bulletgroup.atktype,
-    "acc": bulletgroup.acc,
-    "crit": bulletgroup.crit,
-    "scales_off": scaling,
-    "amount": bulletgroup.amount,
-    "effects_self": bulletgroup.effects_self,
-    "effects_enem": bulletgroup.effects_enem ?? [],
+    typ: bulletgroup.atktype,
+    acc: bulletgroup.acc,
+    crit: bulletgroup.crit,
+    scales_off: scaling,
+    amount: bulletgroup.amount,
+    effects_self: bulletgroup.effects_self,
+    effects_enem: bulletgroup.effects_enem,
 
   }
 }
@@ -80,21 +80,21 @@ const runWasm = async (attack, char, effects, dbf, power, idx) => {
   let stats;
   if (char.stats == null) {
     stats = {
-      "health": 1000,
-      "agility": 1000,
-      "yang_atk": 1000,
-      "yang_def": 1000,
-      "yin_atk": 1000,
-      "yin_def": 1000
+      health: 1000,
+      agility: 1000,
+      yang_atk: 1000,
+      yang_def: 1000,
+      yin_atk: 1000,
+      yin_def: 1000
     }
   } else {
     stats = char.stats
   }
 
   const char_ex = {
-    "name": char.name,
-    "stats": stats,
-    "lw": { "bullets": groups }
+    name: char.name,
+    stats: stats,
+    lw: { bullets: groups }
   }
 
   console.log(char_ex);
@@ -120,7 +120,10 @@ let character_names = [
   "suika",
   "chen",
   "kaguya",
-  "eirin"
+  "eirin",
+  "strawberisa",
+  "toyo",
+  "mors 3"
 ];
 
 let characters = [];
@@ -132,7 +135,7 @@ for (let k of character_names) {
 
 let special_data = await fetch(`special_property_data.json`).then(response => response.text());
 let reg = new RegExp(``
-  + String.raw`((ENEMY )?(EVA|ACC|CRI-(ACC|ATK|EVA|DEF)|FOCUS|HEA|AGI|(YIN|YANG)-(ATK|DEF))) (DOWN|UP) (\(\d\) )?\((\d+|\?)%\)`
+  + String.raw`((ENEMY )?(EVA|ACC|CRI-(ACC|ATK|EVA|DEF)|FOCUS|HEA|AGI|(YIN|YANG)-(ATK|DEF))) (DOWN|UP) (?:\((\d)\) )?\((\d+|\?)%\)`
   + String.raw`|(SPECULAR|SURE-HIT|PIERCING|EXPLOSIVE|PRECISE|ELASTIC)`
   + String.raw`|((HARD|SLICING|ABSORB|REBOUND) (\d+|\?)%)`
   + String.raw`|(IMPACT|ADHESIVE) \((\d+|\?)%\)`
@@ -165,7 +168,7 @@ for (let m of obj) {
           break;
         }
 
-        if (res[1] != null) {
+        if (res[1] != null && res[3] != "FOCUS") {
           //status or combat effect
 
           // one issue rn is that there is a possibility of an effect with 2 levels on a chance, currently buffs have no representation of this 
@@ -173,13 +176,107 @@ for (let m of obj) {
             alert("todo")
           }
 
+          const convert_to_internal = (data) => {
+            if (data == "YANG-DEF") {
+              return {
+                "stat": {
+                  "Normal": "YangDef"
+                },
+              }
+            }
+            else if (data == "YIN-DEF") {
+              return {
+                "stat": {
+                  "Normal": "YinDef"
+                },
+              }
+            }
+            else if (data == "YANG-ATK") {
+              return {
+                "stat": {
+                  "Normal": "YangAtk"
+                },
+              }
+            }
+            else if (data == "YIN-ATK") {
+              return {
+                "stat": {
+                  "Normal": "YinAtk"
+                },
+              }
+            }
+            else if (data == "AGI") {
+              return {
+                "stat": {
+                  "Normal": "Agility"
+                },
+              }
+            }
+            else if (data == "HEALTH") {
+              return {
+                "stat": {
+                  "Normal": "Health"
+                },
+              }
+            }
+            else if (data == "ACC" || data == "EVA") { //todo, fix the flip
+              return {
+                "stat": {
+                  "Combat": "Acc"
+                },
+              }
+            }
+            else if (data == "CRI-ACC" || data == "CRI-EVA") {
+              return {
+                "stat": {
+                  "Combat": "CritAcc"
+                },
+              }
+            }
+            else if (data == "CRI-ATK" || data == "CRI-DEF") {
+              return {
+                "stat": {
+                  "Combat": "CritAtk"
+                },
+              }
+            } else {
+              throw new Error(`ooof ${data}`)
+            }
+          }
+
+          let lvl = (res[8] ?? 1) - 1;
+          let chance = (res[9] == "?" ? 50 : res[9]) / 100;
+          let target = "effects_self";
+          if (res[2] == "ENEMY ") {
+            target = "effects_enem"
+          }
+
+          let shouldflip = false;
+
+          if (res[7] == "UP") {
+            //all good
+            
+          } else if (res[7] == "DOWN") {
+            shouldflip = true
+          } else {
+            throw new Error("oof")
+          }
+
+          if(res[3] == "EVA"|| res[3] == "CRI-EVA" || res[3] == "CRI-DEF") {
+            shouldflip = !shouldflip;
+          }
+
+          if (shouldflip) {
+            lvl = (-lvl) - 1;
+            chance = 1 - chance;
+          }
+
           bulleteffects.push(
-            { //here let's convert res[3] in the future
-              "stat": {
-                "Normal": res[3]
-              },
-              "lvl": (res[8] ?? "1") - 1,
-              "chance": (res[9] == "?" ? (/*alert("unknown chance aaaaaaaa") ?? */50) : res[9]) / 100
+            { //later also handle up/down
+              ...convert_to_internal(res[3]),
+              lvl,
+              chance,
+              target,
             },
 
 
@@ -217,9 +314,23 @@ for (let m of obj) {
     let spellcards = character["spellcards"];
     for (let i = 0; i < 6; i++) {
 
-      spellcards[0]["Bulletgroups"][i]["effects_self"] = []//mapped[4][i];
-      spellcards[1]["Bulletgroups"][i]["effects_self"] = []//mapped[2][i];
-      spellcards[2]["Bulletgroups"][i]["effects_self"] = []//mapped[3][i];
+      for (let i2 = 0; i2 < 3; i2++) {
+        spellcards[i2]["Bulletgroups"][i]["effects_self"] = [];
+        spellcards[i2]["Bulletgroups"][i]["effects_enem"] = [];
+      }
+
+      for (let m1 of mapped[4][i]) {
+
+        spellcards[0]["Bulletgroups"][i][m1.target].push(m1);
+      }
+      for (let m2 of mapped[2][i]) {
+
+        spellcards[1]["Bulletgroups"][i][m2.target].push(m2);
+      }
+      for (let m3 of mapped[3][i]) {
+
+        spellcards[2]["Bulletgroups"][i][m3.target].push(m3);
+      }
     }
 
 

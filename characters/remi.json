@@ -1,5 +1,13 @@
 {
   "name": "Remilia Scarlet",
+  "stats": {
+    "health": 5000,
+    "agility": 1220,
+    "yang_atk": 1000,
+    "yang_def": 880,
+    "yin_atk": 1300,
+    "yin_def": 1050
+},
   "spellcards": [
     {
       "cardtype": "LW",
@@ -316,14 +324,7 @@
       ]
     }
   ],
-  "stats": {
-    "health": 5000,
-    "agility": 1220,
-    "yang_atk": 1000,
-    "yang_def": 880,
-    "yin_atk": 1300,
-    "yin_def": 1050
-},
+
   "skills": [
     {
       "skilltype": "skill1",

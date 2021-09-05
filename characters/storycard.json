@@ -1583,5 +1583,95 @@
 			"health": 675,
 			"agility": 45
 		}
+	},
+	{
+		"Card name": "sdm thing",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinDef"
+					},
+					"target": "Solo",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Laser"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yin_atk": 115,
+			"yin_def": 65
+		}
+	},
+	{
+		"Card name": "sdm thing",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YinDef"
+					},
+					"target": "Solo",
+					"chance": 0.0,
+					"lvl": -3
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Laser"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.25
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yin_atk": 115,
+			"yin_def": 65
+		}
+	},
+	{
+		"Card name": "sage thing",
+		"Effect": [
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangDef"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 3
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Normal": "YangDef"
+					},
+					"target": "Solo",
+					"chance": 0.0,
+					"lvl": -3
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yin_atk": 115,
+			"yin_def": 65
+		}
 	}
-	]
+]

@@ -101,6 +101,7 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
         &debufs,
     );
     debug_str(&format!("{:?}", debufs));
+    #[allow(unused_unsafe)]
     unsafe {
         start_drawing(slot);
 
@@ -111,42 +112,6 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
         end_drawing();
     }
 }
-
-/*
-#[wasm_bindgen]
-pub fn serialize_bullet_group(
-    atk_type: String,
-    acc: f64,
-    crit: f64,
-    amount: usize,
-    scaling: String,
-    factor: f64,
-) -> String {
-    let atk_type = serde_json::from_str(&atk_type)
-    .map_err(|x| format!("{}", x))
-    .unwrap_throw();
-    //let scaling = serde_json::from_str(scaling).unwrap();""
-
-    let bg = BulletGroup {
-        typ: atk_type,
-        acc: acc
-        .try_into()
-        .map_err(|x: ordered_float::FloatIsNan| format!("{}", x))
-        .unwrap_throw(),
-        amount,
-        crit: crit
-        .try_into()
-        .map_err(|x: ordered_float::FloatIsNan| format!("{}", x))
-        .unwrap_throw(),
-        scales_off: Stats::zeroed(),
-    };
-
-    let res = serde_json::to_string(&bg)
-    .map_err(|x| format!("{}", x))
-    .unwrap_throw();
-    res
-}
-*/
 
 fn debug_str(a: &str) {
     #[allow(unused_unsafe)]
@@ -488,14 +453,23 @@ fn sim(
     enemy: &Enemy,
     enemy_effects: &[RawStatEffect],
 ) -> Vec<(NotNan<f64>, NotNan<f64>)> {
-    let one = NotNan::new(1.0).expect("definitely not a nan");
+    const QUANT: usize = 100000;
+
     let zero = NotNan::new(0.0).expect("definitely not a nan");
+    let one = NotNan::new(1.0).expect("definitely not a nan");
+
+    let scale = one * 1.0;
+
+    let mut buf_temp = vec![zero; QUANT];
+
+    let mut buf1 = vec![zero; QUANT];
+    buf1[0] = one;
 
     let char_stats = char.stats.clone();
     let enem_stats = enemy.stats.clone();
 
-    type EffectsType = DefaultEffectMultiWorld<Vec<(NotNan<f64>, NotNan<f64>)>>;
-    let mut effect_world = EffectsType::new(vec![(zero, one)]);
+    type EffectsType = DefaultEffectMultiWorld<Vec<NotNan<f64>>>;
+    let mut effect_world = EffectsType::new(buf1);
 
     for eff in effects {
         effect_world.apply_char_effects(eff.clone());
@@ -522,7 +496,7 @@ fn sim(
         effect_world.states = effect_world
             .states
             .drain()
-            .map(|((state, damages), chance)| {
+            .map(|((state, mut damages), chance)| {
                 let (char_stat_mul, enem_stat_mul, combat_stats) = state.get_stats();
 
                 let char_stats = char_stats.mul(&char_stat_mul);
@@ -533,8 +507,6 @@ fn sim(
                     Atktyp::Yin => enem_stats.yin_def,
                 };
 
-
-
                 let next_hits = bulletlines_to_percentiles(
                     line.clone(),
                     combat_stats[0],
@@ -542,25 +514,26 @@ fn sim(
                     combat_stats[2],
                 );
 
-                debug_str(&format!("next_hits: {:?}", next_hits));
-                let damages_result = damages
-                    .into_iter()
-                    .map(|(damage, chance)| {
-                        let char_stats = &char_stats;
-                        next_hits.clone().into_iter().map(move |(stats, chance2)| {
-                            (
-                                (stats.mul(char_stats).sum() / divby) + damage.clone(), //damage
-                                chance * chance2,                                       //chance
-                            )
-                        })
-                    })
-                    .flatten()
-                    .collect_vec();
+                for (dmg, chance) in next_hits {
+                    let dmg_s = (dmg.mul(&char_stats).sum() / divby) / scale;
+                    let dmg_q = dmg_s.round() as usize;
+                    for i in 0..buf_temp.len() {
+                        if damages.get(i).unwrap() != &zero {
+                            *buf_temp.get_mut(i + dmg_q).unwrap() +=
+                                *damages.get_mut(i).unwrap() * chance;
+                        }
+                    }
+                }
 
-                ((state, damages_result), chance)
+                std::mem::swap(&mut buf_temp, &mut damages);
+                buf_temp.fill(zero);
+
+                ((state, damages), chance)
             })
             .collect();
     }
+
+    debug_str("here");
 
     let mut unsorted = effect_world
         .states
@@ -568,20 +541,27 @@ fn sim(
         .map(|((_, damages), eff_chance)| {
             damages
                 .into_iter()
-                .map(move |(damage, chance)| (damage, chance * eff_chance))
+                .enumerate()
+                .filter(|(_, chance)| chance != &zero)
+                .map(move |(damage, chance)| {
+                    (
+                        NotNan::new(damage as f64).unwrap() * scale,
+                        chance * eff_chance,
+                    )
+                })
         })
         .flatten()
         .collect_vec();
+    debug_str("here");
 
     unsorted.sort();
 
     for i in 1..unsorted.len() {
         unsorted[i].1 = unsorted[i - 1].1 + unsorted[i].1;
     }
+    debug_str("here");
 
-    debug_str(&format!("unsorted: {:?}", unsorted));
-
-    unsorted.retain(|(_, chance)| chance > &NotNan::new(0.0).unwrap());
+    unsorted.retain(|(_, chance)| chance > &zero);
 
     unsorted
 }

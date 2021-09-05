@@ -291,7 +291,7 @@ impl DefaultMultiEffectState {
             * point_eighty_five.powi(self.enemy.barriers.effects[1] as i32);
 
         let criacc = mult_from_lvl(point_two, combat[1]);
-        let criatk = one + mult_from_lvl(point_three, combat[1]);
+        let criatk = one + mult_from_lvl(point_three, combat[2]);
 
         (char_stats, enemy_stats, [acc, criacc, criatk])
     }
