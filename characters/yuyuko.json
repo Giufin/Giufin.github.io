@@ -48,7 +48,7 @@
           "crit": 0.05,
           "amount": 5,
           "power": 8.78,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.5,
           "bullettype": "Body",
           "element": "No-Element"
@@ -74,7 +74,7 @@
           "crit": 0.05,
           "amount": 4,
           "power": 9.14,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.5,
           "bullettype": "Body",
           "element": "No-Element"

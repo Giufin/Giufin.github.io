@@ -38,6 +38,12 @@ const convert_json_bulletgroup_to_internal = (bulletgroup) => {
     scaling.yang_atk = bulletgroup.power;
   }
 
+  if (Object.entries(scaling).length != 6) {
+    alert("blame owl");
+    throw new Error("blame owl");
+
+  }
+
 
   if (bulletgroup.addscaling !== "none") {
     //will cause an error because of name differences
@@ -123,7 +129,11 @@ let character_names = [
   "eirin",
   "strawberisa",
   "toyo",
-  "mors 3"
+  "mors 3",
+  "koosh",
+  "okuu",
+  "gardener",
+  "hecc"
 ];
 
 let characters = [];
@@ -255,14 +265,14 @@ for (let m of obj) {
 
           if (res[7] == "UP") {
             //all good
-            
+
           } else if (res[7] == "DOWN") {
             shouldflip = true
           } else {
             throw new Error("oof")
           }
 
-          if(res[3] == "EVA"|| res[3] == "CRI-EVA" || res[3] == "CRI-DEF") {
+          if (res[3] == "EVA" || res[3] == "CRI-EVA" || res[3] == "CRI-DEF") {
             shouldflip = !shouldflip;
           }
 
@@ -392,11 +402,15 @@ function ondatacomplete(data, idx) {
 
   if (data.card != null) {
 
+    data.char = JSON.parse(JSON.stringify(data.char));
+    for (let [stat, value] of Object.entries(data.card.stats)) {
+      //data.char.stats[stat] += value;
+    }
+
     for (let a of data.card.Effect) {
       if (a.Stat != undefined) {
         all.push(a);
       } else {
-        //for now the effetcs will be multiplicative, not additive; TODO: fix it
         let ef = a.Buff;
         if (ef.type.element != undefined) {
 

@@ -143,7 +143,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 11.62,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.8,
           "bullettype": "Heavy",
           "element": "No-Element"
@@ -182,7 +182,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 16.46,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": 0.8,
           "bullettype": "Heavy",
           "element": "Earth"
@@ -195,7 +195,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 18.29,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.9,
           "bullettype": "Heavy",
           "element": "No-Element"
@@ -228,7 +228,7 @@
           "crit": 0.05,
           "amount": 1,
           "power": 15.49,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.5,
           "bullettype": "Body",
           "element": "Earth"
@@ -241,7 +241,7 @@
           "crit": 0.05,
           "amount": 1,
           "power": 17.07,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.5,
           "bullettype": "Body",
           "element": "Sun"
@@ -254,7 +254,7 @@
           "crit": 0.05,
           "amount": 1,
           "power": 19.5,
-          "addscaling": "Yang_def",
+          "addscaling": "YangDef",
           "addscaling_multi": 0.7,
           "bullettype": "Body",
           "element": "No-Element"

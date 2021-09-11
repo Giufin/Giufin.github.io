@@ -1,0 +1,303 @@
+{
+  "name": "Okuute",
+  "stats": {
+    "health": 1,
+    "agility": 1270,
+    "yin_atk": 1200,
+    "yin_def": 1,
+    "yang_atk": 1400,
+    "yang_def": 1
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "OkuuLW",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "lvl": 6,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "Agility"
+            },
+            "lvl": 10,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "lvl": 2,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.03,
+          "amount": 18,
+          "power": 8.63,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 9.68,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.07,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.61,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.07,
+          "amount": 2,
+          "power": 10.09,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 13.96,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Star"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "OkuuSC2",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.03,
+          "amount": 18,
+          "power": 8.63,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 9.68,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.07,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.61,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.07,
+          "amount": 2,
+          "power": 10.09,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 13.96,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Star"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "OkuuSC2",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yang",
+          "acc": 0.9,
+          "crit": 0.03,
+          "amount": 18,
+          "power": 8.63,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 9.68,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.07,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.85,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 8.61,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Star"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.8,
+          "crit": 0.07,
+          "amount": 2,
+          "power": 10.09,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.5,
+          "bullettype": "Energy",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.1,
+          "amount": 1,
+          "power": 13.96,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Energy",
+          "element": "Star"
+        }
+      ]
+    }
+  ],
+  "graze": [],
+  "power": []
+}

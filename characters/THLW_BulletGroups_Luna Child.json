@@ -40,7 +40,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 30.17,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": null,
           "bullettype": "Energy",
           "element": "No-Element"
@@ -53,7 +53,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 27.43,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": null,
           "bullettype": "Energy",
           "element": "Moon"
@@ -66,7 +66,7 @@
           "crit": 0.05,
           "amount": 1,
           "power": 49.37,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": null,
           "bullettype": "Energy",
           "element": "No-Element"
@@ -79,7 +79,7 @@
           "crit": 0.05,
           "amount": 1,
           "power": 43.89,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": null,
           "bullettype": "Energy",
           "element": "Moon"
@@ -236,7 +236,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 6.58,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": null,
           "bullettype": "Light",
           "element": "No-Element"
@@ -249,7 +249,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 5.85,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": null,
           "bullettype": "Light",
           "element": "No-Element"

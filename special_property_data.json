@@ -3782,5 +3782,134 @@
       null,
       null
     ]
+  },
+  {
+    "name": "Hata no Kokoro",
+    "ss": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "ADHESIVE (?%)"
+    ],
+    "fs": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "SURE-HIT"
+    ],
+    "sc1": [
+      null,
+      null,
+      null,
+      null,
+      "SURE-HIT",
+      "SURE-HIT"
+    ],
+    "sc2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "lw": [
+      null,
+      "SURE-HIT",
+      null,
+      "SURE-HIT",
+      null,
+      "SURE-HIT"
+    ]
+  },
+  {
+    "name": "Okuute",
+    "ss": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "fs": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sc1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sc2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "lw": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "name": "Gardener",
+    "ss": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "fs": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sc1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sc2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "lw": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
   }
 ]

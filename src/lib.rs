@@ -27,6 +27,7 @@ extern "C" {
 #[wasm_bindgen]
 pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slot: usize) {
     let zro = NotNan::new(0.0).unwrap();
+
     debug_str(
         &serde_json::to_string(&BulletGroup {
             acc: zro,
@@ -91,6 +92,7 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
         NotNan::new(1000.0).unwrap(),
     );
 
+
     let res = sim(
         &char,
         power,
@@ -100,6 +102,12 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
         },
         &debufs,
     );
+
+    debug_str(&serde_json::to_string(&char).unwrap());
+    debug_str(&serde_json::to_string(&effects).unwrap());
+
+
+
     debug_str(&format!("{:?}", debufs));
     #[allow(unused_unsafe)]
     unsafe {
@@ -345,7 +353,6 @@ struct BulletGroup {
     crit: NotNan<f64>,
 
     amount: usize,
-
     scales_off: Stats,
 
     effects_self: Vec<RawStatEffect>,
@@ -369,43 +376,14 @@ struct Character {
     lw: Atack,
 }
 
-/// returns ordered amount of instances of either event1, event2 (or implied neither)
-/// damage2 must be higher than damage1
-fn bulletgroup_possibilities(
-    count: usize,
-    _damage1: NotNan<f64>,
-    _damage2: NotNan<f64>,
-) -> Vec<(usize, usize)> {
-    let mut ret = Vec::new();
-    let ret_count = count + 1;
-    ret.reserve(ret_count * (ret_count / 2 + 1));
-
-    for a in 0..ret_count {
-        for b in a..ret_count {
-            ret.push((a, b - a));
-        }
-    }
-
-    ret
-}
 
 fn bulletlines_to_percentiles(
     bullet_group: BulletGroup,
     accbuff: NotNan<f64>,
     crit_acc_buff: NotNan<f64>,
     crit_atk_buff: NotNan<f64>,
-) -> Vec<(Stats, NotNan<f64>)> {
+) -> Vec<[(Stats, NotNan<f64>); 3]> {
     let one = NotNan::new(1.0).expect("definitely not a nan");
-    //let zero = NotNan::new(0.0).expect("definitely not a nan");
-
-    let factorials = {
-        let mut factorials = [0 as i128; 30]; //remember to set an upper limit on the amount of bullets
-        factorials[0] = 1;
-        for a in 1..30 {
-            factorials[a] = factorials[a - 1] * a as i128;
-        }
-        factorials
-    };
 
     let hit_chance = min(bullet_group.acc * accbuff, one);
     let crit_chance = min(bullet_group.crit * crit_acc_buff, one);
@@ -414,37 +392,20 @@ fn bulletlines_to_percentiles(
     let hit_chance = hit_chance - crit_chance;
     let neither_chance = one - (hit_chance + crit_chance);
 
+    let neither_damage = Stats::zeroed();
     let hit_damage = bullet_group.scales_off.clone();
     let crit_damage = bullet_group.scales_off.mul_all(crit_atk_buff);
-    let possibilities = bulletgroup_possibilities(bullet_group.amount, one, crit_atk_buff);
 
-    possibilities
-        .into_iter()
-        .map(move |(hits, crits)| {
-            let empties = bullet_group.amount - (hits + crits);
-
-            let base_chance = factorials[bullet_group.amount];
-
-            let base_chance = base_chance as f64;
-
-            let combinations = neither_chance.powi(empties as i32)
-                * hit_chance.powi(hits as i32)
-                * crit_chance.powi(crits as i32);
-
-            let total_chance = base_chance * combinations
-                / (factorials[hits] * factorials[empties] * factorials[crits]) as f64;
-
-            let total_damage = crit_damage
-                .mul_all(NotNan::new(crits as f64).expect("uhh"))
-                .add(&hit_damage.mul_all(NotNan::new(hits as f64).expect("uhh")));
-
-            (total_damage, NotNan::new(total_chance).expect("eugh"))
-        })
-        .collect()
+    std::array::IntoIter::new([[
+        (neither_damage, neither_chance),
+        (hit_damage, hit_chance),
+        (crit_damage, crit_chance),
+    ]])
+    .cycle()
+    .take(bullet_group.amount)
+    .collect()
 }
 
-// Vec<Chance<(Stats, (i64, i64, i64)>>
-// Vec<(Stats, (i64, i64, i64), NotNan<f64>)>
 
 fn sim(
     char: &Character,
@@ -458,7 +419,11 @@ fn sim(
     let zero = NotNan::new(0.0).expect("definitely not a nan");
     let one = NotNan::new(1.0).expect("definitely not a nan");
 
+    let cutoff = NotNan::new(0.00000000001).expect("definitely not a nan");
+
     let scale = one * 1.0;
+
+    let variance = NotNan::new(0.84).unwrap();
 
     let mut buf_temp = vec![zero; QUANT];
 
@@ -514,19 +479,38 @@ fn sim(
                     combat_stats[2],
                 );
 
-                for (dmg, chance) in next_hits {
-                    let dmg_s = (dmg.mul(&char_stats).sum() / divby) / scale;
-                    let dmg_q = dmg_s.round() as usize;
-                    for i in 0..buf_temp.len() {
-                        if damages.get(i).unwrap() != &zero {
-                            *buf_temp.get_mut(i + dmg_q).unwrap() +=
-                                *damages.get_mut(i).unwrap() * chance;
+                for hits in next_hits {
+                    for (dmg, chance) in hits {
+                        let dmg_s = (dmg.mul(&char_stats).sum() / divby) / scale;
+                        let dmg_l = dmg_s * variance;
+                        let dmg_qh = dmg_s.round() as usize + 1;
+                        let dmg_ql = dmg_l.round() as usize;
+
+                        let divby = NotNan::new((dmg_qh - dmg_ql) as f64).unwrap();
+                        for i in 0..damages.len() {
+                            let chance_prev = damages[i];
+                            if chance_prev != zero {
+                                let chance_next = chance_prev * chance / divby;
+                                *buf_temp.get_mut(i + dmg_ql).unwrap() += chance_next;
+
+                                *buf_temp.get_mut(i + dmg_qh).unwrap() -= chance_next;
+                            }
                         }
                     }
-                }
 
-                std::mem::swap(&mut buf_temp, &mut damages);
-                buf_temp.fill(zero);
+                    let mut chance = zero;
+                    for el in &mut buf_temp {
+                        chance += *el;
+                        if chance < cutoff {
+                            chance = zero;
+                        }
+
+                        *el = chance;
+                    }
+
+                    std::mem::swap(&mut buf_temp, &mut damages);
+                    buf_temp.fill(zero);
+                }
 
                 ((state, damages), chance)
             })

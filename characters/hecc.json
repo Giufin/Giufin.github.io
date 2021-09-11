@@ -1,0 +1,439 @@
+{
+    "name": "Hecatia Lapislazuli",
+    "stats": {
+        "health": 5150,
+        "agility": 850,
+        "yang_atk": 1320,
+        "yang_def": 870,
+        "yin_atk": 1750,
+        "yin_def": 1080
+    },
+    "spellcards": [
+        {
+            "cardtype": "LW",
+            "cardname": "hecc lw",
+            "target": "All",
+            "pre": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Combat": "CritAcc"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                },
+                {
+                    "Stat": {
+                        "stat": {
+                            "Combat": "Acc"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                }
+            ],
+            "post": [],
+            "Bulletgroups": [
+                {
+                    "bulletgroup": 1,
+                    "boostlvl": 0,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 25,
+                    "power": 7.68,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Fire"
+                },
+                {
+                    "bulletgroup": 2,
+                    "boostlvl": 1,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.10,
+                    "amount": 4,
+                    "power": 15.71,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Fire"
+                },
+                {
+                    "bulletgroup": 3,
+                    "boostlvl": 2,
+                    "atktype": "Yin",
+                    "acc": 0.70,
+                    "crit": 0.25,
+                    "amount": 4,
+                    "power": 16.05,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Star"
+                },
+                {
+                    "bulletgroup": 4,
+                    "boostlvl": 2,
+                    "atktype": "Yin",
+                    "acc": 0.70,
+                    "crit": 0.25,
+                    "amount": 4,
+                    "power": 17.28,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Fire"
+                },
+                {
+                    "bulletgroup": 5,
+                    "boostlvl": 3,
+                    "atktype": "Yin",
+                    "acc": 0.65,
+                    "crit": 0.50,
+                    "amount": 3,
+                    "power": 22.15,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Fire"
+                },
+                {
+                    "bulletgroup": 6,
+                    "boostlvl": 3,
+                    "atktype": "Yin",
+                    "acc": 0.65,
+                    "crit": 0.50,
+                    "amount": 3,
+                    "power": 23.63,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Star"
+                }
+            ]
+        },
+        {
+            "cardtype": "SC1",
+            "cardname": "Moon Sign: Silent Selene",
+            "target": "Solo",
+            "pre": [],
+            "post": [],
+            "Bulletgroups": [
+                {
+                    "bulletgroup": 1,
+                    "boostlvl": 0,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 13,
+                    "power": 8.44,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Laser",
+                    "element": "Moon"
+                },
+                {
+                    "bulletgroup": 2,
+                    "boostlvl": 1,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 3,
+                    "power": 8.78,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Laser",
+                    "element": "No-Element"
+                },
+                {
+                    "bulletgroup": 3,
+                    "boostlvl": 1,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 2,
+                    "power": 10.97,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Laser",
+                    "element": "Moon"
+                },
+                {
+                    "bulletgroup": 4,
+                    "boostlvl": 1,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 2,
+                    "power": 8.78,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Laser",
+                    "element": "No-Element"
+                },
+                {
+                    "bulletgroup": 5,
+                    "boostlvl": 2,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 1,
+                    "power": 13.17,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Laser",
+                    "element": "Moon"
+                },
+                {
+                    "bulletgroup": 6,
+                    "boostlvl": 3,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 1,
+                    "power": 8.78,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Laser",
+                    "element": "Moon"
+                }
+            ]
+        },
+        {
+            "cardtype": "SC2",
+            "cardname": "Sun Sign: Royal Flare",
+            "target": "Solo",
+            "pre": [],
+            "post": [],
+            "Bulletgroups": [
+                {
+                    "bulletgroup": 1,
+                    "boostlvl": 0,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 9,
+                    "power": 12.19,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 2,
+                    "boostlvl": 1,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 2,
+                    "power": 13.17,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "No-Element"
+                },
+                {
+                    "bulletgroup": 3,
+                    "boostlvl": 1,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 1,
+                    "power": 21.94,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 4,
+                    "boostlvl": 1,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 1,
+                    "power": 17.55,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "No-Element"
+                },
+                {
+                    "bulletgroup": 5,
+                    "boostlvl": 2,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 1,
+                    "power": 13.17,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 6,
+                    "boostlvl": 3,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.05,
+                    "amount": 1,
+                    "power": 8.78,
+                    "addscaling": "none",
+                    "addscaling_multi": 0,
+                    "bullettype": "Energy",
+                    "element": "Sun"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "skilltype": "skill1",
+            "skillname": "s1",
+            "effect": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Combat": "CritAtk"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                },
+                {
+                    "Stat": {
+                        "stat": {
+                            "Combat": "CritAtk"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                },
+                {
+                    "Stat": {
+                        "stat": {
+                            "Combat": "CritAcc"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                },
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YangAtk"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                },
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YinAtk"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                }
+            ]
+        },
+        {
+            "skilltype": "skill2",
+            "skillname": "s2",
+            "effect": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YinAtk"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 2
+                    }
+                }
+            ]
+        },
+        {
+            "skilltype": "skill3",
+            "skillname": "s3",
+            "effect": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Combat": "CritAcc"
+                        },
+                        "target": "Self",
+                        "chance": 0.0,
+                        "lvl": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "graze": [
+        {
+            "Stat": {
+                "stat": {
+                    "Combat": "CritAtk"
+                },
+                "target": "Self",
+                "chance": 0.0,
+                "lvl": 10
+            }
+        },
+        {
+            "Stat": {
+                "stat": {
+                    "Combat": "CritAcc"
+                },
+                "target": "Self",
+                "chance": 0.0,
+                "lvl": 10
+            }
+        },
+        {
+            "Stat": {
+                "stat": {
+                    "Combat": "Acc"
+                },
+                "target": "Self",
+                "chance": 0.0,
+                "lvl": 10
+            }
+        },
+        {
+            "Stat": {
+                "stat": {
+                    "Normal": "YinAtk"
+                },
+                "target": "Self",
+                "chance": 0.0,
+                "lvl": 10
+            }
+        }
+    ],
+    "power": [
+        {
+            "Stat": {
+                "stat": {
+                    "Combat": "Acc"
+                },
+                "target": "Self",
+                "chance": 0.0,
+                "lvl": 1
+            }
+        }
+    ]
+}

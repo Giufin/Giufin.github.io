@@ -1,0 +1,366 @@
+{
+  "name": "Koishi Komeiji",
+  "stats": {
+    "health": 6000,
+    "agility": 900,
+    "yang_atk": 1210,
+    "yang_def": 1050,
+    "yin_atk": 1390,
+    "yin_def": 1150
+  },
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Brambly Rose Garden",
+      "target": "Solo",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 2
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 2
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 18,
+          "power": 9.14,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.7,
+          "crit": 0.1,
+          "amount": 3,
+          "power": 22.44,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.65,
+          "crit": 0.25,
+          "amount": 3,
+          "power": 24.81,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.6,
+          "crit": 0.5,
+          "amount": 3,
+          "power": 25.6,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.6,
+          "crit": 0.5,
+          "amount": 3,
+          "power": 28.8,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.6,
+          "crit": 0.5,
+          "amount": 3,
+          "power": 32,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Wood"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "Representation: Bullet Hell Paranoia",
+      "target": "Solo",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 13,
+          "power": 7.6,
+          "addscaling": "none",
+          "bullettype": "Light",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.7,
+          "crit": 0.1,
+          "amount": 4,
+          "power": 6.73,
+          "addscaling": "none",
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.7,
+          "crit": 0.1,
+          "amount": 4,
+          "power": 6.17,
+          "addscaling": "none",
+          "bullettype": "Light",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.65,
+          "crit": 0.25,
+          "amount": 4,
+          "power": 5.32,
+          "addscaling": "none",
+          "bullettype": "Light",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.65,
+          "crit": 0.25,
+          "amount": 4,
+          "power": 4.79,
+          "addscaling": "none",
+          "bullettype": "Light",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.6,
+          "crit": 0.5,
+          "amount": 4,
+          "power": 3.84,
+          "addscaling": "none",
+          "bullettype": "Light",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "Memory: DNA's Flaw",
+      "target": "All",
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 5,
+          "power": 10.24,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.7,
+          "crit": 0.1,
+          "amount": 3,
+          "power": 5.98,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.65,
+          "crit": 0.25,
+          "amount": 3,
+          "power": 6.14,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.65,
+          "crit": 0.25,
+          "amount": 4,
+          "power": 4.96,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "Water"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.6,
+          "crit": 0.5,
+          "amount": 4,
+          "power": 4.8,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.6,
+          "crit": 0.5,
+          "amount": 5,
+          "power": 4.1,
+          "addscaling": "none",
+          "bullettype": "Energy",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "Spirit Service",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAtk"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 3
+          }
+        }
+      ]
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "b",
+      "effect": []
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "c",
+      "effect": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "CritAcc"
+            },
+            "target": "Self",
+            "chance": 0.0,
+            "lvl": 3
+          }
+        }
+      ]
+    }
+  ],
+  "graze": [
+    {
+      "Stat": {
+        "stat": {
+          "Combat": "CritAtk"
+        },
+        "target": "Self",
+        "chance": 0.0,
+        "lvl": 10
+      }
+    },
+    {
+      "Stat": {
+        "stat": {
+          "Combat": "CritAcc"
+        },
+        "target": "Self",
+        "chance": 0.0,
+        "lvl": 10
+      }
+    },
+    {
+      "Stat": {
+        "stat": {
+          "Combat": "Acc"
+        },
+        "target": "Self",
+        "chance": 0.0,
+        "lvl": 10
+      }
+    },
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YinAtk"
+        },
+        "target": "Self",
+        "chance": 0.0,
+        "lvl": 10
+      }
+    }
+  ],
+  "power": [
+    {
+      "Stat": {
+        "stat": {
+          "Normal": "YinAtk"
+        },
+        "target": "Self",
+        "chance": 0.0,
+        "lvl": 1
+      }
+    }
+  ]
+}

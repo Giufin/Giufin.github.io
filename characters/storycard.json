@@ -1673,5 +1673,35 @@
 			"yin_atk": 115,
 			"yin_def": 65
 		}
+	},
+	{
+		"Card name": "hifuu fc",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Missile"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.35
+				}
+			},
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Laser"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.35
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yang_atk": 70,
+			"yin_atk": 70
+		}
 	}
 ]

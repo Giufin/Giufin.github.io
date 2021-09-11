@@ -45,7 +45,7 @@
           "crit": 0.05,
           "amount": 15,
           "power": 10.97,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": 0.15,
           "bullettype": "Body",
           "element": "Wood"
@@ -58,7 +58,7 @@
           "crit": 0.05,
           "amount": 3,
           "power": 14.63,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": 0.2,
           "bullettype": "Body",
           "element": "No-element"
@@ -71,7 +71,7 @@
           "crit": 0.05,
           "amount": 3,
           "power": 13.41,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": 0.25,
           "bullettype": "Body",
           "element": "No-element"
@@ -84,7 +84,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 18.29,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": 0.3,
           "bullettype": "Body",
           "element": "Moon"
@@ -97,7 +97,7 @@
           "crit": 0.05,
           "amount": 2,
           "power": 32.91,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": 0.35,
           "bullettype": "Body",
           "element": "No-element"
@@ -110,7 +110,7 @@
           "crit": 0.05,
           "amount": 1,
           "power": 29.26,
-          "addscaling": "Yin_def",
+          "addscaling": "YinDef",
           "addscaling_multi": 0.4,
           "bullettype": "Body",
           "element": "Wood"

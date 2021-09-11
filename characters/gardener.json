@@ -1,0 +1,401 @@
+{
+    "name": "Gardener",
+    "stats": {
+        "health": 5000,
+        "agility": 1250,
+        "yang_atk": 1675,
+        "yang_def": 875,
+        "yin_atk": 1675,
+        "yin_def": 875
+    },
+    "spellcards": [
+        {
+            "cardtype": "LW",
+            "cardname": "Reiki Convergence Double Zanpa Sword",
+            "target": "All",
+            "pre": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YangDef"
+                        },
+                        "lvl": 4,
+                        "chance": 0.0,
+                        "target": "Self"
+                    }
+                },
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YangAtk"
+                        },
+                        "lvl": 5,
+                        "chance": 0.0,
+                        "target": "Self"
+                    }
+                }
+            ],
+            "post": [],
+            "Bulletgroups": [
+                {
+                    "bulletgroup": 1,
+                    "boostlvl": 0,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 12,
+                    "power": 10.18,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 0.9,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 2,
+                    "boostlvl": 1,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 4,
+                    "power": 10.47,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 3,
+                    "boostlvl": 2,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 4,
+                    "power": 11.35,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1,
+                    "bullettype": "Slash",
+                    "element": "Water"
+                },
+                {
+                    "bulletgroup": 4,
+                    "boostlvl": 2,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 9.77,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 5,
+                    "boostlvl": 3,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 10.47,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "Water"
+                },
+                {
+                    "bulletgroup": 6,
+                    "boostlvl": 3,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 11.17,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                }
+            ]
+        },
+        {
+            "cardtype": "SC1",
+            "cardname": "Swordsman \"Sakurahana Sensen\"",
+            "target": "All",
+            "pre": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YangDef"
+                        },
+                        "lvl": 3,
+                        "chance": 0.0,
+                        "target": "Self"
+                    }
+                }
+            ],
+            "post": [],
+            "Bulletgroups": [
+                {
+                    "bulletgroup": 1,
+                    "boostlvl": 0,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 13,
+                    "power": 3.76,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 0.9,
+                    "bullettype": "Slash",
+                    "element": "Water"
+                },
+                {
+                    "bulletgroup": 2,
+                    "boostlvl": 1,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 4,
+                    "power": 4.19,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1,
+                    "bullettype": "Slash",
+                    "element": "Water"
+                },
+                {
+                    "bulletgroup": 3,
+                    "boostlvl": 2,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 4,
+                    "power": 4.54,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 4,
+                    "boostlvl": 2,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 4,
+                    "power": 4.89,
+                    "addscaling": "YinDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "No-Element"
+                },
+                {
+                    "bulletgroup": 5,
+                    "boostlvl": 3,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 4,
+                    "power": 5.24,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "Water"
+                },
+                {
+                    "bulletgroup": 6,
+                    "boostlvl": 3,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 4,
+                    "power": 5.59,
+                    "addscaling": "YinDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "No-Element"
+                }
+            ]
+        },
+        {
+            "cardtype": "SC2",
+            "cardname": "Reincarnation Sword \"Enshin-ryu sword\"",
+            "target": "Solo",
+            "pre": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YangDef"
+                        },
+                        "lvl": 3,
+                        "chance": 0.0,
+                        "target": "Self"
+                    }
+                }
+            ],
+            "post": [],
+            "Bulletgroups": [
+                {
+                    "bulletgroup": 1,
+                    "boostlvl": 0,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 17,
+                    "power": 4.93,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 0.9,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 2,
+                    "boostlvl": 1,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 5.03,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 3,
+                    "boostlvl": 2,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 5.03,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1,
+                    "bullettype": "Slash",
+                    "element": "Water"
+                },
+                {
+                    "bulletgroup": 4,
+                    "boostlvl": 2,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 5.03,
+                    "addscaling": "YinDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "No-Element"
+                },
+                {
+                    "bulletgroup": 5,
+                    "boostlvl": 3,
+                    "atktype": "Yang",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 5.03,
+                    "addscaling": "YangDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "Sun"
+                },
+                {
+                    "bulletgroup": 6,
+                    "boostlvl": 3,
+                    "atktype": "Yin",
+                    "acc": 0.75,
+                    "crit": 0.1,
+                    "amount": 5,
+                    "power": 5.03,
+                    "addscaling": "YinDef",
+                    "addscaling_multi": 1.5,
+                    "bullettype": "Slash",
+                    "element": "Water"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "skilltype": "skill1",
+            "skillname": "a",
+            "effect": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YangDef"
+                        },
+                        "lvl": 2,
+                        "chance": 0.0,
+                        "target": "Self"
+                    }
+                },
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "Agility"
+                        },
+                        "lvl": 2,
+                        "chance": 0.0,
+                        "target": "Team"
+                    }
+                }
+            ]
+        },
+        {
+            "skilltype": "skill2",
+            "skillname": "b",
+            "effect": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Combat": "Acc"
+                        },
+                        "lvl": 2,
+                        "chance": 0.0,
+                        "target": "Team"
+                    }
+                }
+            ]
+        },
+        {
+            "skilltype": "skill3",
+            "skillname": "c",
+            "effect": [
+                {
+                    "Stat": {
+                        "stat": {
+                            "Normal": "YangDef"
+                        },
+                        "lvl": 3,
+                        "chance": 0.0,
+                        "target": "Team"
+                    }
+                }
+            ]
+        }
+    ],
+    "power": [
+        {
+            "Stat": {
+                "stat": {
+                    "Normal": "YangDef"
+                },
+                "lvl": 1,
+                "chance": 0.0,
+                "target": "Team"
+            }
+        }
+    ],
+    "graze": [
+        {
+            "Stat": {
+                "stat": {
+                    "Normal": "YangAtk"
+                },
+                "lvl": 1,
+                "chance": 0.0,
+                "target": "Team"
+            }
+        }
+    ]
+}
