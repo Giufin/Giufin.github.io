@@ -138,10 +138,10 @@ let character_names = [
 
 let characters = [];
 
-for (let k of character_names) {
-  let text = await fetch(`characters/${k}.json`).then(response => response.text());
-  characters.push(JSON.parse(text));
-}
+Promise.all(character_names.map(async (el) => {
+  await fetch(`characters/${el}.json`);
+  return response.text;
+}))
 
 let special_data = await fetch(`special_property_data.json`).then(response => response.text());
 let reg = new RegExp(``
