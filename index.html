@@ -2,104 +2,114 @@
 <html>
 
 <head>
-	<title>LW Calc</title>
+  <link rel="stylesheet" href="new_css_prototype.css">
+  <title>LW Calc</title>
 </head>
 
 <body style="background-color:black; color: white;">
-	<canvas id="canvas" width="495" height="490" style="border: 1px solid white; display: inline;">
-	</canvas>
+  <canvas id="canvas" width="495" height="490" style="border: 1px solid white; display: inline;">
+  </canvas>
+
+
+  <div id="card_list"
+    style="border: 1px solid white; min-width: 1350px; height: 500px;  overflow-y: scroll; overflow-x: hidden; display: inline-block;">
+    <div id="card_0" class="card" style="border: 1px solid white; min-height: 30px; display: none; margin: 4px; ">
+      <div class="header" style="border: 1px solid white; display: block; ">
+        <div class="color_box"
+          style="border: 5px solid green; height: 15px; width: 15px; display: block; margin: 0px; ">
+        </div>
+      </div>
+      <div class="container">
+        <div class="charbox">
+          <div class="char-area-1">
+            <div class="name">
+              <text>name</text>
+            </div>
+            <div class="picture"><text>picture</text>
+              <div class="character">
+                choose a character
+              </div>
+            </div>
+          </div>
+          <div class="char-area-2">
+            <div class="skill-area">
+              <div class="skill-1"><text>skill-1</text>
+                <div class="s1"
+                  style="height: 40px; border: 1px solid white; width: 40px; background-color: black;  border-radius: 50%; display: inline-block;">
+                </div>
+              </div>
+              <div class="skill-2"><text>skill-2</text>
+                <div class="s2"
+                  style="height: 40px; border: 1px solid white; width: 40px; background-color: black;  border-radius: 50%; display: inline-block;">
+                </div>
+              </div>
+              <div class="skill-3"><text>skill-3</text>
+                <div class="s3"
+                  style="height: 40px; border: 1px solid white; width: 40px; background-color: black;  border-radius: 50%; display: inline-block;">
+                </div>
+              </div>
+            </div>
+            <div class="bost-graze-area">
+              <div class="boost"><text>boost</text>
+                <div class="power">
+                  0P
+                </div>
+              </div>
+              <div class="graze"><text>graze</text>
+                <div class="graze">
+                  0G
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="story-spell-area">
+            <div class="storycard"><text>storycard</text>
+              <div class="card">
+                select card
+              </div>
+            </div>
+            <div class="spell"><text>spell</text>
+              <div class="card">
+                select card
+              </div>
+            </div>
+          </div>
+          <div class="stats"><text>stats</text>
+
+          </div>
+          <div class="upgrades"><text>upgrades</text>
+
+          </div>
+          <div class="buffs-and-debuffs"><text>buffs-and-debuffs</text>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
-	<div id="card_list"
-		style="border: 1px solid white; width: 600px; height: 500px;  overflow-y: scroll; overflow-x: hidden; display: inline-block;">
-		<div id="card_0" class="card" style="border: 1px solid white; min-height: 30px; display: none; margin: 4px; ">
-			<div class="header" style="border: 1px solid white; display: block; ">
-				<div class="color_box"
-					style="border: 5px solid green; height: 15px; width: 15px; display: block; margin: 0px; "></div>
-			</div>
+  </div>
 
-			<div class="internal_data" style="min-height: 300px; width: 550px; display: none;">
-				<div class="char_spell" style="display: inline-block;">
+  <input type="text" id="import_text"></input>
+  <button id="import_button">import</button>
 
-					<div class="character"
-						style="border: 1px solid white; height: 200px; width: 150px; margin: 4px; text-align: center; vertical-align: middle; line-height: 200px;">
-						choose a character
-					</div>
-					<div class="spell"
-						style="border: 1px solid white; height: 100px; width: 150px;  margin: 4px; text-align: center; vertical-align: middle; line-height: 100px;">
-
-					</div>
-				</div>
-				<div class="pleaso make this thing non vertical" style="display: inline-block;">
-
-					<div class="skillgraze" style="display: block;">
-						<div class="fullauto"
-							style="border: 1px solid white; display: inline-block; height: 50px; width: 50px; margin: 4px; text-align: center; vertical-align: middle; line-height: 50px;">
-							fullauto
-						</div>
-						<div class="power"
-							style="border: 1px solid white; display: inline-block; height: 50px; width: 50px; margin: 4px; text-align: center; vertical-align: middle; line-height: 50px;">
-							0P
-						</div>
-
-						<div class="graze"
-							style="border: 1px solid white; display: inline-block; height: 50px; width: 50px; margin: 4px; text-align: center; vertical-align: middle; line-height: 50px;">
-							0G
-						</div>
-
-						<div class="cirnoheadempty" style="display: block;">
-
-							<div class="s1"
-								style="height: 40px; border: 1px solid white; width: 40px; background-color: black;  border-radius: 50%; display: inline-block;">
-							</div>
-							<div class="s2"
-								style="height: 40px; border: 1px solid white; width: 40px; background-color: black;  border-radius: 50%; display: inline-block;">
-							</div>
-							<div class="s3"
-								style="height: 40px; border: 1px solid white; width: 40px; background-color: black;  border-radius: 50%; display: inline-block;">
-							</div>
-						</div>
-
-						<div class="card"
-							style="border: 1px solid white; height: 50px; width: 150px; background-color: black;  display: inline-block; text-align: center; vertical-align: middle; line-height: 50px;">
-							select card
-						</div>
-
-
-					</div>
-
-
-
-				</div>
-
-
-			</div>
-		</div>
-
-
-
-	</div>
-
-	<input type="text" id="import_text"></input>
-	<button id="import_button">import</button>
-
-	<button id="close_button">close select menu</button>
-	<!-- invisible -->
-	<div class="char" , id="char_0" , style="border: 1px solid white; height: 50px; margin: 4px; display:none;"></div>
+  <button id="close_button">close select menu</button>
+  <!-- invisible -->
+  <div class="char" , id="char_0" , style="border: 1px solid white; height: 50px; margin: 4px; display:none;"></div>
 
 
 
 
-	<div id="char_select"
-		style="border: 1px solid white; position: absolute; width: 200px; height: 300px; overflow-y: scroll; overflow-x: hidden; display: none; top: 10px; background-color: black;">
-		<input type="text" id="char_select_text_input" style="margin: 4px; display: block; ">
+  <div id="char_select"
+    style="border: 1px solid white; position: absolute; width: 200px; height: 300px; overflow-y: scroll; overflow-x: hidden; display: none; top: 10px; background-color: black;">
+    <input type="text" id="char_select_text_input" style="margin: 4px; display: block; ">
 
 
-	</div>
-	<!-- end of invisible -->
+  </div>
+  <!-- end of invisible -->
 
-	<script type="module" , src="index.js"></script>
+  <script type="module" , src="index.js"></script>
 </body>
 
 

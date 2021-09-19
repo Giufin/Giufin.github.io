@@ -1,0 +1,112 @@
+.container * { /* the **iconic** GIU style */
+    border: 1px solid white;
+    vertical-align: middle;
+    margin: 4px; text-align: center;
+
+}
+
+.container {
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 2fr 0.1fr;
+    grid-template-rows: 0.4fr 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "charbox ."
+      ". .";
+  }
+  
+  .charbox {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr 1fr 0.6fr 0.7fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "char-area-1 char-area-2 story-spell-area stats upgrades buffs-and-debuffs";
+    grid-area: charbox;
+  }
+  
+  .char-area-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.7fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "picture"
+      "name";
+    grid-area: char-area-1;
+  }
+  
+  .name { grid-area: name; }
+  
+  .picture { grid-area: picture; }
+  
+  .char-area-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "skill-area"
+      "bost-graze-area";
+    grid-area: char-area-2;
+  }
+  
+  .skill-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "skill-1 skill-2 skill-3";
+    grid-area: skill-area;
+  }
+  
+  .skill-1 { grid-area: skill-1; }
+  
+  .skill-2 { grid-area: skill-2;     min-height: 100px;}
+  
+  .skill-3 { grid-area: skill-3; }
+  
+  .bost-graze-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "boost graze";
+    grid-area: bost-graze-area;
+  }
+  
+  .boost { grid-area: boost; }
+  
+  .graze { grid-area: graze; }
+  
+  .story-spell-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "storycard"
+      "spell";
+    grid-area: story-spell-area;
+  }
+  
+  .storycard { grid-area: storycard; }
+  
+  .spell { grid-area: spell; }
+  
+  .stats { grid-area: stats; }
+  
+  .upgrades { grid-area: upgrades; }
+  
+  .buffs-and-debuffs { grid-area: buffs-and-debuffs; }
+  

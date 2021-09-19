@@ -138,9 +138,9 @@ let character_names = [
 
 let characters = [];
 
-Promise.all(character_names.map(async (el) => {
-  await fetch(`characters/${el}.json`);
-  return response.text;
+await Promise.all(character_names.map(async (el) => {
+  let response = await fetch(`characters/${el}.json`);
+  characters.push(JSON.parse(response.text));
 }))
 
 let special_data = await fetch(`special_property_data.json`).then(response => response.text());
@@ -486,17 +486,17 @@ function push_card(idx) {
   colorbox.style.border = `5px solid ${colors[idx]}`
 
 
-  let internal = next.querySelector(".internal_data");
+  let internal = next.querySelector(".container");
   let header = next.querySelector(".header");
   header.onclick = function (ev) {
 
     if (internal.style.display == "block") {
       for (let card of cards) {
-        card.node.querySelector(".internal_data").style.display = "none";
+        card.node.querySelector(".container").style.display = "none";
       }
     } else {
       for (let card of cards) {
-        card.node.querySelector(".internal_data").style.display = "none";
+        card.node.querySelector(".container").style.display = "none";
       }
 
       internal.style.display = "block";
@@ -691,3 +691,6 @@ close_button.onclick = function () {
 
 
 
+for (let card of cards) {
+  card.node.querySelector(".container").style.display = "none";
+}
