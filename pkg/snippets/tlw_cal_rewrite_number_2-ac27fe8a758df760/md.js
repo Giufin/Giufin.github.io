@@ -73,6 +73,7 @@ export function end_drawing() {
 
 
     context.strokeStyle = colors[i];
+    context.lineWidth = 2;
 
     for (const [x, y] of next1) {
       const nextY = (1 - y / max) * canvas.height;

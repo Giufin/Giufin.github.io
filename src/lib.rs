@@ -92,7 +92,6 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
         NotNan::new(1000.0).unwrap(),
     );
 
-
     let res = sim(
         &char,
         power,
@@ -105,8 +104,6 @@ pub fn sim_char(data: String, effects: String, debufs: String, power: usize, slo
 
     debug_str(&serde_json::to_string(&char).unwrap());
     debug_str(&serde_json::to_string(&effects).unwrap());
-
-
 
     debug_str(&format!("{:?}", debufs));
     #[allow(unused_unsafe)]
@@ -376,7 +373,6 @@ struct Character {
     lw: Atack,
 }
 
-
 fn bulletlines_to_percentiles(
     bullet_group: BulletGroup,
     accbuff: NotNan<f64>,
@@ -406,7 +402,6 @@ fn bulletlines_to_percentiles(
     .collect()
 }
 
-
 fn sim(
     char: &Character,
     power: usize,
@@ -414,14 +409,12 @@ fn sim(
     enemy: &Enemy,
     enemy_effects: &[RawStatEffect],
 ) -> Vec<(NotNan<f64>, NotNan<f64>)> {
-    const QUANT: usize = 100000;
+    const QUANT: usize = 10000;
 
     let zero = NotNan::new(0.0).expect("definitely not a nan");
     let one = NotNan::new(1.0).expect("definitely not a nan");
 
-    let cutoff = NotNan::new(0.00000000001).expect("definitely not a nan");
-
-    let scale = one * 1.0;
+    let quant_not_nan = NotNan::new(QUANT as f64).expect("definitely not a nan");
 
     let variance = NotNan::new(0.84).unwrap();
 
@@ -433,8 +426,8 @@ fn sim(
     let char_stats = char.stats.clone();
     let enem_stats = enemy.stats.clone();
 
-    type EffectsType = DefaultEffectMultiWorld<Vec<NotNan<f64>>>;
-    let mut effect_world = EffectsType::new(buf1);
+    type EffectsType = DefaultEffectMultiWorld<(Vec<NotNan<f64>>, NotNan<f64>)>; //todo: move to a struct
+    let mut effect_world = EffectsType::new((buf1, zero));
 
     for eff in effects {
         effect_world.apply_char_effects(eff.clone());
@@ -461,7 +454,7 @@ fn sim(
         effect_world.states = effect_world
             .states
             .drain()
-            .map(|((state, mut damages), chance)| {
+            .map(|((state, (mut damages, mut mult)), chance)| {
                 let (char_stat_mul, enem_stat_mul, combat_stats) = state.get_stats();
 
                 let char_stats = char_stats.mul(&char_stat_mul);
@@ -480,20 +473,46 @@ fn sim(
                 );
 
                 for hits in next_hits {
+                    let previous_max_damage = mult * quant_not_nan;
+                    let current_max_damage = hits[2].0.mul(&char_stats).sum() / divby;
+                    let new_max_damage = current_max_damage + previous_max_damage;
+
+                    let divby2 = if previous_max_damage != zero {
+                        new_max_damage / previous_max_damage
+                    } else {
+                        new_max_damage
+                    };
+
+                    for i in 0..damages.len() {
+                        let ifloat = NotNan::new(i as f64).unwrap();
+                        let i_adjusted = ifloat / divby2;
+                        let i_round = i_adjusted.round() as usize;
+                        let cur = damages[i];
+                        damages[i] = zero;
+                        damages[i_round] += cur;
+                    }
+
+                    let current_mult = new_max_damage / quant_not_nan;
+                    mult = current_mult;
+
                     for (dmg, chance) in hits {
-                        let dmg_s = (dmg.mul(&char_stats).sum() / divby) / scale;
+                        let dmg_s = (dmg.mul(&char_stats).sum() / divby) / current_mult;
                         let dmg_l = dmg_s * variance;
                         let dmg_qh = dmg_s.round() as usize + 1;
                         let dmg_ql = dmg_l.round() as usize;
 
                         let divby = NotNan::new((dmg_qh - dmg_ql) as f64).unwrap();
-                        for i in 0..damages.len() {
+                        for i in 0..QUANT {
                             let chance_prev = damages[i];
                             if chance_prev != zero {
                                 let chance_next = chance_prev * chance / divby;
                                 *buf_temp.get_mut(i + dmg_ql).unwrap() += chance_next;
 
-                                *buf_temp.get_mut(i + dmg_qh).unwrap() -= chance_next;
+                                let highroll = buf_temp.get_mut(i + dmg_qh);
+                                match highroll {
+                                    Some(a) => *a -= chance_next,
+                                    None => (),
+                                }
                             }
                         }
                     }
@@ -501,10 +520,6 @@ fn sim(
                     let mut chance = zero;
                     for el in &mut buf_temp {
                         chance += *el;
-                        if chance < cutoff {
-                            chance = zero;
-                        }
-
                         *el = chance;
                     }
 
@@ -512,7 +527,7 @@ fn sim(
                     buf_temp.fill(zero);
                 }
 
-                ((state, damages), chance)
+                ((state, (damages, mult)), chance)
             })
             .collect();
     }
@@ -522,14 +537,14 @@ fn sim(
     let mut unsorted = effect_world
         .states
         .into_iter()
-        .map(|((_, damages), eff_chance)| {
+        .map(|((_, (damages, mult)), eff_chance)| {
             damages
                 .into_iter()
                 .enumerate()
                 .filter(|(_, chance)| chance != &zero)
                 .map(move |(damage, chance)| {
                     (
-                        NotNan::new(damage as f64).unwrap() * scale,
+                        NotNan::new(damage as f64).unwrap() * mult,
                         chance * eff_chance,
                     )
                 })
