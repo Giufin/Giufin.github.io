@@ -140,7 +140,8 @@ let characters = [];
 
 await Promise.all(character_names.map(async (el) => {
   let response = await fetch(`characters/${el}.json`);
-  characters.push(JSON.parse(response.text));
+  let text = await response.text();
+  characters.push(JSON.parse(text));
 }))
 
 let special_data = await fetch(`special_property_data.json`).then(response => response.text());
