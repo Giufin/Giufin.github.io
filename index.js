@@ -61,6 +61,9 @@ const convert_json_bulletgroup_to_internal = (bulletgroup) => {
     effects_self: bulletgroup.effects_self,
     effects_enem: bulletgroup.effects_enem,
 
+
+    bullettype: bulletgroup.bullettype,
+    element: bulletgroup.element,
   }
 }
 
@@ -79,9 +82,9 @@ const runWasm = async (attack, char, effects, dbf, power, idx) => {
 
   await init("./pkg/tlw_cal_rewrite_number_2_bg.wasm");
 
-  console.log(effects);
-
   let groups = convert_json_bulletgroups_to_internal(attack);
+  console.log(JSON.stringify(groups));
+
 
   let stats;
   if (char.stats == null) {
@@ -103,7 +106,6 @@ const runWasm = async (attack, char, effects, dbf, power, idx) => {
     lw: { bullets: groups }
   }
 
-  console.log(char_ex);
 
 
   wasm.sim_char(JSON.stringify(char_ex), JSON.stringify(effects), JSON.stringify(dbf), power, idx)
@@ -256,7 +258,7 @@ for (let m of obj) {
           }
 
           let lvl = (res[8] ?? 1) - 1;
-          let chance = (res[9] == "?" ? 50 : res[9]) / 100;
+          let chance = (res[9] == "?" ? undefined : res[9] / 100) ;
           let target = "effects_self";
           if (res[2] == "ENEMY ") {
             target = "effects_enem"
@@ -471,9 +473,6 @@ function ondatacomplete(data, idx) {
     )
   }
 
-  console.log(effs);
-  console.log(dbf);
-
 
   runWasm(data.attack, data.char, effs, dbf, data.power, idx)
 }
@@ -529,7 +528,6 @@ function push_card(idx) {
   let gnode = internal.querySelector(".graze");
 
   gnode.onclick = function (ev) {
-    console.log("here")
     if (gnode.innerText == "0G") {
       gnode.innerText = "1G"
       data.graze = 1;
@@ -555,7 +553,6 @@ function push_card(idx) {
 
     selection(cardmapped,
       ev.clientX, ev.clientY, function (a) {
-        console.log("a")
         cardnode.innerText = a.data["Card name"]
         data.card = a.data;
       });
