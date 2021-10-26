@@ -2,18 +2,15 @@
 /* eslint-disable */
 /**
 * @param {string} data
-* @param {string} effects
-* @param {string} debufs
-* @param {number} power
 * @param {number} slot
 */
-export function sim_char(data: string, effects: string, debufs: string, power: number, slot: number): void;
+export function sim_char(data: string, slot: number): void;
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
-  readonly sim_char: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number) => void;
+  readonly sim_char: (a: number, b: number, c: number) => void;
   readonly __wbindgen_malloc: (a: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number) => number;
 }

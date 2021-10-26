@@ -1,5 +1,13 @@
 {
   "name": "Chen",
+  "stats": {
+    "health": 4500,
+    "agility": 1200,
+    "yang_atk": 1220,
+    "yang_def": 985,
+    "yin_atk": 880,
+    "yin_def": 815
+  },
   "spellcards": [
     {
       "cardtype": "LW",

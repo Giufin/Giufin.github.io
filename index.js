@@ -83,7 +83,6 @@ const runWasm = async (attack, char, effects, dbf, power, idx) => {
   await init("./pkg/tlw_cal_rewrite_number_2_bg.wasm");
 
   let groups = convert_json_bulletgroups_to_internal(attack);
-  console.log(JSON.stringify(groups));
 
 
   let stats;
@@ -108,7 +107,10 @@ const runWasm = async (attack, char, effects, dbf, power, idx) => {
 
 
 
-  wasm.sim_char(JSON.stringify(char_ex), JSON.stringify(effects), JSON.stringify(dbf), power, idx)
+  wasm.sim_char("", idx)
+
+  return groups;
+
 
 
 };
@@ -135,7 +137,8 @@ let character_names = [
   "koosh",
   "okuu",
   "gardener",
-  "hecc"
+  "hecc",
+  "darkmyon"
 ];
 
 let characters = [];
@@ -258,7 +261,7 @@ for (let m of obj) {
           }
 
           let lvl = (res[8] ?? 1) - 1;
-          let chance = (res[9] == "?" ? undefined : res[9] / 100) ;
+          let chance = (res[9] == "?" ? undefined : res[9] / 100);
           let target = "effects_self";
           if (res[2] == "ENEMY ") {
             target = "effects_enem"
@@ -474,7 +477,7 @@ function ondatacomplete(data, idx) {
   }
 
 
-  runWasm(data.attack, data.char, effs, dbf, data.power, idx)
+  return runWasm(data.attack, data.char, effs, dbf, data.power, idx)
 }
 
 function push_card(idx) {
@@ -692,3 +695,40 @@ close_button.onclick = function () {
 for (let card of cards) {
   card.node.querySelector(".container").style.display = "none";
 }
+
+let bigres = {};
+
+for (let char of characters) {
+  let data = {};
+  data.char = char.data;
+  data.skills = [false, false, false];
+
+
+  for (let i = 0; i < 3; i++) {
+
+    let atk = "";
+    if (i == 0) {
+      atk = "lw";
+    } else if (i == 1) {
+      atk = "sc1"
+    } else if (i == 2) {
+      atk = "sc2"
+    }
+    data.attack = char.spellcards[i];
+    if (bigres[char.name] == null) {
+      bigres[char.name] = {}
+    }
+    try {
+
+      console.log(char.name);
+      let res = await ondatacomplete(data, 0);
+      console.log(res);
+      bigres[char.name][atk] = res;
+    } catch {
+
+    }
+
+  }
+}
+
+console.log(JSON.stringify(bigres));

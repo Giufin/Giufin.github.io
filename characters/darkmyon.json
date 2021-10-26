@@ -1,0 +1,360 @@
+{
+  "name": "Darkmyon",
+  "stats": {
+    "health": 6000,
+    "agility": 1150,
+    "yang_atk": 1600,
+    "yang_def": 900,
+    "yin_atk": 1600,
+    "yin_def": 900
+  },
+
+
+
+  
+  "spellcards": [
+    {
+      "cardtype": "LW",
+      "cardname": "Renewed Bloodsucker Doujigiri",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "Agility"
+            },
+            "lvl": 9,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangAtk"
+            },
+            "lvl": 6,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinAtk"
+            },
+            "lvl": 6,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.95,
+          "crit": 0.02,
+          "amount": 4,
+          "power": 37.15,
+          "addscaling": "Agility",
+          "addscaling_multi": 0.80,
+          "bullettype": "Slash",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.90,
+          "crit": 0.02,
+          "amount": 2,
+          "power": 18.82,
+          "addscaling": "Agility",
+          "addscaling_multi": 1.40,
+          "bullettype": "Slash",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.85,
+          "crit": 0.03,
+          "amount": 2,
+          "power": 16.45,
+          "addscaling": "Agility",
+          "addscaling_multi": 1.00,
+          "bullettype": "Slash",
+          "element": "Wood"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.80,
+          "crit": 0.04,
+          "amount": 2,
+          "power": 13.85,
+          "addscaling": "Agility",
+          "addscaling_multi": 1.00,
+          "bullettype": "Slash",
+          "element": "Metal"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 10.97,
+          "addscaling": "Agility",
+          "addscaling_multi": 1.20,
+          "bullettype": "Slash",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 7.31,
+          "addscaling": "Agility",
+          "addscaling_multi": 1.20,
+          "bullettype": "Slash",
+          "element": "Wood"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC1",
+      "cardname": "TODO",
+      "target": "Solo",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YinDef"
+            },
+            "lvl": 4,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        },
+        {
+          "Stat": {
+            "stat": {
+              "Normal": "YangDef"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Self"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 15,
+          "power": 5.12,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 6.58,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 7.13,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 7.68,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.23,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 4,
+          "power": 8.78,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Body",
+          "element": "No-Element"
+        }
+      ]
+    },
+    {
+      "cardtype": "SC2",
+      "cardname": "TODO",
+      "target": "All",
+      "pre": [
+        {
+          "Stat": {
+            "stat": {
+              "Combat": "Acc"
+            },
+            "lvl": 3,
+            "chance": 0.0,
+            "target": "Team"
+          }
+        }
+      ],
+      "post": [],
+      "Bulletgroups": [
+        {
+          "bulletgroup": 1,
+          "boostlvl": 0,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 13,
+          "power": 5.06,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 2,
+          "boostlvl": 1,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 5.85,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 3,
+          "boostlvl": 1,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 5.36,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 4,
+          "boostlvl": 2,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 3,
+          "power": 4.88,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        },
+        {
+          "bulletgroup": 5,
+          "boostlvl": 2,
+          "atktype": "Yin",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 6.58,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Light",
+          "element": "Fire"
+        },
+        {
+          "bulletgroup": 6,
+          "boostlvl": 3,
+          "atktype": "Yang",
+          "acc": 0.75,
+          "crit": 0.05,
+          "amount": 2,
+          "power": 5.85,
+          "addscaling": "none",
+          "addscaling_multi": 0,
+          "bullettype": "Normal",
+          "element": "No-Element"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skilltype": "skill1",
+      "skillname": "a",
+      "effect": []
+    },
+    {
+      "skilltype": "skill2",
+      "skillname": "b",
+      "effect": []
+    },
+    {
+      "skilltype": "skill3",
+      "skillname": "c",
+      "effect": []
+    }
+  ],
+  "graze": [],
+  "power": []
+}

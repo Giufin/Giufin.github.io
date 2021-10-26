@@ -1,12 +1,12 @@
-use itertools::Itertools;
 use serde::{Deserialize, Serialize};
 use std::{
-    collections::HashMap, convert::TryInto, fmt::Debug, hash::Hash, marker::PhantomData, usize,
+    collections::HashMap, convert::TryInto, fmt::Debug, hash::Hash, marker::PhantomData,
+    usize,
 };
 
 use ordered_float::{Float, NotNan};
 
-use crate::{AllEffect, BarrierAnomaly, CombatStat, RawStatEffect, Stat, Stats};
+use crate::{AllEffect, BarrierAnomaly, CombatStat, RawAllEffect, Stat, Stats};
 
 fn mult_from_lvl(mult: NotNan<f64>, level: i64) -> NotNan<f64> {
     let one = NotNan::new(1.0).expect("definitely not a nan");
@@ -195,6 +195,7 @@ pub struct CharacterEffectState {
     barriers: EffectState<BarrierAnomaly>,
     stats: EffectState<Stat>,
     combat: EffectState<CombatStat>,
+    // modifier: potentially todo, add bullet buffs here
 }
 
 impl CharacterEffectState {
@@ -241,54 +242,51 @@ impl CharacterEffectState {
 
 #[derive(Debug, Clone, Hash, PartialEq, Eq)]
 pub struct DefaultMultiEffectState {
-    char: CharacterEffectState,
-    enemy: CharacterEffectState,
+    states: Vec<CharacterEffectState>,
 }
 
 impl DefaultMultiEffectState {
-    pub fn new(barrier_count: usize) -> Self {
-        DefaultMultiEffectState {
-            char: CharacterEffectState::new(barrier_count),
-            enemy: CharacterEffectState::new(barrier_count),
-        }
+    pub fn new(barrier_count: usize, char_count: i64) -> Self {
+        let states = (0..=char_count)
+            .map(|_| CharacterEffectState::new(barrier_count))
+            .collect();
+
+        DefaultMultiEffectState { states }
     }
 
-    pub fn add_enemy_effect(&mut self, eff: AllEffect, lvl: i64) {
-        Self::add_effect(eff, lvl, &mut self.enemy)
-    }
-
-    pub fn add_character_effect(&mut self, eff: AllEffect, lvl: i64) {
-        Self::add_effect(eff, lvl, &mut self.char)
-    }
-
-    fn add_effect(eff: AllEffect, lvl: i64, to: &mut CharacterEffectState) {
+    fn add_effect(&mut self, eff: AllEffect, lvl: i64, to: i64) {
+        let to = &mut self.states[to as usize];
         match eff {
             AllEffect::Barrier(barrier) => to.barriers.apply_in_place(lvl, barrier),
             AllEffect::Combat(combatstat) => to.combat.apply_in_place(lvl, combatstat),
             AllEffect::Normal(stat) => to.stats.apply_in_place(lvl, stat),
+            AllEffect::Resource(stat) => (),
+
         }
     }
 
-    pub fn get_stats(&self) -> (Stats, Stats, [NotNan<f64>; 3]) {
+    pub fn get_stats(&self, idx: i64) -> (Stats, Stats, [NotNan<f64>; 3]) {
         let one = NotNan::new(1.0).unwrap();
         let point_two = NotNan::new(0.2).unwrap();
         let point_three = NotNan::new(0.3).unwrap();
         let point_eighty_five = NotNan::new(0.85).unwrap();
 
-        let char_stats = self.char.get_stats();
-        let enemy_stats = self.enemy.get_stats();
+        let char = &self.states[idx as usize];
+        let enemy = &self.states[0];
 
-        let combat = self
-            .char
+        let char_stats = char.get_stats();
+        let enemy_stats = enemy.get_stats();
+
+        let combat = char
             .combat
             .effects
             .iter()
-            .zip(self.enemy.combat.effects.iter())
+            .zip(enemy.combat.effects.iter())
             .map(|(char, enem)| (char + enem))
             .collect::<Vec<_>>();
 
         let acc = mult_from_lvl(point_two, combat[0])
-            * point_eighty_five.powi(self.enemy.barriers.effects[1] as i32);
+            * point_eighty_five.powi(enemy.barriers.effects[1] as i32);
 
         let criacc = mult_from_lvl(point_two, combat[1]);
         let criatk = one + mult_from_lvl(point_three, combat[2]);
@@ -297,74 +295,51 @@ impl DefaultMultiEffectState {
     }
 }
 #[derive(Debug)]
-pub struct DefaultEffectMultiWorld<T: Hash + Eq + Clone + Debug> {
-    pub states: HashMap<(DefaultMultiEffectState, T), NotNan<f64>>,
+pub struct DefaultEffectMultiWorld<T: Clone + Debug + std::ops::AddAssign<T>> {
+    pub states: HashMap<DefaultMultiEffectState, (T, NotNan<f64>)>,
+    default: T,
 }
 
-impl<T: Hash + Eq + Clone + Debug> DefaultEffectMultiWorld<T> {
-    pub fn new(default: T) -> Self {
+impl<T: Clone + Debug + std::ops::AddAssign<T>> DefaultEffectMultiWorld<T> {
+    pub fn new(default: T, char_count: i64) -> Self {
         let mut states = HashMap::new();
         states.insert(
-            (DefaultMultiEffectState::new(6), default),
-            NotNan::new(1.0).unwrap(),
+            DefaultMultiEffectState::new(6, char_count),
+            (default.clone(), NotNan::new(1.0).unwrap()),
         );
-        DefaultEffectMultiWorld { states }
+        DefaultEffectMultiWorld { default, states }
     }
 
     fn filter_zeros(&mut self) {
         self.states
-            .retain(|_, chance| chance > &mut NotNan::new(0.0).unwrap())
+            .retain(|_, (_, chance)| chance > &mut NotNan::new(0.0).unwrap())
     }
 
-    pub fn apply_char_effects(&mut self, eff: RawStatEffect) {
-        let one = NotNan::new(1.0).unwrap();
+    pub fn apply(&mut self, eff: RawAllEffect, to: i64) {
         let zero = NotNan::new(0.0).unwrap();
-
-        for (data, chance) in self
-            .states
-            .drain()
-            .collect_vec()
-            .into_iter()
-            .map(move |((mut state, data), chance)| {
-                state.add_character_effect(eff.stat.clone(), eff.lvl);
-                let mut stateclone = state.clone();
-                stateclone.add_character_effect(eff.stat.clone(), 1);
-                std::array::IntoIter::new([
-                    ((stateclone, data.clone()), chance * eff.chance),
-                    ((state, data), chance * (one - eff.chance)),
-                ])
-            })
-            .flatten()
         {
-            *self.states.entry(data).or_insert(zero) += chance;
+            let eff = &eff;
+            let effstat = &eff.stat;
+            for (data, chance) in std::mem::replace(&mut self.states, HashMap::new())
+                .into_iter()
+                .map(move |(state, (data, chance))| {
+                    eff.chances.iter().map(move |(efflvl, effchance)| {
+                        let mut stateclone = state.clone(); //on fail
+
+                        stateclone.add_effect(effstat.clone(), *efflvl, to);
+                        ((stateclone, data.clone()), chance * effchance)
+                    })
+                })
+                .flatten()
+            {
+                let r = self
+                    .states
+                    .entry(data.0)
+                    .or_insert((self.default.clone(), zero));
+                (*r).0 += data.1;
+                (*r).1 += chance;
+            }
         }
-
-        self.filter_zeros()
-    }
-
-    pub fn apply_enemy_effects(&mut self, eff: RawStatEffect) {
-        let one = NotNan::new(1.0).unwrap();
-        let zero = NotNan::new(0.0).unwrap();
-
-        for (data, chance) in self
-            .states
-            .drain()
-            .collect_vec()
-            .into_iter()
-            .map(move |((mut state, data), chance)| {
-                state.add_enemy_effect(eff.stat.clone(), eff.lvl);
-                let mut stateclone = state.clone();
-                stateclone.add_enemy_effect(eff.stat.clone(), 1);
-                std::array::IntoIter::new([
-                    ((stateclone, data.clone()), chance * eff.chance),
-                    ((state, data), chance * (one - eff.chance)),
-                ])
-            })
-            .flatten()
-        {
-            *self.states.entry(data).or_insert(zero) += chance;
-        }
-
         self.filter_zeros()
     }
 }

@@ -100,18 +100,7 @@
       "cardtype": "SC1",
       "cardname": "TODO",
       "target": "Solo",
-      "pre": [
-        {
-          "Stat": {
-            "stat": {
-              "Normal": "YangDef"
-            },
-            "lvl": 2,
-            "chance": 0.0,
-            "target": "Solo"
-          }
-        }
-      ],
+      "pre": [],
       "post": [],
       "Bulletgroups": [
         {
@@ -196,7 +185,7 @@
     },
     {
       "cardtype": "SC2",
-      "cardname": "TODO",
+      "cardname": "Kerochan",
       "target": "Solo",
       "pre": [
         {
@@ -204,8 +193,8 @@
             "stat": {
               "Normal": "YinDef"
             },
-            "lvl": 2,
-            "chance": 0.0,
+            "lvl": -3,
+            "chance": 0.8,
             "target": "Solo"
           }
         }
@@ -218,25 +207,25 @@
           "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
-          "amount": 5,
-          "power": 15.36,
+          "amount": 8,
+          "power": 5.49,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
-          "element": "No-Element"
+          "bullettype": "Liquid",
+          "element": "Water"
         },
         {
           "bulletgroup": 2,
           "boostlvl": 1,
-          "atktype": "Yang",
+          "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
           "amount": 2,
-          "power": 13.17,
+          "power": 8.78,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
-          "element": "No-Element"
+          "bullettype": "Liquid",
+          "element": "Wood"
         },
         {
           "bulletgroup": 3,
@@ -245,24 +234,24 @@
           "acc": 0.75,
           "crit": 0.05,
           "amount": 2,
-          "power": 14.26,
+          "power": 10.24,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
-          "element": "No-Element"
+          "bullettype": "Liquid",
+          "element": "Water"
         },
         {
           "bulletgroup": 4,
           "boostlvl": 2,
-          "atktype": "Yang",
+          "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
           "amount": 2,
-          "power": 15.36,
+          "power": 11.7,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
-          "element": "No-Element"
+          "bullettype": "Liquid",
+          "element": "Wood"
         },
         {
           "bulletgroup": 5,
@@ -270,24 +259,24 @@
           "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
-          "amount": 2,
-          "power": 16.46,
+          "amount": 1,
+          "power": 26.33,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
+          "bullettype": "Liquid",
           "element": "No-Element"
         },
         {
           "bulletgroup": 6,
           "boostlvl": 3,
-          "atktype": "Yang",
+          "atktype": "Yin",
           "acc": 0.75,
           "crit": 0.05,
-          "amount": 2,
-          "power": 17.55,
+          "amount": 1,
+          "power": 29.26,
           "addscaling": "none",
           "addscaling_multi": 0,
-          "bullettype": "Laser",
+          "bullettype": "Liquid",
           "element": "No-Element"
         }
       ]

@@ -1594,36 +1594,6 @@
 					},
 					"target": "Solo",
 					"chance": 0.0,
-					"lvl": 3
-				}
-			},
-			{
-				"Buff": {
-					"type": {
-						"bullettype": "Laser"
-					},
-					"target": "Self",
-					"chance": 0.0,
-					"value": 0.25
-				}
-			}
-		],
-		"Rarity": 5,
-		"stats": {
-			"yin_atk": 115,
-			"yin_def": 65
-		}
-	},
-	{
-		"Card name": "sdm thing",
-		"Effect": [
-			{
-				"Stat": {
-					"stat": {
-						"Normal": "YinDef"
-					},
-					"target": "Solo",
-					"chance": 0.0,
 					"lvl": -3
 				}
 			},
@@ -1702,6 +1672,36 @@
 		"stats": {
 			"yang_atk": 70,
 			"yin_atk": 70
+		}
+	},
+	{
+		"Card name": "Mass",
+		"Effect": [
+			{
+				"Buff": {
+					"type": {
+						"bullettype": "Heavy"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"value": 0.50
+				}
+			},
+			{
+				"Stat": {
+					"stat": {
+						"Combat": "CritAtk"
+					},
+					"target": "Self",
+					"chance": 0.0,
+					"lvl": 2
+				}
+			}
+		],
+		"Rarity": 5,
+		"stats": {
+			"yang_def": 75,
+			"yin_def": 75
 		}
 	}
 ]

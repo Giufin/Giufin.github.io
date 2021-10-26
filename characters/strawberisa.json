@@ -1,12 +1,12 @@
 {
   "name": "Marisa Kirisame (WOSD)",
   "stats": {
-    "health": 5000,
-    "agility": 1220,
-    "yang_atk": 1000,
-    "yang_def": 880,
-    "yin_atk": 1300,
-    "yin_def": 1050
+    "health": 5600,
+    "agility": 1130,
+    "yang_atk": 1500,
+    "yang_def": 900,
+    "yin_atk": 1700,
+    "yin_def": 1000
   },
   "spellcards": [
     {
