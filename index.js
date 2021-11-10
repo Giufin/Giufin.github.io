@@ -62,8 +62,14 @@ const convert_json_bulletgroup_to_internal = (bulletgroup) => {
     effects_enem: bulletgroup.effects_enem,
 
 
-    bullettype: bulletgroup.bullettype,
-    element: bulletgroup.element,
+    bullet_type: bulletgroup.bullettype,
+    element: bulletgroup.element == "No-Element" ? "No" : bulletgroup.element,
+
+    killer: [],
+    sure_hit: false,
+    explosive: false,
+    precise: false,
+    elastic: false
   }
 }
 
@@ -80,14 +86,12 @@ const convert_json_bulletgroups_to_internal = (bulletgroups) => {
 
 const runWasm = async (attack, char, effects, dbf, power, idx) => {
 
+  char = JSON.parse(JSON.stringify(char));
   await init("./pkg/tlw_cal_rewrite_number_2_bg.wasm");
 
   let groups = convert_json_bulletgroups_to_internal(attack);
-
-
-  let stats;
   if (char.stats == null) {
-    stats = {
+    char.stats = {
       health: 1000,
       agility: 1000,
       yang_atk: 1000,
@@ -95,19 +99,95 @@ const runWasm = async (attack, char, effects, dbf, power, idx) => {
       yin_atk: 1000,
       yin_def: 1000
     }
-  } else {
-    stats = char.stats
+  }
+  char.lw = {}
+
+  char.lw.bullets = groups;
+  let data = {};
+  data.chars = [char];
+
+
+  char.skills = [
+    {
+      "effs": effects.map(el => {
+        {
+          console.log(JSON.stringify(el));
+          let a = {
+            "All": {
+              stat: el.Stat.stat,
+              "target": el.Stat.target,
+              "chances": [
+                [
+                  1 - el.Stat.chance,
+                  el.Stat.lvl
+                ],
+                [
+                  el.Stat.chance,
+                  el.Stat.lvl + 1
+                ],
+
+              ]
+            }
+          };
+          console.log(a);
+          return a;
+
+
+        }
+
+      })
+
+    },
+    {
+      "effs": []
+    },
+    {
+      "effs": []
+    }
+  ];
+  char.cards = [
+    null,
+    null,
+    null,
+    null,
+    null
+  ];
+
+  char.sc1 = char.lw;
+  char.sc2 = char.lw;
+
+  data.actions = [{
+    "act": {
+      "Skill": "One"
+    },
+    "by": 1
+  },
+  {
+    "act": {
+      "Attack": {
+        "typ": "Lw",
+        "graze": 0,
+        "power": power,
+        "display": true
+      }
+    },
+    "by": 1
+  }
+  ];
+  data.enemy = {
+    "stats": {
+      "health": 1.0,
+      "agility": 1.0,
+      "yang_atk": 1.0,
+      "yang_def": 1.0,
+      "yin_atk": 1.0,
+      "yin_def": 1.0
+    },
+    "skills": []
   }
 
-  const char_ex = {
-    name: char.name,
-    stats: stats,
-    lw: { bullets: groups }
-  }
 
-
-
-  wasm.sim_char("", idx)
+  wasm.sim_char(JSON.stringify(data), idx)
 
   return groups;
 
@@ -699,6 +779,7 @@ for (let card of cards) {
 let bigres = {};
 
 for (let char of characters) {
+  break;
   let data = {};
   data.char = char.data;
   data.skills = [false, false, false];

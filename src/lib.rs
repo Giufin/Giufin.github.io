@@ -2,6 +2,7 @@ mod effects;
 
 use itertools::Itertools;
 use serde::{Deserialize, Serialize};
+use serde_with::OneOrMany;
 use std::{cmp::min, collections::HashSet, usize};
 
 use ordered_float::NotNan;
@@ -128,12 +129,12 @@ pub fn sim_char(data: String, slot: usize) {
         chars: vec![Character {
             name: "aaaaaaaaaa".into(),
             cards: [None, None, None, None, None],
-            stats: Stats::zeroed(),
+            stats: Stats::new(one, one, one, one, one, one),
             lw: Attack {
                 bullets: [
                     vec![BulletLine {
-                        acc: zero,
-                        amount: 0,
+                        acc: one,
+                        amount: 1,
                         bullet_type: BulletType::Normal,
                         crit: zero,
                         effects_self: vec![RawAllEffect {
@@ -169,29 +170,40 @@ pub fn sim_char(data: String, slot: usize) {
                 bullets: [vec![], vec![], vec![], vec![]],
             },
             skills: [
-                Skill { effs: vec![] },
+                Skill {
+                    effs: vec![RawEffect::All(RawAllEffect {
+                        chances: vec![(1, one)],
+                        stat: AllEffect::Normal(Stat::Health),
+                        target: Target::All,
+                    })],
+                },
                 Skill { effs: vec![] },
                 Skill { effs: vec![] },
             ],
         }],
-        actions: vec![Action {
-            by: 1,
-            act: ActionType::Attack(RawAttack {
-                display: true,
-                graze: 0,
-                power: 0,
-                typ: AtackType::Lw,
-            }),
-        }],
+        actions: vec![
+            Action {
+                by: 1,
+                act: ActionType::Attack(RawAttack {
+                    display: true,
+                    graze: 0,
+                    power: 0,
+                    typ: AtackType::Lw,
+                }),
+            },
+            Action {
+                by: 1,
+                act: ActionType::Skill(OneToThree::One),
+            },
+        ],
         enemy: Enemy {
-            stats: Stats::zeroed(),
+            stats: Stats::new(one, one, one, one, one, one),
             skills: Vec::new(),
         },
     };
 
     let str = serde_json::to_string(&testdata).unwrap();
     debug_str(&str);
-
     let data: SimData = match serde_json::from_str(&data) {
         Ok(a) => a,
         Err(a) => {
@@ -205,7 +217,7 @@ pub fn sim_char(data: String, slot: usize) {
     let mut effs = EffectsType::new(DamageState(buf1, zero), data.chars.len() as i64);
 
     for action in data.actions {
-        let char = &data.chars[action.by as usize];
+        let char = &data.chars[action.by as usize - 1];
         let enemy = &data.enemy;
         match action.act {
             ActionType::Attack(at) => {
@@ -247,6 +259,7 @@ pub fn sim_char(data: String, slot: usize) {
     }
 
     let res = exctract(effs);
+    debug_str(&format!("{:?}", res));
     #[allow(unused_unsafe)]
     unsafe {
         start_drawing(slot);
